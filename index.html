@@ -1,82 +1,262 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hotel Royal Marina</title>
+<title>Hotel Royal Marina Suites Boutique Lanzarote</title>
 
 <style>
-body{
-    font-family: Arial, sans-serif;
-    margin:0;
-    background:#f5f5f5;
+:root{
+  --blue:#062b4f;
+  --light-blue:#eaf3f8;
+  --gold:#c9a45c;
+  --white:#ffffff;
+  --text:#1f2a36;
 }
 
-header{
-    background:#0b3d5c;
-    color:white;
-    text-align:center;
-    padding:40px;
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family: "Georgia", serif;
+  background:var(--white);
+  color:var(--text);
+}
+
+.hero{
+  min-height:90vh;
+  background:
+    linear-gradient(rgba(6,43,79,0.75), rgba(6,43,79,0.75)),
+    url("https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=80");
+  background-size:cover;
+  background-position:center;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:30px;
+}
+
+.hero-content{
+  max-width:850px;
+}
+
+.logo{
+  letter-spacing:4px;
+  color:var(--gold);
+  font-size:14px;
+  text-transform:uppercase;
+  margin-bottom:20px;
+}
+
+h1{
+  font-size:42px;
+  margin:0;
+  font-weight:400;
+  line-height:1.2;
+}
+
+.subtitle{
+  margin-top:20px;
+  font-size:18px;
+  opacity:0.9;
+}
+
+.gold-line{
+  width:80px;
+  height:2px;
+  background:var(--gold);
+  margin:30px auto;
 }
 
 .container{
-    padding:20px;
-    max-width:800px;
-    margin:auto;
+  max-width:1100px;
+  margin:auto;
+  padding:50px 20px;
+}
+
+.welcome{
+  text-align:center;
+  margin-bottom:40px;
+}
+
+.welcome h2{
+  color:var(--blue);
+  font-weight:400;
+  font-size:32px;
+}
+
+.welcome p{
+  max-width:700px;
+  margin:auto;
+  line-height:1.7;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+  gap:22px;
 }
 
 .card{
-    background:white;
-    margin:15px 0;
-    padding:20px;
-    border-radius:12px;
-    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+  background:white;
+  border:1px solid #e5e5e5;
+  border-radius:18px;
+  padding:28px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.06);
+  transition:0.3s;
 }
 
-a{
-    text-decoration:none;
-    color:#0b3d5c;
-    font-weight:bold;
+.card:hover{
+  transform:translateY(-5px);
+  border-color:var(--gold);
+}
+
+.icon{
+  font-size:30px;
+  margin-bottom:15px;
+}
+
+.card h3{
+  color:var(--blue);
+  margin:0 0 10px;
+  font-size:21px;
+  font-weight:400;
+}
+
+.card p{
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  line-height:1.6;
+}
+
+.button{
+  display:inline-block;
+  margin-top:12px;
+  color:var(--gold);
+  font-family:Arial, sans-serif;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.info-section{
+  background:var(--light-blue);
+  padding:50px 20px;
+  margin-top:40px;
+}
+
+.info-box{
+  max-width:900px;
+  margin:auto;
+  background:white;
+  padding:35px;
+  border-radius:20px;
+  border-left:5px solid var(--gold);
+}
+
+.info-box h2{
+  color:var(--blue);
+  font-weight:400;
+}
+
+footer{
+  background:var(--blue);
+  color:white;
+  text-align:center;
+  padding:30px 20px;
+  font-family:Arial, sans-serif;
+  font-size:14px;
+}
+
+footer span{
+  color:var(--gold);
+}
+
+@media(max-width:600px){
+  h1{font-size:32px;}
+  .hero{min-height:80vh;}
 }
 </style>
 </head>
 
 <body>
 
-<header>
-    <h1>Hotel Royal Marina</h1>
-    <p>Guest Information Portal</p>
-</header>
+<section class="hero">
+  <div class="hero-content">
+    <div class="logo">Boutique Experience · Lanzarote</div>
+    <h1>Hotel Royal Marina Suites Boutique</h1>
+    <div class="gold-line"></div>
+    <p class="subtitle">Welcome to your private guest guide</p>
+  </div>
+</section>
 
 <div class="container">
 
+  <div class="welcome">
+    <h2>Welcome</h2>
+    <p>
+      Discover all the essential information for your stay, from breakfast times
+      and hotel facilities to local recommendations and guest services.
+    </p>
+  </div>
+
+  <div class="grid">
+
     <div class="card">
-        <h2>Wi-Fi</h2>
-        <p>Network: HotelGuest</p>
-        <p>Password: Welcome123</p>
+      <div class="icon">📶</div>
+      <h3>Wi-Fi</h3>
+      <p>Network: RoyalMarinaGuest<br>Password: Welcome123</p>
     </div>
 
     <div class="card">
-        <h2>Breakfast</h2>
-        <p>07:00 - 10:30</p>
+      <div class="icon">☕</div>
+      <h3>Breakfast</h3>
+      <p>Enjoy breakfast daily from 07:30 to 10:30.</p>
     </div>
 
     <div class="card">
-        <h2>Restaurant Menu</h2>
-        <a href="#">View Menu</a>
+      <div class="icon">🍽️</div>
+      <h3>Restaurant & Bar</h3>
+      <p>Explore our food, drinks and room service options.</p>
+      <a class="button" href="#">View Menu</a>
     </div>
 
     <div class="card">
-        <h2>Hotel Facilities</h2>
-        <p>Pool, Gym, Spa</p>
+      <div class="icon">🏊</div>
+      <h3>Facilities</h3>
+      <p>Pool, sun terrace, wellness area and guest services.</p>
     </div>
 
     <div class="card">
-        <h2>Reception</h2>
-        <p>Dial 100 from your room.</p>
+      <div class="icon">🛎️</div>
+      <h3>Reception</h3>
+      <p>For assistance, contact reception directly from your room.</p>
     </div>
 
+    <div class="card">
+      <div class="icon">🌋</div>
+      <h3>Lanzarote Guide</h3>
+      <p>Discover beaches, restaurants, viewpoints and local attractions.</p>
+      <a class="button" href="#">Explore</a>
+    </div>
+
+  </div>
 </div>
+
+<section class="info-section">
+  <div class="info-box">
+    <h2>Important Information</h2>
+    <p><strong>Check-in:</strong> 15:00</p>
+    <p><strong>Check-out:</strong> 12:00</p>
+    <p><strong>Emergency:</strong> Please contact reception immediately.</p>
+  </div>
+</section>
+
+<footer>
+  <p><span>Hotel Royal Marina Suites Boutique Lanzarote</span></p>
+  <p>Thank you for choosing us</p>
+</footer>
 
 </body>
 </html>
