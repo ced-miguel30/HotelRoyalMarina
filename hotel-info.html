@@ -15,7 +15,25 @@
   --soft:#f5f8fa;
   --text:#1f2a36;
 }
-
+.hero-small{
+  min-height:55vh;
+  background:
+    linear-gradient(rgba(6,43,79,0.65), rgba(6,43,79,0.65)),
+    url("images/GuestInfo.JPG");
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+  padding:30px;
+}
+@media(max-width:600px){
+  .hero-small{
+    background-position:left bottom;
+  }
+}
 *{box-sizing:border-box;}
 
 body{
@@ -41,7 +59,7 @@ body{
 }
 @media(max-width:600px){
   .hero-small{
-    background-position:left bottom;
+    background-position:10% 100%;
   }
 }
   
