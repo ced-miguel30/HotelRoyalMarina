@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guest Information | Hotel Royal Marina Suites Boutique</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+:root{
+  --blue:#062b4f;
+  --gold:#c9a45c;
+  --white:#ffffff;
+  --soft:#f5f8fa;
+  --text:#1f2a36;
+}
+
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:var(--soft);
+  color:var(--text);
+}
+
+.hero-small{
+  min-height:55vh;
+  background:
+    linear-gradient(rgba(6,43,79,0.65), rgba(6,43,79,0.65)),
+    url("images/guest-info.jpg");
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+  padding:30px;
+}
+
+.hero-small h1{
+  font-family:Georgia, serif;
+  font-size:42px;
+  font-weight:400;
+  margin:0;
+}
+
+.hero-small p{
+  letter-spacing:3px;
+  text-transform:uppercase;
+  color:var(--gold);
+  font-size:12px;
+  margin-bottom:18px;
+}
+
+.gold-line{
+  width:80px;
+  height:2px;
+  background:var(--gold);
+  margin:25px auto;
+}
+
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:45px 20px;
+}
+
+.intro{
+  text-align:center;
+  margin-bottom:35px;
+}
+
+.intro h2{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-weight:400;
+  font-size:30px;
+}
+
+.intro p{
+  line-height:1.7;
+  max-width:700px;
+  margin:auto;
+}
+
+.details-box{
+  background:white;
+  border-radius:18px;
+  margin-bottom:18px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.06);
+  overflow:hidden;
+  border:1px solid #e8e8e8;
+}
+
+summary{
+  cursor:pointer;
+  list-style:none;
+  padding:24px 28px;
+  font-family:Georgia, serif;
+  font-size:21px;
+  color:var(--blue);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+summary::-webkit-details-marker{
+  display:none;
+}
+
+summary::after{
+  content:"+";
+  color:var(--gold);
+  font-size:28px;
+}
+
+details[open] summary::after{
+  content:"–";
+}
+
+.details-content{
+  padding:0 28px 28px;
+  line-height:1.7;
+  border-top:1px solid #eee;
+}
+
+.details-content ul{
+  padding-left:20px;
+}
+
+.highlight{
+  color:var(--gold);
+  font-weight:bold;
+}
+
+.back{
+  display:inline-block;
+  margin-top:30px;
+  color:var(--gold);
+  text-decoration:none;
+  font-weight:bold;
+}
+
+footer{
+  background:var(--blue);
+  color:white;
+  text-align:center;
+  padding:28px;
+  font-size:14px;
+}
+
+@media(max-width:600px){
+  .hero-small h1{
+    font-size:32px;
+  }
+
+  summary{
+    font-size:19px;
+    padding:22px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero-small">
+  <div>
+    <p>Guest Information</p>
+    <h1>Your Stay</h1>
+    <div class="gold-line"></div>
+  </div>
+</section>
+
+<div class="container">
+
+  <div class="intro">
+    <h2>Essential Information</h2>
+    <p>
+      Here you will find the most important details for your stay at
+      Hotel Royal Marina Suites Boutique Lanzarote.
+    </p>
+  </div>
+
+  <details class="details-box">
+    <summary>Check-in & Check-out</summary>
+    <div class="details-content">
+      <p><strong>Check-in:</strong> 15:00</p>
+      <p><strong>Check-out:</strong> 12:00</p>
+
+      <p><strong>Late check-out:</strong></p>
+      <ul>
+        <li>Until 15:00 — <span class="highlight">30€</span></li>
+        <li>Until 18:00 — <span class="highlight">50€</span></li>
+      </ul>
+
+      <p>
+        Upon availability, a courtesy room may be offered.
+        Please contact reception for assistance.
+      </p>
+    </div>
+  </details>
+
+  <details class="details-box">
+    <summary>Minibar Policy</summary>
+    <div class="details-content">
+      <p><strong>Ocean & Marina:</strong> 1 courtesy bottle of water and 2 Illy coffee capsules.</p>
+      <p><strong>Royal Suites 300s:</strong> 1 free daily refill of all beverages, except alcoholic drinks.</p>
+    </div>
+  </details>
+
+  <details class="details-box">
+    <summary>Pool Towels</summary>
+    <div class="details-content">
+      <p>
+        Free towel changes are available at reception.
+        Please bring your used towel to exchange it for a clean one.
+      </p>
+      <p>
+        External towels are not allowed at the pool.
+        It is also not permitted to leave towels on sunbeds to reserve them.
+      </p>
+    </div>
+  </details>
+
+  <details class="details-box">
+    <summary>Cleaning Services</summary>
+    <div class="details-content">
+      <p>
+        As part of our sustainability policy and environmental commitment,
+        bed sheets and towels are changed every 2 days.
+      </p>
+      <p>
+        If you require an additional change, please let us know.
+      </p>
+      <p class="highlight">#GREENROYAL</p>
+    </div>
+  </details>
+
+  <details class="details-box">
+    <summary>Cleaning Hours</summary>
+    <div class="details-content">
+      <p>
+        We kindly ask all guests not to leave the “Do Not Disturb” sign outside
+        the room after 13:30, so our cleaning team has enough time to prepare
+        your room beautifully every day.
+      </p>
+    </div>
+  </details>
+
+  <a class="back" href="index.html">← Back to Home</a>
+
+</div>
+
+<footer>
+  Hotel Royal Marina Suites Boutique Lanzarote
+</footer>
+
+</body>
+</html>
