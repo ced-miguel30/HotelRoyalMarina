@@ -15,21 +15,7 @@
   --soft:#f5f8fa;
   --text:#1f2a36;
 }
-.hero-small{
-  min-height:55vh;
-  background:
-    linear-gradient(rgba(6,43,79,0.55), rgba(6,43,79,0.55)),
-    url("images/GuestInfo.JPG");
-  background-size:cover;
-  background-position:center;
-  background-repeat:no-repeat;
-}
 
-@media(max-width:600px){
-  .hero-small{
-    background-position:0% 85%;
-  }
-}
 *{box-sizing:border-box;}
 
 body{
@@ -42,10 +28,11 @@ body{
 .hero-small{
   min-height:55vh;
   background:
-    linear-gradient(rgba(6,43,79,0.65), rgba(6,43,79,0.65)),
+    linear-gradient(rgba(6,43,79,0.55), rgba(6,43,79,0.55)),
     url("images/GuestInfo.JPG");
   background-size:cover;
   background-position:center;
+  background-repeat:no-repeat;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -53,9 +40,10 @@ body{
   color:white;
   padding:30px;
 }
+
 @media(max-width:600px){
   .hero-small{
-    background-position:10% 100%;
+    background-position:0% 85%;
   }
 }
   
