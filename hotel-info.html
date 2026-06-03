@@ -29,7 +29,7 @@ body{
   min-height:55vh;
   background:
     linear-gradient(rgba(6,43,79,0.65), rgba(6,43,79,0.65)),
-    url("images/guest-info.jpg");
+    url("images/GuestInfo.JPG");
   background-size:cover;
   background-position:center;
   display:flex;
@@ -39,7 +39,12 @@ body{
   color:white;
   padding:30px;
 }
-
+@media(max-width:600px){
+  .hero{
+    background-position:left bottom;
+  }
+}
+  
 .hero-small h1{
   font-family:Georgia, serif;
   font-size:42px;
