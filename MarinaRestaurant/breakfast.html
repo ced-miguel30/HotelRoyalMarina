@@ -79,7 +79,7 @@ body{
 }
 
 .container{
-  max-width:1100px;
+  max-width:1000px;
   margin:auto;
   padding:50px 20px;
 }
@@ -127,49 +127,57 @@ body{
   margin:10px 0 0;
 }
 
-.menu-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-  gap:24px;
-}
-
-.menu-section{
+.breakfast-menu{
   background:white;
-  border-radius:20px;
-  padding:30px;
-  box-shadow:0 10px 28px rgba(0,0,0,0.07);
+  border-radius:24px;
+  padding:45px;
+  box-shadow:0 10px 28px rgba(0,0,0,0.06);
   border:1px solid #e8e8e8;
 }
 
-.menu-section h3{
+.menu-category{
+  margin-bottom:45px;
+}
+
+.menu-category:last-child{
+  margin-bottom:0;
+}
+
+.menu-category h2{
   font-family:Georgia, serif;
   color:var(--blue);
-  font-size:25px;
+  font-size:30px;
   font-weight:400;
-  margin-top:0;
+  margin-bottom:25px;
 }
 
-.menu-section .line{
-  width:45px;
-  height:1px;
-  background:var(--gold);
-  margin:15px 0 22px;
-}
-
-.item{
-  margin-bottom:20px;
-}
-
-.item strong{
+.menu-category::after{
+  content:"";
   display:block;
+  width:100%;
+  height:1px;
+  background:#e8e8e8;
+  margin-top:35px;
+}
+
+.menu-category:last-child::after{
+  display:none;
+}
+
+.menu-item{
+  margin-bottom:18px;
+}
+
+.menu-item strong{
   color:var(--blue);
+  display:block;
   margin-bottom:6px;
 }
 
-.item p{
+.menu-item p{
   margin:0;
   line-height:1.6;
-  font-size:14px;
+  color:#555;
 }
 
 .feature{
@@ -240,6 +248,10 @@ footer{
     min-height:55vh;
   }
 
+  .breakfast-menu{
+    padding:30px 24px;
+  }
+
   .feature{
     grid-template-columns:1fr;
   }
@@ -276,64 +288,69 @@ footer{
     <h3>Daily from 08:00 to 10:30</h3>
   </div>
 
-  <div class="menu-grid">
+  <div class="breakfast-menu">
 
-    <div class="menu-section">
-      <h3>Eggs</h3>
-      <div class="line"></div>
+    <div class="menu-category">
+      <h2>Eggs</h2>
 
-      <div class="item"><strong>Omelette of Your Choice</strong></div>
-      <div class="item"><strong>Fried Eggs</strong></div>
-      <div class="item"><strong>Poached Eggs</strong></div>
-      <div class="item"><strong>Boiled Eggs</strong></div>
-      <div class="item"><strong>Soft-Boiled Eggs</strong></div>
+      <div class="menu-item">Omelette of Your Choice</div>
+      <div class="menu-item">Fried Eggs</div>
+      <div class="menu-item">Poached Eggs</div>
+      <div class="menu-item">Boiled Eggs</div>
+      <div class="menu-item">Soft-Boiled Eggs</div>
     </div>
 
-    <div class="menu-section">
-      <h3>Sandwiches</h3>
-      <div class="line"></div>
+    <div class="menu-category">
+      <h2>Sandwiches</h2>
 
-      <div class="item">
+      <div class="menu-item">
         <strong>Croque Monsieur</strong>
         <p>White or brown bread, cooked ham and cheese.</p>
       </div>
 
-      <div class="item">
+      <div class="menu-item">
         <strong>Royal Marina Sandwich</strong>
         <p>White or brown bread, fresh tomato, Iberian ham and local fresh cheese.</p>
       </div>
 
-      <div class="item">
+      <div class="menu-item">
         <strong>Vegetarian Sandwich</strong>
         <p>White or brown bread, scrambled eggs with spinach.</p>
       </div>
     </div>
 
-    <div class="menu-section">
-      <h3>Toasts</h3>
-      <div class="line"></div>
+    <div class="menu-category">
+      <h2>Toasts</h2>
 
-      <div class="item">
+      <div class="menu-item">
         <strong>Toast of the Day</strong>
         <p>Please ask our team for today’s selection.</p>
       </div>
 
-      <div class="item">
+      <div class="menu-item">
         <strong>French Toast</strong>
         <p>Served with butter and seasonal fruit.</p>
       </div>
     </div>
 
-    <div class="menu-section">
-      <h3>Beverages</h3>
-      <div class="line"></div>
+    <div class="menu-category">
+      <h2>Beverages</h2>
 
-      <div class="item"><strong>Illy Coffee</strong><p>Prepared to your preference.</p></div>
-      <div class="item"><strong>Freshly Squeezed Orange Juice</strong></div>
-      <div class="item"><strong>Milk Selection</strong><p>Whole, skimmed, oat, almond or soy milk.</p></div>
-      <div class="item"><strong>Tea & Herbal Infusions</strong></div>
-      <div class="item"><strong>Hot Chocolate</strong></div>
-      <div class="item"><strong>Cola Cao</strong></div>
+      <div class="menu-item">
+        <strong>Illy Coffee</strong>
+        <p>Prepared to your preference.</p>
+      </div>
+
+      <div class="menu-item">Freshly Squeezed Orange Juice</div>
+
+      <div class="menu-item">
+        <strong>Milk Selection</strong>
+        <p>Whole, skimmed, oat, almond or soy milk.</p>
+      </div>
+
+      <div class="menu-item">Tea & Herbal Infusions</div>
+      <div class="menu-item">Hot Chocolate</div>
+      <div class="menu-item">Cola Cao</div>
     </div>
 
   </div>
