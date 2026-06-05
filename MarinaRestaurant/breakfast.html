@@ -1,1 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Breakfast | Hotel Royal Marina Suites Boutique</title>
 
+<style>
+:root{
+  --blue:#062b4f;
+  --gold:#c9a45c;
+  --white:#ffffff;
+  --soft:#f5f8fa;
+  --text:#1f2a36;
+}
+
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:var(--soft);
+  color:var(--text);
+}
+
+.hero-breakfast{
+  min-height:65vh;
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+}
+
+.hero-breakfast img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+}
+
+.hero-breakfast::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(6,43,79,0.55);
+  z-index:1;
+}
+
+.hero-content{
+  position:relative;
+  z-index:2;
+  padding:30px;
+}
+
+.hero-content p{
+  color:var(--gold);
+  letter-spacing:4px;
+  text-transform:uppercase;
+  font-size:12px;
+}
+
+.hero-content h1{
+  font-family:Georgia, serif;
+  font-size:48px;
+  font-weight:400;
+  margin:0;
+}
+
+.gold-line{
+  width:80px;
+  height:2px;
+  background:var(--gold);
+  margin:25px auto;
+}
+
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:50px 20px;
+}
+
+.intro{
+  text-align:center;
+  max-width:750px;
+  margin:0 auto 45px;
+}
+
+.intro h2{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:32px;
+  font-weight:400;
+}
+
+.intro p{
+  line-height:1.7;
+}
+
+.time-box{
+  background:white;
+  border-left:5px solid var(--gold);
+  padding:26px;
+  border-radius:18px;
+  margin-bottom:40px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.05);
+  text-align:center;
+}
+
+.time-box span{
+  color:var(--gold);
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:12px;
+}
+
+.time-box h3{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:28px;
+  font-weight:400;
+  margin:10px 0 0;
+}
+
+.menu-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:24px;
+}
+
+.menu-section{
+  background:white;
+  border-radius:20px;
+  padding:30px;
+  box-shadow:0 10px 28px rgba(0,0,0,0.07);
+  border:1px solid #e8e8e8;
+}
+
+.menu-section h3{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:25px;
+  font-weight:400;
+  margin-top:0;
+}
+
+.menu-section .line{
+  width:45px;
+  height:1px;
+  background:var(--gold);
+  margin:15px 0 22px;
+}
+
+.item{
+  margin-bottom:20px;
+}
+
+.item strong{
+  display:block;
+  color:var(--blue);
+  margin-bottom:6px;
+}
+
+.item p{
+  margin:0;
+  line-height:1.6;
+  font-size:14px;
+}
+
+.feature{
+  margin-top:50px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:30px;
+  align-items:center;
+  background:white;
+  border-radius:22px;
+  overflow:hidden;
+  box-shadow:0 10px 28px rgba(0,0,0,0.07);
+}
+
+.feature img{
+  width:100%;
+  height:100%;
+  min-height:320px;
+  object-fit:cover;
+}
+
+.feature-text{
+  padding:35px;
+}
+
+.feature-text h2{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:30px;
+  font-weight:400;
+}
+
+.feature-text p{
+  line-height:1.7;
+}
+
+.notice{
+  margin-top:45px;
+  background:white;
+  border-left:5px solid var(--gold);
+  padding:28px;
+  border-radius:18px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.05);
+}
+
+.back{
+  display:inline-block;
+  margin-top:35px;
+  color:var(--gold);
+  text-decoration:none;
+  font-weight:bold;
+}
+
+footer{
+  background:var(--blue);
+  color:white;
+  text-align:center;
+  padding:28px;
+  font-size:14px;
+}
+
+@media(max-width:700px){
+  .hero-content h1{
+    font-size:36px;
+  }
+
+  .hero-breakfast{
+    min-height:55vh;
+  }
+
+  .feature{
+    grid-template-columns:1fr;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero-breakfast">
+  <img src="../images/breakfast.jpg" alt="Breakfast at Royal Marina Suites">
+
+  <div class="hero-content">
+    <p>Marina Restaurant</p>
+    <h1>Breakfast</h1>
+    <div class="gold-line"></div>
+    <p>08:00 - 10:30</p>
+  </div>
+</section>
+
+<div class="container">
+
+  <div class="intro">
+    <h2>Our Morning Experience</h2>
+    <p>
+      Begin your day with a refined à la carte breakfast selection,
+      prepared with fresh ingredients and served in the relaxed atmosphere
+      of Hotel Royal Marina Suites Boutique Lanzarote.
+    </p>
+  </div>
+
+  <div class="time-box">
+    <span>Breakfast Service</span>
+    <h3>Daily from 08:00 to 10:30</h3>
+  </div>
+
+  <div class="menu-grid">
+
+    <div class="menu-section">
+      <h3>Eggs</h3>
+      <div class="line"></div>
+
+      <div class="item"><strong>Omelette of Your Choice</strong></div>
+      <div class="item"><strong>Fried Eggs</strong></div>
+      <div class="item"><strong>Poached Eggs</strong></div>
+      <div class="item"><strong>Boiled Eggs</strong></div>
+      <div class="item"><strong>Soft-Boiled Eggs</strong></div>
+    </div>
+
+    <div class="menu-section">
+      <h3>Sandwiches</h3>
+      <div class="line"></div>
+
+      <div class="item">
+        <strong>Croque Monsieur</strong>
+        <p>White or brown bread, cooked ham and cheese.</p>
+      </div>
+
+      <div class="item">
+        <strong>Royal Marina Sandwich</strong>
+        <p>White or brown bread, fresh tomato, Iberian ham and local fresh cheese.</p>
+      </div>
+
+      <div class="item">
+        <strong>Vegetarian Sandwich</strong>
+        <p>White or brown bread, scrambled eggs with spinach.</p>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <h3>Toasts</h3>
+      <div class="line"></div>
+
+      <div class="item">
+        <strong>Toast of the Day</strong>
+        <p>Please ask our team for today’s selection.</p>
+      </div>
+
+      <div class="item">
+        <strong>French Toast</strong>
+        <p>Served with butter and seasonal fruit.</p>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <h3>Beverages</h3>
+      <div class="line"></div>
+
+      <div class="item"><strong>Illy Coffee</strong><p>Prepared to your preference.</p></div>
+      <div class="item"><strong>Freshly Squeezed Orange Juice</strong></div>
+      <div class="item"><strong>Milk Selection</strong><p>Whole, skimmed, oat, almond or soy milk.</p></div>
+      <div class="item"><strong>Tea & Herbal Infusions</strong></div>
+      <div class="item"><strong>Hot Chocolate</strong></div>
+      <div class="item"><strong>Cola Cao</strong></div>
+    </div>
+
+  </div>
+
+  <div class="feature">
+    <img src="../images/breakfast-detail.jpg" alt="Breakfast detail">
+
+    <div class="feature-text">
+      <h2>Prepared to Your Taste</h2>
+      <p>
+        If you wish, you may modify or combine our hot breakfast options.
+        Please inform our team and we will be delighted to assist you.
+      </p>
+    </div>
+  </div>
+
+  <div class="notice">
+    <strong>Allergen Information</strong>
+    <p>
+      Dishes prepared in this establishment may contain allergens or traces of allergens.
+      If you are allergic to any food, please inform our team. Allergen information for
+      each dish is available upon request.
+    </p>
+  </div>
+
+  <a class="back" href="restaurant.html">← Back to Marina Restaurant</a>
+
+</div>
+
+<footer>
+  Hotel Royal Marina Suites Boutique Lanzarote
+</footer>
+
+</body>
+</html>
