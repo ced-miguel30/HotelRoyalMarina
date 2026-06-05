@@ -1,1 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marina Restaurant | Hotel Royal Marina Suites Boutique</title>
 
+<style>
+:root{
+  --blue:#062b4f;
+  --gold:#c9a45c;
+  --white:#ffffff;
+  --soft:#f5f8fa;
+  --text:#1f2a36;
+}
+
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:var(--soft);
+  color:var(--text);
+}
+
+.hero-restaurant{
+  min-height:65vh;
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+}
+
+.hero-restaurant img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+}
+
+.hero-restaurant::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(6,43,79,0.58);
+  z-index:1;
+}
+
+.hero-content{
+  position:relative;
+  z-index:2;
+  padding:30px;
+}
+
+.hero-content p{
+  color:var(--gold);
+  letter-spacing:4px;
+  text-transform:uppercase;
+  font-size:12px;
+}
+
+.hero-content h1{
+  font-family:Georgia, serif;
+  font-size:46px;
+  font-weight:400;
+  margin:0;
+}
+
+.gold-line{
+  width:80px;
+  height:2px;
+  background:var(--gold);
+  margin:25px auto;
+}
+
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:50px 20px;
+}
+
+.intro{
+  text-align:center;
+  max-width:750px;
+  margin:0 auto 45px;
+}
+
+.intro h2{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:32px;
+  font-weight:400;
+}
+
+.intro p{
+  line-height:1.7;
+}
+
+.menu-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:24px;
+}
+
+.menu-card{
+  background:white;
+  border-radius:20px;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+  box-shadow:0 10px 28px rgba(0,0,0,0.07);
+  border:1px solid #e7e7e7;
+  transition:0.3s ease;
+}
+
+.menu-card:hover{
+  transform:translateY(-6px);
+  border-color:var(--gold);
+}
+
+.menu-card img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+}
+
+.menu-content{
+  padding:26px;
+}
+
+.menu-content span{
+  color:var(--gold);
+  font-size:12px;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-weight:bold;
+}
+
+.menu-content h3{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:24px;
+  font-weight:400;
+  margin:12px 0;
+}
+
+.menu-content p{
+  line-height:1.6;
+  font-size:14px;
+}
+
+.button-text{
+  margin-top:18px;
+  color:var(--gold);
+  font-weight:bold;
+}
+
+.notice{
+  margin-top:45px;
+  background:white;
+  border-left:5px solid var(--gold);
+  padding:28px;
+  border-radius:18px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.05);
+}
+
+.back{
+  display:inline-block;
+  margin-top:35px;
+  color:var(--gold);
+  text-decoration:none;
+  font-weight:bold;
+}
+
+footer{
+  background:var(--blue);
+  color:white;
+  text-align:center;
+  padding:28px;
+  font-size:14px;
+}
+
+@media(max-width:600px){
+  .hero-content h1{
+    font-size:34px;
+  }
+
+  .hero-restaurant{
+    min-height:55vh;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero-restaurant">
+  <img src="images/restaurant.jpg" alt="Marina Restaurant">
+
+  <div class="hero-content">
+    <p>Royal Marina Suites</p>
+    <h1>Marina Restaurant</h1>
+    <div class="gold-line"></div>
+    <p>Dining, drinks & curated experiences</p>
+  </div>
+</section>
+
+<div class="container">
+
+  <div class="intro">
+    <h2>Restaurant & Bar</h2>
+    <p>
+      Discover our breakfast service, pool bar, snacks, in-suite cold dinner options
+      and special dining experiences at Hotel Royal Marina Suites Boutique Lanzarote.
+    </p>
+  </div>
+
+  <div class="menu-grid">
+
+    <a href="breakfast.html" class="menu-card">
+      <img src="images/breakfast.jpg" alt="Breakfast">
+      <div class="menu-content">
+        <span>08:00 - 10:30</span>
+        <h3>Breakfast</h3>
+        <p>Start your day with our à la carte breakfast selection.</p>
+        <div class="button-text">View Breakfast →</div>
+      </div>
+    </a>
+
+    <a href="snacks.html" class="menu-card">
+      <img src="images/snacks.jpg" alt="Snacks and lunch">
+      <div class="menu-content">
+        <span>12:00 - 15:30</span>
+        <h3>Snacks & Lunch</h3>
+        <p>Light dishes, salads, specialties, seafood and desserts.</p>
+        <div class="button-text">View Snacks →</div>
+      </div>
+    </a>
+
+    <a href="pool-bar.html" class="menu-card">
+      <img src="images/poolbar.jpg" alt="Pool Bar">
+      <div class="menu-content">
+        <span>12:00 - 19:00</span>
+        <h3>Pool Bar</h3>
+        <p>Refreshments, cocktails, wine, beer, coffee and soft drinks.</p>
+        <div class="button-text">View Drinks →</div>
+      </div>
+    </a>
+
+    <a href="cold-dinner.html" class="menu-card">
+      <img src="images/cold-dinner.jpg" alt="Cold Dinner">
+      <div class="menu-content">
+        <span>Order before 15:00</span>
+        <h3>Cold Dinner in Suite</h3>
+        <p>Selected cold dinner options served in your suite under reservation.</p>
+        <div class="button-text">View Cold Dinner →</div>
+      </div>
+    </a>
+
+    <a href="bbq-night.html" class="menu-card">
+      <img src="images/bbq.jpg" alt="BBQ Grill Night">
+      <div class="menu-content">
+        <span>Every Friday</span>
+        <h3>BBQ Grill Night</h3>
+        <p>A special evening experience available under reservation.</p>
+        <div class="button-text">Discover More →</div>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="notice">
+    <strong>Allergen Information</strong>
+    <p>
+      Some dishes may contain allergens or traces of allergens.
+      Please inform our team of any allergy or dietary requirement.
+    </p>
+  </div>
+
+  <a class="back" href="index.html">← Back to Home</a>
+
+</div>
+
+<footer>
+  Hotel Royal Marina Suites Boutique Lanzarote
+</footer>
+
+</body>
+</html>
