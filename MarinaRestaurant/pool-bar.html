@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pool Bar | Hotel Royal Marina Suites Boutique</title>
+
+<style>
+:root{
+  --blue:#062b4f;
+  --gold:#c9a45c;
+  --white:#ffffff;
+  --soft:#f5f8fa;
+  --text:#1f2a36;
+}
+
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:var(--soft);
+  color:var(--text);
+}
+
+.hero-poolbar{
+  min-height:62vh;
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+}
+
+.hero-poolbar img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+}
+
+.hero-poolbar::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(6,43,79,0.60);
+  z-index:1;
+}
+
+.hero-content{
+  position:relative;
+  z-index:2;
+  padding:30px;
+}
+
+.hero-content p{
+  color:var(--gold);
+  letter-spacing:4px;
+  text-transform:uppercase;
+  font-size:12px;
+}
+
+.hero-content h1{
+  font-family:Georgia, serif;
+  font-size:48px;
+  font-weight:400;
+  margin:0;
+}
+
+.gold-line{
+  width:80px;
+  height:2px;
+  background:var(--gold);
+  margin:25px auto;
+}
+
+.container{
+  max-width:1150px;
+  margin:auto;
+  padding:50px 20px;
+}
+
+.intro{
+  text-align:center;
+  max-width:780px;
+  margin:0 auto 45px;
+}
+
+.intro h2{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:32px;
+  font-weight:400;
+}
+
+.intro p{
+  line-height:1.7;
+}
+
+.service-strip{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:24px;
+  margin-bottom:45px;
+}
+
+.service-card{
+  background:white;
+  border-radius:22px;
+  padding:32px;
+  box-shadow:0 10px 28px rgba(0,0,0,0.06);
+  border:1px solid #e8e8e8;
+}
+
+.service-card.dark{
+  background:var(--blue);
+  color:white;
+}
+
+.service-card span{
+  color:var(--gold);
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.service-card h3{
+  font-family:Georgia, serif;
+  font-size:28px;
+  font-weight:400;
+  margin:12px 0;
+  color:var(--blue);
+}
+
+.service-card.dark h3{
+  color:white;
+}
+
+.service-card p{
+  line-height:1.7;
+}
+
+.drinks-layout{
+  display:grid;
+  grid-template-columns:300px 1fr;
+  gap:28px;
+  align-items:start;
+}
+
+.side-nav{
+  position:sticky;
+  top:20px;
+  background:white;
+  border-radius:22px;
+  padding:24px;
+  box-shadow:0 10px 28px rgba(0,0,0,0.06);
+  border:1px solid #e8e8e8;
+}
+
+.side-nav h3{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-weight:400;
+  margin-top:0;
+}
+
+.side-nav a{
+  display:block;
+  text-decoration:none;
+  color:var(--text);
+  padding:11px 0;
+  border-bottom:1px solid #eee;
+  font-size:14px;
+}
+
+.side-nav a:hover{
+  color:var(--gold);
+}
+
+.menu-section{
+  background:white;
+  border-radius:24px;
+  padding:35px;
+  margin-bottom:28px;
+  box-shadow:0 10px 28px rgba(0,0,0,0.06);
+  border:1px solid #e8e8e8;
+}
+
+.menu-section h2{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:30px;
+  font-weight:400;
+  margin-top:0;
+}
+
+.section-line{
+  width:55px;
+  height:1px;
+  background:var(--gold);
+  margin:18px 0 25px;
+}
+
+.menu-list{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px 35px;
+}
+
+.item{
+  display:flex;
+  justify-content:space-between;
+  gap:18px;
+  border-bottom:1px solid #eee;
+  padding-bottom:14px;
+}
+
+.item-name{
+  color:var(--blue);
+  font-weight:bold;
+}
+
+.price{
+  color:var(--gold);
+  font-weight:bold;
+  white-space:nowrap;
+}
+
+.feature{
+  margin:50px 0;
+  min-height:360px;
+  border-radius:24px;
+  overflow:hidden;
+  position:relative;
+  display:flex;
+  align-items:flex-end;
+  color:white;
+  box-shadow:0 10px 28px rgba(0,0,0,0.08);
+}
+
+.feature img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.feature::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(
+    rgba(6,43,79,0.1),
+    rgba(6,43,79,0.85)
+  );
+  z-index:1;
+}
+
+.feature-text{
+  position:relative;
+  z-index:2;
+  padding:40px;
+  max-width:650px;
+}
+
+.feature-text span{
+  color:var(--gold);
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.feature-text h2{
+  font-family:Georgia, serif;
+  font-size:34px;
+  font-weight:400;
+}
+
+.feature-text p{
+  line-height:1.7;
+}
+
+.notice{
+  margin-top:40px;
+  background:white;
+  border-left:5px solid var(--gold);
+  padding:28px;
+  border-radius:18px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.05);
+}
+
+.back{
+  display:inline-block;
+  margin-top:35px;
+  color:var(--gold);
+  text-decoration:none;
+  font-weight:bold;
+}
+
+footer{
+  background:var(--blue);
+  color:white;
+  text-align:center;
+  padding:28px;
+  font-size:14px;
+}
+
+@media(max-width:900px){
+  .service-strip,
+  .drinks-layout{
+    grid-template-columns:1fr;
+  }
+
+  .side-nav{
+    position:relative;
+    top:auto;
+  }
+
+  .menu-list{
+    grid-template-columns:1fr;
+  }
+
+  .hero-content h1{
+    font-size:36px;
+  }
+
+  .hero-poolbar{
+    min-height:55vh;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero-poolbar">
+  <img src="../images/poolbar.jpg" alt="Pool Bar at Royal Marina Suites">
+
+  <div class="hero-content">
+    <p>Marina Restaurant</p>
+    <h1>Pool Bar</h1>
+    <div class="gold-line"></div>
+    <p>12:00 - 19:00</p>
+  </div>
+</section>
+
+<div class="container">
+
+  <div class="intro">
+    <h2>Drinks by the Pool</h2>
+    <p>
+      Enjoy cocktails, wines, beers, spirits, smoothies, coffee and soft drinks
+      in a relaxed poolside setting at Hotel Royal Marina Suites Boutique Lanzarote.
+    </p>
+  </div>
+
+  <div class="service-strip">
+    <div class="service-card dark">
+      <span>Pool Bar Service</span>
+      <h3>Daily from 12:00 to 19:00</h3>
+      <p>Refreshing drinks and poolside service throughout the afternoon.</p>
+    </div>
+
+    <div class="service-card">
+      <span>Signature Moment</span>
+      <h3>Sun, Sea & Cocktails</h3>
+      <p>Discover our cocktail selection and enjoy a relaxed drink by the water.</p>
+    </div>
+  </div>
+
+  <div class="drinks-layout">
+
+    <nav class="side-nav">
+      <h3>Menu</h3>
+      <a href="#cocktails">Cocktails</a>
+      <a href="#wine">Wine & Champagne</a>
+      <a href="#beer">Beer</a>
+      <a href="#spirits">Spirits</a>
+      <a href="#hotdrinks">Hot Drinks</a>
+      <a href="#smoothies">Smoothies</a>
+      <a href="#softdrinks">Soft Drinks</a>
+    </nav>
+
+    <div>
+
+      <section class="menu-section" id="cocktails">
+        <h2>Cocktails</h2>
+        <div class="section-line"></div>
+
+        <div class="menu-list">
+          <div class="item"><span class="item-name">Cocktail of the Day</span><span class="price">7€</span></div>
+          <div class="item"><span class="item-name">Caipirinha</span><span class="price">8.50€</span></div>
+          <div class="item"><span class="item-name">Piña Colada</span><span class="price">8.50€</span></div>
+          <div class="item"><span class="item-name">Royal Marina</span><span class="price">8.50€</span></div>
+          <div class="item"><span class="item-name">Sex on the Beach</span><span class="price">8.50€</span></div>
+          <div class="item"><span class="item-name">Mojito</span><span class="price">8.50€</span></div>
+          <div class="item"><span class="item-name">Daiquiri</span><span class="price">8.50€</span></div>
+          <div class="item"><span class="item-name">Margarita</span><span class="price">9€</span></div>
+          <div class="item"><span class="item-name">Aperol Spritz</span><span class="price">9€</span></div>
+          <div class="item"><span class="item-name">Glass of Sangria</span><span class="price">9€</span></div>
+          <div class="item"><span class="item-name">Sangria 1/2L</span><span class="price">6€</span></div>
+          <div class="item"><span class="item-name">Cava Sangria 1/2L</span><span class="price">8.50€</span></div>
+        </div>
+      </section>
+
+      <section class="menu-section" id="wine">
+        <h2>Wine & Champagne</h2>
+        <div class="section-line"></div>
+
+        <div class="menu-list">
+          <div class="item"><span class="item-name">Glass of Wine</span><span class="price">8€</span></div>
+          <div class="item"><span class="item-name">Montecillo Crianza D.O. Rioja</span><span class="price">20€</span></div>
+          <div class="item"><span class="item-name">Ederra D.O. Rueda</span><span class="price">23€</span></div>
+          <div class="item"><span class="item-name">El Grifo D.O. Lanzarote</span><span class="price">30€</span></div>
+          <div class="item"><span class="item-name">Montecillo Reserva D.O. Rioja</span><span class="price">28€</span></div>
+          <div class="item"><span class="item-name">Anna Codorniu Mini</span><span class="price">11€</span></div>
+          <div class="item"><span class="item-name">Codorniu Prima Vides</span><span class="price">20€</span></div>
+          <div class="item"><span class="item-name">Piper Heidsieck Cuvée Brut</span><span class="price">55€</span></div>
+          <div class="item"><span class="item-name">Piper Heidsieck Cuvée Rosé</span><span class="price">60€</span></div>
+        </div>
+      </section>
+
+      <div class="feature">
+        <img src="../images/poolbar-detail.jpg" alt="Cocktail by the pool">
+        <div class="feature-text">
+          <span>Poolside Selection</span>
+          <h2>Designed for slow afternoons under the Lanzarote sun</h2>
+          <p>
+            From classic cocktails to local wines and refreshing smoothies,
+            our Pool Bar is designed for relaxed moments between the pool,
+            the terrace and the Atlantic breeze.
+          </p>
+        </div>
+      </div>
+
+      <section class="menu-section" id="beer">
+        <h2>Beer</h2>
+        <div class="section-line"></div>
+
+        <div class="menu-list">
+          <div class="item"><span class="item-name">Estrella Galicia Mini</span><span class="price">3€</span></div>
+          <div class="item"><span class="item-name">Estrella Galicia 0%</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name">Heineken</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name">Estrella Damm</span><span class="price">4€</span></div>
+          <div class="item"><span class="item-name">Dorada Especial</span><span class="price">4€</span></div>
+          <div class="item"><span class="item-name">Coronita</span><span class="price">5€</span></div>
+          <div class="item"><span class="item-name">Cerveza Nao</span><span class="price">5€</span></div>
+          <div class="item"><span class="item-name">Small Nao Draft Beer</span><span class="price">5€</span></div>
+        </div>
+      </section>
+
+      <section class="menu-section" id="spirits">
+        <h2>Spirits & Aperitifs</h2>
+        <div class="section-line"></div>
+
+        <div class="menu-list">
+          <div class="item"><span class="item-name">Beefeater</span><span class="price">7€</span></div>
+          <div class="item"><span class="item-name">Gordon's</span><span class="price">8€</span></div>
+          <div class="item"><span class="item-name">Tanqueray</span><span class="price">9€</span></div>
+          <div class="item"><span class="item-name">Nordés</span><span class="price">10€</span></div>
+          <div class="item"><span class="item-name">Martin Miller's</span><span class="price">11€</span></div>
+          <div class="item"><span class="item-name">Jack Daniel's</span><span class="price">10€</span></div>
+          <div class="item"><span class="item-name">Johnnie Walker Red</span><span class="price">11.50€</span></div>
+          <div class="item"><span class="item-name">Tequila Gold</span><span class="price">8.25€</span></div>
+          <div class="item"><span class="item-name">Aperol</span><span class="price">7€</span></div>
+          <div class="item"><span class="item-name">Campari</span><span class="price">8€</span></div>
+          <div class="item"><span class="item-name">Martini Rosso</span><span class="price">8€</span></div>
+          <div class="item"><span class="item-name">Martini Bianco</span><span class="price">8€</span></div>
+          <div class="item"><span class="item-name">Martini Dry</span><span class="price">8€</span></div>
+        </div>
+      </section>
+
+      <section class="menu-section" id="hotdrinks">
+        <h2>Hot Drinks</h2>
+        <div class="section-line"></div>
+
+        <div class="menu-list">
+          <div class="item"><span class="item-name">Espresso</span><span class="price">2.50€</span></div>
+          <div class="item"><span class="item-name">Americano</span><span class="price">2.80€</span></div>
+          <div class="item"><span class="item-name">Latte</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name">Cappuccino</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name">Irish Coffee</span><span class="price">7.50€</span></div>
+          <div class="item"><span class="item-name">Baileys Coffee</span><span class="price">7.50€</span></div>
+          <div class="item"><span class="item-name">Tea Selection</span><span class="price">2.50€</span></div>
+          <div class="item"><span class="item-name">Hot Chocolate</span><span class="price">3€</span></div>
+          <div class="item"><span class="item-name">Hot Chocolate with Cream</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name">Cola Cao</span><span class="price">2.80€</span></div>
+        </div>
+      </section>
+
+      <section class="menu-section" id="smoothies">
+        <h2>Smoothies & Juices</h2>
+        <div class="section-line"></div>
+
+        <div class="menu-list">
+          <div class="item"><span class="item-name">Orange Juice</span><span class="price">6€</span></div>
+          <div class="item"><span class="item-name">Lanzarote Smoothie</span><span class="price">7€</span></div>
+          <div class="item"><span class="item-name">Mediterranean Smoothie</span><span class="price">7€</span></div>
+          <div class="item"><span class="item-name">Forest Fruits Smoothie</span><span class="price">7€</span></div>
+        </div>
+      </section>
+
+      <section class="menu-section" id="softdrinks">
+        <h2>Soft Drinks</h2>
+        <div class="section-line"></div>
+
+        <div class="menu-list">
+          <div class="item"><span class="item-name">Still Water</span><span class="price">2.70€</span></div>
+          <div class="item"><span class="item-name">Sparkling Water</span><span class="price">2.70€</span></div>
+          <div class="item"><span class="item-name">Coca-Cola</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name">Coca-Cola Zero</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name">Fanta Orange</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name">Fanta Lemon</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name">Sprite</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name">Royal Bliss Tonic</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name">Nestea</span><span class="price">3.50€</span></div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <div class="notice">
+    <strong>Please note</strong>
+    <p>
+      Availability may vary depending on service hours and stock.
+      Please ask our Pool Bar team for today’s recommendations.
+    </p>
+  </div>
+
+  <a class="back" href="restaurant.html">← Back to Marina Restaurant</a>
+
+</div>
+
+<footer>
+  Hotel Royal Marina Suites Boutique Lanzarote
+</footer>
+
+</body>
+</html>
