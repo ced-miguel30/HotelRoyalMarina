@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cold Dinner in Suite | Hotel Royal Marina Suites Boutique</title>
+
+<style>
+:root{
+  --blue:#062b4f;
+  --gold:#c9a45c;
+  --white:#ffffff;
+  --soft:#f5f8fa;
+  --text:#1f2a36;
+}
+
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:var(--soft);
+  color:var(--text);
+}
+
+.hero-cold{
+  min-height:66vh;
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+}
+
+.hero-cold img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+}
+
+.hero-cold::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(
+    rgba(6,43,79,0.20),
+    rgba(6,43,79,0.88)
+  );
+  z-index:1;
+}
+
+.hero-content{
+  position:relative;
+  z-index:2;
+  padding:30px;
+  max-width:850px;
+}
+
+.hero-content p{
+  color:var(--gold);
+  letter-spacing:4px;
+  text-transform:uppercase;
+  font-size:12px;
+}
+
+.hero-content h1{
+  font-family:Georgia, serif;
+  font-size:48px;
+  font-weight:400;
+  margin:0;
+}
+
+.gold-line{
+  width:80px;
+  height:2px;
+  background:var(--gold);
+  margin:25px auto;
+}
+
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:55px 20px;
+}
+
+.reservation-box{
+  background:var(--blue);
+  color:white;
+  border-radius:24px;
+  padding:34px;
+  margin-top:-95px;
+  position:relative;
+  z-index:3;
+  box-shadow:0 14px 35px rgba(0,0,0,0.18);
+  text-align:center;
+}
+
+.reservation-box span{
+  color:var(--gold);
+  letter-spacing:3px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.reservation-box h2{
+  font-family:Georgia, serif;
+  font-size:30px;
+  font-weight:400;
+  margin:14px 0;
+}
+
+.reservation-box p{
+  line-height:1.7;
+  margin-bottom:0;
+}
+
+.intro{
+  text-align:center;
+  max-width:750px;
+  margin:55px auto 45px;
+}
+
+.intro h2{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:32px;
+  font-weight:400;
+}
+
+.intro p{
+  line-height:1.7;
+}
+
+.dinner-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:26px;
+}
+
+.dinner-card{
+  background:white;
+  border-radius:24px;
+  padding:32px;
+  box-shadow:0 10px 28px rgba(0,0,0,0.07);
+  border:1px solid #e8e8e8;
+  position:relative;
+  overflow:hidden;
+}
+
+.dinner-card::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:5px;
+  background:var(--gold);
+}
+
+.dinner-card h3{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:25px;
+  font-weight:400;
+  margin-top:12px;
+}
+
+.dinner-card p{
+  line-height:1.7;
+  font-size:14px;
+}
+
+.pairings{
+  margin-top:24px;
+}
+
+.pairing{
+  display:flex;
+  justify-content:space-between;
+  gap:18px;
+  border-bottom:1px solid #eee;
+  padding:12px 0;
+  font-size:14px;
+}
+
+.pairing strong{
+  color:var(--blue);
+}
+
+.price{
+  color:var(--gold);
+  font-weight:bold;
+  white-space:nowrap;
+}
+
+.experience{
+  margin:55px 0;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:30px;
+  align-items:center;
+}
+
+.experience-text{
+  background:white;
+  padding:38px;
+  border-radius:24px;
+  box-shadow:0 10px 28px rgba(0,0,0,0.06);
+}
+
+.experience-text span{
+  color:var(--gold);
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.experience-text h2{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:32px;
+  font-weight:400;
+}
+
+.experience-text p{
+  line-height:1.7;
+}
+
+.experience-image{
+  min-height:390px;
+  border-radius:24px;
+  overflow:hidden;
+  box-shadow:0 10px 28px rgba(0,0,0,0.08);
+}
+
+.experience-image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.notice{
+  background:white;
+  border-left:5px solid var(--gold);
+  padding:28px;
+  border-radius:18px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.05);
+}
+
+.back{
+  display:inline-block;
+  margin-top:35px;
+  color:var(--gold);
+  text-decoration:none;
+  font-weight:bold;
+}
+
+footer{
+  background:var(--blue);
+  color:white;
+  text-align:center;
+  padding:28px;
+  font-size:14px;
+}
+
+@media(max-width:800px){
+  .hero-content h1{
+    font-size:36px;
+  }
+
+  .experience{
+    grid-template-columns:1fr;
+  }
+
+  .reservation-box{
+    margin-top:-60px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero-cold">
+  <img src="../images/cold-dinner.jpg" alt="Cold Dinner in Suite">
+
+  <div class="hero-content">
+    <p>Private Suite Dining</p>
+    <h1>Cold Dinner in Suite</h1>
+    <div class="gold-line"></div>
+    <p>Under reservation before 15:00</p>
+  </div>
+</section>
+
+<div class="container">
+
+  <div class="reservation-box">
+    <span>Reservation Required</span>
+    <h2>Order before 15:00</h2>
+    <p>
+      Cold dinner selections are served in your suite and must be reserved before
+      15:00 through reception or Marina Restaurant.
+    </p>
+  </div>
+
+  <div class="intro">
+    <h2>An Evening in the Privacy of Your Suite</h2>
+    <p>
+      Enjoy a refined cold dinner experience designed for relaxed evenings,
+      private celebrations or quiet nights in your suite.
+    </p>
+  </div>
+
+  <div class="dinner-grid">
+
+    <div class="dinner-card">
+      <h3>Smoked Salmon & Nachos</h3>
+      <p>
+        Smoked salmon served with nachos and a selection of different sauces.
+      </p>
+
+      <div class="pairings">
+        <div class="pairing"><strong>House Wine</strong><span class="price">35€</span></div>
+        <div class="pairing"><strong>Local Km 0 Wine</strong><span class="price">40€</span></div>
+        <div class="pairing"><strong>Cava</strong><span class="price">38€</span></div>
+        <div class="pairing"><strong>Piper-Heidsieck Brut/Rosé</strong><span class="price">72€</span></div>
+      </div>
+    </div>
+
+    <div class="dinner-card">
+      <h3>Caesar Salad for Two</h3>
+      <p>
+        A fresh Caesar salad option prepared for two guests.
+      </p>
+
+      <div class="pairings">
+        <div class="pairing"><strong>House Wine</strong><span class="price">32€</span></div>
+        <div class="pairing"><strong>Local Km 0 Wine</strong><span class="price">45€</span></div>
+        <div class="pairing"><strong>Cava</strong><span class="price">68€</span></div>
+        <div class="pairing"><strong>Piper-Heidsieck Brut/Rosé</strong><span class="price">34€</span></div>
+      </div>
+    </div>
+
+    <div class="dinner-card">
+      <h3>Selection of Canarian Cheeses</h3>
+      <p>
+        A curated selection of Canarian cheeses, ideal for a relaxed evening in suite.
+      </p>
+
+      <div class="pairings">
+        <div class="pairing"><strong>House Wine</strong><span class="price">40€</span></div>
+        <div class="pairing"><strong>Local Km 0 Wine</strong><span class="price">40€</span></div>
+        <div class="pairing"><strong>Cava</strong><span class="price">36€</span></div>
+        <div class="pairing"><strong>Piper-Heidsieck Brut/Rosé</strong><span class="price">70€</span></div>
+      </div>
+    </div>
+
+    <div class="dinner-card">
+      <h3>Iberian Selection & Canarian Cheeses</h3>
+      <p>
+        Iberian assortments paired with a selection of Canarian cheeses.
+      </p>
+
+      <div class="pairings">
+        <div class="pairing"><strong>House Wine</strong><span class="price">40€</span></div>
+        <div class="pairing"><strong>Local Km 0 Wine</strong><span class="price">45€</span></div>
+        <div class="pairing"><strong>Cava</strong><span class="price">38€</span></div>
+        <div class="pairing"><strong>Piper-Heidsieck Brut/Rosé</strong><span class="price">72€</span></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="experience">
+    <div class="experience-text">
+      <span>In-Suite Experience</span>
+      <h2>Designed for privacy, comfort and quiet evenings</h2>
+      <p>
+        Our cold dinner options are ideal for guests who wish to enjoy a relaxed
+        evening in the privacy of their suite, paired with wine, cava or champagne.
+      </p>
+    </div>
+
+    <div class="experience-image">
+      <img src="../images/cold-dinner-detail.jpg" alt="Private dinner experience">
+    </div>
+  </div>
+
+  <div class="notice">
+    <strong>Please note</strong>
+    <p>
+      Cold dinner service is available under reservation only. Please place your order
+      before 15:00 at reception or Marina Restaurant.
+    </p>
+  </div>
+
+  <a class="back" href="restaurant.html">← Back to Marina Restaurant</a>
+
+</div>
+
+<footer>
+  Hotel Royal Marina Suites Boutique Lanzarote
+</footer>
+
+</body>
+</html>
