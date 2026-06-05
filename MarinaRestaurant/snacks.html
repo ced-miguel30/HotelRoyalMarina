@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Snacks & Lunch | Hotel Royal Marina Suites Boutique</title>
+
+<style>
+:root{
+  --blue:#062b4f;
+  --gold:#c9a45c;
+  --white:#ffffff;
+  --soft:#f5f8fa;
+  --text:#1f2a36;
+}
+
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:var(--soft);
+  color:var(--text);
+}
+
+.hero-snacks{
+  min-height:62vh;
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+  text-align:center;
+  color:white;
+}
+
+.hero-snacks img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+}
+
+.hero-snacks::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(
+    rgba(6,43,79,0.25),
+    rgba(6,43,79,0.85)
+  );
+  z-index:1;
+}
+
+.hero-content{
+  position:relative;
+  z-index:2;
+  padding:0 30px 70px;
+}
+
+.hero-content p{
+  color:var(--gold);
+  letter-spacing:4px;
+  text-transform:uppercase;
+  font-size:12px;
+}
+
+.hero-content h1{
+  font-family:Georgia, serif;
+  font-size:48px;
+  font-weight:400;
+  margin:0;
+}
+
+.gold-line{
+  width:80px;
+  height:2px;
+  background:var(--gold);
+  margin:25px auto;
+}
+
+.container{
+  max-width:1150px;
+  margin:auto;
+  padding:50px 20px;
+}
+
+.intro{
+  display:grid;
+  grid-template-columns:1.2fr 0.8fr;
+  gap:30px;
+  align-items:center;
+  margin-bottom:45px;
+}
+
+.intro-text{
+  background:white;
+  padding:35px;
+  border-radius:22px;
+  box-shadow:0 10px 28px rgba(0,0,0,0.06);
+}
+
+.intro-text h2{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:32px;
+  font-weight:400;
+  margin-top:0;
+}
+
+.intro-text p{
+  line-height:1.7;
+}
+
+.time-panel{
+  background:var(--blue);
+  color:white;
+  padding:35px;
+  border-radius:22px;
+  box-shadow:0 10px 28px rgba(0,0,0,0.08);
+  text-align:center;
+}
+
+.time-panel span{
+  color:var(--gold);
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.time-panel h3{
+  font-family:Georgia, serif;
+  font-size:30px;
+  font-weight:400;
+  margin:15px 0 0;
+}
+
+.menu-tabs{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  justify-content:center;
+  margin-bottom:35px;
+}
+
+.menu-tabs a{
+  text-decoration:none;
+  color:var(--blue);
+  background:white;
+  border:1px solid rgba(201,164,92,0.45);
+  border-radius:30px;
+  padding:11px 18px;
+  font-size:13px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+
+.menu-tabs a:hover{
+  background:var(--gold);
+  color:white;
+}
+
+.menu-section{
+  background:white;
+  border-radius:24px;
+  padding:35px;
+  margin-bottom:28px;
+  box-shadow:0 10px 28px rgba(0,0,0,0.06);
+  border:1px solid #e8e8e8;
+}
+
+.menu-section h2{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:30px;
+  font-weight:400;
+  margin-top:0;
+}
+
+.section-line{
+  width:55px;
+  height:1px;
+  background:var(--gold);
+  margin:18px 0 25px;
+}
+
+.menu-list{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:22px 35px;
+}
+
+.item{
+  border-bottom:1px solid #eee;
+  padding-bottom:18px;
+}
+
+.item-top{
+  display:flex;
+  justify-content:space-between;
+  gap:18px;
+}
+
+.item h3{
+  color:var(--blue);
+  font-size:17px;
+  margin:0;
+}
+
+.price{
+  color:var(--gold);
+  font-weight:bold;
+  white-space:nowrap;
+}
+
+.item p{
+  margin:8px 0 0;
+  line-height:1.55;
+  font-size:14px;
+}
+
+.signature{
+  margin:50px 0;
+  display:grid;
+  grid-template-columns:0.9fr 1.1fr;
+  background:white;
+  border-radius:24px;
+  overflow:hidden;
+  box-shadow:0 10px 28px rgba(0,0,0,0.07);
+}
+
+.signature img{
+  width:100%;
+  height:100%;
+  min-height:360px;
+  object-fit:cover;
+}
+
+.signature-text{
+  padding:40px;
+}
+
+.signature-text span{
+  color:var(--gold);
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.signature-text h2{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:32px;
+  font-weight:400;
+}
+
+.signature-text p{
+  line-height:1.7;
+}
+
+.notice{
+  margin-top:40px;
+  background:white;
+  border-left:5px solid var(--gold);
+  padding:28px;
+  border-radius:18px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.05);
+}
+
+.back{
+  display:inline-block;
+  margin-top:35px;
+  color:var(--gold);
+  text-decoration:none;
+  font-weight:bold;
+}
+
+footer{
+  background:var(--blue);
+  color:white;
+  text-align:center;
+  padding:28px;
+  font-size:14px;
+}
+
+@media(max-width:800px){
+  .intro,
+  .signature{
+    grid-template-columns:1fr;
+  }
+
+  .menu-list{
+    grid-template-columns:1fr;
+  }
+
+  .hero-content h1{
+    font-size:36px;
+  }
+
+  .hero-snacks{
+    min-height:58vh;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero-snacks">
+  <img src="../images/snacks.jpg" alt="Snacks and lunch at Royal Marina Suites">
+
+  <div class="hero-content">
+    <p>Marina Restaurant</p>
+    <h1>Snacks & Lunch</h1>
+    <div class="gold-line"></div>
+    <p>12:00 - 15:30</p>
+  </div>
+</section>
+
+<div class="container">
+
+  <div class="intro">
+    <div class="intro-text">
+      <h2>Light Bites by the Marina</h2>
+      <p>
+        Enjoy a relaxed midday selection of fresh salads, island flavours,
+        seafood, house specialities and sweet finishes, served in the elegant
+        atmosphere of Marina Restaurant.
+      </p>
+    </div>
+
+    <div class="time-panel">
+      <span>Lunch Service</span>
+      <h3>Daily from 12:00 to 15:30</h3>
+    </div>
+  </div>
+
+  <div class="menu-tabs">
+    <a href="#starters">Starters</a>
+    <a href="#specialities">Specialities</a>
+    <a href="#fish">Fish & Seafood</a>
+    <a href="#desserts">Desserts</a>
+  </div>
+
+  <section class="menu-section" id="starters">
+    <h2>Starters & Salads</h2>
+    <div class="section-line"></div>
+
+    <div class="menu-list">
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Goat Cheese & Strawberry Salad</h3>
+          <span class="price">15€</span>
+        </div>
+        <p>Mixed lettuce leaves, goat cheese, walnuts, strawberry vinaigrette, honey, Modena vinegar and extra virgin olive oil.</p>
+      </div>
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Caesar Salad</h3>
+          <span class="price">17€</span>
+        </div>
+        <p>Breaded chicken, crispy bacon, cherry tomatoes, parmesan shavings and crunchy bread croutons.</p>
+      </div>
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Nachos with Guacamole</h3>
+          <span class="price">14€</span>
+        </div>
+        <p>Avocado, tomato, red onion, lime, coriander, tabasco sauce and salt.</p>
+      </div>
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Avocado, Tomato & Iberian Ham Salad</h3>
+          <span class="price">20€</span>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Homemade Iberian Ham Croquettes</h3>
+          <span class="price">12€</span>
+        </div>
+        <p>Six pieces prepared with Iberian ham, egg, onion, black pepper, wheat flour and milk.</p>
+      </div>
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Canarian Wrinkled Potatoes</h3>
+          <span class="price">10€</span>
+        </div>
+        <p>Served with traditional island mojo sauce.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="menu-section" id="specialities">
+    <h2>House Specialities</h2>
+    <div class="section-line"></div>
+
+    <div class="menu-list">
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Poke Bowl</h3>
+          <span class="price">19€</span>
+        </div>
+        <p>Smoked salmon, edamame, carrots, cucumber, mango, basmati rice, radish, lime and extra virgin olive oil.</p>
+      </div>
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Club Sandwich</h3>
+          <span class="price">14€</span>
+        </div>
+        <p>Chicken, bacon, egg, tomato, cheese, crispy onion, thyme, mayonnaise, sliced bread and butter.</p>
+      </div>
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Bao Bun with Teriyaki</h3>
+          <span class="price">16€</span>
+        </div>
+        <p>Bao bun with sesame seeds, chicken breast, onion, teriyaki sauce, soy sauce and extra virgin olive oil.</p>
+      </div>
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Breeze Burger</h3>
+          <span class="price">20€</span>
+        </div>
+        <p>Brioche bun, beef, avocado, goat cheese, bacon, onion, lettuce, brava sauce and olive oil. Served with fries.</p>
+      </div>
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Grilled Vegetables</h3>
+          <span class="price">21€</span>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Broken Eggs with Iberian Ham</h3>
+          <span class="price">18€</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="signature">
+    <img src="../images/snacks-detail.jpg" alt="Lunch detail">
+
+    <div class="signature-text">
+      <span>Royal Marina Selection</span>
+      <h2>Fresh, relaxed and made for sunny afternoons</h2>
+      <p>
+        Our snacks and lunch menu has been designed for effortless moments by the pool,
+        with fresh ingredients, local touches and light Mediterranean flavours.
+      </p>
+    </div>
+  </div>
+
+  <section class="menu-section" id="fish">
+    <h2>Fish & Seafood</h2>
+    <div class="section-line"></div>
+
+    <div class="menu-list">
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Cod in Tempura</h3>
+          <span class="price">18€</span>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Garlic Prawns</h3>
+          <span class="price">16€</span>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Fried Calamari</h3>
+          <span class="price">17€</span>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Prawn Cocktail</h3>
+          <span class="price">16€</span>
+        </div>
+        <p>Lettuce, fresh pineapple, avocado, king prawns and cocktail sauce.</p>
+      </div>
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Salmon Tartare with Avocado</h3>
+          <span class="price">19€</span>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Crispy King Prawn</h3>
+          <span class="price">17€</span>
+        </div>
+        <p>Served with curry and mango sauce.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="menu-section" id="desserts">
+    <h2>Desserts</h2>
+    <div class="section-line"></div>
+
+    <div class="menu-list">
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Artisan Ice Cream</h3>
+          <span class="price">5€</span>
+        </div>
+        <p>Selection of different flavours.</p>
+      </div>
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Brownie with Ice Cream</h3>
+          <span class="price">9€</span>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-top">
+          <h3>Cheesecake with Blueberries</h3>
+          <span class="price">9€</span>
+        </div>
+        <p>Served with vanilla ice cream.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="notice">
+    <strong>Allergen Information</strong>
+    <p>
+      Dishes prepared in this establishment may contain allergens or traces of allergens.
+      If you are allergic to any food, please inform our team. Allergen information for each dish is available upon request.
+    </p>
+  </div>
+
+  <a class="back" href="restaurant.html">← Back to Marina Restaurant</a>
+
+</div>
+
+<footer>
+  Hotel Royal Marina Suites Boutique Lanzarote
+</footer>
+
+</body>
+</html>
