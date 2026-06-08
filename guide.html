@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Discover Lanzarote | Hotel Royal Marina Suites Boutique</title>
+
+<style>
+:root{
+  --blue:#062b4f;
+  --gold:#c9a45c;
+  --white:#ffffff;
+  --soft:#f5f8fa;
+  --text:#1f2a36;
+}
+
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:var(--soft);
+  color:var(--text);
+}
+
+.hero-guide{
+  min-height:66vh;
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+}
+
+.hero-guide img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+}
+
+.hero-guide::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(rgba(6,43,79,0.25), rgba(6,43,79,0.88));
+  z-index:1;
+}
+
+.hero-content{
+  position:relative;
+  z-index:2;
+  padding:30px;
+}
+
+.hero-content p{
+  color:var(--gold);
+  letter-spacing:4px;
+  text-transform:uppercase;
+  font-size:12px;
+}
+
+.hero-content h1{
+  font-family:Georgia, serif;
+  font-size:50px;
+  font-weight:400;
+  margin:0;
+}
+
+.gold-line{
+  width:80px;
+  height:2px;
+  background:var(--gold);
+  margin:25px auto;
+}
+
+.container{
+  max-width:1150px;
+  margin:auto;
+  padding:55px 20px;
+}
+
+.intro{
+  text-align:center;
+  max-width:780px;
+  margin:0 auto 45px;
+}
+
+.intro h2{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:34px;
+  font-weight:400;
+}
+
+.intro p{
+  line-height:1.7;
+}
+
+.section-title{
+  text-align:center;
+  margin:60px 0 35px;
+}
+
+.section-title span{
+  color:var(--gold);
+  letter-spacing:3px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.section-title h2{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:34px;
+  font-weight:400;
+}
+
+.card-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:26px;
+}
+
+.card{
+  background:white;
+  border-radius:24px;
+  overflow:hidden;
+  box-shadow:0 10px 28px rgba(0,0,0,0.07);
+  border:1px solid #e8e8e8;
+}
+
+.card img{
+  width:100%;
+  height:210px;
+  object-fit:cover;
+}
+
+.card-content{
+  padding:28px;
+}
+
+.card-content span{
+  color:var(--gold);
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.card-content h3{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:25px;
+  font-weight:400;
+  margin:12px 0;
+}
+
+.card-content p{
+  line-height:1.7;
+  font-size:14px;
+}
+
+.card-content a{
+  display:inline-block;
+  margin-top:12px;
+  color:var(--gold);
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.restaurant-section{
+  margin-top:30px;
+}
+
+.restaurant-card{
+  background:white;
+  border-radius:22px;
+  padding:30px;
+  margin-bottom:22px;
+  box-shadow:0 10px 28px rgba(0,0,0,0.06);
+  border:1px solid #e8e8e8;
+}
+
+.restaurant-card h3{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:26px;
+  font-weight:400;
+  margin-top:0;
+}
+
+.restaurant-card p{
+  line-height:1.7;
+}
+
+.links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:14px;
+  margin-top:18px;
+}
+
+.links a{
+  color:var(--gold);
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.concierge-box{
+  background:var(--blue);
+  color:white;
+  border-radius:24px;
+  padding:38px;
+  margin-top:60px;
+  text-align:center;
+  box-shadow:0 14px 35px rgba(0,0,0,0.15);
+}
+
+.concierge-box span{
+  color:var(--gold);
+  letter-spacing:3px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.concierge-box h2{
+  font-family:Georgia, serif;
+  font-size:32px;
+  font-weight:400;
+}
+
+.concierge-box p{
+  line-height:1.7;
+}
+
+.back{
+  display:inline-block;
+  margin-top:35px;
+  color:var(--gold);
+  text-decoration:none;
+  font-weight:bold;
+}
+
+footer{
+  background:var(--blue);
+  color:white;
+  text-align:center;
+  padding:28px;
+  font-size:14px;
+}
+
+@media(max-width:700px){
+  .hero-content h1{
+    font-size:36px;
+  }
+
+  .hero-guide{
+    min-height:58vh;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero-guide">
+  <img src="images/lanzarote-guide.jpg" alt="Discover Lanzarote">
+
+  <div class="hero-content">
+    <p>Royal Marina Concierge Guide</p>
+    <h1>Discover Lanzarote</h1>
+    <div class="gold-line"></div>
+    <p>Beaches · Experiences · Dining</p>
+  </div>
+</section>
+
+<div class="container">
+
+  <div class="intro">
+    <h2>Curated Island Recommendations</h2>
+    <p>
+      Discover some of Lanzarote’s most memorable experiences, beaches and dining destinations,
+      carefully selected to help you enjoy the island with ease.
+    </p>
+  </div>
+
+  <!-- EXPERIENCES -->
+
+  <div class="section-title">
+    <span>Concierge Experiences</span>
+    <h2>Recommended Island Experiences</h2>
+  </div>
+
+  <div class="card-grid">
+
+    <div class="card">
+      <img src="images/timanfaya.jpg" alt="Timanfaya National Park">
+      <div class="card-content">
+        <span>Volcanic Landscape</span>
+        <h3>Timanfaya National Park</h3>
+        <p>
+          Lanzarote’s most iconic volcanic landscape, known for its dramatic lava fields
+          and unique geothermal scenery.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/catlanza.jpg" alt="Catlanza sailing experience">
+      <div class="card-content">
+        <span>Ocean Experience</span>
+        <h3>Catlanza Sailing</h3>
+        <p>
+          A premium catamaran experience along the coast, ideal for swimming,
+          sailing and enjoying the Atlantic.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/submarine.jpg" alt="Submarine Safaris">
+      <div class="card-content">
+        <span>Puerto Calero</span>
+        <h3>Submarine Safaris</h3>
+        <p>
+          A unique underwater experience from Puerto Calero, perfect for discovering
+          Lanzarote’s marine world.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BEACHES -->
+
+  <div class="section-title">
+    <span>Beaches</span>
+    <h2>Lanzarote’s Coastal Highlights</h2>
+  </div>
+
+  <div class="card-grid">
+
+    <div class="card">
+      <img src="images/famara.jpg" alt="Famara Beach">
+      <div class="card-content">
+        <span>Wild Coast</span>
+        <h3>Famara</h3>
+        <p>
+          A dramatic beach surrounded by cliffs, especially loved by surfers,
+          photographers and sunset seekers.
+        </p>
+        <a href="https://www.google.com/maps/search/?api=1&query=Playa+de+Famara+Lanzarote" target="_blank">
+          Open in Google Maps →
+        </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/papagayo.jpg" alt="Papagayo Beach">
+      <div class="card-content">
+        <span>Protected Natural Beauty</span>
+        <h3>Papagayo</h3>
+        <p>
+          Golden sand, turquoise water and protected surroundings. One of Lanzarote’s
+          most beautiful beach areas.
+        </p>
+        <a href="https://www.google.com/maps/search/?api=1&query=Playa+de+Papagayo+Lanzarote" target="_blank">
+          Open in Google Maps →
+        </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/puerto-del-carmen.jpg" alt="Puerto del Carmen beaches">
+      <div class="card-content">
+        <span>Promenade & Beach Day</span>
+        <h3>Puerto del Carmen</h3>
+        <p>
+          A lively coastal area with beaches, shops, restaurants and a beautiful seaside promenade.
+        </p>
+        <a href="https://www.google.com/maps/search/?api=1&query=Puerto+del+Carmen+Lanzarote" target="_blank">
+          Open in Google Maps →
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- PUERTO CALERO RESTAURANTS -->
+
+  <div class="section-title">
+    <span>Dining Near the Hotel</span>
+    <h2>Puerto Calero Recommendations</h2>
+  </div>
+
+  <div class="restaurant-section">
+
+    <div class="restaurant-card">
+      <h3>La Porteña</h3>
+      <p>
+        An Argentinian and Uruguayan restaurant in Puerto Calero, known for grilled meats
+        and a warm marina setting.
+      </p>
+      <div class="links">
+        <a href="https://la-portena.menufyy.com/" target="_blank">Website →</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=1+Planta+Antiguo+Varadero+Marina+Puerto+Calero+35571+Puerto+Calero+Las+Palmas+Spain" target="_blank">
+          1 Planta Antiguo Varadero Marina Puerto Calero, 35571 Puerto Calero →
+        </a>
+      </div>
+    </div>
+
+    <div class="restaurant-card">
+      <h3>MargheRita</h3>
+      <p>
+        A charming Italian osteria and pizzeria in Puerto Calero, offering authentic
+        Italian cuisine beside the marina.
+      </p>
+      <div class="links">
+        <a href="https://www.caleromarinas.com/en/margherita/" target="_blank">Website →</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Edificio+Antiguo+Varadero+Plaza+de+las+Carpas+Puerto+Calero+Lanzarote" target="_blank">
+          Edificio Antiguo Varadero, Plaza de las Carpas, Puerto Calero →
+        </a>
+      </div>
+    </div>
+
+    <div class="restaurant-card">
+      <h3>Siete Gotas</h3>
+      <p>
+        A modern Puerto Calero dining option with an elegant evening atmosphere
+        and contemporary cuisine.
+      </p>
+      <div class="links">
+        <a href="https://www.bodegasietegotas.com/openinghours" target="_blank">Website →</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Calle+Pantalanes+4D+35571+Puerto+Calero+Las+Palmas+Spain" target="_blank">
+          Calle Pantalanes 4D, 35571 Puerto Calero →
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- AROUND THE ISLAND -->
+
+  <div class="section-title">
+    <span>Dining Around the Island</span>
+    <h2>Selected Island Restaurants</h2>
+  </div>
+
+  <div class="restaurant-section">
+
+    <div class="restaurant-card">
+      <h3>Brisa Marina</h3>
+      <p>
+        A well-known seafront restaurant in Playa Blanca, ideal for fresh seafood,
+        Spanish cuisine and ocean views.
+      </p>
+      <div class="links">
+        <a href="https://restaurantebrisamarina.es/?lang=en" target="_blank">Website →</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Avda+Maritima+97-99+35580+Playa+Blanca+Lanzarote" target="_blank">
+          Avda. Marítima 97-99, 35580 Playa Blanca →
+        </a>
+      </div>
+    </div>
+
+    <div class="restaurant-card">
+      <h3>Bodega de Uga</h3>
+      <p>
+        A refined countryside restaurant in Uga, appreciated for local ingredients,
+        Canarian character and an intimate dining atmosphere.
+      </p>
+      <div class="links">
+        <a href="https://www.instagram.com/bodegadeuga/" target="_blank">Website →</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Carretera+LZ-2+Numero+6+Uga+Lanzarote" target="_blank">
+          Carretera LZ-2 Nº6, Uga, Lanzarote →
+        </a>
+      </div>
+    </div>
+
+    <div class="restaurant-card">
+      <h3>La Bodega de Santiago</h3>
+      <p>
+        A historic restaurant in Yaiza offering Lanzarote flavours, local produce
+        and a charming traditional setting.
+      </p>
+      <div class="links">
+        <a href="https://labodegadesantiago.com/en/" target="_blank">Website →</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Calle+Montanas+del+Fuego+27+35570+Yaiza+Lanzarote" target="_blank">
+          Calle Montañas del Fuego 27, 35570 Yaiza →
+        </a>
+      </div>
+    </div>
+
+    <div class="restaurant-card">
+      <h3>La Casona de Yaiza</h3>
+      <p>
+        A beautiful historic property and restaurant in Yaiza, combining local fresh products,
+        Canarian tradition and contemporary touches.
+      </p>
+      <div class="links">
+        <a href="https://www.lacasonadeyaizarestaurante.com/" target="_blank">Website →</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Calle+Valle+de+Fenauso+11+35570+Yaiza+Las+Palmas+Spain" target="_blank">
+          Calle Valle de Fenauso 11, 35570 Yaiza →
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="concierge-box">
+    <span>Need Assistance?</span>
+    <h2>Our reception team will be delighted to help</h2>
+    <p>
+      For restaurant reservations, island excursions, boat trips or transport arrangements,
+      please contact reception or press <strong>9</strong> from your room.
+    </p>
+  </div>
+
+  <a class="back" href="index.html">← Back to Home</a>
+
+</div>
+
+<footer>
+  Hotel Royal Marina Suites Boutique Lanzarote
+</footer>
+
+</body>
+</html>
