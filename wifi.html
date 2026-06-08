@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wi-Fi Access | Hotel Royal Marina Suites Boutique</title>
+
+<style>
+:root{
+  --blue:#062b4f;
+  --gold:#c9a45c;
+  --white:#ffffff;
+  --soft:#f5f8fa;
+  --text:#1f2a36;
+}
+
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:var(--soft);
+  color:var(--text);
+}
+
+.hero-wifi{
+  min-height:62vh;
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+}
+
+.hero-wifi img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+}
+
+.hero-wifi::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(rgba(6,43,79,0.25), rgba(6,43,79,0.88));
+  z-index:1;
+}
+
+.hero-content{
+  position:relative;
+  z-index:2;
+  padding:30px;
+}
+
+.hero-content p{
+  color:var(--gold);
+  letter-spacing:4px;
+  text-transform:uppercase;
+  font-size:12px;
+}
+
+.hero-content h1{
+  font-family:Georgia, serif;
+  font-size:48px;
+  font-weight:400;
+  margin:0;
+}
+
+.gold-line{
+  width:80px;
+  height:2px;
+  background:var(--gold);
+  margin:25px auto;
+}
+
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:50px 20px;
+}
+
+.wifi-card{
+  background:white;
+  border-radius:26px;
+  padding:40px;
+  margin-top:-90px;
+  position:relative;
+  z-index:3;
+  box-shadow:0 14px 35px rgba(0,0,0,0.16);
+  text-align:center;
+  border:1px solid #e8e8e8;
+}
+
+.wifi-icon{
+  width:78px;
+  height:78px;
+  border:1px solid rgba(201,164,92,0.55);
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:0 auto 22px;
+  color:var(--gold);
+}
+
+.wifi-card span{
+  color:var(--gold);
+  letter-spacing:3px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.wifi-card h2{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:34px;
+  font-weight:400;
+  margin:14px 0 28px;
+}
+
+.credentials{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:22px;
+  margin-top:25px;
+}
+
+.credential-box{
+  background:var(--soft);
+  border-radius:18px;
+  padding:26px;
+  border:1px solid #e8e8e8;
+}
+
+.credential-box p{
+  margin:0 0 10px;
+  color:var(--gold);
+  text-transform:uppercase;
+  letter-spacing:2px;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.credential-box h3{
+  margin:0;
+  color:var(--blue);
+  font-size:22px;
+}
+
+.info-section{
+  margin-top:45px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:24px;
+}
+
+.info-box{
+  background:white;
+  border-radius:22px;
+  padding:30px;
+  box-shadow:0 10px 28px rgba(0,0,0,0.06);
+  border:1px solid #e8e8e8;
+}
+
+.info-box h3{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:25px;
+  font-weight:400;
+  margin-top:0;
+}
+
+.info-box p{
+  line-height:1.7;
+}
+
+.notice{
+  margin-top:40px;
+  background:white;
+  border-left:5px solid var(--gold);
+  padding:28px;
+  border-radius:18px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.05);
+}
+
+.back{
+  display:inline-block;
+  margin-top:35px;
+  color:var(--gold);
+  text-decoration:none;
+  font-weight:bold;
+}
+
+footer{
+  background:var(--blue);
+  color:white;
+  text-align:center;
+  padding:28px;
+  font-size:14px;
+}
+
+@media(max-width:700px){
+  .hero-content h1{
+    font-size:36px;
+  }
+
+  .wifi-card{
+    margin-top:-60px;
+    padding:30px 22px;
+  }
+
+  .credentials,
+  .info-section{
+    grid-template-columns:1fr;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero-wifi">
+  <img src="images/wifi.jpg" alt="Wi-Fi Access">
+
+  <div class="hero-content">
+    <p>Guest Information</p>
+    <h1>Wi-Fi Access</h1>
+    <div class="gold-line"></div>
+    <p>Complimentary high-speed internet</p>
+  </div>
+</section>
+
+<div class="container">
+
+  <div class="wifi-card">
+
+    <div class="wifi-icon">
+      <svg viewBox="0 0 24 24" width="42" height="42" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+        <path d="M5 12a10 10 0 0 1 14 0"/>
+        <path d="M8 15a6 6 0 0 1 8 0"/>
+        <path d="M11 18a2 2 0 0 1 2 0"/>
+        <circle cx="12" cy="20" r="1"/>
+      </svg>
+    </div>
+
+    <span>Connect to our network</span>
+    <h2>Hotel Wi-Fi</h2>
+
+    <div class="credentials">
+
+      <div class="credential-box">
+        <p>Network</p>
+        <h3>RoyalMarinaGuest</h3>
+      </div>
+
+      <div class="credential-box">
+        <p>Password</p>
+        <h3>Welcome123</h3>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="info-section">
+
+    <div class="info-box">
+      <h3>How to Connect</h3>
+      <p>
+        Open your device Wi-Fi settings, select the hotel network and enter the password shown above.
+      </p>
+    </div>
+
+    <div class="info-box">
+      <h3>Need Assistance?</h3>
+      <p>
+        If you experience any connection issues, please contact reception. From your room, press <strong>9</strong>.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="notice">
+    <strong>Please note</strong>
+    <p>
+      Wi-Fi access is complimentary for hotel guests. Connection speed may vary depending on device, location and network demand.
+    </p>
+  </div>
+
+  <a class="back" href="index.html">← Back to Home</a>
+
+</div>
+
+<footer>
+  Hotel Royal Marina Suites Boutique Lanzarote
+</footer>
+
+</body>
+</html>
