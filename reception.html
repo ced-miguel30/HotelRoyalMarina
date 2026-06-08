@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guest Services | Hotel Royal Marina Suites Boutique</title>
+
+<style>
+:root{
+  --blue:#062b4f;
+  --gold:#c9a45c;
+  --white:#ffffff;
+  --soft:#f5f8fa;
+  --text:#1f2a36;
+}
+
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:var(--soft);
+  color:var(--text);
+}
+
+.hero-services{
+  min-height:62vh;
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+}
+
+.hero-services img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+}
+
+.hero-services::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(rgba(6,43,79,0.35), rgba(6,43,79,0.88));
+  z-index:1;
+}
+
+.hero-content{
+  position:relative;
+  z-index:2;
+  padding:30px;
+}
+
+.hero-content p{
+  color:var(--gold);
+  letter-spacing:4px;
+  text-transform:uppercase;
+  font-size:12px;
+}
+
+.hero-content h1{
+  font-family:Georgia, serif;
+  font-size:48px;
+  font-weight:400;
+  margin:0;
+}
+
+.gold-line{
+  width:80px;
+  height:2px;
+  background:var(--gold);
+  margin:25px auto;
+}
+
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:50px 20px;
+}
+
+.reception-box{
+  background:var(--blue);
+  color:white;
+  border-radius:24px;
+  padding:34px;
+  margin-top:-90px;
+  position:relative;
+  z-index:3;
+  box-shadow:0 14px 35px rgba(0,0,0,0.18);
+  text-align:center;
+}
+
+.reception-box span{
+  color:var(--gold);
+  letter-spacing:3px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.reception-box h2{
+  font-family:Georgia, serif;
+  font-size:30px;
+  font-weight:400;
+  margin:14px 0;
+}
+
+.reception-box p{
+  line-height:1.7;
+  margin-bottom:0;
+}
+
+.intro{
+  text-align:center;
+  max-width:760px;
+  margin:55px auto 45px;
+}
+
+.intro h2{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:34px;
+  font-weight:400;
+}
+
+.intro p{
+  line-height:1.7;
+}
+
+.services-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:24px;
+}
+
+.service-card{
+  background:white;
+  border-radius:24px;
+  overflow:hidden;
+  box-shadow:0 10px 28px rgba(0,0,0,0.07);
+  border:1px solid #e8e8e8;
+}
+
+.service-card img{
+  width:100%;
+  height:190px;
+  object-fit:cover;
+}
+
+.service-content{
+  padding:28px;
+}
+
+.service-content span{
+  color:var(--gold);
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.service-content h3{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:25px;
+  font-weight:400;
+  margin:12px 0;
+}
+
+.service-content p{
+  line-height:1.7;
+  font-size:14px;
+}
+
+.service-content a{
+  display:inline-block;
+  margin-top:12px;
+  color:var(--gold);
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.excursions{
+  margin-top:50px;
+  background:white;
+  border-radius:24px;
+  padding:36px;
+  box-shadow:0 10px 28px rgba(0,0,0,0.07);
+}
+
+.excursions h2{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:32px;
+  font-weight:400;
+}
+
+.excursions ul{
+  line-height:2;
+  padding-left:22px;
+}
+
+.notice{
+  margin-top:40px;
+  background:white;
+  border-left:5px solid var(--gold);
+  padding:28px;
+  border-radius:18px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.05);
+}
+
+.back{
+  display:inline-block;
+  margin-top:35px;
+  color:var(--gold);
+  text-decoration:none;
+  font-weight:bold;
+}
+
+footer{
+  background:var(--blue);
+  color:white;
+  text-align:center;
+  padding:28px;
+  font-size:14px;
+}
+
+@media(max-width:700px){
+  .hero-content h1{
+    font-size:36px;
+  }
+
+  .reception-box{
+    margin-top:-60px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero-services">
+  <img src="images/guest-services.jpg" alt="Guest Services">
+
+  <div class="hero-content">
+    <p>Royal Marina Suites</p>
+    <h1>Guest Services</h1>
+    <div class="gold-line"></div>
+    <p>Reception · Transfers · Experiences</p>
+  </div>
+</section>
+
+<div class="container">
+
+  <div class="reception-box">
+    <span>24 Hour Reception</span>
+    <h2>We are here whenever you need us</h2>
+    <p>
+      Reception is available 24 hours a day. From your room, press
+      <strong>9</strong> to contact our team directly.
+    </p>
+  </div>
+
+  <div class="intro">
+    <h2>Services Designed Around Your Stay</h2>
+    <p>
+      From private transfers and car rentals to massages, bike rentals and island
+      excursions, our team will be delighted to help you arrange every detail.
+    </p>
+  </div>
+
+  <div class="services-grid">
+
+    <div class="service-card">
+      <img src="images/massage.jpg" alt="Massage service">
+      <div class="service-content">
+        <span>Wellness</span>
+        <h3>Personalised Therapeutic Massages</h3>
+        <p>
+          Enjoy a relaxing massage experience arranged through reception.
+          Please ask our team for availability and more details.
+        </p>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <img src="images/transfer.jpg" alt="Private airport transfer">
+      <div class="service-content">
+        <span>Transport</span>
+        <h3>Private Airport Transfer</h3>
+        <p>
+          We can help arrange a private transfer service to or from the airport.
+          Please contact reception for assistance.
+        </p>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <img src="images/bike-rental.jpg" alt="Bike rental">
+      <div class="service-content">
+        <span>Explore</span>
+        <h3>Bike Rental</h3>
+        <p>
+          Discover the surroundings at your own pace with our bicycle rental service.
+          Ask at reception for availability.
+        </p>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <img src="images/car-rental.jpg" alt="Car rental">
+      <div class="service-content">
+        <span>Island Freedom</span>
+        <h3>Car Rental</h3>
+        <p>
+          Explore Lanzarote with greater flexibility through our trusted car rental partner.
+        </p>
+        <a href="https://www.cabreramedina.com/ES/agent/471" target="_blank">
+          Book Car Rental →
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="excursions">
+    <h2>Excursions & Island Experiences</h2>
+    <p>
+      Our reception team can help you arrange selected island activities and tours.
+    </p>
+
+    <ul>
+      <li>First Minute Tours</li>
+      <li>Waterbus</li>
+      <li>Submarine Safaris</li>
+      <li>Canarytrip</li>
+      <li>Catlanza</li>
+    </ul>
+  </div>
+
+  <div class="notice">
+    <strong>Please note</strong>
+    <p>
+      All services are subject to availability. For massages, transfers, bike rental
+      and excursions, please contact reception for current options, timings and prices.
+    </p>
+  </div>
+
+  <a class="back" href="index.html">← Back to Home</a>
+
+</div>
+
+<footer>
+  Hotel Royal Marina Suites Boutique Lanzarote
+</footer>
+
+</body>
+</html>
