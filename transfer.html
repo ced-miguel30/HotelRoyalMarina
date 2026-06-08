@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Private Transfer Request | Hotel Royal Marina Suites Boutique</title>
+
+<style>
+:root{
+  --blue:#062b4f;
+  --gold:#c9a45c;
+  --white:#ffffff;
+  --soft:#f5f8fa;
+  --text:#1f2a36;
+}
+
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:var(--soft);
+  color:var(--text);
+}
+
+.hero-transfer{
+  min-height:60vh;
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+}
+
+.hero-transfer img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+}
+
+.hero-transfer::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(rgba(6,43,79,0.30), rgba(6,43,79,0.88));
+  z-index:1;
+}
+
+.hero-content{
+  position:relative;
+  z-index:2;
+  padding:30px;
+}
+
+.hero-content p{
+  color:var(--gold);
+  letter-spacing:4px;
+  text-transform:uppercase;
+  font-size:12px;
+}
+
+.hero-content h1{
+  font-family:Georgia, serif;
+  font-size:46px;
+  font-weight:400;
+  margin:0;
+}
+
+.gold-line{
+  width:80px;
+  height:2px;
+  background:var(--gold);
+  margin:25px auto;
+}
+
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:50px 20px;
+}
+
+.notice{
+  background:var(--blue);
+  color:white;
+  border-radius:24px;
+  padding:30px;
+  margin-top:-85px;
+  position:relative;
+  z-index:3;
+  text-align:center;
+  box-shadow:0 14px 35px rgba(0,0,0,0.18);
+}
+
+.notice span{
+  color:var(--gold);
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.notice p{
+  line-height:1.7;
+}
+
+.form-box{
+  background:white;
+  border-radius:24px;
+  padding:38px;
+  margin-top:45px;
+  box-shadow:0 10px 28px rgba(0,0,0,0.07);
+  border:1px solid #e8e8e8;
+}
+
+.form-box h2{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:32px;
+  font-weight:400;
+  margin-top:0;
+}
+
+.form-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:22px;
+}
+
+.form-group{
+  display:flex;
+  flex-direction:column;
+}
+
+.full{
+  grid-column:1 / -1;
+}
+
+label{
+  font-size:13px;
+  margin-bottom:8px;
+  color:var(--blue);
+  font-weight:bold;
+}
+
+input, select, textarea{
+  padding:14px;
+  border:1px solid #ddd;
+  border-radius:12px;
+  font-size:15px;
+  font-family:Arial, sans-serif;
+}
+
+textarea{
+  min-height:120px;
+  resize:vertical;
+}
+
+button{
+  margin-top:30px;
+  width:100%;
+  padding:16px;
+  border:none;
+  border-radius:30px;
+  background:var(--gold);
+  color:white;
+  font-size:15px;
+  font-weight:bold;
+  cursor:pointer;
+  letter-spacing:1px;
+}
+
+button:hover{
+  background:var(--blue);
+}
+
+.back{
+  display:inline-block;
+  margin-top:35px;
+  color:var(--gold);
+  text-decoration:none;
+  font-weight:bold;
+}
+
+footer{
+  background:var(--blue);
+  color:white;
+  text-align:center;
+  padding:28px;
+  font-size:14px;
+}
+
+@media(max-width:700px){
+  .hero-content h1{
+    font-size:34px;
+  }
+
+  .form-grid{
+    grid-template-columns:1fr;
+  }
+
+  .notice{
+    margin-top:-55px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero-transfer">
+  <img src="images/transfer.jpg" alt="Private airport transfer">
+
+  <div class="hero-content">
+    <p>Guest Services</p>
+    <h1>Private Airport Transfer</h1>
+    <div class="gold-line"></div>
+    <p>Request Form</p>
+  </div>
+</section>
+
+<div class="container">
+
+  <div class="notice">
+    <span>Important Information</span>
+    <p>
+      Please allow up to <strong>24 hours</strong> for confirmation.
+      For urgent requests, contact reception directly by pressing <strong>9</strong> from your room.
+    </p>
+  </div>
+
+  <div class="form-box">
+    <h2>Transfer Request</h2>
+
+    <form action="https://formspree.io/f/YOUR_FORMSPREE_CODE" method="POST">
+
+      <div class="form-grid">
+
+        <div class="form-group">
+          <label>Guest Name</label>
+          <input type="text" name="Guest Name" required>
+        </div>
+
+        <div class="form-group">
+          <label>Room Number</label>
+          <input type="text" name="Room Number">
+        </div>
+
+        <div class="form-group">
+          <label>Email for Confirmation</label>
+          <input type="email" name="Guest Email" required>
+        </div>
+
+        <div class="form-group">
+          <label>Phone Number</label>
+          <input type="tel" name="Phone Number">
+        </div>
+
+        <div class="form-group">
+          <label>Transfer Type</label>
+          <select name="Transfer Type" required>
+            <option value="">Select an option</option>
+            <option>One Way</option>
+            <option>Return / Two Way</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Direction</label>
+          <select name="Direction" required>
+            <option value="">Select an option</option>
+            <option>Airport to Hotel</option>
+            <option>Hotel to Airport</option>
+            <option>Both Directions</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Vehicle Preference</label>
+          <select name="Vehicle Preference" required>
+            <option value="">Select an option</option>
+            <option>Standard Car</option>
+            <option>Premium Car</option>
+            <option>Van / Minibus</option>
+            <option>Luxury Vehicle</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Number of Passengers</label>
+          <input type="number" name="Passengers" min="1" required>
+        </div>
+
+        <div class="form-group">
+          <label>Arrival / Pick-up Date</label>
+          <input type="date" name="Pick-up Date" required>
+        </div>
+
+        <div class="form-group">
+          <label>Arrival / Pick-up Time</label>
+          <input type="time" name="Pick-up Time" required>
+        </div>
+
+        <div class="form-group">
+          <label>Flight Number</label>
+          <input type="text" name="Flight Number">
+        </div>
+
+        <div class="form-group">
+          <label>Luggage Pieces</label>
+          <input type="number" name="Luggage Pieces" min="0">
+        </div>
+
+        <div class="form-group full">
+          <label>Additional Notes</label>
+          <textarea name="Additional Notes" placeholder="Baby seat, special assistance, return transfer details, preferred vehicle, etc."></textarea>
+        </div>
+
+      </div>
+
+      <button type="submit">Send Transfer Request</button>
+
+    </form>
+  </div>
+
+  <a class="back" href="reception.html">← Back to Guest Services</a>
+
+</div>
+
+<footer>
+  Hotel Royal Marina Suites Boutique Lanzarote
+</footer>
+
+</body>
+</html>
