@@ -1,60 +1,211 @@
+<style>
+  .facilities-section {
+    padding: 90px 6%;
+    background: linear-gradient(180deg, #f8f6f1 0%, #ffffff 100%);
+  }
+
+  .section-title {
+    text-align: center;
+    max-width: 760px;
+    margin: 0 auto 55px;
+  }
+
+  .section-title span {
+    display: inline-block;
+    margin-bottom: 12px;
+    font-size: 0.78rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #b89b5e;
+    font-weight: 600;
+  }
+
+  .section-title h2 {
+    font-family: Georgia, serif;
+    font-size: clamp(2rem, 4vw, 3.4rem);
+    color: #0b2f4a;
+    margin-bottom: 18px;
+    font-weight: 400;
+  }
+
+  .section-title p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #5f6f7a;
+  }
+
+  .facilities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .facility-card {
+    background: #ffffff;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 18px 45px rgba(11, 47, 74, 0.12);
+    border: 1px solid rgba(184, 155, 94, 0.22);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+  }
+
+  .facility-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 28px 60px rgba(11, 47, 74, 0.18);
+  }
+
+  .facility-card.large,
+  .facility-card.wide {
+    grid-column: span 2;
+  }
+
+  .facility-image {
+    height: 260px;
+    overflow: hidden;
+  }
+
+  .facility-card.large .facility-image,
+  .facility-card.wide .facility-image {
+    height: 320px;
+  }
+
+  .facility-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.45s ease;
+  }
+
+  .facility-card:hover img {
+    transform: scale(1.06);
+  }
+
+  .facility-content {
+    padding: 28px;
+  }
+
+  .facility-content span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 0.72rem;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #b89b5e;
+    font-weight: 600;
+  }
+
+  .facility-content h3 {
+    font-family: Georgia, serif;
+    font-size: 1.55rem;
+    color: #0b2f4a;
+    margin-bottom: 12px;
+    font-weight: 400;
+  }
+
+  .facility-content p {
+    color: #5f6f7a;
+    line-height: 1.75;
+    font-size: 0.95rem;
+  }
+
+  .facility-content .hours {
+    margin-top: 14px;
+    color: #0b2f4a;
+    font-weight: 600;
+    border-top: 1px solid rgba(184, 155, 94, 0.28);
+    padding-top: 14px;
+  }
+
+  @media (max-width: 900px) {
+    .facilities-section {
+      padding: 70px 5%;
+    }
+
+    .facilities-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .facility-card.large,
+    .facility-card.wide {
+      grid-column: span 1;
+    }
+
+    .facility-image,
+    .facility-card.large .facility-image,
+    .facility-card.wide .facility-image {
+      height: 240px;
+    }
+  }
+</style>
+
 <section class="facilities-section">
 
   <div class="section-title">
     <span>Facilities & Wellness</span>
     <h2>Relax, Refresh & Enjoy</h2>
     <p>
-      Discover the spaces designed to make your stay at Hotel Royal Marina Suites Boutique
-      feel calm, comfortable and effortlessly enjoyable.
+      Discover calm, refined spaces designed for effortless comfort, poolside
+      relaxation and moments of wellbeing at Hotel Royal Marina Suites Boutique.
     </p>
   </div>
 
   <div class="facilities-grid">
 
     <div class="facility-card large">
-      <img src="images/heated-pool.jpeg" alt="Climatized Swimming Pool">
+      <div class="facility-image">
+        <img src="images/heated-pool.jpeg" alt="Climatized Swimming Pool">
+      </div>
       <div class="facility-content">
         <span>Outdoor Relaxation</span>
         <h3>Climatized Swimming Pool</h3>
         <p>
-          Enjoy our heated outdoor pool throughout the year, the perfect place
-          to relax and soak up the Lanzarote sunshine.
+          Enjoy our heated outdoor pool throughout the year, surrounded by the
+          peaceful atmosphere of Puerto Calero and the Lanzarote sunshine.
         </p>
       </div>
     </div>
 
     <div class="facility-card">
-      <img src="images/jacuzzi.jpeg" alt="Jacuzzi">
+      <div class="facility-image">
+        <img src="images/jacuzzi.jpeg" alt="Jacuzzi">
+      </div>
       <div class="facility-content">
         <span>Wellness</span>
         <h3>Jacuzzi</h3>
         <p>
-          Relax and unwind in our jacuzzi, designed to offer a peaceful and
-          rejuvenating wellness experience.
+          Unwind in our jacuzzi, a quiet corner designed for relaxation, comfort
+          and a soothing wellness experience.
         </p>
       </div>
     </div>
 
     <div class="facility-card">
-      <img src="images/pool-bar.jpeg" alt="Pool Bar">
+      <div class="facility-image">
+        <img src="images/pool-bar.jpeg" alt="Pool Bar">
+      </div>
       <div class="facility-content">
         <span>Poolside Service</span>
         <h3>Pool Bar</h3>
         <p>
-          Enjoy refreshing drinks, cocktails, coffee and light snacks beside
-          the pool in a relaxed atmosphere.
+          Enjoy cocktails, coffee, refreshing drinks and light snacks beside the
+          pool in an elegant, relaxed setting.
         </p>
       </div>
     </div>
 
     <div class="facility-card wide">
-      <img src="images/gym.jpeg" alt="Fitness Centre">
+      <div class="facility-image">
+        <img src="images/gym.jpeg" alt="Fitness Centre">
+      </div>
       <div class="facility-content">
         <span>Fitness</span>
         <h3>Fitness Centre</h3>
         <p>
-          Our fully equipped gym helps you maintain your workout routine during
-          your stay.
+          Maintain your workout routine in our fully equipped fitness centre,
+          created for comfort and convenience during your stay.
         </p>
         <p class="hours">Opening Hours: 08:00 – 20:00</p>
       </div>
