@@ -1,259 +1,596 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="https://unpkg.com/lucide@latest"></script>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Breakfast in Your Suite</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    body{
-      margin:0;
-      font-family: Arial, sans-serif;
-      background:#f8f6f1;
-      color:#0b2f4a;
-    }
+<title>Breakfast in Your Suite | Hotel Royal Marina Suites Boutique</title>
 
-    .hero{
-      height:55vh;
-      background:
-        linear-gradient(rgba(11,47,74,.35), rgba(11,47,74,.45)),
-        url("images/breakfast-suite.jpg") center/cover no-repeat;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      text-align:center;
-      color:white;
-      padding:0 6%;
-    }
+<style>
 
-    .hero-content{
-      max-width:800px;
-    }
+:root{
+  --blue:#062b4f;
+  --gold:#c9a45c;
+  --white:#ffffff;
+  --soft:#f5f8fa;
+  --text:#24313d;
+}
 
-    .hero span{
-      color:#d8bf7a;
-      letter-spacing:3px;
-      text-transform:uppercase;
-      font-size:.8rem;
-      font-weight:600;
-    }
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
 
-    .hero h1{
-      font-family:Georgia, serif;
-      font-size:clamp(2.4rem, 5vw, 4.5rem);
-      font-weight:400;
-      margin:18px 0;
-    }
+body{
+  font-family:Arial,sans-serif;
+  background:var(--soft);
+  color:var(--text);
+}
 
-    .hero p{
-      font-size:1.05rem;
-      line-height:1.8;
-      max-width:650px;
-      margin:0 auto;
-    }
+.hero{
 
-    .suite-section{
-      padding:70px 6%;
-      max-width:1100px;
-      margin:auto;
-    }
+  position:relative;
+  height:60vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  overflow:hidden;
+  color:white;
 
-    .intro-box{
-      background:white;
-      border-radius:22px;
-      padding:36px;
-      text-align:center;
-      box-shadow:0 14px 35px rgba(0,0,0,.06);
-      border:1px solid rgba(184,155,94,.25);
-      margin-bottom:35px;
-    }
+}
 
-    .intro-box h2{
-      font-family:Georgia, serif;
-      font-size:2rem;
-      font-weight:400;
-      margin-bottom:15px;
-    }
+.hero img{
 
-    .intro-box p{
-      color:#5f6f7a;
-      line-height:1.8;
-      max-width:760px;
-      margin:0 auto;
-    }
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
 
-    .info-grid{
-      display:grid;
-      grid-template-columns:repeat(3, 1fr);
-      gap:22px;
-      margin-top:30px;
-    }
+}
 
-    .info-card{
-      background:white;
-      padding:30px 26px;
-      border-radius:20px;
-      box-shadow:0 12px 28px rgba(0,0,0,.05);
-      border:1px solid rgba(184,155,94,.22);
-    }
+.hero::before{
 
-    .info-card span{
-      display:inline-block;
-      font-size:1.8rem;
-      margin-bottom:12px;
-      color:#b89b5e;
-    }
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(6,43,79,.55);
 
-    .info-card h3{
-      font-family:Georgia, serif;
-      font-size:1.35rem;
-      font-weight:400;
-      margin-bottom:12px;
-    }
+}
 
-    .info-card p{
-      color:#5f6f7a;
-      line-height:1.7;
-      margin:0;
-      font-size:.96rem;
-    }
+.hero-content{
 
-    .request-box{
-      margin-top:40px;
-      background:#0b2f4a;
-      color:white;
-      border-radius:24px;
-      padding:38px;
-      text-align:center;
-    }
+  position:relative;
+  z-index:2;
+  padding:20px;
+  max-width:750px;
 
-    .request-box h2{
-      font-family:Georgia, serif;
-      font-weight:400;
-      font-size:2rem;
-      margin-bottom:15px;
-    }
+}
 
-    .request-box p{
-      color:#d7e0e6;
-      line-height:1.8;
-      max-width:760px;
-      margin:0 auto 25px;
-    }
+.hero-content span{
 
-    .btn{
-      display:inline-block;
-      padding:13px 30px;
-      background:#b89b5e;
-      color:white;
-      text-decoration:none;
-      border-radius:40px;
-      font-weight:600;
-      transition:.3s ease;
-    }
+  color:var(--gold);
+  letter-spacing:4px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
 
-    .btn:hover{
-      background:white;
-      color:#0b2f4a;
-      transform:translateY(-2px);
-    }
+}
 
-    .back-link{
-      display:inline-block;
-      margin-top:35px;
-      color:#0b2f4a;
-      text-decoration:none;
-      font-weight:600;
-    }
+.hero-content h1{
 
-    .back-link:hover{
-      color:#b89b5e;
-    }
+  margin:18px 0;
+  font-family:Georgia,serif;
+  font-size:52px;
+  font-weight:400;
 
-    @media(max-width:850px){
-      .info-grid{
-        grid-template-columns:1fr;
-      }
+}
 
-      .hero{
-        height:50vh;
-      }
+.hero-content p{
 
-      .suite-section{
-        padding:50px 6%;
-      }
-    }
-  </style>
+  line-height:1.8;
+  font-size:17px;
+
+}
+
+.container{
+
+  max-width:1150px;
+  margin:auto;
+  padding:70px 20px;
+
+}
+
+.intro{
+
+  text-align:center;
+  max-width:760px;
+  margin:0 auto 50px;
+
+}
+
+.intro h2{
+
+  color:var(--blue);
+  font-family:Georgia,serif;
+  font-size:36px;
+  font-weight:400;
+  margin-bottom:18px;
+
+}
+
+.intro p{
+
+  line-height:1.8;
+
+}
+
+.cards{
+
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:25px;
+  margin-bottom:60px;
+
+}
+
+.card{
+
+  background:white;
+  padding:35px;
+  border-radius:22px;
+  box-shadow:0 10px 28px rgba(0,0,0,.06);
+  border:1px solid #ececec;
+
+}
+
+.card-icon{
+
+    width:68px;
+    height:68px;
+    margin-bottom:24px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border:1px solid rgba(201,164,92,.35);
+    border-radius:50%;
+
+    color:var(--gold);
+
+}
+
+.card-icon svg{
+
+    width:30px;
+    height:30px;
+    stroke-width:1.6;
+
+}
+
+.card h3{
+
+  color:var(--blue);
+  font-family:Georgia,serif;
+  font-size:26px;
+  font-weight:400;
+  margin-bottom:15px;
+
+}
+
+.card p{
+
+  line-height:1.8;
+
+}
+
+.form-section{
+
+  background:white;
+  padding:50px;
+  border-radius:28px;
+  box-shadow:0 10px 28px rgba(0,0,0,.07);
+
+}
+
+.form-section h2{
+
+  text-align:center;
+  color:var(--blue);
+  font-family:Georgia,serif;
+  font-size:38px;
+  font-weight:400;
+  margin-bottom:12px;
+
+}
+
+.form-section>p{
+
+  text-align:center;
+  max-width:700px;
+  margin:auto auto 40px;
+  line-height:1.8;
+
+}
+
+.form-grid{
+
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;
+
+}
+
+label{
+
+  display:block;
+  color:var(--blue);
+  margin-bottom:8px;
+  font-weight:bold;
+
+}
+
+input,
+select,
+textarea{
+
+  width:100%;
+  padding:14px;
+  border-radius:14px;
+  border:1px solid #d9d9d9;
+  font-size:15px;
+  margin-bottom:20px;
+  font-family:inherit;
+
+}
+
+textarea{
+
+  resize:vertical;
+
+}
+
+.notice{
+
+  background:#faf8f3;
+  border-left:5px solid var(--gold);
+  padding:25px;
+  border-radius:18px;
+  margin:25px 0 35px;
+
+}
+
+.notice h3{
+
+  color:var(--blue);
+  font-family:Georgia,serif;
+  font-weight:400;
+  margin-bottom:10px;
+
+}
+
+.notice p{
+
+  line-height:1.8;
+
+}
+
+.submit{
+
+  display:block;
+  margin:auto;
+  background:var(--gold);
+  color:white;
+  border:none;
+  padding:16px 42px;
+  border-radius:40px;
+  font-size:16px;
+  cursor:pointer;
+  transition:.3s;
+
+}
+
+.submit:hover{
+
+  background:var(--blue);
+
+}
+
+.back{
+
+  display:inline-block;
+  margin-top:40px;
+  color:var(--gold);
+  text-decoration:none;
+  font-weight:bold;
+
+}
+
+footer{
+
+  background:var(--blue);
+  color:white;
+  text-align:center;
+  padding:28px;
+  margin-top:70px;
+
+}
+
+@media(max-width:800px){
+
+.hero{
+
+height:50vh;
+
+}
+
+.hero-content h1{
+
+font-size:38px;
+
+}
+
+.form-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.form-section{
+
+padding:30px 25px;
+
+}
+
+}
+
+</style>
+
 </head>
 
 <body>
 
-  <section class="hero">
-    <div class="hero-content">
-      <span>Suite Breakfast Service</span>
-      <h1>Enjoy Breakfast in Your Suite</h1>
-      <p>
-        Start your morning in the privacy and comfort of your suite with our breakfast service.
-      </p>
-    </div>
-  </section>
+<section class="hero">
 
-  <section class="suite-section">
+<img src="../images/breakfast-suite.jpg" alt="Breakfast in your Suite">
 
-    <div class="intro-box">
-      <h2>A Private Morning Experience</h2>
-      <p>
-        For guests who prefer a relaxed and private start to the day, breakfast can be served
-        directly in your suite upon request.
-      </p>
-    </div>
+<div class="hero-content">
 
-    <div class="info-grid">
+<span>Exclusive Service</span>
 
-      <div class="info-card">
-        <span>€</span>
-        <h3>Service Charge</h3>
-        <p>
-          This service has a charge of <strong>€10</strong>, which will be added directly
-          to your room account.
-        </p>
-      </div>
+<h1>Breakfast in Your Suite</h1>
 
-      <div class="info-card">
-        <span>✓</span>
-        <h3>How to Request</h3>
-        <p>
-          Please request this service the day before, either at Reception or by completing
-          the online request form.
-        </p>
-      </div>
+<p>
 
-      <div class="info-card">
-        <span>☕</span>
-        <h3>Product Availability</h3>
-        <p>
-          Some items, especially fresh or freshly baked products such as pastries, may depend
-          on the availability of the day.
-        </p>
-      </div>
+Enjoy a relaxed morning in complete privacy while we bring breakfast directly to your suite.
 
+</p>
+
+</div>
+
+</section>
+
+<div class="container">
+
+<div class="intro">
+
+<h2>A Luxurious Way to Start the Day</h2>
+
+<p>
+
+If you prefer to enjoy breakfast from the comfort of your suite, we will be delighted to prepare it for you. This exclusive service allows you to experience a slower and more private morning overlooking the beautiful surroundings of Royal Marina Suites Boutique.
+
+</p>
+
+</div>
+
+<div class="cards">
+
+  <div class="card">
+
+    <div class="card-icon">
+      <i data-lucide="wallet"></i>
     </div>
 
-    <div class="request-box">
-      <h2>Request Breakfast in Your Suite</h2>
-      <p>
-        Complete the form below and our Reception team will review your request.
-        Please remember that requests should be made the day before the service.
-      </p>
+    <h3>Service Charge</h3>
 
-      <a href="AQUI-PEGA-EL-LINK-DEL-FORMULARIO" target="_blank" class="btn">
-        Fill in the Form →
-      </a>
+    <p>
+      Breakfast served in your suite has a service charge of
+      <strong>€10 per room</strong>, which will be added directly to your room account.
+    </p>
+
+  </div>
+
+  <div class="card">
+
+    <div class="card-icon">
+      <i data-lucide="bell-concierge"></i>
     </div>
 
-    <a href="breakfast.html" class="back-link">← Back to Breakfast</a>
+    <h3>How to Request</h3>
 
-  </section>
+    <p>
+      Please submit your request no later than the day before your preferred breakfast,
+      either by completing the form below or by visiting Reception.
+    </p>
 
+  </div>
+
+  <div class="card">
+
+    <div class="card-icon">
+      <i data-lucide="croissant"></i>
+    </div>
+
+    <h3>Fresh Products</h3>
+
+    <p>
+      Fresh fruit, pastries, artisan bread and some hot dishes are subject to daily
+      availability. Our team will always do their very best to accommodate your preferences.
+    </p>
+
+  </div>
+
+</div>
+
+<div class="form-section">
+
+<h2>Breakfast Request</h2>
+
+<p>
+
+Complete the following form and our Reception team will prepare your breakfast request.
+
+</p>
+
+<form action="https://formspree.io/f/TU_ENDPOINT" method="POST">
+
+<div class="form-grid">
+
+  <div>
+    <label>Room Number</label>
+    <input type="text" name="room_number" required>
+  </div>
+
+  <div>
+    <label>Guest Name</label>
+    <input type="text" name="guest_name" required>
+  </div>
+
+  <div>
+    <label>Date</label>
+    <input type="date" name="date" required>
+  </div>
+
+  <div>
+    <label>Preferred Delivery Time</label>
+    <input type="time" name="delivery_time" required>
+  </div>
+
+</div>
+
+<label>Eggs</label>
+<select name="eggs">
+  <option value="">None</option>
+  <option>Omelette</option>
+  <option>Fried Eggs</option>
+  <option>Poached Eggs</option>
+  <option>Boiled Eggs</option>
+  <option>Soft-Boiled Eggs</option>
+</select>
+
+<label>Sandwich or Toast</label>
+<select name="sandwich">
+  <option value="">None</option>
+  <option>Croque Monsieur</option>
+  <option>Royal Marina Sandwich</option>
+  <option>Vegetarian Sandwich</option>
+  <option>Toast of the Day</option>
+  <option>French Toast</option>
+</select>
+
+<label>Coffee</label>
+<select name="coffee">
+  <option value="">None</option>
+  <option>Espresso</option>
+  <option>Double Espresso</option>
+  <option>Americano</option>
+  <option>Cappuccino</option>
+  <option>Latte</option>
+  <option>Flat White</option>
+  <option>Macchiato</option>
+  <option>Decaffeinated Coffee</option>
+</select>
+
+<label>Tea or Other Drinks</label>
+<select name="drinks">
+  <option value="">None</option>
+  <option>Tea</option>
+  <option>Herbal Infusion</option>
+  <option>Hot Chocolate</option>
+  <option>Cola Cao</option>
+  <option>Fresh Orange Juice</option>
+</select>
+
+<label>Milk Preference</label>
+<select name="milk">
+  <option>Whole Milk</option>
+  <option>Skimmed Milk</option>
+  <option>Oat Milk</option>
+  <option>Soy Milk</option>
+  <option>Almond Milk</option>
+  <option>No Milk</option>
+</select>
+
+<label>Fruit Preference</label>
+<input
+  type="text"
+  name="fruit"
+  placeholder="Please specify your preferred fruit (subject to availability)">
+
+<label>Bread or Pastry Preference</label>
+<input
+  type="text"
+  name="bread"
+  placeholder="Please specify your preferred bread or pastry (subject to availability)">
+
+<label>Additional Requests</label>
+<textarea
+  name="extras"
+  rows="5"
+  placeholder="Would you like to add, remove or modify anything from your breakfast?"></textarea>
+
+<label>Allergies or Dietary Requirements</label>
+<textarea
+  name="allergies"
+  rows="4"
+  placeholder="Please let us know about any allergies or dietary requirements."></textarea>
+
+<div class="notice">
+
+<h3>Please Note</h3>
+
+<p>
+
+• Breakfast in your suite has a service charge of <strong>€10</strong>, which will be charged directly to your room account.
+
+<br><br>
+
+• Requests must be submitted <strong>the day before</strong> the requested service.
+
+<br><br>
+
+• Fresh fruit, pastries, bread and some freshly prepared items are subject to daily availability. While we will always do our best to accommodate your preferences, certain products may occasionally be unavailable.
+
+</p>
+
+</div>
+
+<button type="submit" class="submit">
+Request Breakfast in Your Suite
+</button>
+
+</form>
+
+<a href="breakfast.html" class="back">
+← Back to Breakfast
+</a>
+
+</div>
+
+</div>
+
+<footer>
+Hotel Royal Marina Suites Boutique Lanzarote
+</footer>
+
+  <script>
+lucide.createIcons();
+</script>
 </body>
 </html>
+  
