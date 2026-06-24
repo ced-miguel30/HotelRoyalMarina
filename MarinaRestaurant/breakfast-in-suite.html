@@ -1,1 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Breakfast in Your Suite</title>
 
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background:#f8f6f1;
+      color:#0b2f4a;
+    }
+
+    .hero{
+      height:55vh;
+      background:
+        linear-gradient(rgba(11,47,74,.35), rgba(11,47,74,.45)),
+        url("images/breakfast-suite.jpg") center/cover no-repeat;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      color:white;
+      padding:0 6%;
+    }
+
+    .hero-content{
+      max-width:800px;
+    }
+
+    .hero span{
+      color:#d8bf7a;
+      letter-spacing:3px;
+      text-transform:uppercase;
+      font-size:.8rem;
+      font-weight:600;
+    }
+
+    .hero h1{
+      font-family:Georgia, serif;
+      font-size:clamp(2.4rem, 5vw, 4.5rem);
+      font-weight:400;
+      margin:18px 0;
+    }
+
+    .hero p{
+      font-size:1.05rem;
+      line-height:1.8;
+      max-width:650px;
+      margin:0 auto;
+    }
+
+    .suite-section{
+      padding:70px 6%;
+      max-width:1100px;
+      margin:auto;
+    }
+
+    .intro-box{
+      background:white;
+      border-radius:22px;
+      padding:36px;
+      text-align:center;
+      box-shadow:0 14px 35px rgba(0,0,0,.06);
+      border:1px solid rgba(184,155,94,.25);
+      margin-bottom:35px;
+    }
+
+    .intro-box h2{
+      font-family:Georgia, serif;
+      font-size:2rem;
+      font-weight:400;
+      margin-bottom:15px;
+    }
+
+    .intro-box p{
+      color:#5f6f7a;
+      line-height:1.8;
+      max-width:760px;
+      margin:0 auto;
+    }
+
+    .info-grid{
+      display:grid;
+      grid-template-columns:repeat(3, 1fr);
+      gap:22px;
+      margin-top:30px;
+    }
+
+    .info-card{
+      background:white;
+      padding:30px 26px;
+      border-radius:20px;
+      box-shadow:0 12px 28px rgba(0,0,0,.05);
+      border:1px solid rgba(184,155,94,.22);
+    }
+
+    .info-card span{
+      display:inline-block;
+      font-size:1.8rem;
+      margin-bottom:12px;
+      color:#b89b5e;
+    }
+
+    .info-card h3{
+      font-family:Georgia, serif;
+      font-size:1.35rem;
+      font-weight:400;
+      margin-bottom:12px;
+    }
+
+    .info-card p{
+      color:#5f6f7a;
+      line-height:1.7;
+      margin:0;
+      font-size:.96rem;
+    }
+
+    .request-box{
+      margin-top:40px;
+      background:#0b2f4a;
+      color:white;
+      border-radius:24px;
+      padding:38px;
+      text-align:center;
+    }
+
+    .request-box h2{
+      font-family:Georgia, serif;
+      font-weight:400;
+      font-size:2rem;
+      margin-bottom:15px;
+    }
+
+    .request-box p{
+      color:#d7e0e6;
+      line-height:1.8;
+      max-width:760px;
+      margin:0 auto 25px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:13px 30px;
+      background:#b89b5e;
+      color:white;
+      text-decoration:none;
+      border-radius:40px;
+      font-weight:600;
+      transition:.3s ease;
+    }
+
+    .btn:hover{
+      background:white;
+      color:#0b2f4a;
+      transform:translateY(-2px);
+    }
+
+    .back-link{
+      display:inline-block;
+      margin-top:35px;
+      color:#0b2f4a;
+      text-decoration:none;
+      font-weight:600;
+    }
+
+    .back-link:hover{
+      color:#b89b5e;
+    }
+
+    @media(max-width:850px){
+      .info-grid{
+        grid-template-columns:1fr;
+      }
+
+      .hero{
+        height:50vh;
+      }
+
+      .suite-section{
+        padding:50px 6%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="hero-content">
+      <span>Suite Breakfast Service</span>
+      <h1>Enjoy Breakfast in Your Suite</h1>
+      <p>
+        Start your morning in the privacy and comfort of your suite with our breakfast service.
+      </p>
+    </div>
+  </section>
+
+  <section class="suite-section">
+
+    <div class="intro-box">
+      <h2>A Private Morning Experience</h2>
+      <p>
+        For guests who prefer a relaxed and private start to the day, breakfast can be served
+        directly in your suite upon request.
+      </p>
+    </div>
+
+    <div class="info-grid">
+
+      <div class="info-card">
+        <span>€</span>
+        <h3>Service Charge</h3>
+        <p>
+          This service has a charge of <strong>€10</strong>, which will be added directly
+          to your room account.
+        </p>
+      </div>
+
+      <div class="info-card">
+        <span>✓</span>
+        <h3>How to Request</h3>
+        <p>
+          Please request this service the day before, either at Reception or by completing
+          the online request form.
+        </p>
+      </div>
+
+      <div class="info-card">
+        <span>☕</span>
+        <h3>Product Availability</h3>
+        <p>
+          Some items, especially fresh or freshly baked products such as pastries, may depend
+          on the availability of the day.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="request-box">
+      <h2>Request Breakfast in Your Suite</h2>
+      <p>
+        Complete the form below and our Reception team will review your request.
+        Please remember that requests should be made the day before the service.
+      </p>
+
+      <a href="AQUI-PEGA-EL-LINK-DEL-FORMULARIO" target="_blank" class="btn">
+        Fill in the Form →
+      </a>
+    </div>
+
+    <a href="breakfast.html" class="back-link">← Back to Breakfast</a>
+
+  </section>
+
+</body>
+</html>
