@@ -79,7 +79,7 @@ body{
 }
 
 .container{
-  max-width:900px;
+  max-width:950px;
   margin:auto;
   padding:50px 20px;
 }
@@ -106,6 +106,55 @@ body{
 
 .notice p{
   line-height:1.7;
+  margin-bottom:0;
+}
+
+.transfer-options{
+  background:white;
+  border-radius:24px;
+  padding:32px;
+  margin-top:45px;
+  box-shadow:0 10px 28px rgba(0,0,0,0.07);
+  border:1px solid #e8e8e8;
+}
+
+.transfer-options h2,
+.form-box h2{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:32px;
+  font-weight:400;
+  margin-top:0;
+}
+
+.option-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:22px;
+}
+
+.option-card{
+  border:1px solid #e6e6e6;
+  border-radius:18px;
+  padding:24px;
+  background:#fbfbfb;
+}
+
+.option-card h3{
+  color:var(--blue);
+  margin-top:0;
+}
+
+.price{
+  color:var(--gold);
+  font-weight:bold;
+  font-size:18px;
+}
+
+.small-text{
+  font-size:14px;
+  line-height:1.7;
+  color:#5f6f7a;
 }
 
 .form-box{
@@ -115,14 +164,6 @@ body{
   margin-top:45px;
   box-shadow:0 10px 28px rgba(0,0,0,0.07);
   border:1px solid #e8e8e8;
-}
-
-.form-box h2{
-  font-family:Georgia, serif;
-  color:var(--blue);
-  font-size:32px;
-  font-weight:400;
-  margin-top:0;
 }
 
 .form-grid{
@@ -158,6 +199,21 @@ input, select, textarea{
 textarea{
   min-height:120px;
   resize:vertical;
+}
+
+.hidden{
+  display:none;
+}
+
+.warning-box{
+  background:#fff8eb;
+  border:1px solid #ead6a7;
+  color:#5c4a21;
+  border-radius:18px;
+  padding:20px;
+  line-height:1.7;
+  margin-top:28px;
+  font-size:14px;
 }
 
 button{
@@ -199,12 +255,18 @@ footer{
     font-size:34px;
   }
 
-  .form-grid{
+  .form-grid,
+  .option-grid{
     grid-template-columns:1fr;
   }
 
   .notice{
     margin-top:-55px;
+  }
+
+  .form-box,
+  .transfer-options{
+    padding:28px;
   }
 }
 </style>
@@ -233,6 +295,33 @@ footer{
     </p>
   </div>
 
+  <div class="transfer-options">
+    <h2>Transfer Options</h2>
+
+    <div class="option-grid">
+      <div class="option-card">
+        <h3>Option 1</h3>
+        <p class="price">€45 per way / €90 round trip</p>
+        <p class="small-text">Mercedes E-Class or Luxury Volvo S90.</p>
+      </div>
+
+      <div class="option-card">
+        <h3>Option 2</h3>
+        <p class="price">€85 per way / €170 round trip</p>
+        <p class="small-text">Mercedes S350.</p>
+      </div>
+    </div>
+
+    <div class="warning-box">
+      A driver will be waiting upon arrival with a personalised sign.
+      For airport arrivals, there is an additional <strong>€15 supplement</strong>, including flight monitoring,
+      up to 1 hour waiting time after landing, and rescheduling in case of delay or early arrival.
+      <br><br>
+      <strong>Cancellation policy:</strong> cancellations made less than 24 hours before the service will incur 100%
+      of the total fare, including the supplement.
+    </div>
+  </div>
+
   <div class="form-box">
     <h2>Transfer Request</h2>
 
@@ -241,13 +330,8 @@ footer{
       <div class="form-grid">
 
         <div class="form-group">
-          <label>Guest Name</label>
-          <input type="text" name="Guest Name" required>
-        </div>
-
-        <div class="form-group">
-          <label>Room Number</label>
-          <input type="text" name="Room Number">
+          <label>Passenger Name</label>
+          <input type="text" name="Passenger Name" required>
         </div>
 
         <div class="form-group">
@@ -256,68 +340,91 @@ footer{
         </div>
 
         <div class="form-group">
+          <label>Mobile Name</label>
+          <input type="text" name="Mobile Name" placeholder="Name linked to the phone number">
+        </div>
+
+        <div class="form-group">
           <label>Phone Number</label>
-          <input type="tel" name="Phone Number">
-        </div>
-
-        <div class="form-group">
-          <label>Transfer Type</label>
-          <select name="Transfer Type" required>
-            <option value="">Select an option</option>
-            <option>One Way</option>
-            <option>Return / Two Way</option>
-          </select>
-        </div>
-
-        <div class="form-group">
-          <label>Direction</label>
-          <select name="Direction" required>
-            <option value="">Select an option</option>
-            <option>Airport to Hotel</option>
-            <option>Hotel to Airport</option>
-            <option>Both Directions</option>
-          </select>
-        </div>
-
-        <div class="form-group">
-          <label>Vehicle Preference</label>
-          <select name="Vehicle Preference" required>
-            <option value="">Select an option</option>
-            <option>Standard Car</option>
-            <option>Premium Car</option>
-            <option>Van / Minibus</option>
-            <option>Luxury Vehicle</option>
-          </select>
+          <input type="tel" name="Phone Number" required>
         </div>
 
         <div class="form-group">
           <label>Number of Passengers</label>
-          <input type="number" name="Passengers" min="1" required>
+          <input type="number" name="Number of Passengers" min="1" required>
         </div>
 
         <div class="form-group">
-          <label>Arrival / Pick-up Date</label>
-          <input type="date" name="Pick-up Date" required>
+          <label>Number and Size of Suitcases</label>
+          <input type="text" name="Suitcases" placeholder="Example: 2 large, 1 cabin" required>
         </div>
 
         <div class="form-group">
-          <label>Arrival / Pick-up Time</label>
-          <input type="time" name="Pick-up Time" required>
+          <label>Transfer Option</label>
+          <select name="Transfer Option" required>
+            <option value="">Select an option</option>
+            <option>Option 1 - Mercedes E-Class / Volvo S90</option>
+            <option>Option 2 - Mercedes S350</option>
+          </select>
         </div>
 
         <div class="form-group">
-          <label>Flight Number</label>
-          <input type="text" name="Flight Number">
+          <label>Transfer Type</label>
+          <select id="transferType" name="Transfer Type" required>
+            <option value="">Select an option</option>
+            <option value="arrival">Airport to Hotel only</option>
+            <option value="departure">Hotel to Airport only</option>
+            <option value="roundtrip">Round Trip - Airport to Hotel and Hotel to Airport</option>
+          </select>
         </div>
 
         <div class="form-group">
-          <label>Luggage Pieces</label>
-          <input type="number" name="Luggage Pieces" min="0">
+          <label>Payment Method</label>
+          <select name="Payment Method" required>
+            <option value="">Select an option</option>
+            <option>Credit Card</option>
+            <option>Cash</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Room Number</label>
+          <input type="text" name="Room Number">
+        </div>
+
+        <div class="form-group arrival-field">
+          <label>Arrival Date</label>
+          <input type="date" name="Arrival Date">
+        </div>
+
+        <div class="form-group arrival-field">
+          <label>Flight Arrival Time</label>
+          <input type="time" name="Flight Arrival Time">
+        </div>
+
+        <div class="form-group arrival-field">
+          <label>Arrival Flight Number</label>
+          <input type="text" name="Arrival Flight Number">
+        </div>
+
+        <div class="form-group departure-field">
+          <label>Departure Date</label>
+          <input type="date" name="Departure Date">
+        </div>
+
+        <div class="form-group departure-field">
+          <label>Departure Flight Number</label>
+          <input type="text" name="Departure Flight Number">
+        </div>
+
+        <div class="form-group departure-field">
+          <label>Pick-up Time from the Hotel</label>
+          <input type="time" name="Hotel Pick-up Time">
         </div>
 
         <div class="form-group full">
           <label>Additional Notes</label>
-          <textarea name="Additional Notes" placeholder="Baby seat, special assistance, return transfer details, preferred vehicle, etc."></textarea>
+          <textarea name="Additional Notes" placeholder="Baby seat, special assistance, extra luggage, preferred details, etc."></textarea>
         </div>
 
       </div>
@@ -334,6 +441,29 @@ footer{
 <footer>
   Hotel Royal Marina Suites Boutique Lanzarote
 </footer>
+
+<script>
+const transferType = document.getElementById("transferType");
+const arrivalFields = document.querySelectorAll(".arrival-field");
+const departureFields = document.querySelectorAll(".departure-field");
+
+function updateTransferFields(){
+  const type = transferType.value;
+
+  arrivalFields.forEach(field => {
+    field.classList.toggle("hidden", type === "departure" || type === "");
+    field.querySelector("input").required = type === "arrival" || type === "roundtrip";
+  });
+
+  departureFields.forEach(field => {
+    field.classList.toggle("hidden", type === "arrival" || type === "");
+    field.querySelector("input").required = type === "departure" || type === "roundtrip";
+  });
+}
+
+transferType.addEventListener("change", updateTransferFields);
+updateTransferFields();
+</script>
 
 </body>
 </html>
