@@ -1,0 +1,975 @@
+{
+  "marinaRestaurant": {
+    "shared": {
+      "footer": "Hotel Royal Marina Suites Lanzarote",
+      "brandLabel": "Marina Real Suites",
+      "marinaRestaurantLabel": "Restaurante Marina",
+      "backToHome": "← Volver a Inicio",
+      "backToRestaurant": "← Volver a Restaurante Marina",
+      "backToBreakfast": "← Volver a Desayuno",
+      "allergenTitle": "Información sobre alérgenos",
+      "pleaseNoteTitle": "tenga en cuenta",
+      "houseWine": "Vino de casa",
+      "localKm0Wine": "Vino Local Km 0",
+      "cava": "cava",
+      "piperHeidsieck": "Piper-Heidsieck Brut/Rosado",
+      "reservationRequired": "Se requiere reserva"
+    },
+    "restaurant": {
+      "pageTitle": "Restaurante Puerto Deportivo | Hotel Royal Marina Suites Boutique",
+      "hero": {
+        "imageAlt": "Restaurante Marina",
+        "title": "Restaurante Marina",
+        "subtitle": "Cenas, bebidas y experiencias seleccionadas"
+      },
+      "intro": {
+        "title": "Restaurante y bar",
+        "text": "Descubra nuestro servicio de desayuno, bar en la piscina, snacks, opciones de cenas frías en la suite y experiencias gastronómicas especiales en Hotel Royal Marina Suites Boutique Lanzarote."
+      },
+      "cards": {
+        "breakfast": {
+          "time": "07:30 - 10:30",
+          "imageAlt": "Desayuno",
+          "title": "Desayuno",
+          "description": "Comienza tu día con nuestra selección de desayunos a la carta.",
+          "button": "Ver Desayuno →"
+        },
+        "snacks": {
+          "time": "12:00 - 15:30",
+          "imageAlt": "Meriendas y almuerzo",
+          "title": "Aperitivos y almuerzo",
+          "description": "Platos ligeros, ensaladas, especialidades, mariscos y postres.",
+          "button": "Ver bocadillos →"
+        },
+        "poolBar": {
+          "time": "12:00 - 19:00",
+          "imageAlt": "Bar en la piscina",
+          "title": "Bar en la piscina",
+          "description": "Refrescos, cócteles, vino, cerveza, café y refrescos.",
+          "button": "Ver bebidas →"
+        },
+        "coldDinner": {
+          "time": "Haz tu pedido antes de las 15:00",
+          "imageAlt": "Cena fría",
+          "title": "Cena Fría en Suite",
+          "description": "Opciones seleccionadas de cena fría servidas en su suite bajo reserva.",
+          "button": "Ver Cena Fría →"
+        },
+        "bbqNight": {
+          "time": "todos los viernes",
+          "imageAlt": "Noche de parrillada",
+          "title": "Noche de parrilla",
+          "description": "Una experiencia nocturna especial disponible bajo reserva.",
+          "button": "Descubre más →"
+        }
+      },
+      "allergen": {
+        "text": "Algunos platos pueden contener alérgenos o trazas de alérgenos. Por favor informe a nuestro equipo de cualquier alergia o requerimiento dietético."
+      }
+    },
+    "breakfast": {
+      "pageTitle": "Desayuno | Hotel Royal Marina Suites Boutique",
+      "hero": {
+        "imageAlt": "Desayuno en Royal Marina Suites",
+        "title": "Desayuno"
+      },
+      "intro": {
+        "title": "Nuestra experiencia matutina",
+        "text": "Comience el día con una refinada selección de desayuno a la carta, preparado con ingredientes frescos y servido en el ambiente relajado del Hotel Royal Marina Suites Boutique Lanzarote."
+      },
+      "timeBox": {
+        "label": "Servicio de Desayuno",
+        "hours": "Todos los días de 07:30 a 10:30"
+      },
+      "suiteBox": {
+        "title": "Disfrute del desayuno en su suite",
+        "text": "¿Prefieres una mañana más privada? Disfrute de su desayuno desde la comodidad de su suite. Este servicio exclusivo se puede solicitar con antelación y es la forma perfecta de empezar el día a tu propio ritmo.",
+        "button": "Descubre el Servicio →"
+      },
+      "categories": {
+        "eggs": "Huevos",
+        "sandwiches": "Sándwiches",
+        "toasts": "Brindis",
+        "beverages": "Bebidas"
+      },
+      "items": {
+        "omeletteOfYourChoice": "Tortilla de tu elección",
+        "friedEggs": "huevos fritos",
+        "poachedEggs": "huevos escalfados",
+        "boiledEggs": "huevos duros",
+        "softBoiledEggs": "Huevos pasados ​​por agua",
+        "croqueMonsieur": "Croque Monsieur",
+        "croqueMonsieurDesc": "Pan blanco o integral, jamón cocido y queso.",
+        "royalMarinaSandwich": "Sándwich Marina Real",
+        "royalMarinaSandwichDesc": "Pan blanco o integral, tomate fresco, jamón ibérico y queso fresco de la zona.",
+        "vegetarianSandwich": "Sándwich Vegetariano",
+        "vegetarianSandwichDesc": "Pan blanco o integral, huevos revueltos con espinacas.",
+        "toastOfTheDay": "Brindis del día",
+        "toastOfTheDayDesc": "Pregunte a nuestro equipo por la selección de hoy.",
+        "frenchToast": "tostada francesa",
+        "frenchToastDesc": "Servido con mantequilla y fruta de temporada.",
+        "illyCoffee": "Café Illy",
+        "illyCoffeeDesc": "Preparado a tu preferencia.",
+        "freshOrangeJuice": "Jugo de naranja recién exprimido",
+        "milkSelection": "Selección de leche",
+        "milkSelectionDesc": "Leche entera, desnatada, de avena, de almendras o de soja.",
+        "teaHerbalInfusions": "Té e infusiones de hierbas",
+        "hotChocolate": "Chocolate caliente",
+        "colaCao": "cola cao"
+      },
+      "feature": {
+        "imageAlt": "Detalle del desayuno",
+        "title": "Preparado a tu gusto",
+        "text": "Si lo desea, puede modificar o combinar nuestras opciones de desayuno caliente. Por favor informe a nuestro equipo y estaremos encantados de atenderle."
+      },
+      "allergen": {
+        "text": "Los platos elaborados en este establecimiento pueden contener alérgenos o trazas de alérgenos. Si es alérgico a algún alimento, informe a nuestro equipo. La información sobre alérgenos para cada plato está disponible previa solicitud."
+      }
+    },
+    "breakfastInSuite": {
+      "pageTitle": "Desayuno en su suite | Hotel Royal Marina Suites Boutique",
+      "hero": {
+        "imageAlt": "Desayuno en tu Suite",
+        "label": "Servicio exclusivo",
+        "title": "Desayuno en tu suite",
+        "text": "Disfrute de una mañana relajada en total privacidad mientras le llevamos el desayuno directamente a su suite."
+      },
+      "intro": {
+        "title": "Una forma lujosa de empezar el día",
+        "text": "Si prefieres disfrutar del desayuno desde la comodidad de tu suite, estaremos encantados de preparártelo. Este servicio exclusivo le permite vivir una mañana más tranquila y privada con vistas al hermoso entorno de Royal Marina Suites Boutique."
+      },
+      "cards": {
+        "serviceCharge": {
+          "title": "Cargo por servicio",
+          "text": "El desayuno servido en su suite tiene un cargo de servicio de <strong>€20 por habitación</strong>, que se agregará directamente a la cuenta de su habitación."
+        },
+        "howToRequest": {
+          "title": "Cómo solicitar",
+          "text": "Envíe su solicitud a más tardar el día anterior a su desayuno preferido, ya sea completando el formulario a continuación o visitando la Recepción."
+        },
+        "freshProducts": {
+          "title": "Productos frescos",
+          "text": "Fruta fresca, bollería, pan artesanal y algunos platos calientes están sujetos a disponibilidad diaria. Nuestro equipo siempre hará todo lo posible para adaptarse a sus preferencias."
+        }
+      },
+      "form": {
+        "title": "Solicitud de desayuno",
+        "intro": "Complete el siguiente formulario y nuestro equipo de Recepción preparará su solicitud de desayuno.",
+        "labels": {
+          "roomNumber": "Número de habitación",
+          "guestName": "Nombre del invitado",
+          "date": "Fecha",
+          "deliveryTime": "Hora de entrega preferida",
+          "eggs": "Huevos",
+          "sandwichOrToast": "Sándwich o Tostada",
+          "coffee": "Café",
+          "teaOrDrinks": "Té u otras bebidas",
+          "milkPreference": "Preferencia de leche",
+          "fruitPreference": "Preferencia de frutas",
+          "breadPreference": "Preferencia de pan o pastelería",
+          "additionalRequests": "Solicitudes adicionales",
+          "allergies": "Alergias o requisitos dietéticos"
+        },
+        "placeholders": {
+          "fruit": "Por favor especifica tu fruta preferida (sujeto a disponibilidad)",
+          "bread": "Por favor especifica tu pan o bollería preferida (sujeto a disponibilidad)",
+          "extras": "¿Quieres añadir, quitar o modificar algo de tu desayuno?",
+          "allergies": "Infórmenos sobre cualquier alergia o requisito dietético."
+        },
+        "options": {
+          "none": "Ninguno",
+          "omelette": "Tortilla",
+          "friedEggs": "huevos fritos",
+          "poachedEggs": "huevos escalfados",
+          "boiledEggs": "huevos duros",
+          "softBoiledEggs": "Huevos pasados ​​por agua",
+          "croqueMonsieur": "Croque Monsieur",
+          "royalMarinaSandwich": "Sándwich Marina Real",
+          "vegetarianSandwich": "Sándwich Vegetariano",
+          "toastOfTheDay": "Brindis del día",
+          "frenchToast": "tostada francesa",
+          "espresso": "Café exprés",
+          "doubleEspresso": "Café expreso doble",
+          "americano": "americano",
+          "cappuccino": "Capuchino",
+          "latte": "café con leche",
+          "flatWhite": "Blanco plano",
+          "macchiato": "macchiato",
+          "decaffeinatedCoffee": "Café descafeinado",
+          "tea": "Té",
+          "herbalInfusion": "Infusión de hierbas",
+          "hotChocolate": "Chocolate caliente",
+          "colaCao": "cola cao",
+          "freshOrangeJuice": "Jugo de naranja fresco",
+          "wholeMilk": "leche entera",
+          "skimmedMilk": "Leche desnatada",
+          "oatMilk": "leche de avena",
+          "soyMilk": "leche de soja",
+          "almondMilk": "Leche De Almendras",
+          "noMilk": "sin leche"
+        },
+        "notice": {
+          "title": "Tenga en cuenta",
+          "text": "• El desayuno en su suite tiene un cargo por servicio de <strong>€10</strong>, que se cargará directamente a la cuenta de su habitación.<br><br>• Las solicitudes deben presentarse <strong>el día anterior</strong> al servicio solicitado.<br><br>• La fruta fresca, la bollería, el pan y algunos productos recién preparados están sujetos a disponibilidad diaria. Si bien siempre haremos todo lo posible para adaptarnos a sus preferencias, es posible que en ocasiones determinados productos no estén disponibles."
+        },
+        "submit": "Solicite Desayuno en Su Suite"
+      }
+    },
+    "poolBar": {
+      "pageTitle": "Bar en la piscina | Hotel Royal Marina Suites Boutique",
+      "hero": {
+        "imageAlt": "Bar en la piscina en Royal Marina Suites",
+        "title": "Bar en la piscina",
+        "hours": "12:00 - 19:00"
+      },
+      "intro": {
+        "title": "Bebidas junto a la piscina",
+        "text": "Disfrute de cócteles, vinos, cervezas, licores, batidos, café y refrescos en un ambiente relajado junto a la piscina en el Hotel Royal Marina Suites Boutique Lanzarote."
+      },
+      "serviceStrip": {
+        "poolBar": {
+          "label": "Servicio de bar en la piscina",
+          "title": "Todos los días de 12:00 a 19:00",
+          "text": "Bebidas refrescantes y servicio de piscina durante toda la tarde."
+        },
+        "signature": {
+          "label": "Momento característico",
+          "title": "Sol, Mar y Cócteles",
+          "text": "Descubre nuestra selección de cócteles y disfruta de una bebida relajada junto al agua."
+        }
+      },
+      "nav": {
+        "title": "Menú",
+        "cocktails": "Cócteles",
+        "wine": "Vino y champán",
+        "beer": "Cerveza",
+        "spirits": "Espíritu",
+        "hotDrinks": "Bebidas Calientes",
+        "smoothies": "batidos",
+        "softDrinks": "Refrescos"
+      },
+      "sections": {
+        "cocktails": "Cócteles",
+        "wine": "Vino y champán",
+        "beer": "Cerveza",
+        "spirits": "Licores y Aperitivos",
+        "hotDrinks": "Bebidas Calientes",
+        "smoothies": "Batidos y jugos",
+        "softDrinks": "Refrescos"
+      },
+      "items": {
+        "cocktailOfTheDay": "Cóctel del día",
+        "caipirinha": "Caipirinha",
+        "pinaColada": "piña colada",
+        "royalMarina": "Puerto deportivo real",
+        "sexOnTheBeach": "Sexo en la playa",
+        "mojito": "Mojito",
+        "daiquiri": "Daiquirí",
+        "margarita": "Margarita",
+        "aperolSpritz": "Aperol Spritz",
+        "glassOfSangria": "Copa de sangría",
+        "sangriaHalfL": "Sangría 1/2L",
+        "cavaSangriaHalfL": "Cava Sangría 1/2L",
+        "glassOfWine": "copa de vino",
+        "montecilloCrianza": "Montecillo Crianza D.O. la Rioja",
+        "ederraRueda": "Ederra D.O. ruedas",
+        "elGrifo": "El Grifo D.O. Lanzarote",
+        "montecilloReserva": "Montecillo Reserva D.O. la Rioja",
+        "annaCodorniuMini": "Anna Codorníu Mini",
+        "codorniuPrimaVides": "Codorníu Prima Vides",
+        "piperHeidsieckBrut": "Piper Heidsieck Cuvée Brut",
+        "piperHeidsieckRose": "Piper Heidsieck Cuvée Rosado",
+        "estrellaGaliciaMini": "Estrella Galicia Mini",
+        "estrellaGaliciaZero": "Estrella Galicia 0%",
+        "heineken": "Heineken",
+        "estrellaDamm": "Estrella Damm",
+        "doradaEspecial": "Dorada Especial",
+        "coronita": "coronita",
+        "cervezaNao": "Cerveza Nao",
+        "smallNaoDraft": "Cerveza de Barril Nao Pequeña",
+        "largeNaoDraft": "Cerveza de barril Nao grande",
+        "beefeater": "Alabardero de la Torre de Londres",
+        "gordons": "gordon",
+        "tanqueray": "tanqueray",
+        "nordes": "Nordés",
+        "martinMillers": "Martín Miller",
+        "jackDaniels": "Jack Daniel's",
+        "johnnieWalkerRed": "Johnnie Walker Rojo",
+        "tequilaGold": "Tequila Oro",
+        "aperol": "Aperol",
+        "campari": "Campari",
+        "martiniRosso": "Martini Rosso",
+        "martiniBianco": "martini blanco",
+        "martiniDry": "Martini seco",
+        "baileys": "Baileys",
+        "ronMiel": "Ron Miel",
+        "amaretto": "Amaretto",
+        "tiaMaria": "Tía María",
+        "magno": "magno",
+        "carlosI": "carlos yo",
+        "absolut": "Absoluto",
+        "greyGoose": "Ganso gris",
+        "smirnoff": "Smirnoff",
+        "sambuca": "Sambuca",
+        "jagermeister": "Jägermeister",
+        "espresso": "Café exprés",
+        "americano": "americano",
+        "latte": "café con leche",
+        "cappuccino": "Capuchino",
+        "irishCoffee": "café irlandés",
+        "baileysCoffee": "Café Baileys",
+        "teaSelection": "Selección de té",
+        "hotChocolate": "Chocolate caliente",
+        "hotChocolateWithCream": "Chocolate Caliente con Crema",
+        "colaCao": "cola cao",
+        "orangeJuice": "Zumo de naranja",
+        "lanzaroteSmoothie": "Batido de Lanzarote",
+        "mediterraneanSmoothie": "Batido mediterráneo",
+        "forestFruitsSmoothie": "Batido De Frutas Del Bosque",
+        "stillWater": "Agua sin gas",
+        "sparklingWater": "Agua con gas",
+        "cocaCola": "Coca-cola",
+        "cocaColaZero": "Coca-Cola Cero",
+        "fantaOrange": "fanta naranja",
+        "fantaLemon": "fanta limon",
+        "sprite": "Duende",
+        "royalBlissTonic": "Tónico de dicha real",
+        "nestea": "Nestea"
+      },
+      "feature": {
+        "imageAlt": "Cóctel junto a la piscina",
+        "label": "Selección junto a la piscina",
+        "title": "Diseñado para tardes tranquilas bajo el sol de Lanzarote",
+        "text": "Desde cócteles clásicos hasta vinos locales y refrescantes batidos, nuestro Pool Bar está diseñado para momentos relajados entre la piscina, la terraza y la brisa del Atlántico."
+      },
+      "notice": {
+        "text": "La disponibilidad puede variar según el horario de servicio y el stock. Pregunte a nuestro equipo de Pool Bar por las recomendaciones de hoy."
+      }
+    },
+    "snacks": {
+      "pageTitle": "Refrigerios y almuerzo | Hotel Royal Marina Suites Boutique",
+      "hero": {
+        "imageAlt": "Aperitivos y almuerzo en Royal Marina Suites",
+        "title": "Aperitivos y almuerzo",
+        "hours": "12:00 - 15:30"
+      },
+      "intro": {
+        "title": "Bocadillos ligeros junto al puerto deportivo",
+        "text": "Disfrute de una relajada selección de ensaladas frescas, sabores isleños, mariscos, especialidades de la casa y acabados dulces al mediodía, servidos en el elegante ambiente del Restaurante Marina."
+      },
+      "timePanel": {
+        "label": "Servicio de almuerzo",
+        "hours": "Todos los días de 12:00 a 15:30"
+      },
+      "nav": {
+        "starters": "Entrantes",
+        "specialities": "Especialidades",
+        "fish": "Pescados y Mariscos",
+        "desserts": "Postres"
+      },
+      "sections": {
+        "starters": "Entrantes y Ensaladas",
+        "specialities": "Especialidades de la casa",
+        "fish": "Pescados y Mariscos",
+        "desserts": "Postres"
+      },
+      "items": {
+        "goatCheeseSalad": "Ensalada De Queso De Cabra Y Fresas",
+        "goatCheeseSaladDesc": "Lechugas mixtas, queso de cabra, nueces, vinagreta de fresa, miel, vinagre de Módena y aceite de oliva virgen extra.",
+        "caesarSalad": "Ensalada Cesar",
+        "caesarSaladDesc": "Pollo empanizado, tocino crujiente, tomates cherry, virutas de parmesano y picatostes de pan crujiente.",
+        "nachosGuacamole": "Nachos con guacamole",
+        "nachosGuacamoleDesc": "Aguacate, tomate, cebolla morada, lima, cilantro, salsa tabasco y sal.",
+        "avocadoTomatoHamSalad": "Ensalada de aguacate, tomate y jamón ibérico",
+        "iberianHamCroquettes": "Croquetas Caseras De Jamón Ibérico",
+        "iberianHamCroquettesDesc": "Seis piezas elaboradas con jamón ibérico, huevo, cebolla, pimienta negra, harina de trigo y leche.",
+        "canarianPotatoes": "Patatas Arrugadas Canarias",
+        "canarianPotatoesDesc": "Servido con salsa mojo tradicional de la isla.",
+        "pokeBowl": "Poke Bowl",
+        "pokeBowlDesc": "Salmón ahumado, edamame, zanahoria, pepino, mango, arroz basmati, rábano, lima y aceite de oliva virgen extra.",
+        "clubSandwich": "Sándwich Club",
+        "clubSandwichDesc": "Pollo, bacon, huevo, tomate, queso, cebolla crujiente, tomillo, mayonesa, pan de molde y mantequilla.",
+        "baoBunTeriyaki": "Bao Bun con Teriyaki",
+        "baoBunTeriyakiDesc": "Bao bun con semillas de sésamo, pechuga de pollo, cebolla, salsa teriyaki, salsa de soja y aceite de oliva virgen extra.",
+        "breezeBurger": "Hamburguesa Brisa",
+        "breezeBurgerDesc": "Pan brioche, ternera, aguacate, queso de cabra, tocino, cebolla, lechuga, salsa brava y aceite de oliva. Servido con papas fritas.",
+        "grilledVegetables": "Verduras Asadas",
+        "brokenEggsHam": "Huevos Rotos con Jamón Ibérico",
+        "codTempura": "Bacalao en Tempura",
+        "garlicPrawns": "Gambas Al Ajillo",
+        "friedCalamari": "Calamares fritos",
+        "prawnCocktail": "Cóctel de gambas",
+        "prawnCocktailDesc": "Lechuga, piña fresca, aguacate, langostinos y salsa cóctel.",
+        "salmonTartare": "Tartar De Salmón Con Aguacate",
+        "crispyKingPrawn": "Gambón Crujiente",
+        "crispyKingPrawnDesc": "Servido con curry y salsa de mango.",
+        "artisanIceCream": "Helado Artesanal",
+        "artisanIceCreamDesc": "Selección de diferentes sabores.",
+        "brownieIceCream": "Brownie con Helado",
+        "cheesecakeBlueberries": "Tarta de queso con arándanos",
+        "cheesecakeBlueberriesDesc": "Servido con helado de vainilla."
+      },
+      "signature": {
+        "imageAlt": "Detalle del almuerzo",
+        "label": "Selección Marina Real",
+        "title": "Fresco, relajado y hecho para las tardes soleadas.",
+        "text": "Nuestra carta de snacks y almuerzos ha sido diseñada para momentos sin esfuerzo junto a la piscina, con ingredientes frescos, toques locales y ligeros sabores mediterráneos."
+      },
+      "allergen": {
+        "text": "Los platos elaborados en este establecimiento pueden contener alérgenos o trazas de alérgenos. Si es alérgico a algún alimento, informe a nuestro equipo. La información sobre alérgenos para cada plato está disponible previa solicitud."
+      }
+    },
+    "coldDinner": {
+      "pageTitle": "Cena Fría en Suite | Hotel Royal Marina Suites Boutique",
+      "hero": {
+        "imageAlt": "Cena Fría en Suite",
+        "label": "Comedor en suite privada",
+        "title": "Cena Fría en Suite",
+        "subtitle": "Bajo reserva antes de las 15:00"
+      },
+      "reservation": {
+        "title": "Haz tu pedido antes de las 15:00",
+        "text": "Las selecciones de cena fría se sirven en su suite y deben reservarse antes de las 15:00 en la recepción o en el restaurante Marina."
+      },
+      "intro": {
+        "title": "Una velada en la privacidad de su suite",
+        "text": "Disfrute de una refinada experiencia de cena fría diseñada para veladas relajadas, celebraciones privadas o noches tranquilas en su suite."
+      },
+      "dishes": {
+        "smokedSalmonNachos": {
+          "title": "Salmón Ahumado y Nachos",
+          "description": "Salmón ahumado servido con nachos y una selección de diferentes salsas."
+        },
+        "caesarSaladTwo": {
+          "title": "Ensalada César para dos",
+          "description": "Una opción de ensalada César fresca preparada para dos comensales."
+        },
+        "canarianCheeses": {
+          "title": "Selección de Quesos Canarios",
+          "description": "Una cuidada selección de quesos canarios, ideal para una velada relajada en suite."
+        },
+        "iberianCanarian": {
+          "title": "Selección Ibéricos y Quesos Canarios",
+          "description": "Surtidos de ibéricos maridados con una selección de quesos canarios."
+        }
+      },
+      "experience": {
+        "label": "Experiencia en la suite",
+        "title": "Diseñado para privacidad, comodidad y noches tranquilas.",
+        "text": "Nuestras opciones de cenas frías son ideales para huéspedes que deseen disfrutar de una velada relajada en la intimidad de su suite, maridadas con vino, cava o champagne.",
+        "imageAlt": "Experiencia de cena privada"
+      },
+      "notice": {
+        "text": "El servicio de cena fría está disponible únicamente bajo reserva. Por favor haga su pedido antes de las 15:00 en recepción o Restaurante Marina."
+      }
+    },
+    "bbqNight": {
+      "pageTitle": "Noche de parrilla | Hotel Royal Marina Suites Boutique",
+      "hero": {
+        "imageAlt": "Noche de parrillada",
+        "label": "Experiencia del viernes por la noche",
+        "title": "Noche de parrilla",
+        "subtitle": "Todos los viernes · Bajo Reserva"
+      },
+      "reservation": {
+        "title": "Todos los viernes por la noche",
+        "text": "La Noche de Parrilla está disponible bajo reserva. Como nuestros productos son frescos, pueden ser posibles excepciones ocasionales dependiendo de la disponibilidad del producto."
+      },
+      "intro": {
+        "title": "Una velada especial junto al puerto deportivo",
+        "text": "Disfrute de una experiencia de parrilla curada preparada para una relajada noche de viernes. Los huéspedes podrán elegir entre opción de verdura, pescado o carne, sujeto a disponibilidad."
+      },
+      "options": {
+        "vegetable": {
+          "imageAlt": "Opción de parrilla de verduras",
+          "label": "Opción uno",
+          "title": "Parrilla de verduras",
+          "description": "Una opción de parrillada vegetariana fresca diseñada en torno a verduras de temporada y sabores mediterráneos."
+        },
+        "fish": {
+          "imageAlt": "Opción de parrillada de pescado",
+          "label": "Opción dos",
+          "title": "Parrilla de pescado",
+          "description": "Una selección de pescado fresco preparado a la parrilla, ideal para una cena más ligera inspirada en la isla."
+        },
+        "meat": {
+          "imageAlt": "Opción de parrillada de carne",
+          "label": "Opción tres",
+          "title": "parrilla de carne",
+          "description": "Una opción clásica de carne a la parrilla preparada para los huéspedes que prefieren una experiencia gastronómica más rica los viernes por la noche."
+        }
+      },
+      "experience": {
+        "imageAlt": "Experiencia nocturna a la parrilla",
+        "label": "Restaurante Marina",
+        "title": "Una experiencia exclusiva de parrillada los viernes",
+        "text": "Diseñado como una experiencia gastronómica relajada por la noche, Grill Night reúne ingredientes frescos, un servicio cálido y la atmósfera de Royal Marina Suites Boutique."
+      },
+      "notice": {
+        "text": "Se recomienda reservar con antelación. La disponibilidad puede depender del suministro de productos frescos, especialmente para las selecciones de pescado y carne. Póngase en contacto con la recepción o con el restaurante Marina para confirmarlo."
+      }
+    }
+  },
+  "about": {
+    "pageTitle": "Nuestra Historia | Hotel Royal Marina Suites Boutique",
+    "hero": {
+      "subtitle": "Hotel boutique de propiedad familiar",
+      "title": "Nuestra historia",
+      "tagline": "Lujo · Servicio · Lanzarote",
+      "imageAlt": "Hotel Royal Marina Suites Boutique"
+    },
+    "story": {
+      "label": "Bienvenido",
+      "title": "Hotel Royal Marina Suites Boutique",
+      "paragraph1": "Hotel Royal Marina Suites Boutique nace con una visión simple: aunar la exclusividad, la tranquilidad y la belleza natural de Lanzarote con la calidez de una genuina hospitalidad.",
+      "paragraph2": "Como hotel familiar, creemos que el lujo no sólo se encuentra en un hermoso entorno, sino también en un servicio de calidad, atención al detalle, limpieza y cuidado personal. Nuestro objetivo es crear una estancia tranquila y memorable para cada huésped que nos elige.",
+      "paragraph3": "Ubicado en el elegante puerto deportivo de Puerto Calero, nuestro hotel ofrece un refugio tranquilo donde los huéspedes pueden relajarse, explorar la isla y disfrutar del ambiente único que hace que Lanzarote sea tan especial."
+    },
+    "team": {
+      "sectionLabel": "Conozca a nuestro equipo",
+      "sectionTitle": "La gente detrás de tu estancia",
+      "owners": {
+        "label": "Fundadores y propietarios",
+        "name": "susana y miguel",
+        "role": "La visión detrás de Royal Marina Suites Boutique",
+        "paragraph1": "Hotel Royal Marina Suites Boutique es el resultado de la visión y dedicación de Susana y Miguel. Originarios de Gran Canaria y del sur de España respectivamente, han llamado a Lanzarote su hogar durante más de tres décadas.",
+        "paragraph2": "Su sueño era crear un hotel que reflejara la elegancia, la tranquilidad y el carácter de la isla conservando la calidez de un negocio familiar.",
+        "paragraph3": "Aunque el inglés no es su lengua materna, siempre están encantados de saludar a los huéspedes, compartir una sonrisa y, siempre que sea posible, tener una conversación sobre la isla que aman.",
+        "imageAlt": "susana y miguel"
+      },
+      "carmen": {
+        "label": "Gerente de Departamento",
+        "name": "carmen rodriguez",
+        "description": "Carmen supervisa el flujo de trabajo diario del hotel, asegurándose de que todos los departamentos trabajen juntos sin problemas y que los huéspedes reciban la calidad y el servicio que merecen.",
+        "imageAlt": "carmen rodriguez"
+      },
+      "esmeralda": {
+        "label": "Jefe de Recursos Humanos",
+        "name": "Esmeralda Acosta",
+        "description": "Aunque los invitados no suelen conocer a Esmeralda, su papel es esencial. Ella apoya al equipo detrás de escena y ayuda a crear el entorno de trabajo que permite que se brinde un servicio excelente todos los días.",
+        "imageAlt": "Esmeralda Acosta"
+      },
+      "jose": {
+        "label": "Gerente de Recepción",
+        "name": "José Pimienta",
+        "description": "José dirige el equipo de recepción y ayuda a garantizar que cada huésped se sienta bienvenido, informado y atendido desde su llegada hasta su salida.",
+        "imageAlt": "José Pimienta"
+      },
+      "monica": {
+        "label": "Gerente de restaurante",
+        "name": "Mónica Rodríguez",
+        "description": "Mónica supervisa el restaurante Marina y ayuda a crear una experiencia gastronómica relajada con un servicio atento, organización y atención al detalle.",
+        "imageAlt": "Mónica Rodríguez"
+      },
+      "antimo": {
+        "label": "jefe de mantenimiento",
+        "name": "Antonio Valiente",
+        "description": "Antímo ayuda a mantener la comodidad, seguridad y apariencia del hotel, asegurando que las instalaciones permanezcan en excelentes condiciones para cada huésped.",
+        "imageAlt": "Antonio Valiente"
+      }
+    },
+    "commitment": {
+      "label": "Un compromiso compartido",
+      "title": "Hacer que cada estancia se sienta sin esfuerzo",
+      "text": "Cada miembro de nuestro equipo comparte el mismo objetivo: hacer que su estadía en Hotel Royal Marina Suites Boutique sea lo más cómoda, memorable y placentera posible."
+    }
+  },
+  "common": {
+    "backToHome": "← Volver a Inicio",
+    "footer": {
+      "hotelName": "Hotel Royal Marina Suites Lanzarote",
+      "thankYou": "Gracias por elegirnos"
+    },
+    "openInGoogleMaps": "Abrir en Google Maps →",
+    "website": "Sitio web →",
+    "pleaseNote": "tenga en cuenta",
+    "backToGuestServices": "← Volver a Servicios para huéspedes"
+  },
+  "facilities": {
+    "pageTitle": "Instalaciones y Bienestar | Hotel Royal Marina Suites Boutique",
+    "hero": {
+      "subtitle": "Instalaciones y bienestar",
+      "title": "Relájate, refréscate y disfruta",
+      "tagline": "Piscina · Bienestar · Fitness",
+      "imageAlt": "Instalaciones y bienestar"
+    },
+    "section": {
+      "label": "Instalaciones y bienestar",
+      "title": "Relájate, refréscate y disfruta",
+      "intro": "Descubra espacios tranquilos y refinados diseñados para brindar comodidad sin esfuerzo, relajación junto a la piscina y momentos de bienestar en el Hotel Royal Marina Suites Boutique."
+    },
+    "pool": {
+      "label": "Relajación al aire libre",
+      "title": "Piscina Climatizada",
+      "description": "Disfrute durante todo el año de nuestra piscina exterior climatizada, rodeado del tranquilo ambiente de Puerto Calero y del sol de Lanzarote.",
+      "imageAlt": "Piscina Climatizada"
+    },
+    "jacuzzi": {
+      "label": "Bienestar",
+      "title": "Jacuzzi",
+      "description": "Relájate en nuestro jacuzzi, un rincón tranquilo diseñado para la relajación, el confort y una reconfortante experiencia de bienestar.",
+      "imageAlt": "Jacuzzi"
+    },
+    "poolBar": {
+      "label": "Servicio junto a la piscina",
+      "title": "Bar en la piscina",
+      "description": "Disfrute de cócteles, café, bebidas refrescantes y refrigerios junto a la piscina en un ambiente elegante y relajado.",
+      "imageAlt": "Bar en la piscina"
+    },
+    "gym": {
+      "label": "Aptitud física",
+      "title": "Gimnasio",
+      "description": "Mantenga su rutina de ejercicios en nuestro gimnasio totalmente equipado, creado para su comodidad y conveniencia durante su estadía.",
+      "hours": "Horario de apertura: 08:00 – 20:00",
+      "imageAlt": "Gimnasio"
+    }
+  },
+  "guide": {
+    "pageTitle": "Descubre Lanzarote | Hotel Royal Marina Suites Boutique",
+    "hero": {
+      "subtitle": "Guía de conserjería de Royal Marina",
+      "title": "Descubre Lanzarote",
+      "tagline": "Playas · Experiencias · Gastronomía",
+      "imageAlt": "Descubre Lanzarote"
+    },
+    "intro": {
+      "title": "Recomendaciones de islas seleccionadas",
+      "text": "Descubra algunas de las experiencias, playas y destinos gastronómicos más memorables de Lanzarote, cuidadosamente seleccionados para ayudarle a disfrutar de la isla con facilidad."
+    },
+    "experiences": {
+      "sectionLabel": "Experiencias de conserjería",
+      "sectionTitle": "Experiencias isleñas recomendadas",
+      "timanfaya": {
+        "label": "Paisaje Volcánico",
+        "title": "Parque Nacional de Timanfaya",
+        "description": "El paisaje volcánico más emblemático de Lanzarote, conocido por sus espectaculares campos de lava y su paisaje geotérmico único.",
+        "imageAlt": "Parque Nacional de Timanfaya"
+      },
+      "catlanza": {
+        "label": "Experiencia en el océano",
+        "title": "Vela Catlanza",
+        "description": "Una experiencia premium en catamarán por la costa, ideal para nadar, navegar y disfrutar del Atlántico.",
+        "imageAlt": "Experiencia en navegación en Catlanza"
+      },
+      "submarine": {
+        "label": "Puerto Calero",
+        "title": "Safaris submarinos",
+        "description": "Una experiencia submarina única desde Puerto Calero, perfecta para descubrir el mundo marino de Lanzarote.",
+        "imageAlt": "Safaris submarinos"
+      }
+    },
+    "beaches": {
+      "sectionLabel": "Playas",
+      "sectionTitle": "Lo más destacado de la costa de Lanzarote",
+      "famara": {
+        "label": "Costa Salvaje",
+        "title": "famara",
+        "description": "Una espectacular playa rodeada de acantilados, especialmente amada por surfistas, fotógrafos y amantes del atardecer.",
+        "imageAlt": "Playa de Famara"
+      },
+      "papagayo": {
+        "label": "Belleza Natural Protegida",
+        "title": "Papagayo",
+        "description": "Arena dorada, agua turquesa y entorno protegido. Una de las zonas de playa más bonitas de Lanzarote.",
+        "imageAlt": "Playa Papagayo"
+      },
+      "puertoDelCarmen": {
+        "label": "Paseo marítimo y día de playa",
+        "title": "Puerto del Carmen",
+        "description": "Una animada zona costera con playas, tiendas, restaurantes y un bonito paseo marítimo.",
+        "imageAlt": "Playas de Puerto del Carmen"
+      }
+    },
+    "diningNearHotel": {
+      "sectionLabel": "Cenar cerca del hotel",
+      "sectionTitle": "Restaurantes Puerto Calero",
+      "laPortena": {
+        "title": "La Porteña",
+        "description": "Un restaurante argentino y uruguayo en Puerto Calero, reconocido por sus carnes a la parrilla de primera calidad, excelentes vinos y un hermoso entorno deportivo.",
+        "location": "Puerto Deportivo Puerto Calero, Lanzarote →",
+        "imageAlt": "La Porteña"
+      },
+      "sieteGotas": {
+        "title": "Siete Gotas",
+        "description": "Un elegante restaurante mediterráneo con vistas al puerto deportivo de Puerto Calero, que ofrece marisco fresco, carnes de primera calidad y refinada cocina contemporánea.",
+        "location": "Puerto deportivo Puerto Calero, Lanzarote →",
+        "imageAlt": "Siete Gotas"
+      },
+      "laMargarita": {
+        "title": "La Margarita",
+        "description": "Un restaurante tranquilo frente al mar que sirve cocina mediterránea, pescado fresco, tapas y especialidades locales en el corazón del puerto deportivo de Puerto Calero.",
+        "location": "Puerto deportivo Puerto Calero, Lanzarote →",
+        "imageAlt": "La Margarita"
+      }
+    },
+    "diningOutside": {
+      "sectionLabel": "Vale la pena conducir",
+      "sectionTitle": "Restaurantes fuera de Puerto Calero",
+      "brisaMarina": {
+        "title": "Brisa Marina",
+        "description": "Ubicado en Playa Blanca, a unos 25 minutos del hotel, Brisa Marina es uno de los restaurantes de mariscos más famosos de Lanzarote, famoso por su pescado fresco, mariscos y sus espectaculares vistas al mar.",
+        "location": "Paseo Marítimo, Playa Blanca →",
+        "imageAlt": "Brisa Marina"
+      },
+      "bodegaDeUga": {
+        "title": "Bodega de Ugá",
+        "description": "Situado en el pintoresco pueblo de Uga, aproximadamente a 15 minutos del hotel, este elegante restaurante presenta los mejores productos locales y la cocina tradicional canaria en un ambiente rural refinado.",
+        "location": "Carretera LZ-2 Nº6, Uga →",
+        "imageAlt": "Bodega de Ugá"
+      },
+      "casaJoaquin": {
+        "title": "Casa Joaquín",
+        "description": "Ubicada en el pueblo de Soo, aproximadamente a 30 minutos del hotel, Casa Joaquín es un restaurante tradicional canario famoso por sus carnes a la parrilla, recetas locales y un ambiente familiar y acogedor.",
+        "location": "Calle San Juan Evangelista, Soo, Lanzarote →",
+        "imageAlt": "Casa Joaquín"
+      }
+    },
+    "concierge": {
+      "label": "¿Necesita ayuda?",
+      "title": "Nuestro equipo de recepción estará encantado de ayudarle.",
+      "text": "Para reservas en restaurantes, excursiones a islas, viajes en barco o arreglos de transporte,\n      por favor contacta con recepción o pulsa <strong>9</strong> desde tu habitación."
+    }
+  },
+  "hotelInfo": {
+    "pageTitle": "Información para huéspedes | Hotel Royal Marina Suites Boutique",
+    "hero": {
+      "subtitle": "Información del huésped",
+      "title": "Tu Estancia"
+    },
+    "intro": {
+      "title": "Información esencial",
+      "text": "Aquí encontrará los detalles más importantes para su estancia en Hotel Royal Marina Suites Boutique Lanzarote."
+    },
+    "checkIn": {
+      "summary": "Entrada y salida",
+      "checkInTime": "<strong>Registro:</strong> 15:00",
+      "checkOutTime": "<strong>Salida:</strong> 12:00",
+      "lateCheckOutLabel": "<strong>Salida tardía:</strong>",
+      "lateUntil15": "Hasta las 15:00 — <span class=\"highlight\">30€</span>",
+      "lateUntil18": "Hasta las 18:00 — <span class=\"highlight\">50€</span>",
+      "courtesyNote": "Según disponibilidad, se podrá ofrecer una habitación de cortesía. Póngase en contacto con la recepción para obtener ayuda."
+    },
+    "minibar": {
+      "summary": "Política de minibar",
+      "oceanMarina": "<strong>Océano y puerto deportivo:</strong> Botella de agua y dos cápsulas de café illy® premium de cortesía.",
+      "royalSuites": "<strong>Royal Suites:</strong> Una recarga diaria de todas las bebidas, <strong>excluidas las bebidas alcohólicas.</strong>"
+    },
+    "poolTowels": {
+      "summary": "Toallas de piscina",
+      "freeExchange": "<strong>Cambio de toallas gratuito</strong><br>\n        Disponible en Recepción durante toda su estancia.",
+      "howToExchange": "<strong>Cómo intercambiar</strong><br>\n        Por favor traiga su toalla usada a Recepción para recibir una limpia.",
+      "poolPolicy": "<strong>Política de piscina</strong><br>\n        No se permiten toallas externas en el área de la piscina.",
+      "sunbeds": "<strong>Tumbonas</strong><br>\n        No está permitido reservar tumbonas con toallas."
+    },
+    "cleaning": {
+      "summary": "Servicios de limpieza",
+      "policy": "Como parte de nuestra política de sostenibilidad y compromiso medioambiental, las sábanas y toallas se cambian cada 2 días.",
+      "additionalChange": "Si necesita un cambio adicional, háganoslo saber.",
+      "hashtag": "#GREENROYAL"
+    },
+    "housekeeping": {
+      "summary": "Horario de limpieza",
+      "daily": "<strong>Limpieza diaria</strong><br>\n        Nuestro servicio de limpieza está disponible hasta las <strong>3:00 PM.</strong>",
+      "doNotDisturb": "<strong>Señal de No molestar</strong><br>\n        Rogamos a los huéspedes que no dejen el cartel de \"No molestar\" fuera de la habitación después de las <strong>1:30 p.m.</strong>.",
+      "teamNote": "Esto le da a nuestro equipo tiempo suficiente para preparar su habitación maravillosamente cada día."
+    }
+  },
+  "home": {
+    "pageTitle": "Hotel Royal Marina Suites Lanzarote",
+    "hero": {
+      "logo": "Experiencia Boutique · Lanzarote",
+      "title": "Hotel Royal Marina Suites Boutique",
+      "subtitle": "Bienvenido a su guía privada para invitados."
+    },
+    "welcome": {
+      "title": "Bienvenido",
+      "description": "Descubra toda la información esencial para su estadía, desde horarios de desayuno e instalaciones del hotel hasta recomendaciones locales y servicios al huésped."
+    },
+    "cards": {
+      "ourStory": {
+        "title": "Nuestra historia",
+        "description": "Descubra la historia, filosofía y experiencia única de Hotel Royal Marina Suites Boutique.",
+        "button": "Descubre más"
+      },
+      "guestInformation": {
+        "title": "Información del huésped",
+        "description": "Horarios de entrada y salida, políticas, servicios e información útil para los huéspedes.",
+        "button": "Ver detalles"
+      },
+      "facilitiesWellness": {
+        "title": "Instalaciones y bienestar",
+        "description": "Explore nuestra piscina, áreas de bienestar, soláriums y amenidades exclusivas para huéspedes.",
+        "button": "Explorar instalaciones"
+      },
+      "marinaRestaurant": {
+        "title": "Restaurante Marina",
+        "description": "Descubre nuestro restaurante, menús, horarios y experiencias culinarias.",
+        "button": "Ver Restaurante"
+      },
+      "guestServices": {
+        "title": "Servicios para huéspedes",
+        "description": "Descubra nuestros servicios para huéspedes, experiencias seleccionadas e información esencial.",
+        "button": "Contactar con Recepción"
+      },
+      "discoverLanzarote": {
+        "title": "Descubre Lanzarote",
+        "description": "Playas, atracciones, restaurantes y experiencias inolvidables alrededor de la isla.",
+        "button": "Explorar Lanzarote"
+      },
+      "wifiAccess": {
+        "title": "Acceso Wi-Fi",
+        "description": "Conéctese rápidamente a nuestro servicio de Internet de alta velocidad de cortesía.",
+        "button": "Conectar"
+      }
+    },
+    "importantInfo": {
+      "title": "Información importante",
+      "checkIn": "<strong>Registro:</strong> 15:00",
+      "checkOut": "<strong>Salida:</strong> 12:00",
+      "emergency": "<strong>Emergencia:</strong> Póngase en contacto con recepción inmediatamente."
+    }
+  },
+  "reception": {
+    "pageTitle": "Servicios para huéspedes | Hotel Royal Marina Suites Boutique",
+    "hero": {
+      "subtitle": "Marina Real Suites",
+      "title": "Servicios para huéspedes",
+      "tagline": "Recepción · Traslados · Experiencias",
+      "imageAlt": "Servicios para huéspedes"
+    },
+    "receptionBox": {
+      "label": "Recepción 24 horas",
+      "title": "Estamos aquí siempre que nos necesites.",
+      "text": "La recepción está disponible las 24 horas del día. Desde tu habitación, presiona\n      <strong>9</strong> para contactar a nuestro equipo directamente."
+    },
+    "intro": {
+      "title": "Servicios diseñados en torno a su estadía",
+      "text": "Desde traslados privados y alquiler de coches hasta masajes, alquiler de bicicletas y excursiones a la isla, nuestro equipo estará encantado de ayudarle a organizar cada detalle."
+    },
+    "massage": {
+      "label": "Bienestar",
+      "title": "Masajes Terapéuticos Personalizados",
+      "description": "Disfrute de una relajante experiencia de masaje concertada a través de recepción. Pregunte a nuestro equipo por disponibilidad y más detalles.",
+      "imageAlt": "Servicio de masajes"
+    },
+    "transfer": {
+      "label": "Transporte",
+      "title": "Traslado privado al aeropuerto",
+      "description": "Podemos ayudarle a organizar un servicio de traslado privado desde o hacia el aeropuerto. Póngase en contacto con la recepción para obtener ayuda.",
+      "bookLink": "Transferencia de libros →",
+      "imageAlt": "Traslado privado al aeropuerto."
+    },
+    "bike": {
+      "label": "Explorar",
+      "title": "Alquiler de bicicletas",
+      "description": "Descubre el entorno a tu propio ritmo con nuestro servicio de alquiler de bicicletas. Preguntar en recepción disponibilidad.",
+      "imageAlt": "alquiler de bicicletas"
+    },
+    "car": {
+      "label": "Libertad de la isla",
+      "title": "Alquiler de coches",
+      "description": "Explora Lanzarote con mayor flexibilidad a través de nuestro socio de alquiler de coches de confianza.",
+      "bookLink": "Reservar alquiler de coches →",
+      "imageAlt": "Alquiler de coches"
+    },
+    "excursions": {
+      "title": "Excursiones y experiencias en la isla",
+      "intro": "Nuestro equipo de recepción puede ayudarle a organizar excursiones y actividades seleccionadas en la isla.",
+      "firstMinuteTours": "Tours de primer minuto",
+      "waterbus": "autobús acuático",
+      "submarineSafaris": "Safaris submarinos",
+      "canarytrip": "viaje a canarias",
+      "catlanza": "Catlanza"
+    },
+    "notice": {
+      "text": "Todos los servicios están sujetos a disponibilidad. Para masajes, traslados, alquiler de bicicletas y excursiones, comuníquese con recepción para conocer las opciones, horarios y precios actuales."
+    }
+  },
+  "transfer": {
+    "pageTitle": "Solicitud de traslado privado | Hotel Royal Marina Suites Boutique",
+    "hero": {
+      "subtitle": "Servicios para huéspedes",
+      "title": "Traslado privado al aeropuerto",
+      "tagline": "Formulario de solicitud",
+      "imageAlt": "Traslado privado al aeropuerto."
+    },
+    "notice": {
+      "label": "Información importante",
+      "text": "Espere hasta <strong>24 horas</strong> para la confirmación.\n      Para solicitudes urgentes, comuníquese directamente con recepción presionando <strong>9</strong> desde su habitación."
+    },
+    "options": {
+      "title": "Opciones de transferencia",
+      "option1": {
+        "title": "Opción 1",
+        "price": "45€ por trayecto / 90€ ida y vuelta",
+        "description": "Mercedes Clase E o Volvo S90 de lujo."
+      },
+      "option2": {
+        "title": "Opción 2",
+        "price": "85€ por trayecto / 170€ ida y vuelta",
+        "description": "Mercedes S350."
+      },
+      "warning": "Un conductor estará esperando a su llegada con un cartel personalizado.\n      Para llegadas al aeropuerto, hay un suplemento adicional de <strong>€15</strong>, incluido el seguimiento de vuelos,\n      hasta 1 hora de espera después del aterrizaje, y reprogramación en caso de retraso o llegada anticipada.\n      <br><br>\n      <strong>Política de cancelación:</strong> las cancelaciones realizadas con menos de 24 horas de antelación al servicio incurrirán en el 100%\n      del precio total de la tarifa, incluido el suplemento."
+    },
+    "form": {
+      "title": "Solicitud de Transferencia",
+      "passengerName": "Nombre del pasajero",
+      "email": "Correo electrónico para confirmación",
+      "mobileName": "Nombre del móvil",
+      "phoneNumber": "Número de teléfono",
+      "passengers": "Número de pasajeros",
+      "suitcases": "Número y tamaño de maletas",
+      "transferOption": "Opción de transferencia",
+      "selectOption": "Seleccione una opción",
+      "option1Value": "Opción 1: Mercedes Clase E / Volvo S90",
+      "option2Value": "Opción 2 - Mercedes S350",
+      "transferType": "Tipo de transferencia",
+      "typeArrival": "Sólo aeropuerto a hotel",
+      "typeDeparture": "Sólo hotel al aeropuerto",
+      "typeRoundtrip": "Ida y vuelta - Aeropuerto al Hotel y Hotel al Aeropuerto",
+      "paymentMethod": "Método de pago",
+      "paymentCreditCard": "Tarjeta de crédito",
+      "paymentCash": "Dinero",
+      "roomNumber": "Número de habitación",
+      "arrivalDate": "Fecha de llegada",
+      "flightArrivalTime": "Hora de llegada del vuelo",
+      "arrivalFlightNumber": "Número de vuelo de llegada",
+      "departureDate": "Fecha de salida",
+      "departureFlightNumber": "Número de vuelo de salida",
+      "pickupTime": "Hora de recogida desde el hotel.",
+      "additionalNotes": "Notas adicionales",
+      "submit": "Enviar solicitud de transferencia",
+      "mobileNamePlaceholder": "Nombre vinculado al número de teléfono",
+      "suitcasesPlaceholder": "Ejemplo: 2 grandes, 1 camarote",
+      "additionalNotesPlaceholder": "Silla de bebé, asistencia especial, equipaje extra, detalles preferidos, etc."
+    }
+  },
+  "wifi": {
+    "pageTitle": "Acceso Wi-Fi | Hotel Royal Marina Suites Boutique",
+    "hero": {
+      "subtitle": "Información del huésped",
+      "title": "Acceso Wi-Fi",
+      "tagline": "Internet de alta velocidad de cortesía",
+      "imageAlt": "Acceso Wi-Fi"
+    },
+    "card": {
+      "label": "Conéctate a nuestra red",
+      "title": "Wi-Fi del hotel",
+      "networkLabel": "Red",
+      "networkName": "Marina Real Suites",
+      "passwordLabel": "Contraseña",
+      "passwordValue": "BienvenidoRMS2022"
+    },
+    "howToConnect": {
+      "title": "Cómo conectarse",
+      "text": "Abra la configuración de Wi-Fi de su dispositivo, seleccione la red del hotel e ingrese la contraseña que se muestra arriba."
+    },
+    "assistance": {
+      "title": "¿Necesita ayuda?",
+      "text": "Si tiene algún problema de conexión, póngase en contacto con recepción. Desde tu habitación, presiona <strong>9</strong>."
+    },
+    "notice": {
+      "text": "El acceso Wi-Fi es gratuito para los huéspedes del hotel. La velocidad de conexión puede variar según el dispositivo, la ubicación y la demanda de la red."
+    }
+  }
+}
