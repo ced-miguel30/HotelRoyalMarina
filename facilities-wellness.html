@@ -1,124 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="facilities.pageTitle">Facilities & Wellness | Hotel Royal Marina Suites Boutique</title>
+
 <style>
-  .facilities-section {
-    padding: 90px 6%;
-    background: linear-gradient(180deg, #f8f6f1 0%, #ffffff 100%);
-  }
+:root{
+  --blue:#062b4f;
+  --gold:#c9a45c;
+  --white:#ffffff;
+  --soft:#f5f8fa;
+  --text:#1f2a36;
+}
 
-  .section-title {
-    text-align: center;
-    max-width: 760px;
-    margin: 0 auto 55px;
-  }
+*{box-sizing:border-box;}
 
-  .section-title span {
-    display: inline-block;
-    margin-bottom: 12px;
-    font-size: 0.78rem;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: #b89b5e;
-    font-weight: 600;
-  }
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:var(--soft);
+  color:var(--text);
+}
 
-  .section-title h2 {
-    font-family: Georgia, serif;
-    font-size: clamp(2rem, 4vw, 3.4rem);
-    color: #0b2f4a;
-    margin-bottom: 18px;
-    font-weight: 400;
-  }
+.hero-facilities{
+  min-height:62vh;
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+}
 
-  .section-title p {
-    font-size: 1rem;
-    line-height: 1.8;
-    color: #5f6f7a;
-  }
+.hero-facilities img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+}
 
-  .facilities-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 26px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+.hero-facilities::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(rgba(6,43,79,0.25), rgba(6,43,79,0.88));
+  z-index:1;
+}
 
-  .facility-card {
-    background: #ffffff;
-    border-radius: 24px;
-    overflow: hidden;
-    box-shadow: 0 18px 45px rgba(11, 47, 74, 0.12);
-    border: 1px solid rgba(184, 155, 94, 0.22);
-    transition: transform 0.35s ease, box-shadow 0.35s ease;
-  }
+.hero-content{
+  position:relative;
+  z-index:2;
+  padding:30px;
+}
 
-  .facility-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 28px 60px rgba(11, 47, 74, 0.18);
-  }
+.hero-content p{
+  color:var(--gold);
+  letter-spacing:4px;
+  text-transform:uppercase;
+  font-size:12px;
+}
 
-  .facility-card.large,
-  .facility-card.wide {
-    grid-column: span 2;
-  }
+.hero-content h1{
+  font-family:Georgia, serif;
+  font-size:48px;
+  font-weight:400;
+  margin:0;
+}
 
-  .facility-image {
-    height: 260px;
-    overflow: hidden;
-  }
+.gold-line{
+  width:80px;
+  height:2px;
+  background:var(--gold);
+  margin:25px auto;
+}
 
-  .facility-card.large .facility-image,
-  .facility-card.wide .facility-image {
-    height: 320px;
-  }
+.facilities-section {
+  padding: 90px 6%;
+  background: linear-gradient(180deg, #f8f6f1 0%, #ffffff 100%);
+}
 
-  .facility-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    transition: transform 0.45s ease;
-  }
+.section-title {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 55px;
+}
 
-  .facility-card:hover img {
-    transform: scale(1.06);
-  }
+.section-title span {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-size: 0.78rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #b89b5e;
+  font-weight: 600;
+}
 
-  .facility-content {
-    padding: 28px;
-  }
+.section-title h2 {
+  font-family: Georgia, serif;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  color: #0b2f4a;
+  margin-bottom: 18px;
+  font-weight: 400;
+}
 
-  .facility-content span {
-    display: block;
-    margin-bottom: 10px;
-    font-size: 0.72rem;
-    letter-spacing: 2.4px;
-    text-transform: uppercase;
-    color: #b89b5e;
-    font-weight: 600;
-  }
+.section-title p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #5f6f7a;
+}
 
-  .facility-content h3 {
-    font-family: Georgia, serif;
-    font-size: 1.55rem;
-    color: #0b2f4a;
-    margin-bottom: 12px;
-    font-weight: 400;
-  }
+.facilities-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-  .facility-content p {
-    color: #5f6f7a;
-    line-height: 1.75;
-    font-size: 0.95rem;
-  }
+.facility-card {
+  background: #ffffff;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 18px 45px rgba(11, 47, 74, 0.12);
+  border: 1px solid rgba(184, 155, 94, 0.22);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
 
-  .facility-content .hours {
-    margin-top: 14px;
-    color: #0b2f4a;
-    font-weight: 600;
-    border-top: 1px solid rgba(184, 155, 94, 0.28);
-    padding-top: 14px;
-  }
-  .back{
+.facility-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 28px 60px rgba(11, 47, 74, 0.18);
+}
+
+.facility-card.large,
+.facility-card.wide {
+  grid-column: span 2;
+}
+
+.facility-image {
+  height: 260px;
+  overflow: hidden;
+}
+
+.facility-card.large .facility-image,
+.facility-card.wide .facility-image {
+  height: 320px;
+}
+
+.facility-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.45s ease;
+}
+
+.facility-card:hover img {
+  transform: scale(1.06);
+}
+
+.facility-content {
+  padding: 28px;
+}
+
+.facility-content span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 0.72rem;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color: #b89b5e;
+  font-weight: 600;
+}
+
+.facility-content h3 {
+  font-family: Georgia, serif;
+  font-size: 1.55rem;
+  color: #0b2f4a;
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+
+.facility-content p {
+  color: #5f6f7a;
+  line-height: 1.75;
+  font-size: 0.95rem;
+}
+
+.facility-content .hours {
+  margin-top: 14px;
+  color: #0b2f4a;
+  font-weight: 600;
+  border-top: 1px solid rgba(184, 155, 94, 0.28);
+  padding-top: 14px;
+}
+
+.back{
   display:inline-block;
   margin:60px auto 0;
   color:#b89b5e;
@@ -136,35 +216,62 @@
   text-align:center;
 }
 
+footer{
+  background:var(--blue);
+  color:white;
+  text-align:center;
+  padding:28px;
+  font-size:14px;
+}
 
-  @media (max-width: 900px) {
-    .facilities-section {
-      padding: 70px 5%;
-    }
-
-    .facilities-grid {
-      grid-template-columns: 1fr;
-    }
-
-    .facility-card.large,
-    .facility-card.wide {
-      grid-column: span 1;
-    }
-
-    .facility-image,
-    .facility-card.large .facility-image,
-    .facility-card.wide .facility-image {
-      height: 240px;
-    }
+@media (max-width: 900px) {
+  .facilities-section {
+    padding: 70px 5%;
   }
+
+  .facilities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .facility-card.large,
+  .facility-card.wide {
+    grid-column: span 1;
+  }
+
+  .facility-image,
+  .facility-card.large .facility-image,
+  .facility-card.wide .facility-image {
+    height: 240px;
+  }
+}
+
+@media(max-width:700px){
+  .hero-content h1{
+    font-size:36px;
+  }
+}
 </style>
+</head>
+
+<body>
+
+<section class="hero-facilities">
+  <img src="images/heated-pool.jpeg" alt="Facilities and Wellness" data-i18n-alt="facilities.hero.imageAlt">
+
+  <div class="hero-content">
+    <p data-i18n="facilities.hero.subtitle">Facilities & Wellness</p>
+    <h1 data-i18n="facilities.hero.title">Relax, Refresh & Enjoy</h1>
+    <div class="gold-line"></div>
+    <p data-i18n="facilities.hero.tagline">Pool · Wellness · Fitness</p>
+  </div>
+</section>
 
 <section class="facilities-section">
 
   <div class="section-title">
-    <span>Facilities & Wellness</span>
-    <h2>Relax, Refresh & Enjoy</h2>
-    <p>
+    <span data-i18n="facilities.section.label">Facilities & Wellness</span>
+    <h2 data-i18n="facilities.section.title">Relax, Refresh & Enjoy</h2>
+    <p data-i18n="facilities.section.intro">
       Discover calm, refined spaces designed for effortless comfort, poolside
       relaxation and moments of wellbeing at Hotel Royal Marina Suites Boutique.
     </p>
@@ -174,12 +281,12 @@
 
     <div class="facility-card large">
       <div class="facility-image">
-        <img src="images/heated-pool.jpeg" alt="Climatized Swimming Pool">
+        <img src="images/heated-pool.jpeg" alt="Climatized Swimming Pool" data-i18n-alt="facilities.pool.imageAlt">
       </div>
       <div class="facility-content">
-        <span>Outdoor Relaxation</span>
-        <h3>Climatized Swimming Pool</h3>
-        <p>
+        <span data-i18n="facilities.pool.label">Outdoor Relaxation</span>
+        <h3 data-i18n="facilities.pool.title">Climatized Swimming Pool</h3>
+        <p data-i18n="facilities.pool.description">
           Enjoy our heated outdoor pool throughout the year, surrounded by the
           peaceful atmosphere of Puerto Calero and the Lanzarote sunshine.
         </p>
@@ -188,12 +295,12 @@
 
     <div class="facility-card">
       <div class="facility-image">
-        <img src="images/jacuzzi.jpeg" alt="Jacuzzi">
+        <img src="images/jacuzzi.jpeg" alt="Jacuzzi" data-i18n-alt="facilities.jacuzzi.imageAlt">
       </div>
       <div class="facility-content">
-        <span>Wellness</span>
-        <h3>Jacuzzi</h3>
-        <p>
+        <span data-i18n="facilities.jacuzzi.label">Wellness</span>
+        <h3 data-i18n="facilities.jacuzzi.title">Jacuzzi</h3>
+        <p data-i18n="facilities.jacuzzi.description">
           Unwind in our jacuzzi, a quiet corner designed for relaxation, comfort
           and a soothing wellness experience.
         </p>
@@ -202,12 +309,12 @@
 
     <div class="facility-card">
       <div class="facility-image">
-        <img src="images/pool-bar.jpeg" alt="Pool Bar">
+        <img src="images/pool-bar.jpeg" alt="Pool Bar" data-i18n-alt="facilities.poolBar.imageAlt">
       </div>
       <div class="facility-content">
-        <span>Poolside Service</span>
-        <h3>Pool Bar</h3>
-        <p>
+        <span data-i18n="facilities.poolBar.label">Poolside Service</span>
+        <h3 data-i18n="facilities.poolBar.title">Pool Bar</h3>
+        <p data-i18n="facilities.poolBar.description">
           Enjoy cocktails, coffee, refreshing drinks and light snacks beside the
           pool in an elegant, relaxed setting.
         </p>
@@ -216,23 +323,32 @@
 
     <div class="facility-card wide">
       <div class="facility-image">
-        <img src="images/gym.jpeg" alt="Fitness Centre">
+        <img src="images/gym.jpeg" alt="Fitness Centre" data-i18n-alt="facilities.gym.imageAlt">
       </div>
       <div class="facility-content">
-        <span>Fitness</span>
-        <h3>Fitness Centre</h3>
-        <p>
+        <span data-i18n="facilities.gym.label">Fitness</span>
+        <h3 data-i18n="facilities.gym.title">Fitness Centre</h3>
+        <p data-i18n="facilities.gym.description">
           Maintain your workout routine in our fully equipped fitness centre,
           created for comfort and convenience during your stay.
         </p>
-        <p class="hours">Opening Hours: 08:00 – 20:00</p>
+        <p class="hours" data-i18n="facilities.gym.hours">Opening Hours: 08:00 – 20:00</p>
       </div>
     </div>
 
   </div>
-  
-<div class="back-container">
-  <a class="back" href="index.html">← Back to Home</a>
-</div>
-  
+
+  <div class="back-container">
+    <a class="back" href="index.html" data-i18n="common.backToHome">← Back to Home</a>
+  </div>
+
 </section>
+
+<footer data-i18n="common.footer.hotelName">
+  Hotel Royal Marina Suites Boutique Lanzarote
+</footer>
+
+<script src="js/translations.js"></script>
+
+</body>
+</html>

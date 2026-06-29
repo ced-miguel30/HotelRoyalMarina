@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Private Transfer Request | Hotel Royal Marina Suites Boutique</title>
+<title data-i18n="transfer.pageTitle">Private Transfer Request | Hotel Royal Marina Suites Boutique</title>
 
 <style>
 :root{
@@ -275,44 +275,44 @@ footer{
 <body>
 
 <section class="hero-transfer">
-  <img src="images/transfer-hero.jpg.png" alt="Private airport transfer">
+  <img src="images/transfer-hero.jpg.png" alt="Private airport transfer" data-i18n-alt="transfer.hero.imageAlt">
 
   <div class="hero-content">
-    <p>Guest Services</p>
-    <h1>Private Airport Transfer</h1>
+    <p data-i18n="transfer.hero.subtitle">Guest Services</p>
+    <h1 data-i18n="transfer.hero.title">Private Airport Transfer</h1>
     <div class="gold-line"></div>
-    <p>Request Form</p>
+    <p data-i18n="transfer.hero.tagline">Request Form</p>
   </div>
 </section>
 
 <div class="container">
 
   <div class="notice">
-    <span>Important Information</span>
-    <p>
+    <span data-i18n="transfer.notice.label">Important Information</span>
+    <p data-i18n-html="transfer.notice.text">
       Please allow up to <strong>24 hours</strong> for confirmation.
       For urgent requests, contact reception directly by pressing <strong>9</strong> from your room.
     </p>
   </div>
 
   <div class="transfer-options">
-    <h2>Transfer Options</h2>
+    <h2 data-i18n="transfer.options.title">Transfer Options</h2>
 
     <div class="option-grid">
       <div class="option-card">
-        <h3>Option 1</h3>
-        <p class="price">€45 per way / €90 round trip</p>
-        <p class="small-text">Mercedes E-Class or Luxury Volvo S90.</p>
+        <h3 data-i18n="transfer.options.option1.title">Option 1</h3>
+        <p class="price" data-i18n="transfer.options.option1.price">€45 per way / €90 round trip</p>
+        <p class="small-text" data-i18n="transfer.options.option1.description">Mercedes E-Class or Luxury Volvo S90.</p>
       </div>
 
       <div class="option-card">
-        <h3>Option 2</h3>
-        <p class="price">€85 per way / €170 round trip</p>
-        <p class="small-text">Mercedes S350.</p>
+        <h3 data-i18n="transfer.options.option2.title">Option 2</h3>
+        <p class="price" data-i18n="transfer.options.option2.price">€85 per way / €170 round trip</p>
+        <p class="small-text" data-i18n="transfer.options.option2.description">Mercedes S350.</p>
       </div>
     </div>
 
-    <div class="warning-box">
+    <div class="warning-box" data-i18n-html="transfer.options.warning">
       A driver will be waiting upon arrival with a personalised sign.
       For airport arrivals, there is an additional <strong>€15 supplement</strong>, including flight monitoring,
       up to 1 hour waiting time after landing, and rescheduling in case of delay or early arrival.
@@ -323,122 +323,122 @@ footer{
   </div>
 
   <div class="form-box">
-    <h2>Transfer Request</h2>
+    <h2 data-i18n="transfer.form.title">Transfer Request</h2>
 
     <form action="https://formspree.io/f/meewgnrn" method="POST">
 
       <div class="form-grid">
 
         <div class="form-group">
-          <label>Passenger Name</label>
+          <label data-i18n="transfer.form.passengerName">Passenger Name</label>
           <input type="text" name="Passenger Name" required>
         </div>
 
         <div class="form-group">
-          <label>Email for Confirmation</label>
+          <label data-i18n="transfer.form.email">Email for Confirmation</label>
           <input type="email" name="Guest Email" required>
         </div>
 
         <div class="form-group">
-          <label>Mobile Name</label>
-          <input type="text" name="Mobile Name" placeholder="Name linked to the phone number">
+          <label data-i18n="transfer.form.mobileName">Mobile Name</label>
+          <input type="text" name="Mobile Name" placeholder="Name linked to the phone number" data-i18n-placeholder="transfer.form.mobileNamePlaceholder">
         </div>
 
         <div class="form-group">
-          <label>Phone Number</label>
+          <label data-i18n="transfer.form.phoneNumber">Phone Number</label>
           <input type="tel" name="Phone Number" required>
         </div>
 
         <div class="form-group">
-          <label>Number of Passengers</label>
+          <label data-i18n="transfer.form.passengers">Number of Passengers</label>
           <input type="number" name="Number of Passengers" min="1" required>
         </div>
 
         <div class="form-group">
-          <label>Number and Size of Suitcases</label>
-          <input type="text" name="Suitcases" placeholder="Example: 2 large, 1 cabin" required>
+          <label data-i18n="transfer.form.suitcases">Number and Size of Suitcases</label>
+          <input type="text" name="Suitcases" placeholder="Example: 2 large, 1 cabin" data-i18n-placeholder="transfer.form.suitcasesPlaceholder" required>
         </div>
 
         <div class="form-group">
-          <label>Transfer Option</label>
+          <label data-i18n="transfer.form.transferOption">Transfer Option</label>
           <select name="Transfer Option" required>
-            <option value="">Select an option</option>
-            <option>Option 1 - Mercedes E-Class / Volvo S90</option>
-            <option>Option 2 - Mercedes S350</option>
+            <option value="" data-i18n="transfer.form.selectOption">Select an option</option>
+            <option data-i18n="transfer.form.option1Value">Option 1 - Mercedes E-Class / Volvo S90</option>
+            <option data-i18n="transfer.form.option2Value">Option 2 - Mercedes S350</option>
           </select>
         </div>
 
         <div class="form-group">
-          <label>Transfer Type</label>
+          <label data-i18n="transfer.form.transferType">Transfer Type</label>
           <select id="transferType" name="Transfer Type" required>
-            <option value="">Select an option</option>
-            <option value="arrival">Airport to Hotel only</option>
-            <option value="departure">Hotel to Airport only</option>
-            <option value="roundtrip">Round Trip - Airport to Hotel and Hotel to Airport</option>
+            <option value="" data-i18n="transfer.form.selectOption">Select an option</option>
+            <option value="arrival" data-i18n="transfer.form.typeArrival">Airport to Hotel only</option>
+            <option value="departure" data-i18n="transfer.form.typeDeparture">Hotel to Airport only</option>
+            <option value="roundtrip" data-i18n="transfer.form.typeRoundtrip">Round Trip - Airport to Hotel and Hotel to Airport</option>
           </select>
         </div>
 
         <div class="form-group">
-          <label>Payment Method</label>
+          <label data-i18n="transfer.form.paymentMethod">Payment Method</label>
           <select name="Payment Method" required>
-            <option value="">Select an option</option>
-            <option>Credit Card</option>
-            <option>Cash</option>
+            <option value="" data-i18n="transfer.form.selectOption">Select an option</option>
+            <option data-i18n="transfer.form.paymentCreditCard">Credit Card</option>
+            <option data-i18n="transfer.form.paymentCash">Cash</option>
           </select>
         </div>
 
         <div class="form-group">
-          <label>Room Number</label>
+          <label data-i18n="transfer.form.roomNumber">Room Number</label>
           <input type="text" name="Room Number">
         </div>
 
         <div class="form-group arrival-field">
-          <label>Arrival Date</label>
+          <label data-i18n="transfer.form.arrivalDate">Arrival Date</label>
           <input type="date" name="Arrival Date">
         </div>
 
         <div class="form-group arrival-field">
-          <label>Flight Arrival Time</label>
+          <label data-i18n="transfer.form.flightArrivalTime">Flight Arrival Time</label>
           <input type="time" name="Flight Arrival Time">
         </div>
 
         <div class="form-group arrival-field">
-          <label>Arrival Flight Number</label>
+          <label data-i18n="transfer.form.arrivalFlightNumber">Arrival Flight Number</label>
           <input type="text" name="Arrival Flight Number">
         </div>
 
         <div class="form-group departure-field">
-          <label>Departure Date</label>
+          <label data-i18n="transfer.form.departureDate">Departure Date</label>
           <input type="date" name="Departure Date">
         </div>
 
         <div class="form-group departure-field">
-          <label>Departure Flight Number</label>
+          <label data-i18n="transfer.form.departureFlightNumber">Departure Flight Number</label>
           <input type="text" name="Departure Flight Number">
         </div>
 
         <div class="form-group departure-field">
-          <label>Pick-up Time from the Hotel</label>
+          <label data-i18n="transfer.form.pickupTime">Pick-up Time from the Hotel</label>
           <input type="time" name="Hotel Pick-up Time">
         </div>
 
         <div class="form-group full">
-          <label>Additional Notes</label>
-          <textarea name="Additional Notes" placeholder="Baby seat, special assistance, extra luggage, preferred details, etc."></textarea>
+          <label data-i18n="transfer.form.additionalNotes">Additional Notes</label>
+          <textarea name="Additional Notes" placeholder="Baby seat, special assistance, extra luggage, preferred details, etc." data-i18n-placeholder="transfer.form.additionalNotesPlaceholder"></textarea>
         </div>
 
       </div>
 
-      <button type="submit">Send Transfer Request</button>
+      <button type="submit" data-i18n="transfer.form.submit">Send Transfer Request</button>
 
     </form>
   </div>
 
-  <a class="back" href="reception.html">← Back to Guest Services</a>
+  <a class="back" href="reception.html" data-i18n="common.backToGuestServices">← Back to Guest Services</a>
 
 </div>
 
-<footer>
+<footer data-i18n="common.footer.hotelName">
   Hotel Royal Marina Suites Boutique Lanzarote
 </footer>
 
@@ -464,6 +464,8 @@ function updateTransferFields(){
 transferType.addEventListener("change", updateTransferFields);
 updateTransferFields();
 </script>
+
+<script src="js/translations.js"></script>
 
 </body>
 </html>
