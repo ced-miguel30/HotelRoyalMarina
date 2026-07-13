@@ -113,9 +113,14 @@
         "freshOrangeJuice": "Frisch gepresster Orangensaft",
         "milkSelection": "Milchauswahl",
         "milkSelectionDesc": "Vollmilch, Magermilch, Hafermilch, Mandelmilch oder Sojamilch.",
-        "teaHerbalInfusions": "Tee und Kräutertees",
+        "teaHerbalInfusions": "Teeauswahl",
         "hotChocolate": "Heiße Schokolade",
-        "colaCao": "Cola Cao"
+        "espresso": "Espresso",
+        "americano": "Americano",
+        "latte": "Milchkaffee — 3,50 €",
+        "cappuccino": "Cappuccino",
+        "mochaccino": "Mokaccino",
+        "decaffeinatedCoffee": "Entkoffeinierter Kaffee"
       },
       "feature": {
         "imageAlt": "Frühstücksdetails",
@@ -199,14 +204,14 @@
           "tea": "Tee",
           "herbalInfusion": "Kräutertee",
           "hotChocolate": "Heiße Schokolade",
-          "colaCao": "Cola Cao",
           "freshOrangeJuice": "Frischer Orangensaft",
           "wholeMilk": "Vollmilch",
           "skimmedMilk": "Magermilch",
           "oatMilk": "Hafermilch",
           "soyMilk": "Sojamilch",
           "almondMilk": "Mandelmilch",
-          "noMilk": "Keine Milch"
+          "noMilk": "Keine Milch",
+          "mochaccino": "Mokaccino"
         },
         "notice": {
           "title": "Bitte beachten Sie",
@@ -262,14 +267,14 @@
         "caipirinha": "Caipirinha",
         "pinaColada": "Piña Colada",
         "royalMarina": "Königlicher Jachthafen",
-        "sexOnTheBeach": "Sex am Strand",
+        "sexOnTheBeach": "Sex on the Beach",
         "mojito": "Mojito",
         "daiquiri": "Daiquiri",
         "margarita": "Margarita",
         "aperolSpritz": "Aperol Spritz",
         "glassOfSangria": "Glas Sangria",
         "sangriaHalfL": "Sangria 1/2L",
-        "cavaSangriaHalfL": "Cava Sangria 1/2L",
+        "cavaSangriaHalfL": "Cava-Sangria 1/2L",
         "glassOfWine": "Glas Wein",
         "montecilloCrianza": "Montecillo Crianza D.O. Rioja",
         "ederraRueda": "Ederra D.O. Rueda",
@@ -321,7 +326,6 @@
         "teaSelection": "Teeauswahl",
         "hotChocolate": "Heiße Schokolade",
         "hotChocolateWithCream": "Heiße Schokolade mit Sahne",
-        "colaCao": "Cola Cao",
         "orangeJuice": "Orangensaft",
         "lanzaroteSmoothie": "Lanzarote-Smoothie",
         "mediterraneanSmoothie": "Mediterraner Smoothie",
@@ -389,7 +393,7 @@
         "pokeBowlDesc": "Geräucherter Lachs, Edamame, Karotten, Gurke, Mango, Basmatireis, Rettich, Limette und natives Olivenöl extra.",
         "clubSandwich": "Club-Sandwich",
         "clubSandwichDesc": "Huhn, Speck, Ei, Tomate, Käse, knusprige Zwiebeln, Thymian, Mayonnaise, geschnittenes Brot und Butter.",
-        "baoBunTeriyaki": "Bao-Brötchen mit Teriyaki",
+        "baoBunTeriyaki": "Bao-Bun mit Teriyaki",
         "baoBunTeriyakiDesc": "Bao-Brötchen mit Sesam, Hähnchenbrust, Zwiebeln, Teriyaki-Sauce, Sojasauce und nativem Olivenöl extra.",
         "breezeBurger": "Breeze Burger",
         "breezeBurgerDesc": "Brioche-Brötchen, Rindfleisch, Avocado, Ziegenkäse, Speck, Zwiebeln, Salat, Brava-Sauce und Olivenöl. Serviert mit Pommes.",
@@ -401,7 +405,7 @@
         "prawnCocktail": "Krabbencocktail",
         "prawnCocktailDesc": "Salat, frische Ananas, Avocado, Riesengarnelen und Cocktailsauce.",
         "salmonTartare": "Lachstatar mit Avocado",
-        "crispyKingPrawn": "Knusprige Riesengarnelen",
+        "crispyKingPrawn": "Knusprige Garnelen",
         "crispyKingPrawnDesc": "Serviert mit Curry und Mangosauce.",
         "artisanIceCream": "Handwerklich hergestelltes Eis",
         "artisanIceCreamDesc": "Auswahl verschiedener Geschmacksrichtungen.",
@@ -477,7 +481,7 @@
       },
       "intro": {
         "title": "Ein besonderer Abend in der Marina",
-        "text": "Genießen Sie ein kuratiertes Grillerlebnis für einen entspannten Freitagabend. Je nach Verfügbarkeit können Gäste zwischen einer Gemüse-, Fisch- oder Fleischvariante wählen."
+        "text": "Genießen Sie ein Grill-Erlebnis für einen entspannten Freitagabend. Gäste können je nach Verfügbarkeit zwischen Gemüse-, Fisch- oder Fleischoption wählen."
       },
       "options": {
         "vegetable": {
@@ -751,7 +755,7 @@
     },
     "minibar": {
       "summary": "Minibar-Richtlinie",
-      "oceanMarina": "<strong>Meer und Jachthafen:</strong> Kostenlose Flasche Wasser und zwei Premium-illy®-Kaffeekapseln.",
+      "oceanMarina": "<strong>Ocean- & Marina-Zimmer:</strong> Kostenlose Flasche Wasser und zwei Premium-illy®-Kaffeekapseln.",
       "royalSuites": "<strong>Royal Suiten:</strong> Eine tägliche Nachfüllung aller Getränke, <strong>ausgenommen alkoholische Getränke.</strong>"
     },
     "poolTowels": {
@@ -875,10 +879,10 @@
     "excursions": {
       "title": "Ausflüge & Inselerlebnisse",
       "intro": "Unser Rezeptionsteam hilft Ihnen gerne bei der Organisation ausgewählter Inselaktivitäten und Touren.",
-      "firstMinuteTours": "First-Minute-Touren",
-      "waterbus": "Wasserbus",
-      "submarineSafaris": "U-Boot-Safaris",
-      "canarytrip": "Kanarienausflug",
+      "firstMinuteTours": "First Minute Tours",
+      "waterbus": "Waterbus",
+      "submarineSafaris": "Submarine Safaris",
+      "canarytrip": "Canarytrip",
       "catlanza": "Catlanza"
     },
     "notice": {

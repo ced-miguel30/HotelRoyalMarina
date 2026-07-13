@@ -113,9 +113,14 @@
         "freshOrangeJuice": "Jus d'orange fraîchement pressé",
         "milkSelection": "Sélection de lait",
         "milkSelectionDesc": "Lait entier, écrémé, d'avoine, d'amande ou de soja.",
-        "teaHerbalInfusions": "Thés et infusions",
+        "teaHerbalInfusions": "Sélection de thés",
         "hotChocolate": "Chocolat chaud",
-        "colaCao": "Cola Cao"
+        "espresso": "Expresso",
+        "americano": "Américano",
+        "latte": "Café au lait — 3,50 €",
+        "cappuccino": "Cappuccino",
+        "mochaccino": "Mochaccino",
+        "decaffeinatedCoffee": "Café décaféiné"
       },
       "feature": {
         "imageAlt": "Détail du petit déjeuner",
@@ -199,14 +204,14 @@
           "tea": "Thé",
           "herbalInfusion": "Infusion à base de plantes",
           "hotChocolate": "Chocolat chaud",
-          "colaCao": "Cola Cao",
           "freshOrangeJuice": "Jus d'orange frais",
           "wholeMilk": "Lait entier",
           "skimmedMilk": "Lait écrémé",
           "oatMilk": "Lait d'Avoine",
           "soyMilk": "Lait de soja",
           "almondMilk": "Lait d'amande",
-          "noMilk": "Pas de lait"
+          "noMilk": "Pas de lait",
+          "mochaccino": "Mochaccino"
         },
         "notice": {
           "title": "Veuillez noter",
@@ -243,7 +248,7 @@
         "cocktails": "Cocktails",
         "wine": "Vins & Champagnes",
         "beer": "Bière",
-        "spirits": "Esprits",
+        "spirits": "Spiritueux",
         "hotDrinks": "Boissons chaudes",
         "smoothies": "Smoothies",
         "softDrinks": "Boissons gazeuses"
@@ -262,14 +267,14 @@
         "caipirinha": "Caïpirinha",
         "pinaColada": "Piña Colada",
         "royalMarina": "Marina Royale",
-        "sexOnTheBeach": "Sexe sur la plage",
+        "sexOnTheBeach": "Sex on the Beach",
         "mojito": "Mojitos",
         "daiquiri": "Daïquiri",
         "margarita": "Marguerite",
         "aperolSpritz": "Aperol Spritz",
         "glassOfSangria": "Verre de Sangria",
         "sangriaHalfL": "Sangria 1/2L",
-        "cavaSangriaHalfL": "Cava Sangria 1/2L",
+        "cavaSangriaHalfL": "Sangria au cava 1/2L",
         "glassOfWine": "Verre de vin",
         "montecilloCrianza": "Montecillo Crianza D.O. La Rioja",
         "ederraRueda": "Ederra D.O. Rueda",
@@ -312,7 +317,7 @@
         "smirnoff": "Smirnoff",
         "sambuca": "Sambuca",
         "jagermeister": "Jägermeister",
-        "espresso": "Espresso",
+        "espresso": "Expresso",
         "americano": "Américain",
         "latte": "Latté",
         "cappuccino": "Cappuccino",
@@ -321,8 +326,7 @@
         "teaSelection": "Sélection de thés",
         "hotChocolate": "Chocolat chaud",
         "hotChocolateWithCream": "Chocolat chaud à la crème",
-        "colaCao": "Cola Cao",
-        "orangeJuice": "Du jus d'orange",
+        "orangeJuice": "Jus d'orange",
         "lanzaroteSmoothie": "Smoothie à Lanzarote",
         "mediterraneanSmoothie": "Smoothie méditerranéen",
         "forestFruitsSmoothie": "Smoothie aux fruits des bois",
@@ -401,7 +405,7 @@
         "prawnCocktail": "Cocktail de crevettes",
         "prawnCocktailDesc": "Laitue, ananas frais, avocat, gambas et sauce cocktail.",
         "salmonTartare": "Tartare de Saumon à l'Avocat",
-        "crispyKingPrawn": "Crevette royale croustillante",
+        "crispyKingPrawn": "Crevettes croustillantes",
         "crispyKingPrawnDesc": "Servi avec curry et sauce à la mangue.",
         "artisanIceCream": "Glaces artisanales",
         "artisanIceCreamDesc": "Sélection de différentes saveurs.",
@@ -477,7 +481,7 @@
       },
       "intro": {
         "title": "Une soirée spéciale au bord de la marina",
-        "text": "Profitez d'une expérience de grillades organisée pour un vendredi soir détendu. Vous pourrez choisir entre une option de légumes, de poisson ou de viande, sous réserve de disponibilité."
+        "text": "Profitez d'une expérience grill pour une soirée du vendredi détendue. Les clients peuvent choisir entre une option légumes, poisson ou viande, sous réserve de disponibilité."
       },
       "options": {
         "vegetable": {
@@ -751,7 +755,7 @@
     },
     "minibar": {
       "summary": "Politique du minibar",
-      "oceanMarina": "<strong>Océan et marina :</strong> Bouteille d'eau et deux capsules de café illy® haut de gamme gratuites.",
+      "oceanMarina": "<strong>Chambres Océan et Marina :</strong> Bouteille d'eau et deux capsules de café illy® premium offertes.",
       "royalSuites": "<strong>Suites Royales :</strong> Une recharge quotidienne de toutes les boissons, <strong>à l'exclusion des boissons alcoolisées.</strong>"
     },
     "poolTowels": {
@@ -875,10 +879,10 @@
     "excursions": {
       "title": "Excursions et expériences insulaires",
       "intro": "Notre équipe de réception peut vous aider à organiser certaines activités et visites de l'île.",
-      "firstMinuteTours": "Visites de première minute",
-      "waterbus": "Bateau-bus",
-      "submarineSafaris": "Safaris sous-marins",
-      "canarytrip": "Voyage aux Canaries",
+      "firstMinuteTours": "First Minute Tours",
+      "waterbus": "Waterbus",
+      "submarineSafaris": "Submarine Safaris",
+      "canarytrip": "Canarytrip",
       "catlanza": "Catlanza"
     },
     "notice": {

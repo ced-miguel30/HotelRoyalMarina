@@ -104,7 +104,7 @@
         "royalMarinaSandwichDesc": "Pane bianco o integrale, pomodoro fresco, prosciutto iberico e formaggio fresco locale.",
         "vegetarianSandwich": "Panino Vegetariano",
         "vegetarianSandwichDesc": "Pane bianco o integrale, uova strapazzate con spinaci.",
-        "toastOfTheDay": "Brindisi del giorno",
+        "toastOfTheDay": "Toast del giorno",
         "toastOfTheDayDesc": "Chiedi al nostro team la selezione di oggi.",
         "frenchToast": "Toast alla francese",
         "frenchToastDesc": "Servito con burro e frutta di stagione.",
@@ -113,9 +113,14 @@
         "freshOrangeJuice": "Succo d'arancia appena spremuto",
         "milkSelection": "Selezione del latte",
         "milkSelectionDesc": "Latte intero, scremato, di avena, di mandorla o di soia.",
-        "teaHerbalInfusions": "Tè e infusi di erbe",
+        "teaHerbalInfusions": "Selezione di tè",
         "hotChocolate": "Cioccolata calda",
-        "colaCao": "Cola Cao"
+        "espresso": "Espresso",
+        "americano": "Americano",
+        "latte": "Caffè latte — 3,50 €",
+        "cappuccino": "Cappuccino",
+        "mochaccino": "Mochaccino",
+        "decaffeinatedCoffee": "Caffè decaffeinato"
       },
       "feature": {
         "imageAlt": "Particolare della colazione",
@@ -186,7 +191,7 @@
           "croqueMonsieur": "Croque Monsieur",
           "royalMarinaSandwich": "Panino alla Marina Reale",
           "vegetarianSandwich": "Panino Vegetariano",
-          "toastOfTheDay": "Brindisi del giorno",
+          "toastOfTheDay": "Toast del giorno",
           "frenchToast": "Toast alla francese",
           "espresso": "Espresso",
           "doubleEspresso": "Doppio espresso",
@@ -199,14 +204,14 @@
           "tea": "Tè",
           "herbalInfusion": "Infuso di erbe",
           "hotChocolate": "Cioccolata calda",
-          "colaCao": "Cola Cao",
           "freshOrangeJuice": "Succo d'arancia fresco",
           "wholeMilk": "Latte intero",
           "skimmedMilk": "Latte scremato",
           "oatMilk": "Latte d'Avena",
           "soyMilk": "Latte Di Soia",
           "almondMilk": "Latte Di Mandorle",
-          "noMilk": "Niente latte"
+          "noMilk": "Niente latte",
+          "mochaccino": "Mochaccino"
         },
         "notice": {
           "title": "Notare che",
@@ -243,7 +248,7 @@
         "cocktails": "Cocktail",
         "wine": "Vino e spumante",
         "beer": "Birra",
-        "spirits": "Spiriti",
+        "spirits": "Liquori",
         "hotDrinks": "Bevande calde",
         "smoothies": "Frullati",
         "softDrinks": "Bevande analcoliche"
@@ -262,14 +267,14 @@
         "caipirinha": "Caipirinha",
         "pinaColada": "Pina Colada",
         "royalMarina": "Marina Reale",
-        "sexOnTheBeach": "Sesso sulla spiaggia",
+        "sexOnTheBeach": "Sex on the Beach",
         "mojito": "Mojito",
         "daiquiri": "Daiquiri",
         "margarita": "Margherita",
         "aperolSpritz": "Aperol Spritz",
         "glassOfSangria": "Bicchiere di Sangria",
         "sangriaHalfL": "Sangria 1/2L",
-        "cavaSangriaHalfL": "Cava Sangria 1/2L",
+        "cavaSangriaHalfL": "Sangria al cava 1/2L",
         "glassOfWine": "Bicchiere di vino",
         "montecilloCrianza": "Montecillo Allevamento D.O. La Rioja",
         "ederraRueda": "Ederra D.O. Rueda",
@@ -321,7 +326,6 @@
         "teaSelection": "Selezione di tè",
         "hotChocolate": "Cioccolata calda",
         "hotChocolateWithCream": "Cioccolata calda con panna",
-        "colaCao": "Cola Cao",
         "orangeJuice": "Succo d'arancia",
         "lanzaroteSmoothie": "Frullato di Lanzarote",
         "mediterraneanSmoothie": "Frullato mediterraneo",
@@ -389,8 +393,8 @@
         "pokeBowlDesc": "Salmone affumicato, edamame, carote, cetriolo, mango, riso basmati, ravanello, lime e olio extra vergine di oliva.",
         "clubSandwich": "Panino al club",
         "clubSandwichDesc": "Pollo, bacon, uovo, pomodoro, formaggio, cipolla croccante, timo, maionese, pane a fette e burro.",
-        "baoBunTeriyaki": "Bao Bun con Teriyaki",
-        "baoBunTeriyakiDesc": "Bao bun con semi di sesamo, petto di pollo, cipolla, salsa teriyaki, salsa di soia e olio extravergine di oliva.",
+        "baoBunTeriyaki": "Pan Bao con Teriyaki",
+        "baoBunTeriyakiDesc": "Pan bao con semi di sesamo, petto di pollo, cipolla, salsa teriyaki, salsa di soia e olio extravergine di oliva.",
         "breezeBurger": "Hamburger di brezza",
         "breezeBurgerDesc": "Pan brioche, manzo, avocado, formaggio di capra, pancetta, cipolla, lattuga, salsa brava e olio d'oliva. Servito con patatine fritte.",
         "grilledVegetables": "Verdure Grigliate",
@@ -401,7 +405,7 @@
         "prawnCocktail": "Cocktail Di Gamberi",
         "prawnCocktailDesc": "Lattuga, ananas fresco, avocado, gamberoni e salsa cocktail.",
         "salmonTartare": "Tartare di salmone con avocado",
-        "crispyKingPrawn": "Gamberone Reale Croccante",
+        "crispyKingPrawn": "Gamberi croccanti",
         "crispyKingPrawnDesc": "Servito con curry e salsa di mango.",
         "artisanIceCream": "Gelato Artigianale",
         "artisanIceCreamDesc": "Selezione di gusti diversi.",
@@ -477,7 +481,7 @@
       },
       "intro": {
         "title": "Una serata speciale alla Marina",
-        "text": "Goditi un'esperienza alla griglia curata preparata per un rilassato venerdì sera. Gli ospiti possono scegliere tra un'opzione di verdure, pesce o carne, in base alla disponibilità."
+        "text": "Goditi un'esperienza alla griglia per un rilassante venerdì sera. Gli ospiti possono scegliere tra opzione verdure, pesce o carne, soggetto a disponibilità."
       },
       "options": {
         "vegetable": {
@@ -751,7 +755,7 @@
     },
     "minibar": {
       "summary": "Politica del minibar",
-      "oceanMarina": "<strong>Ocean & Marina:</strong> Bottiglia d'acqua in omaggio e due capsule di caffè Premium illy®.",
+      "oceanMarina": "<strong>Camere Ocean e Marina:</strong> Bottiglia d'acqua in omaggio e due capsule di caffè Premium illy®.",
       "royalSuites": "<strong>Royal Suites:</strong> Un rifornimento giornaliero di tutte le bevande, <strong>escluse le bevande alcoliche.</strong>"
     },
     "poolTowels": {
@@ -875,10 +879,10 @@
     "excursions": {
       "title": "Escursioni ed esperienze sull'isola",
       "intro": "Il nostro personale della reception può aiutarvi a organizzare attività e tour selezionati dell'isola.",
-      "firstMinuteTours": "Tour del primo minuto",
-      "waterbus": "Vaporetto",
-      "submarineSafaris": "Safari sottomarini",
-      "canarytrip": "Viaggio alle Canarie",
+      "firstMinuteTours": "First Minute Tours",
+      "waterbus": "Waterbus",
+      "submarineSafaris": "Submarine Safaris",
+      "canarytrip": "Canarytrip",
       "catlanza": "Catlanza"
     },
     "notice": {

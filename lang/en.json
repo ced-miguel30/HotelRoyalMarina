@@ -113,9 +113,14 @@
         "freshOrangeJuice": "Freshly Squeezed Orange Juice",
         "milkSelection": "Milk Selection",
         "milkSelectionDesc": "Whole, skimmed, oat, almond or soy milk.",
-        "teaHerbalInfusions": "Tea & Herbal Infusions",
+        "teaHerbalInfusions": "Tea Selection",
         "hotChocolate": "Hot Chocolate",
-        "colaCao": "Cola Cao"
+        "espresso": "Espresso",
+        "americano": "Americano",
+        "latte": "Latte — 3.50€",
+        "cappuccino": "Cappuccino",
+        "mochaccino": "Mochaccino",
+        "decaffeinatedCoffee": "Decaffeinated Coffee"
       },
       "feature": {
         "imageAlt": "Breakfast detail",
@@ -199,14 +204,14 @@
           "tea": "Tea",
           "herbalInfusion": "Herbal Infusion",
           "hotChocolate": "Hot Chocolate",
-          "colaCao": "Cola Cao",
           "freshOrangeJuice": "Fresh Orange Juice",
           "wholeMilk": "Whole Milk",
           "skimmedMilk": "Skimmed Milk",
           "oatMilk": "Oat Milk",
           "soyMilk": "Soy Milk",
           "almondMilk": "Almond Milk",
-          "noMilk": "No Milk"
+          "noMilk": "No Milk",
+          "mochaccino": "Mochaccino"
         },
         "notice": {
           "title": "Please Note",
@@ -321,7 +326,6 @@
         "teaSelection": "Tea Selection",
         "hotChocolate": "Hot Chocolate",
         "hotChocolateWithCream": "Hot Chocolate with Cream",
-        "colaCao": "Cola Cao",
         "orangeJuice": "Orange Juice",
         "lanzaroteSmoothie": "Lanzarote Smoothie",
         "mediterraneanSmoothie": "Mediterranean Smoothie",
@@ -401,7 +405,7 @@
         "prawnCocktail": "Prawn Cocktail",
         "prawnCocktailDesc": "Lettuce, fresh pineapple, avocado, king prawns and cocktail sauce.",
         "salmonTartare": "Salmon Tartare with Avocado",
-        "crispyKingPrawn": "Crispy King Prawn",
+        "crispyKingPrawn": "Crispy Prawns",
         "crispyKingPrawnDesc": "Served with curry and mango sauce.",
         "artisanIceCream": "Artisan Ice Cream",
         "artisanIceCreamDesc": "Selection of different flavours.",
@@ -477,7 +481,7 @@
       },
       "intro": {
         "title": "A Special Evening by the Marina",
-        "text": "Enjoy a curated grill experience prepared for a relaxed Friday evening. Guests may choose between a vegetable, fish or meat option, subject to availability."
+        "text": "Enjoy a grill experience for a relaxed Friday evening. Guests may choose between a vegetable, fish or meat option, subject to availability."
       },
       "options": {
         "vegetable": {
@@ -751,7 +755,7 @@
     },
     "minibar": {
       "summary": "Minibar Policy",
-      "oceanMarina": "<strong>Ocean & Marina:</strong> Complimentary Bottle of Water & Two Premium illy® Coffee Capsules.",
+      "oceanMarina": "<strong>Ocean & Marina Rooms:</strong> Complimentary bottle of water & two premium illy® coffee capsules.",
       "royalSuites": "<strong>Royal Suites:</strong> One daily refill of all beverages, <strong>excluding alcoholic beverages.</strong>"
     },
     "poolTowels": {
