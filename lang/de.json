@@ -691,7 +691,7 @@
       },
       "sieteGotas": {
         "title": "Siete Gotas",
-        "description": "Ein elegantes mediterranes Restaurant mit Blick auf den Yachthafen Puerto Calero, das frische Meeresfrüchte, erstklassiges Fleisch und raffinierte moderne Küche bietet.",
+        "description": "Ein authentisches mexikanisches Restaurant mit Blick auf den Yachthafen Puerto Calero, das traditionelle Aromen, lebendige Gerichte und eine einladende Atmosphäre bietet.",
         "location": "Puerto Calero Marina, Lanzarote →",
         "imageAlt": "Siete Gotas"
       },
@@ -717,11 +717,11 @@
         "location": "Carretera LZ-2 Nº6, Uga →",
         "imageAlt": "Bodega de Uga"
       },
-      "casaJoaquin": {
-        "title": "Casa Joaquín",
-        "description": "Das Casa Joaquín liegt im Dorf Soo, etwa 30 Minuten vom Hotel entfernt und ist ein traditionelles kanarisches Restaurant, das für sein gegrilltes Fleisch, lokale Rezepte und seine einladende, familiäre Atmosphäre bekannt ist.",
-        "location": "Calle San Juan Evangelista, Soo, Lanzarote →",
-        "imageAlt": "Casa Joaquín"
+      "socarrat": {
+        "title": "Socarrat •La Casa de los Arroces•",
+        "description": "In Playa Blanca, etwa 25 Minuten vom Hotel entfernt, ist Socarrat •La Casa de los Arroces• ein renommiertes Restaurant, das sich auf außergewöhnliche Reisgerichte, traditionelle spanische Arroces und eine warme, einladende Atmosphäre spezialisiert hat.",
+        "location": "Playa Blanca, Lanzarote →",
+        "imageAlt": "Socarrat •La Casa de los Arroces•"
       }
     },
     "concierge": {

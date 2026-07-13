@@ -691,7 +691,7 @@
       },
       "sieteGotas": {
         "title": "Siete Gotas",
-        "description": "Un elegante restaurante mediterráneo con vistas al puerto deportivo de Puerto Calero, que ofrece marisco fresco, carnes de primera calidad y refinada cocina contemporánea.",
+        "description": "Un auténtico restaurante mexicano con vistas al puerto deportivo de Puerto Calero, que ofrece sabores tradicionales, platos vibrantes y un ambiente acogedor.",
         "location": "Puerto deportivo Puerto Calero, Lanzarote →",
         "imageAlt": "Siete Gotas"
       },
@@ -717,11 +717,11 @@
         "location": "Carretera LZ-2 Nº6, Uga →",
         "imageAlt": "Bodega de Ugá"
       },
-      "casaJoaquin": {
-        "title": "Casa Joaquín",
-        "description": "Ubicada en el pueblo de Soo, aproximadamente a 30 minutos del hotel, Casa Joaquín es un restaurante tradicional canario famoso por sus carnes a la parrilla, recetas locales y un ambiente familiar y acogedor.",
-        "location": "Calle San Juan Evangelista, Soo, Lanzarote →",
-        "imageAlt": "Casa Joaquín"
+      "socarrat": {
+        "title": "Socarrat •La Casa de los Arroces•",
+        "description": "Ubicado en Playa Blanca, a unos 25 minutos del hotel, Socarrat •La Casa de los Arroces• es un restaurante de referencia especializado en arroces excepcionales, cocina tradicional española y un ambiente acogedor.",
+        "location": "Playa Blanca, Lanzarote →",
+        "imageAlt": "Socarrat •La Casa de los Arroces•"
       }
     },
     "concierge": {
