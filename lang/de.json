@@ -481,7 +481,13 @@
       },
       "intro": {
         "title": "Ein besonderer Abend in der Marina",
-        "text": "Genießen Sie ein Grill-Erlebnis für einen entspannten Freitagabend. Gäste können je nach Verfügbarkeit zwischen Gemüse-, Fisch- oder Fleischoption wählen."
+        "text": "Genießen Sie ein Grill-Erlebnis für einen entspannten Freitagabend. Gäste können je nach Verfügbarkeit zwischen Gemüse-, Fisch-, Fleisch- oder Paella-für-2-Option wählen."
+      },
+      "pricing": {
+        "label": "Preis",
+        "price": "40€ pro Person",
+        "includes": "Beinhaltet eine kanarische Vorspeisenplatte, Hauptgericht sowie Kaffee oder Dessert des Tages.",
+        "drinks": "Getränke werden separat berechnet."
       },
       "options": {
         "vegetable": {
@@ -501,6 +507,12 @@
           "label": "Option drei",
           "title": "Fleischgrill",
           "description": "Eine klassische Option mit gegrilltem Fleisch, zubereitet für Gäste, die ein reichhaltigeres kulinarisches Erlebnis am Freitagabend bevorzugen."
+        },
+        "paella": {
+          "imageAlt": "Paella für zwei Personen",
+          "label": "Option vier",
+          "title": "Paella für 2",
+          "description": "Traditionelle Paella für zwei Personen. Nach Verfügbarkeit mit Fleisch, gemischt oder Meeresfrüchten."
         }
       },
       "experience": {

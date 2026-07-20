@@ -481,7 +481,13 @@
       },
       "intro": {
         "title": "Une soirée spéciale au bord de la marina",
-        "text": "Profitez d'une expérience grill pour une soirée du vendredi détendue. Les clients peuvent choisir entre une option légumes, poisson ou viande, sous réserve de disponibilité."
+        "text": "Profitez d'une expérience grill pour une soirée du vendredi détendue. Les clients peuvent choisir entre une option légumes, poisson, viande ou paella pour 2, sous réserve de disponibilité."
+      },
+      "pricing": {
+        "label": "Tarif",
+        "price": "40€ par personne",
+        "includes": "Comprend une entrée d'assortiment canarien, un plat principal, un café ou un dessert du jour.",
+        "drinks": "Les boissons sont facturées séparément."
       },
       "options": {
         "vegetable": {
@@ -501,6 +507,12 @@
           "label": "Troisième option",
           "title": "Grillades de viande",
           "description": "Une option de viande grillée classique préparée pour les clients qui préfèrent une expérience culinaire plus riche le vendredi soir."
+        },
+        "paella": {
+          "imageAlt": "Paella pour deux personnes",
+          "label": "Quatrième option",
+          "title": "Paella pour 2",
+          "description": "Paella traditionnelle pour deux personnes. Au choix : viande, mixte ou fruits de mer, selon disponibilité."
         }
       },
       "experience": {

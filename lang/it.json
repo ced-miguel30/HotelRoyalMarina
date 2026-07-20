@@ -481,7 +481,13 @@
       },
       "intro": {
         "title": "Una serata speciale alla Marina",
-        "text": "Goditi un'esperienza alla griglia per un rilassante venerdì sera. Gli ospiti possono scegliere tra opzione verdure, pesce o carne, soggetto a disponibilità."
+        "text": "Goditi un'esperienza alla griglia per un rilassante venerdì sera. Gli ospiti possono scegliere tra opzione verdure, pesce, carne o paella per 2, soggetto a disponibilità."
+      },
+      "pricing": {
+        "label": "Prezzo",
+        "price": "40€ a persona",
+        "includes": "Include antipasto di assortimento canario, piatto principale, caffè o dessert del giorno.",
+        "drinks": "Le bevande sono a parte."
       },
       "options": {
         "vegetable": {
@@ -501,6 +507,12 @@
           "label": "Opzione tre",
           "title": "Grigliata Di Carne",
           "description": "Una classica opzione di carne alla griglia preparata per gli ospiti che preferiscono un'esperienza culinaria più ricca il venerdì sera."
+        },
+        "paella": {
+          "imageAlt": "Paella per due persone",
+          "label": "Opzione quattro",
+          "title": "Paella per 2",
+          "description": "Paella tradizionale per due persone. Disponibile di carne, mista o di mare, in base alla disponibilità."
         }
       },
       "experience": {

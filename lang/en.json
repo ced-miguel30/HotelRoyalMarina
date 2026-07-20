@@ -481,7 +481,13 @@
       },
       "intro": {
         "title": "A Special Evening by the Marina",
-        "text": "Enjoy a grill experience for a relaxed Friday evening. Guests may choose between a vegetable, fish or meat option, subject to availability."
+        "text": "Enjoy a grill experience for a relaxed Friday evening. Guests may choose between a vegetable, fish, meat or paella for two option, subject to availability."
+      },
+      "pricing": {
+        "label": "Price",
+        "price": "€40 per person",
+        "includes": "Includes a Canarian assorted starter, main course, and coffee or dessert of the day.",
+        "drinks": "Drinks are charged separately."
       },
       "options": {
         "vegetable": {
@@ -501,6 +507,12 @@
           "label": "Option Three",
           "title": "Meat Grill",
           "description": "A classic grilled meat option prepared for guests who prefer a richer Friday evening dining experience."
+        },
+        "paella": {
+          "imageAlt": "Paella for two",
+          "label": "Option Four",
+          "title": "Paella for Two",
+          "description": "Traditional paella for two. Available as meat, mixed or seafood, subject to availability."
         }
       },
       "experience": {

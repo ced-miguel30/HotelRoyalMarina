@@ -481,7 +481,13 @@
       },
       "intro": {
         "title": "Una velada especial junto al puerto deportivo",
-        "text": "Disfrute de una experiencia de parrilla para una relajada noche de viernes. Los huéspedes podrán elegir entre opción de verdura, pescado o carne, sujeto a disponibilidad."
+        "text": "Disfrute de una experiencia de parrilla para una relajada noche de viernes. Los huéspedes podrán elegir entre opción de verdura, pescado, carne o paella para 2, sujeto a disponibilidad."
+      },
+      "pricing": {
+        "label": "Precio",
+        "price": "40€ por persona",
+        "includes": "Incluye entrante de surtidos canarios, plato principal, café o postre del día.",
+        "drinks": "Las bebidas se cobran aparte."
       },
       "options": {
         "vegetable": {
@@ -501,6 +507,12 @@
           "label": "Opción tres",
           "title": "Parrilla de carne",
           "description": "Una opción clásica de carne a la parrilla preparada para los huéspedes que prefieren una experiencia gastronómica más rica los viernes por la noche."
+        },
+        "paella": {
+          "imageAlt": "Paella para dos personas",
+          "label": "Opción cuatro",
+          "title": "Paella para 2",
+          "description": "Paella tradicional para dos personas. Puede ser de carne, mixta o de marisco, según disponibilidad."
         }
       },
       "experience": {
