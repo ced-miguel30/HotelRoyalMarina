@@ -24,7 +24,7 @@
       },
       "intro": {
         "title": "Restaurante y bar",
-        "text": "Descubra nuestro servicio de desayuno, bar en la piscina, snacks, opciones de cenas frías en la suite y experiencias gastronómicas especiales en Hotel Royal Marina Suites Boutique Lanzarote."
+        "text": "Descubra nuestro servicio de desayuno, bar en la piscina, snacks, opciones de cenas frías en la suite, paellas y experiencias gastronómicas especiales en Hotel Royal Marina Suites Boutique Lanzarote."
       },
       "cards": {
         "breakfast": {
@@ -60,6 +60,13 @@
           "imageAlt": "Noche de parrillada",
           "title": "Noche de parrilla",
           "description": "Una experiencia nocturna especial disponible bajo reserva.",
+          "button": "Descubre más →"
+        },
+        "paellas": {
+          "time": "Pedido antes de las 17:00 del día anterior",
+          "imageAlt": "Paellas",
+          "title": "Paellas",
+          "description": "Paella tradicional para 2 personas, disponible de marisco, carne o mixta.",
           "button": "Descubre más →"
         }
       },
@@ -523,6 +530,55 @@
       },
       "notice": {
         "text": "Se recomienda reservar con antelación. La disponibilidad puede depender del suministro de productos frescos, especialmente para las selecciones de pescado y carne. Póngase en contacto con la recepción o con el restaurante Marina para confirmarlo."
+      }
+    },
+    "paellas": {
+      "pageTitle": "Paellas | Hotel Royal Marina Suites Boutique",
+      "hero": {
+        "imageAlt": "Paellas en el Restaurante Marina",
+        "label": "Restaurante Marina",
+        "title": "Paellas",
+        "subtitle": "Bajo pedido · Para 2 personas"
+      },
+      "order": {
+        "label": "Pedido con antelación",
+        "title": "Pedido el día anterior",
+        "text": "Las paellas deben pedirse el día anterior como muy tarde a las 17:00."
+      },
+      "pricing": {
+        "label": "Precio",
+        "price": "40€ por paella",
+        "serving": "Paella para 2 personas"
+      },
+      "intro": {
+        "title": "Paella tradicional para compartir",
+        "text": "Disfrute de una paella tradicional preparada para compartir. Disponible de marisco, carne o mixta, según disponibilidad."
+      },
+      "options": {
+        "seafood": {
+          "imageAlt": "Paella de marisco",
+          "label": "Opción uno",
+          "title": "Paella de marisco",
+          "description": "Una clásica paella de marisco preparada con ingredientes frescos de la isla, ideal para dos comensales."
+        },
+        "meat": {
+          "imageAlt": "Paella de carne",
+          "label": "Opción dos",
+          "title": "Paella de carne",
+          "description": "Una contundente paella de carne preparada para quienes prefieren un sabor tradicional más intenso, servida para dos."
+        },
+        "mixed": {
+          "imageAlt": "Paella mixta",
+          "label": "Opción tres",
+          "title": "Paella mixta",
+          "description": "Una paella mixta que combina carne y marisco, ofreciendo lo mejor de ambas tradiciones para dos comensales."
+        }
+      },
+      "allergen": {
+        "text": "Algunos platos pueden contener alérgenos o trazas de alérgenos. Por favor, informe a nuestro equipo de cualquier alergia o necesidad dietética."
+      },
+      "notice": {
+        "text": "Servicio sujeto a disponibilidad. Para realizar su pedido, contacte con el personal del Restaurante Marina o con Recepción."
       }
     }
   },

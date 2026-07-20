@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="marinaRestaurant.paellas.pageTitle">Paellas | Hotel Royal Marina Suites Boutique</title>
+
+<style>
+:root{
+  --blue:#062b4f;
+  --gold:#c9a45c;
+  --white:#ffffff;
+  --soft:#f5f8fa;
+  --text:#1f2a36;
+}
+
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:var(--soft);
+  color:var(--text);
+}
+
+.hero-paellas{
+  min-height:68vh;
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+}
+
+.hero-paellas img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+}
+
+.hero-paellas::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(
+    rgba(6,43,79,0.25),
+    rgba(6,43,79,0.90)
+  );
+  z-index:1;
+}
+
+.hero-content{
+  position:relative;
+  z-index:2;
+  padding:30px;
+  max-width:850px;
+}
+
+.hero-content p{
+  color:var(--gold);
+  letter-spacing:4px;
+  text-transform:uppercase;
+  font-size:12px;
+}
+
+.hero-content h1{
+  font-family:Georgia, serif;
+  font-size:50px;
+  font-weight:400;
+  margin:0;
+}
+
+.gold-line{
+  width:80px;
+  height:2px;
+  background:var(--gold);
+  margin:25px auto;
+}
+
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:55px 20px;
+}
+
+.reservation-box{
+  background:var(--blue);
+  color:white;
+  border-radius:24px;
+  padding:34px;
+  margin-top:-95px;
+  position:relative;
+  z-index:3;
+  box-shadow:0 14px 35px rgba(0,0,0,0.18);
+  text-align:center;
+}
+
+.reservation-box span{
+  color:var(--gold);
+  letter-spacing:3px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.reservation-box h2{
+  font-family:Georgia, serif;
+  font-size:30px;
+  font-weight:400;
+  margin:14px 0;
+}
+
+.reservation-box p{
+  line-height:1.7;
+  margin-bottom:0;
+}
+
+.price-box{
+  background:white;
+  border-left:5px solid var(--gold);
+  padding:26px;
+  border-radius:18px;
+  margin:40px auto 0;
+  max-width:760px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.05);
+  text-align:center;
+}
+
+.price-box span{
+  color:var(--gold);
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:12px;
+}
+
+.price-box h3{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:30px;
+  font-weight:400;
+  margin:10px 0;
+}
+
+.price-box p{
+  line-height:1.7;
+  margin:8px 0 0;
+}
+
+.intro{
+  text-align:center;
+  max-width:760px;
+  margin:55px auto 45px;
+}
+
+.intro h2{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:34px;
+  font-weight:400;
+}
+
+.intro p{
+  line-height:1.7;
+}
+
+.choice-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:26px;
+}
+
+.choice-card{
+  background:white;
+  border-radius:24px;
+  overflow:hidden;
+  box-shadow:0 10px 28px rgba(0,0,0,0.07);
+  border:1px solid #e8e8e8;
+}
+
+.choice-card img{
+  width:100%;
+  height:210px;
+  object-fit:cover;
+}
+
+.choice-content{
+  padding:30px;
+}
+
+.choice-content span{
+  color:var(--gold);
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.choice-content h3{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:27px;
+  font-weight:400;
+  margin:12px 0;
+}
+
+.choice-content p{
+  line-height:1.7;
+  font-size:14px;
+}
+
+.notice{
+  background:white;
+  border-left:5px solid var(--gold);
+  padding:28px;
+  border-radius:18px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.05);
+  margin-bottom:26px;
+}
+
+.notice:last-of-type{
+  margin-bottom:0;
+}
+
+.back{
+  display:inline-block;
+  margin-top:35px;
+  color:var(--gold);
+  text-decoration:none;
+  font-weight:bold;
+}
+
+footer{
+  background:var(--blue);
+  color:white;
+  text-align:center;
+  padding:28px;
+  font-size:14px;
+}
+
+@media(max-width:800px){
+  .hero-content h1{
+    font-size:37px;
+  }
+
+  .reservation-box{
+    margin-top:-60px;
+  }
+}
+</style>
+<link rel="stylesheet" href="../css/language-switcher.css">
+</head>
+
+<body>
+
+<div class="language-switcher">
+  <a href="?lang=en" data-lang="en">EN</a>
+  <a href="?lang=es" data-lang="es">ES</a>
+  <a href="?lang=de" data-lang="de">DE</a>
+  <a href="?lang=it" data-lang="it">IT</a>
+  <a href="?lang=fr" data-lang="fr">FR</a>
+</div>
+
+
+<section class="hero-paellas">
+  <img src="../images/paella5.jpg" alt="Paellas" data-i18n-alt="marinaRestaurant.paellas.hero.imageAlt">
+
+  <div class="hero-content">
+    <p data-i18n="marinaRestaurant.paellas.hero.label">Marina Restaurant</p>
+    <h1 data-i18n="marinaRestaurant.paellas.hero.title">Paellas</h1>
+    <div class="gold-line"></div>
+    <p data-i18n="marinaRestaurant.paellas.hero.subtitle">Under Order · For 2 People</p>
+  </div>
+</section>
+
+<div class="container">
+
+  <div class="reservation-box">
+    <span data-i18n="marinaRestaurant.paellas.order.label">Advance Order Required</span>
+    <h2 data-i18n="marinaRestaurant.paellas.order.title">Order the Day Before</h2>
+    <p data-i18n="marinaRestaurant.paellas.order.text">
+      Paellas must be ordered the day before, no later than 17:00.
+    </p>
+  </div>
+
+  <div class="price-box">
+    <span data-i18n="marinaRestaurant.paellas.pricing.label">Price</span>
+    <h3 data-i18n="marinaRestaurant.paellas.pricing.price">€40 per paella</h3>
+    <p data-i18n="marinaRestaurant.paellas.pricing.serving">Paella for 2 people</p>
+  </div>
+
+  <div class="intro">
+    <h2 data-i18n="marinaRestaurant.paellas.intro.title">Traditional Paella to Share</h2>
+    <p data-i18n="marinaRestaurant.paellas.intro.text">
+      Enjoy a traditional paella prepared to share. Available as seafood, meat or mixed, subject to availability.
+    </p>
+  </div>
+
+  <div class="choice-grid">
+
+    <div class="choice-card">
+      <img src="../images/paella1.jpg" alt="Seafood paella" data-i18n-alt="marinaRestaurant.paellas.options.seafood.imageAlt">
+      <div class="choice-content">
+        <span data-i18n="marinaRestaurant.paellas.options.seafood.label">Option One</span>
+        <h3 data-i18n="marinaRestaurant.paellas.options.seafood.title">Seafood Paella</h3>
+        <p data-i18n="marinaRestaurant.paellas.options.seafood.description">
+          A classic seafood paella prepared with fresh ingredients from the island, ideal for two guests.
+        </p>
+      </div>
+    </div>
+
+    <div class="choice-card">
+      <img src="../images/paella2.jpg" alt="Meat paella" data-i18n-alt="marinaRestaurant.paellas.options.meat.imageAlt">
+      <div class="choice-content">
+        <span data-i18n="marinaRestaurant.paellas.options.meat.label">Option Two</span>
+        <h3 data-i18n="marinaRestaurant.paellas.options.meat.title">Meat Paella</h3>
+        <p data-i18n="marinaRestaurant.paellas.options.meat.description">
+          A hearty meat paella prepared for guests who prefer a richer traditional flavour, served for two.
+        </p>
+      </div>
+    </div>
+
+    <div class="choice-card">
+      <img src="../images/paella4.jpg" alt="Mixed paella" data-i18n-alt="marinaRestaurant.paellas.options.mixed.imageAlt">
+      <div class="choice-content">
+        <span data-i18n="marinaRestaurant.paellas.options.mixed.label">Option Three</span>
+        <h3 data-i18n="marinaRestaurant.paellas.options.mixed.title">Mixed Paella</h3>
+        <p data-i18n="marinaRestaurant.paellas.options.mixed.description">
+          A mixed paella combining meat and seafood, offering the best of both traditions for two guests.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="notice" style="margin-top:55px;">
+    <strong data-i18n="marinaRestaurant.shared.allergenTitle">Allergen Information</strong>
+    <p data-i18n="marinaRestaurant.paellas.allergen.text">
+      Some dishes may contain allergens or traces of allergens. Please inform our team of any allergy or dietary requirement.
+    </p>
+  </div>
+
+  <div class="notice">
+    <strong data-i18n="marinaRestaurant.shared.pleaseNoteTitle">Please note</strong>
+    <p data-i18n="marinaRestaurant.paellas.notice.text">
+      Service is subject to availability. To place your order, please speak with Marina Restaurant staff or reception.
+    </p>
+  </div>
+
+  <a class="back" href="restaurant.html" data-i18n="marinaRestaurant.shared.backToRestaurant">← Back to Marina Restaurant</a>
+
+</div>
+
+<footer data-i18n="marinaRestaurant.shared.footer">
+  Hotel Royal Marina Suites Boutique Lanzarote
+</footer>
+
+<script src="../js/translations.js"></script>
+</body>
+</html>
