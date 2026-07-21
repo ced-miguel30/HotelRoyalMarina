@@ -63,7 +63,7 @@
           "button": "Descubre más →"
         },
         "paellas": {
-          "time": "Pedido antes de las 17:00 del día anterior",
+          "time": "Pedido el día anterior · Comida",
           "imageAlt": "Paellas",
           "title": "Paellas",
           "description": "Paella tradicional para 2 personas, disponible de marisco, carne o mixta.",
@@ -538,12 +538,12 @@
         "imageAlt": "Paellas en el Restaurante Marina",
         "label": "Restaurante Marina",
         "title": "Paellas",
-        "subtitle": "Bajo pedido · Para 2 personas"
+        "subtitle": "Bajo pedido · Horario de comida · Para 2 personas"
       },
       "order": {
         "label": "Pedido con antelación",
-        "title": "Pedido el día anterior",
-        "text": "Las paellas deben pedirse el día anterior como muy tarde a las 17:00."
+        "title": "Servicio de comida",
+        "text": "Las paellas deben pedirse el día anterior. Se sirven en horario de comida y pueden consumirse en el restaurante o pedirse para la habitación."
       },
       "pricing": {
         "label": "Precio",

@@ -63,7 +63,7 @@
           "button": "Entdecken Sie mehr →"
         },
         "paellas": {
-          "time": "Bestellung bis 17:00 Uhr am Vortag",
+          "time": "Bestellung am Vortag · Mittagessen",
           "imageAlt": "Paellas",
           "title": "Paellas",
           "description": "Traditionelle Paella für 2 Personen, erhältlich mit Meeresfrüchten, Fleisch oder gemischt.",
@@ -538,12 +538,12 @@
         "imageAlt": "Paellas im Marina Restaurant",
         "label": "Marina Restaurant",
         "title": "Paellas",
-        "subtitle": "Auf Bestellung · Für 2 Personen"
+        "subtitle": "Auf Bestellung · Mittagessen · Für 2 Personen"
       },
       "order": {
         "label": "Vorbestellung erforderlich",
-        "title": "Bestellung am Vortag",
-        "text": "Paellas müssen am Vortag spätestens bis 17:00 Uhr bestellt werden."
+        "title": "Mittagsservice",
+        "text": "Paellas müssen am Vortag bestellt werden. Sie werden zum Mittagessen serviert und können im Restaurant genossen oder auf das Zimmer bestellt werden."
       },
       "pricing": {
         "label": "Preis",

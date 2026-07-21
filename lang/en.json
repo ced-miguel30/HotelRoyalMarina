@@ -63,7 +63,7 @@
           "button": "Discover More →"
         },
         "paellas": {
-          "time": "Order by 17:00 the day before",
+          "time": "Order the day before · Lunch",
           "imageAlt": "Paellas",
           "title": "Paellas",
           "description": "Traditional paella for two, available as seafood, meat or mixed.",
@@ -538,12 +538,12 @@
         "imageAlt": "Paellas at Marina Restaurant",
         "label": "Marina Restaurant",
         "title": "Paellas",
-        "subtitle": "Under Order · For 2 People"
+        "subtitle": "Under Order · Lunch · For 2 People"
       },
       "order": {
         "label": "Advance Order Required",
-        "title": "Order the Day Before",
-        "text": "Paellas must be ordered the day before, no later than 17:00."
+        "title": "Lunch Service",
+        "text": "Paellas must be ordered the day before. They are served at lunchtime and can be enjoyed in the restaurant or delivered to your room."
       },
       "pricing": {
         "label": "Price",

@@ -63,7 +63,7 @@
           "button": "Scopri di più →"
         },
         "paellas": {
-          "time": "Ordine entro le 17:00 del giorno prima",
+          "time": "Ordine il giorno prima · Pranzo",
           "imageAlt": "Paellas",
           "title": "Paellas",
           "description": "Paella tradizionale per 2 persone, disponibile di mare, carne o mista.",
@@ -538,12 +538,12 @@
         "imageAlt": "Paellas al Ristorante Marina",
         "label": "Ristorante Marina",
         "title": "Paellas",
-        "subtitle": "Su ordinazione · Per 2 persone"
+        "subtitle": "Su ordinazione · Pranzo · Per 2 persone"
       },
       "order": {
         "label": "Ordine anticipato richiesto",
-        "title": "Ordine il giorno prima",
-        "text": "Le paellas devono essere ordinate il giorno prima entro le 17:00."
+        "title": "Servizio pranzo",
+        "text": "Le paellas devono essere ordinate il giorno prima. Vengono servite a pranzo e possono essere consumate al ristorante o consegnate in camera."
       },
       "pricing": {
         "label": "Prezzo",

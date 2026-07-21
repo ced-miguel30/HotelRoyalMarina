@@ -63,7 +63,7 @@
           "button": "En savoir plus →"
         },
         "paellas": {
-          "time": "Commande avant 17h00 la veille",
+          "time": "Commande la veille · Déjeuner",
           "imageAlt": "Paellas",
           "title": "Paellas",
           "description": "Paella traditionnelle pour 2 personnes, disponible aux fruits de mer, à la viande ou mixte.",
@@ -538,12 +538,12 @@
         "imageAlt": "Paellas au Restaurant Marina",
         "label": "Restaurant Marina",
         "title": "Paellas",
-        "subtitle": "Sur commande · Pour 2 personnes"
+        "subtitle": "Sur commande · Déjeuner · Pour 2 personnes"
       },
       "order": {
         "label": "Commande anticipée requise",
-        "title": "Commande la veille",
-        "text": "Les paellas doivent être commandées la veille au plus tard à 17h00."
+        "title": "Service du déjeuner",
+        "text": "Les paellas doivent être commandées la veille. Elles sont servies à l'heure du déjeuner et peuvent être dégustées au restaurant ou livrées en chambre."
       },
       "pricing": {
         "label": "Tarif",
