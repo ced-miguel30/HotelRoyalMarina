@@ -8,7 +8,7 @@
       "backToRestaurant": "← Zurück zum Marina Restaurant",
       "backToBreakfast": "← Zurück zum Frühstück",
       "allergenTitle": "Informationen zu Allergenen",
-      "pleaseNoteTitle": "bitte beachten Sie",
+      "pleaseNoteTitle": "Bitte beachten Sie",
       "houseWine": "Hauswein",
       "localKm0Wine": "Lokaler Km 0 Wein",
       "cava": "Cava",
@@ -654,7 +654,7 @@
     },
     "openInGoogleMaps": "In Google Maps öffnen →",
     "website": "Website →",
-    "pleaseNote": "bitte beachten Sie",
+    "pleaseNote": "Bitte beachten Sie",
     "backToGuestServices": "← Zurück zu Gästeservice"
   },
   "facilities": {
