@@ -795,6 +795,12 @@
         "location": "Carretera LZ-2 Nº6, Uga →",
         "imageAlt": "Bodega de Uga"
       },
+      "bodegaDeSantiago": {
+        "title": "La Bodega de Santiago",
+        "description": "Situé dans le village de Yaiza, à environ 15 minutes de l'hôtel, La Bodega de Santiago est installée dans une demeure du XIXe siècle magnifiquement restaurée et propose une cuisine de marché aux accents canariens, des produits locaux, du poisson frais et des viandes de qualité dans un cadre détendu avec une charmante terrasse.",
+        "location": "C. Montañas del Fuego, Yaiza →",
+        "imageAlt": "La Bodega de Santiago"
+      },
       "socarrat": {
         "title": "Socarrat •La Casa de los Arroces•",
         "description": "Situé à Playa Blanca, à environ 25 minutes de l'hôtel, Socarrat •La Casa de los Arroces• est un restaurant réputé dédié à d'exceptionnels plats de riz, aux arroces traditionnels espagnols et à une ambiance chaleureuse et accueillante.",
