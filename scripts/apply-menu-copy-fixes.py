@@ -73,7 +73,7 @@ UPDATES = {
         },
         "hotelInfo": {
             "minibar": {
-                "oceanMarina": "<strong>Ocean & Marina Rooms:</strong> Complimentary bottle of water & two premium illy® coffee capsules."
+                "oceanMarina": "<strong>Ocean Suites & Marina Suites:</strong> Complimentary bottle of water & two premium illy® coffee capsules."
             },
             "housekeeping": {
                 "daily": "<strong>Daily Housekeeping</strong><br>\n        Our housekeeping service is available until <strong>3:00 PM.</strong>",
@@ -204,7 +204,7 @@ UPDATES = {
         },
         "hotelInfo": {
             "minibar": {
-                "oceanMarina": "<strong>Habitaciones Océano y Marina:</strong> Botella de agua y dos cápsulas de café illy® premium de cortesía."
+                "oceanMarina": "<strong>Suites Océano y Suites Marina:</strong> Botella de agua y dos cápsulas de café illy® premium de cortesía."
             },
             "housekeeping": {
                 "daily": "<strong>Limpieza diaria</strong><br>\n        Nuestro servicio de limpieza está disponible hasta las <strong>3:00 p. m.</strong>",
@@ -267,7 +267,7 @@ UPDATES = {
         "guide": {"beaches": {"famara": {"title": "Famara"}}},
         "hotelInfo": {
             "minibar": {
-                "oceanMarina": "<strong>Ocean- & Marina-Zimmer:</strong> Kostenlose Flasche Wasser und zwei Premium-illy®-Kaffeekapseln."
+                "oceanMarina": "<strong>Ocean-Suites & Marina-Suites:</strong> Kostenlose Flasche Wasser und zwei Premium-illy®-Kaffeekapseln."
             }
         },
         "reception": {
@@ -321,7 +321,7 @@ UPDATES = {
         "guide": {"beaches": {"famara": {"title": "Famara"}}},
         "hotelInfo": {
             "minibar": {
-                "oceanMarina": "<strong>Chambres Océan et Marina :</strong> Bouteille d'eau et deux capsules de café illy® premium offertes."
+                "oceanMarina": "<strong>Suites Océan et Suites Marina :</strong> Bouteille d'eau et deux capsules de café illy® premium offertes."
             }
         },
         "reception": {
@@ -382,7 +382,7 @@ UPDATES = {
         "guide": {"beaches": {"famara": {"title": "Famara"}}},
         "hotelInfo": {
             "minibar": {
-                "oceanMarina": "<strong>Camere Ocean e Marina:</strong> Bottiglia d'acqua in omaggio e due capsule di caffè Premium illy®."
+                "oceanMarina": "<strong>Suite Ocean e Suite Marina:</strong> Bottiglia d'acqua in omaggio e due capsule di caffè Premium illy®."
             }
         },
         "reception": {

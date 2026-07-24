@@ -1,7 +1,7 @@
 {
   "marinaRestaurant": {
     "shared": {
-      "footer": "Hotel Royal Marina Suites Boutique Lanzarote",
+      "footer": "Royal Marina Suites Boutique Hotel Lanzarote",
       "brandLabel": "Royal Marina Suites",
       "marinaRestaurantLabel": "Marina Restaurant",
       "backToHome": "← Back to Home",
@@ -16,7 +16,7 @@
       "reservationRequired": "Reservation Required"
     },
     "restaurant": {
-      "pageTitle": "Marina Restaurant | Hotel Royal Marina Suites Boutique",
+      "pageTitle": "Marina Restaurant | Royal Marina Suites Boutique Hotel",
       "hero": {
         "imageAlt": "Marina Restaurant",
         "title": "Marina Restaurant",
@@ -24,7 +24,7 @@
       },
       "intro": {
         "title": "Restaurant & Bar",
-        "text": "Discover our breakfast service, pool bar, snacks, in-suite cold dinner options, paellas and special dining experiences at Hotel Royal Marina Suites Boutique Lanzarote."
+        "text": "Discover our breakfast service, pool bar, snacks, in-suite cold dinner options, paellas and special dining experiences at Royal Marina Suites Boutique Hotel Lanzarote."
       },
       "cards": {
         "breakfast": {
@@ -42,7 +42,7 @@
           "button": "View Snacks →"
         },
         "poolBar": {
-          "time": "12:00 - 19:00",
+          "time": "11:30 - 19:00",
           "imageAlt": "Pool Bar",
           "title": "Pool Bar",
           "description": "Refreshments, cocktails, wine, beer, coffee and soft drinks.",
@@ -75,14 +75,14 @@
       }
     },
     "breakfast": {
-      "pageTitle": "Breakfast | Hotel Royal Marina Suites Boutique",
+      "pageTitle": "Breakfast | Royal Marina Suites Boutique Hotel",
       "hero": {
         "imageAlt": "Breakfast at Royal Marina Suites",
         "title": "Breakfast"
       },
       "intro": {
         "title": "Our Morning Experience",
-        "text": "Begin your day with a refined à la carte breakfast selection, prepared with fresh ingredients and served in the relaxed atmosphere of Hotel Royal Marina Suites Boutique Lanzarote."
+        "text": "Begin your day with a refined à la carte breakfast selection, prepared with fresh ingredients and served in the relaxed atmosphere of Royal Marina Suites Boutique Hotel Lanzarote."
       },
       "timeBox": {
         "label": "Breakfast Service",
@@ -95,6 +95,7 @@
       },
       "categories": {
         "eggs": "Eggs",
+        "hotDishes": "Hot Dishes",
         "sandwiches": "Sandwiches",
         "toasts": "Toasts",
         "beverages": "Beverages"
@@ -105,6 +106,8 @@
         "poachedEggs": "Poached Eggs",
         "boiledEggs": "Boiled Eggs",
         "softBoiledEggs": "Soft-Boiled Eggs",
+        "englishBreakfast": "English Breakfast",
+        "englishBreakfastDesc": "Fried egg, beans with tomato, mushrooms, bacon and hash brown.",
         "croqueMonsieur": "Croque Monsieur",
         "croqueMonsieurDesc": "White or brown bread, cooked ham and cheese.",
         "royalMarinaSandwich": "Royal Marina Sandwich",
@@ -124,7 +127,7 @@
         "hotChocolate": "Hot Chocolate",
         "espresso": "Espresso",
         "americano": "Americano",
-        "latte": "Latte — 3.50€",
+        "latte": "Latte",
         "cappuccino": "Cappuccino",
         "mochaccino": "Mochaccino",
         "decaffeinatedCoffee": "Decaffeinated Coffee"
@@ -139,7 +142,7 @@
       }
     },
     "breakfastInSuite": {
-      "pageTitle": "Breakfast in Your Suite | Hotel Royal Marina Suites Boutique",
+      "pageTitle": "Breakfast in Your Suite | Royal Marina Suites Boutique Hotel",
       "hero": {
         "imageAlt": "Breakfast in your Suite",
         "label": "Exclusive Service",
@@ -228,20 +231,20 @@
       }
     },
     "poolBar": {
-      "pageTitle": "Pool Bar | Hotel Royal Marina Suites Boutique",
+      "pageTitle": "Pool Bar | Royal Marina Suites Boutique Hotel",
       "hero": {
         "imageAlt": "Pool Bar at Royal Marina Suites",
         "title": "Pool Bar",
-        "hours": "12:00 - 19:00"
+        "hours": "11:30 - 19:00"
       },
       "intro": {
         "title": "Drinks by the Pool",
-        "text": "Enjoy cocktails, wines, beers, spirits, smoothies, coffee and soft drinks in a relaxed poolside setting at Hotel Royal Marina Suites Boutique Lanzarote."
+        "text": "Enjoy cocktails, wines, beers, spirits, smoothies, coffee and soft drinks in a relaxed poolside setting at Royal Marina Suites Boutique Hotel Lanzarote."
       },
       "serviceStrip": {
         "poolBar": {
           "label": "Pool Bar Service",
-          "title": "Daily from 12:00 to 19:00",
+          "title": "Daily from 11:30 to 19:00",
           "text": "Refreshing drinks and poolside service throughout the afternoon."
         },
         "signature": {
@@ -358,7 +361,7 @@
       }
     },
     "snacks": {
-      "pageTitle": "Snacks & Lunch | Hotel Royal Marina Suites Boutique",
+      "pageTitle": "Snacks & Lunch | Royal Marina Suites Boutique Hotel",
       "hero": {
         "imageAlt": "Snacks and lunch at Royal Marina Suites",
         "title": "Snacks & Lunch",
@@ -431,7 +434,7 @@
       }
     },
     "coldDinner": {
-      "pageTitle": "Cold Dinner in Suite | Hotel Royal Marina Suites Boutique",
+      "pageTitle": "Cold Dinner in Suite | Royal Marina Suites Boutique Hotel",
       "hero": {
         "imageAlt": "Cold Dinner in Suite",
         "label": "Private Suite Dining",
@@ -475,7 +478,7 @@
       }
     },
     "bbqNight": {
-      "pageTitle": " Grill Night | Hotel Royal Marina Suites Boutique",
+      "pageTitle": " Grill Night | Royal Marina Suites Boutique Hotel",
       "hero": {
         "imageAlt": "BBQ Grill Night",
         "label": "Friday Evening Experience",
@@ -533,7 +536,7 @@
       }
     },
     "paellas": {
-      "pageTitle": "Paellas | Hotel Royal Marina Suites Boutique",
+      "pageTitle": "Paellas | Royal Marina Suites Boutique Hotel",
       "hero": {
         "imageAlt": "Paellas at Marina Restaurant",
         "label": "Marina Restaurant",
@@ -583,17 +586,17 @@
     }
   },
   "about": {
-    "pageTitle": "Our Story | Hotel Royal Marina Suites Boutique",
+    "pageTitle": "Our Story | Royal Marina Suites Boutique Hotel",
     "hero": {
       "subtitle": "Family-Owned Boutique Hotel",
       "title": "Our Story",
       "tagline": "Luxury · Service · Lanzarote",
-      "imageAlt": "Hotel Royal Marina Suites Boutique"
+      "imageAlt": "Royal Marina Suites Boutique Hotel"
     },
     "story": {
       "label": "Welcome",
-      "title": "Hotel Royal Marina Suites Boutique",
-      "paragraph1": "Hotel Royal Marina Suites Boutique was created with a simple vision: to bring together the exclusivity, tranquillity and natural beauty of Lanzarote with the warmth of genuine hospitality.",
+      "title": "Royal Marina Suites Boutique Hotel",
+      "paragraph1": "Royal Marina Suites Boutique Hotel was created with a simple vision: to bring together the exclusivity, tranquillity and natural beauty of Lanzarote with the warmth of genuine hospitality.",
       "paragraph2": "As a family-owned hotel, we believe that luxury is found not only in beautiful surroundings, but in quality service, attention to detail, cleanliness and personal care. Our aim is to create a peaceful and memorable stay for every guest who chooses us.",
       "paragraph3": "Located in the elegant marina of Puerto Calero, our hotel offers a calm retreat where guests can relax, explore the island and enjoy the unique atmosphere that makes Lanzarote so special."
     },
@@ -604,7 +607,7 @@
         "label": "Founders & Owners",
         "name": "Susana & Miguel",
         "role": "The vision behind Royal Marina Suites Boutique",
-        "paragraph1": "Hotel Royal Marina Suites Boutique is the result of the vision and dedication of Susana and Miguel. Originally from Gran Canaria and southern Spain respectively, they have called Lanzarote home for more than three decades.",
+        "paragraph1": "Royal Marina Suites Boutique Hotel is the result of the vision and dedication of Susana and Miguel. Originally from Gran Canaria and southern Spain respectively, they have called Lanzarote home for more than three decades.",
         "paragraph2": "Their dream was to create a hotel that reflected the elegance, tranquillity and character of the island while preserving the warmth of a family business.",
         "paragraph3": "Although English is not their first language, they are always delighted to greet guests, share a smile and, whenever possible, have a conversation about the island they love.",
         "imageAlt": "Susana and Miguel"
@@ -643,13 +646,13 @@
     "commitment": {
       "label": "A Shared Commitment",
       "title": "Making every stay feel effortless",
-      "text": "Every member of our team shares the same goal: to make your stay at Hotel Royal Marina Suites Boutique as comfortable, memorable and enjoyable as possible."
+      "text": "Every member of our team shares the same goal: to make your stay at Royal Marina Suites Boutique Hotel as comfortable, memorable and enjoyable as possible."
     }
   },
   "common": {
     "backToHome": "← Back to Home",
     "footer": {
-      "hotelName": "Hotel Royal Marina Suites Boutique Lanzarote",
+      "hotelName": "Royal Marina Suites Boutique Hotel Lanzarote",
       "thankYou": "Thank you for choosing us"
     },
     "openInGoogleMaps": "Open in Google Maps →",
@@ -658,7 +661,7 @@
     "backToGuestServices": "← Back to Guest Services"
   },
   "facilities": {
-    "pageTitle": "Facilities & Wellness | Hotel Royal Marina Suites Boutique",
+    "pageTitle": "Facilities & Wellness | Royal Marina Suites Boutique Hotel",
     "hero": {
       "subtitle": "Facilities & Wellness",
       "title": "Relax, Refresh & Enjoy",
@@ -668,24 +671,27 @@
     "section": {
       "label": "Facilities & Wellness",
       "title": "Relax, Refresh & Enjoy",
-      "intro": "Discover calm, refined spaces designed for effortless comfort, poolside relaxation and moments of wellbeing at Hotel Royal Marina Suites Boutique."
+      "intro": "Discover calm, refined spaces designed for effortless comfort, poolside relaxation and moments of wellbeing at Royal Marina Suites Boutique Hotel."
     },
     "pool": {
       "label": "Outdoor Relaxation",
       "title": "Climatized Swimming Pool",
       "description": "Enjoy our heated outdoor pool throughout the year, surrounded by the peaceful atmosphere of Puerto Calero and the Lanzarote sunshine.",
+      "hours": "Opening Hours: 09:00 – 19:00",
       "imageAlt": "Climatized Swimming Pool"
     },
     "jacuzzi": {
       "label": "Wellness",
       "title": "Jacuzzi",
       "description": "Unwind in our jacuzzi, a quiet corner designed for relaxation, comfort and a soothing wellness experience.",
+      "hours": "Opening Hours: 09:00 – 19:00",
       "imageAlt": "Jacuzzi"
     },
     "poolBar": {
       "label": "Poolside Service",
       "title": "Pool Bar",
       "description": "Enjoy cocktails, coffee, refreshing drinks and light snacks beside the pool in an elegant, relaxed setting.",
+      "hours": "Opening Hours: 11:30 – 19:00",
       "imageAlt": "Pool Bar"
     },
     "gym": {
@@ -697,7 +703,7 @@
     }
   },
   "guide": {
-    "pageTitle": "Discover Lanzarote | Hotel Royal Marina Suites Boutique",
+    "pageTitle": "Discover Lanzarote | Royal Marina Suites Boutique Hotel",
     "hero": {
       "subtitle": "Royal Marina Concierge Guide",
       "title": "Discover Lanzarote",
@@ -803,14 +809,14 @@
     }
   },
   "hotelInfo": {
-    "pageTitle": "Guest Information | Hotel Royal Marina Suites Boutique",
+    "pageTitle": "Guest Information | Royal Marina Suites Boutique Hotel",
     "hero": {
       "subtitle": "Guest Information",
       "title": "Your Stay"
     },
     "intro": {
       "title": "Essential Information",
-      "text": "Here you will find the most important details for your stay at Hotel Royal Marina Suites Boutique Lanzarote."
+      "text": "Here you will find the most important details for your stay at Royal Marina Suites Boutique Hotel Lanzarote."
     },
     "checkIn": {
       "summary": "Check-in & Check-out",
@@ -823,7 +829,7 @@
     },
     "minibar": {
       "summary": "Minibar Policy",
-      "oceanMarina": "<strong>Ocean & Marina Rooms:</strong> Complimentary bottle of water & two premium illy® coffee capsules.",
+      "oceanMarina": "<strong>Ocean Suites & Marina Suites:</strong> Complimentary bottle of water & two premium illy® coffee capsules.",
       "royalSuites": "<strong>Royal Suites:</strong> One daily refill of all beverages, <strong>excluding alcoholic beverages.</strong>"
     },
     "poolTowels": {
@@ -847,10 +853,10 @@
     }
   },
   "home": {
-    "pageTitle": "Hotel Royal Marina Suites Boutique Lanzarote",
+    "pageTitle": "Royal Marina Suites Boutique Hotel Lanzarote",
     "hero": {
       "logo": "Boutique Experience · Lanzarote",
-      "title": "Hotel Royal Marina Suites Boutique",
+      "title": "Royal Marina Suites Boutique Hotel",
       "subtitle": "Welcome to your private guest guide"
     },
     "welcome": {
@@ -860,7 +866,7 @@
     "cards": {
       "ourStory": {
         "title": "Our Story",
-        "description": "Discover the story, philosophy and unique experience of Hotel Royal Marina Suites Boutique.",
+        "description": "Discover the story, philosophy and unique experience of Royal Marina Suites Boutique Hotel.",
         "button": "Discover More"
       },
       "guestInformation": {
@@ -902,7 +908,7 @@
     }
   },
   "reception": {
-    "pageTitle": "Guest Services | Hotel Royal Marina Suites Boutique",
+    "pageTitle": "Guest Services | Royal Marina Suites Boutique Hotel",
     "hero": {
       "subtitle": "Royal Marina Suites",
       "title": "Guest Services",
@@ -958,7 +964,7 @@
     }
   },
   "transfer": {
-    "pageTitle": "Private Transfer Request | Hotel Royal Marina Suites Boutique",
+    "pageTitle": "Private Transfer Request | Royal Marina Suites Boutique Hotel",
     "hero": {
       "subtitle": "Guest Services",
       "title": "Private Airport Transfer",
@@ -1017,7 +1023,7 @@
     }
   },
   "wifi": {
-    "pageTitle": "Wi-Fi Access | Hotel Royal Marina Suites Boutique",
+    "pageTitle": "Wi-Fi Access | Royal Marina Suites Boutique Hotel",
     "hero": {
       "subtitle": "Guest Information",
       "title": "Wi-Fi Access",
