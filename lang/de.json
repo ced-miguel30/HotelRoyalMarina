@@ -2,7 +2,7 @@
   "marinaRestaurant": {
     "shared": {
       "footer": "Royal Marina Suites",
-      "brandLabel": "Royal Marina Suiten",
+      "brandLabel": "Royal Marina Suites",
       "marinaRestaurantLabel": "Marina-Restaurant",
       "backToHome": "← Zurück zur Startseite",
       "backToRestaurant": "← Zurück zum Marina Restaurant",
@@ -276,7 +276,7 @@
         "cocktailOfTheDay": "Cocktail des Tages",
         "caipirinha": "Caipirinha",
         "pinaColada": "Piña Colada",
-        "royalMarina": "Königlicher Jachthafen",
+        "royalMarina": "Royal Marina",
         "sexOnTheBeach": "Sex on the Beach",
         "mojito": "Mojito",
         "daiquiri": "Daiquiri",
@@ -334,8 +334,6 @@
         "irishCoffee": "Irish Coffee",
         "baileysCoffee": "Baileys-Kaffee",
         "teaSelection": "Teeauswahl",
-        "hotChocolate": "Heiße Schokolade",
-        "hotChocolateWithCream": "Heiße Schokolade mit Sahne",
         "orangeJuice": "Orangensaft",
         "lanzaroteSmoothie": "Lanzarote-Smoothie",
         "mediterraneanSmoothie": "Mediterraner Smoothie",
@@ -348,7 +346,8 @@
         "fantaLemon": "Fanta-Zitrone",
         "sprite": "Sprite",
         "royalBlissTonic": "Royal Bliss Tonic",
-        "nestea": "Nestea"
+        "nestea": "Nestea",
+        "colaCao": "Cola Cao"
       },
       "feature": {
         "imageAlt": "Cocktail am Pool",
@@ -429,7 +428,7 @@
       },
       "signature": {
         "imageAlt": "Einzelheiten zum Mittagessen",
-        "label": "Royal Marina-Auswahl",
+        "label": "Royal Marina Selection",
         "title": "Frisch, entspannt und wie gemacht für sonnige Nachmittage",
         "text": "Unser Snack- und Mittagsmenü wurde für entspannte Momente am Pool zusammengestellt, mit frischen Zutaten, lokalen Akzenten und leichten mediterranen Aromen."
       },
@@ -865,7 +864,7 @@
   "home": {
     "pageTitle": "Royal Marina Suites",
     "hero": {
-      "logo": "Lanzarote",
+      "logo": "Boutique-Erlebnis · Lanzarote",
       "title": "Royal Marina Suites",
       "subtitle": "Willkommen bei Ihrem privaten Gästeführer"
     },

@@ -334,8 +334,6 @@
         "irishCoffee": "Irish Coffee",
         "baileysCoffee": "Baileys Coffee",
         "teaSelection": "Tea Selection",
-        "hotChocolate": "Hot Chocolate",
-        "hotChocolateWithCream": "Hot Chocolate with Cream",
         "orangeJuice": "Orange Juice",
         "lanzaroteSmoothie": "Lanzarote Smoothie",
         "mediterraneanSmoothie": "Mediterranean Smoothie",
@@ -348,7 +346,8 @@
         "fantaLemon": "Fanta Lemon",
         "sprite": "Sprite",
         "royalBlissTonic": "Royal Bliss Tonic",
-        "nestea": "Nestea"
+        "nestea": "Nestea",
+        "colaCao": "Cola Cao"
       },
       "feature": {
         "imageAlt": "Cocktail by the pool",
@@ -865,7 +864,7 @@
   "home": {
     "pageTitle": "Royal Marina Suites",
     "hero": {
-      "logo": "Lanzarote",
+      "logo": "Boutique Experience · Lanzarote",
       "title": "Royal Marina Suites",
       "subtitle": "Welcome to your private guest guide"
     },

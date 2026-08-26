@@ -2,7 +2,7 @@
   "marinaRestaurant": {
     "shared": {
       "footer": "Royal Marina Suites",
-      "brandLabel": "Suite Marina Reale",
+      "brandLabel": "Royal Marina Suites",
       "marinaRestaurantLabel": "Ristorante Marina",
       "backToHome": "← Ritorno a casa",
       "backToRestaurant": "← Torna al Ristorante Marina",
@@ -110,7 +110,7 @@
         "englishBreakfastDesc": "Uovo fritto, fagioli con pomodoro, funghi, bacon e hash brown.",
         "croqueMonsieur": "Croque Monsieur",
         "croqueMonsieurDesc": "Pane bianco o integrale, prosciutto cotto e formaggio.",
-        "royalMarinaSandwich": "Panino alla Marina Reale",
+        "royalMarinaSandwich": "Royal Marina Sandwich",
         "royalMarinaSandwichDesc": "Pane bianco o integrale, pomodoro fresco, prosciutto iberico e formaggio fresco locale.",
         "vegetarianSandwich": "Panino Vegetariano",
         "vegetarianSandwichDesc": "Pane bianco o integrale, uova strapazzate con spinaci.",
@@ -199,7 +199,7 @@
           "boiledEggs": "Uova Sode",
           "softBoiledEggs": "Uova Alla Coda",
           "croqueMonsieur": "Croque Monsieur",
-          "royalMarinaSandwich": "Panino alla Marina Reale",
+          "royalMarinaSandwich": "Royal Marina Sandwich",
           "vegetarianSandwich": "Panino Vegetariano",
           "toastOfTheDay": "Toast del giorno",
           "frenchToast": "Toast alla francese",
@@ -276,7 +276,7 @@
         "cocktailOfTheDay": "Cocktail del giorno",
         "caipirinha": "Caipirinha",
         "pinaColada": "Pina Colada",
-        "royalMarina": "Marina Reale",
+        "royalMarina": "Royal Marina",
         "sexOnTheBeach": "Sex on the Beach",
         "mojito": "Mojito",
         "daiquiri": "Daiquiri",
@@ -334,8 +334,6 @@
         "irishCoffee": "Caffè irlandese",
         "baileysCoffee": "Caffè Baileys",
         "teaSelection": "Selezione di tè",
-        "hotChocolate": "Cioccolata calda",
-        "hotChocolateWithCream": "Cioccolata calda con panna",
         "orangeJuice": "Succo d'arancia",
         "lanzaroteSmoothie": "Frullato di Lanzarote",
         "mediterraneanSmoothie": "Frullato mediterraneo",
@@ -348,7 +346,8 @@
         "fantaLemon": "Fanta Limone",
         "sprite": "Folletto",
         "royalBlissTonic": "Tonico della felicità reale",
-        "nestea": "Nestea"
+        "nestea": "Nestea",
+        "colaCao": "Cola Cao"
       },
       "feature": {
         "imageAlt": "Cocktail a bordo piscina",
@@ -429,7 +428,7 @@
       },
       "signature": {
         "imageAlt": "Particolare del pranzo",
-        "label": "Selezione Marina Reale",
+        "label": "Royal Marina Selection",
         "title": "Fresco, rilassato e fatto per i pomeriggi soleggiati",
         "text": "Il nostro menù di snack e pranzo è stato pensato per momenti rilassanti a bordo piscina, con ingredienti freschi, tocchi locali e leggeri sapori mediterranei."
       },
@@ -865,7 +864,7 @@
   "home": {
     "pageTitle": "Royal Marina Suites",
     "hero": {
-      "logo": "Lanzarote",
+      "logo": "Esperienza in boutique · Lanzarote",
       "title": "Royal Marina Suites",
       "subtitle": "Benvenuto nella tua guida privata per gli ospiti"
     },

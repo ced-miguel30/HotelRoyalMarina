@@ -2,7 +2,7 @@
   "marinaRestaurant": {
     "shared": {
       "footer": "Royal Marina Suites",
-      "brandLabel": "Marina Real Suites",
+      "brandLabel": "Royal Marina Suites",
       "marinaRestaurantLabel": "Restaurante Marina",
       "backToHome": "← Volver a Inicio",
       "backToRestaurant": "← Volver a Restaurante Marina",
@@ -31,7 +31,7 @@
           "time": "07:30 - 10:30",
           "imageAlt": "Desayuno",
           "title": "Desayuno",
-          "description": "Comienza tu día con nuestra selección de desayunos a la carta.",
+          "description": "Comience su día con nuestra selección de desayunos a la carta.",
           "button": "Ver Desayuno →"
         },
         "snacks": {
@@ -49,7 +49,7 @@
           "button": "Ver bebidas →"
         },
         "coldDinner": {
-          "time": "Haz tu pedido antes de las 15:00",
+          "time": "Haga su pedido antes de las 15:00",
           "imageAlt": "Cena fría",
           "title": "Cena Fría en Suite",
           "description": "Opciones seleccionadas de cena fría servidas en su suite bajo reserva.",
@@ -60,14 +60,14 @@
           "imageAlt": "Noche de parrillada",
           "title": "Noche de parrilla",
           "description": "Una experiencia nocturna especial disponible bajo reserva.",
-          "button": "Descubre más →"
+          "button": "Descubra más →"
         },
         "paellas": {
           "time": "Pedido el día anterior · Comida",
           "imageAlt": "Paellas",
           "title": "Paellas",
           "description": "Paella tradicional para 2 personas, disponible de marisco, carne o mixta.",
-          "button": "Descubre más →"
+          "button": "Descubra más →"
         }
       },
       "allergen": {
@@ -90,8 +90,8 @@
       },
       "suiteBox": {
         "title": "Disfrute del desayuno en su suite",
-        "text": "¿Prefieres una mañana más privada? Disfrute de su desayuno desde la comodidad de su suite. Este servicio exclusivo se puede solicitar con antelación y es la forma perfecta de empezar el día a tu propio ritmo.",
-        "button": "Descubre el Servicio →"
+        "text": "¿Prefiere una mañana más privada? Disfrute de su desayuno desde la comodidad de su suite. Este servicio exclusivo se puede solicitar con antelación y es la forma perfecta de empezar el día a su propio ritmo.",
+        "button": "Descubra el Servicio →"
       },
       "categories": {
         "eggs": "Huevos",
@@ -101,7 +101,7 @@
         "beverages": "Bebidas"
       },
       "items": {
-        "omeletteOfYourChoice": "Tortilla de tu elección",
+        "omeletteOfYourChoice": "Tortilla de su elección",
         "friedEggs": "Huevos fritos",
         "poachedEggs": "Huevos escalfados",
         "boiledEggs": "Huevos duros",
@@ -110,7 +110,7 @@
         "englishBreakfastDesc": "Huevo frito, judías con tomate, champiñones, bacon y hash brown.",
         "croqueMonsieur": "Croque Monsieur",
         "croqueMonsieurDesc": "Pan blanco o integral, jamón cocido y queso.",
-        "royalMarinaSandwich": "Sándwich Marina Real",
+        "royalMarinaSandwich": "Royal Marina Sandwich",
         "royalMarinaSandwichDesc": "Pan blanco o integral, tomate fresco, jamón ibérico y queso fresco de la zona.",
         "vegetarianSandwich": "Sándwich Vegetariano",
         "vegetarianSandwichDesc": "Pan blanco o integral, huevos revueltos con espinacas.",
@@ -119,7 +119,7 @@
         "frenchToast": "Tostada francesa",
         "frenchToastDesc": "Servido con mantequilla y fruta de temporada.",
         "illyCoffee": "Café Illy",
-        "illyCoffeeDesc": "Preparado a tu preferencia.",
+        "illyCoffeeDesc": "Preparado según su preferencia.",
         "freshOrangeJuice": "Zumo de naranja recién exprimido",
         "milkSelection": "Selección de leche",
         "milkSelectionDesc": "Leche entera, desnatada, de avena, de almendras o de soja.",
@@ -134,7 +134,7 @@
       },
       "feature": {
         "imageAlt": "Detalle del desayuno",
-        "title": "Preparado a tu gusto",
+        "title": "Preparado a su gusto",
         "text": "Si lo desea, puede modificar o combinar nuestras opciones de desayuno caliente. Por favor informe a nuestro equipo y estaremos encantados de atenderle."
       },
       "allergen": {
@@ -144,14 +144,14 @@
     "breakfastInSuite": {
       "pageTitle": "Desayuno en su suite | Royal Marina Suites",
       "hero": {
-        "imageAlt": "Desayuno en tu Suite",
+        "imageAlt": "Desayuno en su suite",
         "label": "Servicio exclusivo",
-        "title": "Desayuno en tu suite",
+        "title": "Desayuno en su suite",
         "text": "Disfrute de una mañana relajada en total privacidad mientras le llevamos el desayuno directamente a su suite."
       },
       "intro": {
         "title": "Una forma lujosa de empezar el día",
-        "text": "Si prefieres disfrutar del desayuno desde la comodidad de tu suite, estaremos encantados de preparártelo. Este servicio exclusivo le permite vivir una mañana más tranquila y privada con vistas al hermoso entorno de Royal Marina Suites."
+        "text": "Si prefiere disfrutar del desayuno desde la comodidad de su suite, estaremos encantados de preparárselo. Este servicio exclusivo le permite vivir una mañana más tranquila y privada con vistas al hermoso entorno de Royal Marina Suites."
       },
       "cards": {
         "serviceCharge": {
@@ -186,9 +186,9 @@
           "allergies": "Alergias o requisitos dietéticos"
         },
         "placeholders": {
-          "fruit": "Por favor especifica tu fruta preferida (sujeto a disponibilidad)",
-          "bread": "Por favor especifica tu pan o bollería preferida (sujeto a disponibilidad)",
-          "extras": "¿Quieres añadir, quitar o modificar algo de tu desayuno?",
+          "fruit": "Por favor especifique su fruta preferida (sujeto a disponibilidad)",
+          "bread": "Por favor especifique su pan o bollería preferida (sujeto a disponibilidad)",
+          "extras": "¿Desea añadir, quitar o modificar algo de su desayuno?",
           "allergies": "Infórmenos sobre cualquier alergia o requisito dietético."
         },
         "options": {
@@ -199,7 +199,7 @@
           "boiledEggs": "Huevos duros",
           "softBoiledEggs": "Huevos pasados por agua",
           "croqueMonsieur": "Croque Monsieur",
-          "royalMarinaSandwich": "Sándwich Marina Real",
+          "royalMarinaSandwich": "Royal Marina Sandwich",
           "vegetarianSandwich": "Sándwich Vegetariano",
           "toastOfTheDay": "Tostada del día",
           "frenchToast": "Tostada francesa",
@@ -250,7 +250,7 @@
         "signature": {
           "label": "Momento característico",
           "title": "Sol, Mar y Cócteles",
-          "text": "Descubre nuestra selección de cócteles y disfruta de una bebida relajada junto al agua."
+          "text": "Descubra nuestra selección de cócteles y disfrute de una bebida relajada junto al agua."
         }
       },
       "nav": {
@@ -334,8 +334,6 @@
         "irishCoffee": "Café irlandés",
         "baileysCoffee": "Café Baileys",
         "teaSelection": "Selección de té",
-        "hotChocolate": "Chocolate caliente",
-        "hotChocolateWithCream": "Chocolate caliente con crema",
         "orangeJuice": "Zumo de naranja",
         "lanzaroteSmoothie": "Batido de Lanzarote",
         "mediterraneanSmoothie": "Batido mediterráneo",
@@ -348,7 +346,8 @@
         "fantaLemon": "Fanta Limón",
         "sprite": "Sprite",
         "royalBlissTonic": "Royal Bliss Tonic",
-        "nestea": "Nestea"
+        "nestea": "Nestea",
+        "colaCao": "Cola Cao"
       },
       "feature": {
         "imageAlt": "Cóctel junto a la piscina",
@@ -429,7 +428,7 @@
       },
       "signature": {
         "imageAlt": "Detalle del almuerzo",
-        "label": "Selección Marina Real",
+        "label": "Royal Marina Selection",
         "title": "Fresco, relajado y hecho para las tardes soleadas.",
         "text": "Nuestra carta de snacks y almuerzos ha sido diseñada para momentos sin esfuerzo junto a la piscina, con ingredientes frescos, toques locales y ligeros sabores mediterráneos."
       },
@@ -446,7 +445,7 @@
         "subtitle": "Bajo reserva antes de las 15:00"
       },
       "reservation": {
-        "title": "Haz tu pedido antes de las 15:00",
+        "title": "Haga su pedido antes de las 15:00",
         "text": "Las selecciones de cena fría se sirven en su suite y deben reservarse antes de las 15:00 en la recepción o en el restaurante Marina."
       },
       "intro": {
@@ -606,7 +605,7 @@
     },
     "team": {
       "sectionLabel": "Conozca a nuestro equipo",
-      "sectionTitle": "La gente detrás de tu estancia",
+      "sectionTitle": "La gente detrás de su estancia",
       "owners": {
         "label": "Fundadores y propietarios",
         "name": "susana y miguel",
@@ -668,13 +667,13 @@
     "pageTitle": "Instalaciones y Bienestar | Royal Marina Suites",
     "hero": {
       "subtitle": "Instalaciones y bienestar",
-      "title": "Relájate, refréscate y disfruta",
+      "title": "Relájese, refrésquese y disfrute",
       "tagline": "Piscina · Bienestar · Fitness",
       "imageAlt": "Instalaciones y bienestar"
     },
     "section": {
       "label": "Instalaciones y bienestar",
-      "title": "Relájate, refréscate y disfruta",
+      "title": "Relájese, refrésquese y disfrute",
       "intro": "Descubra espacios tranquilos y refinados diseñados para brindar comodidad sin esfuerzo, relajación junto a la piscina y momentos de bienestar en el Royal Marina Suites."
     },
     "pool": {
@@ -687,7 +686,7 @@
     "jacuzzi": {
       "label": "Bienestar",
       "title": "Jacuzzi",
-      "description": "Relájate en nuestro jacuzzi, un rincón tranquilo diseñado para la relajación, el confort y una reconfortante experiencia de bienestar.",
+      "description": "Relájese en nuestro jacuzzi, un rincón tranquilo diseñado para la relajación, el confort y una reconfortante experiencia de bienestar.",
       "hours": "Horario de apertura: 09:00 – 19:00",
       "imageAlt": "Jacuzzi"
     },
@@ -707,12 +706,12 @@
     }
   },
   "guide": {
-    "pageTitle": "Descubre Lanzarote | Royal Marina Suites",
+    "pageTitle": "Descubra Lanzarote | Royal Marina Suites",
     "hero": {
       "subtitle": "Guía de conserjería de Royal Marina",
-      "title": "Descubre Lanzarote",
+      "title": "Descubra Lanzarote",
       "tagline": "Playas · Experiencias · Gastronomía",
-      "imageAlt": "Descubre Lanzarote"
+      "imageAlt": "Descubra Lanzarote"
     },
     "intro": {
       "title": "Recomendaciones de islas seleccionadas",
@@ -815,14 +814,14 @@
     "concierge": {
       "label": "¿Necesita ayuda?",
       "title": "Nuestro equipo de recepción estará encantado de ayudarle.",
-      "text": "Para reservas en restaurantes, excursiones a islas, viajes en barco o arreglos de transporte,\n      por favor contacta con recepción o pulsa <strong>9</strong> desde tu habitación."
+      "text": "Para reservas en restaurantes, excursiones a islas, viajes en barco o arreglos de transporte,\n      por favor contacte con recepción o pulse <strong>9</strong> desde su habitación."
     }
   },
   "hotelInfo": {
     "pageTitle": "Información para huéspedes | Royal Marina Suites",
     "hero": {
       "subtitle": "Información del huésped",
-      "title": "Tu Estancia"
+      "title": "Su estancia"
     },
     "intro": {
       "title": "Información esencial",
@@ -865,7 +864,7 @@
   "home": {
     "pageTitle": "Royal Marina Suites",
     "hero": {
-      "logo": "Lanzarote",
+      "logo": "Experiencia Boutique · Lanzarote",
       "title": "Royal Marina Suites",
       "subtitle": "Bienvenido a su guía privada para invitados."
     },
@@ -877,7 +876,7 @@
       "ourStory": {
         "title": "Nuestra historia",
         "description": "Descubra la historia, filosofía y experiencia única de Royal Marina Suites.",
-        "button": "Descubre más"
+        "button": "Descubra más"
       },
       "guestInformation": {
         "title": "Información del huésped",
@@ -891,7 +890,7 @@
       },
       "marinaRestaurant": {
         "title": "Restaurante Marina",
-        "description": "Descubre nuestro restaurante, menús, horarios y experiencias culinarias.",
+        "description": "Descubra nuestro restaurante, menús, horarios y experiencias culinarias.",
         "button": "Ver Restaurante"
       },
       "guestServices": {
@@ -900,14 +899,14 @@
         "button": "Contactar con Recepción"
       },
       "discoverLanzarote": {
-        "title": "Descubre Lanzarote",
+        "title": "Descubra Lanzarote",
         "description": "Playas, atracciones, restaurantes y experiencias inolvidables alrededor de la isla.",
         "button": "Explorar Lanzarote"
       },
       "wifiAccess": {
         "title": "Acceso Wi-Fi",
         "description": "Conéctese rápidamente a nuestro servicio de Internet de alta velocidad de cortesía.",
-        "button": "Conectar"
+        "button": "Conectarse"
       }
     },
     "importantInfo": {
@@ -927,8 +926,8 @@
     },
     "receptionBox": {
       "label": "Recepción 24 horas",
-      "title": "Estamos aquí siempre que nos necesites.",
-      "text": "La recepción está disponible las 24 horas del día. Desde tu habitación, presiona\n      <strong>9</strong> para contactar a nuestro equipo directamente."
+      "title": "Estamos aquí siempre que nos necesite.",
+      "text": "La recepción está disponible las 24 horas del día. Desde su habitación, pulse\n      <strong>9</strong> para contactar a nuestro equipo directamente."
     },
     "intro": {
       "title": "Servicios diseñados en torno a su estadía",
@@ -950,13 +949,13 @@
     "bike": {
       "label": "Explorar",
       "title": "Alquiler de bicicletas",
-      "description": "Descubre el entorno a tu propio ritmo con nuestro servicio de alquiler de bicicletas. Preguntar en recepción disponibilidad.",
+      "description": "Descubra el entorno a su propio ritmo con nuestro servicio de alquiler de bicicletas. Consulte disponibilidad en recepción.",
       "imageAlt": "alquiler de bicicletas"
     },
     "car": {
       "label": "Libertad de la isla",
       "title": "Alquiler de coches",
-      "description": "Explora Lanzarote con mayor flexibilidad a través de nuestro socio de alquiler de coches de confianza.",
+      "description": "Explore Lanzarote con mayor flexibilidad a través de nuestro socio de alquiler de coches de confianza.",
       "bookLink": "Reservar alquiler de coches →",
       "imageAlt": "Alquiler de coches"
     },
@@ -1041,7 +1040,7 @@
       "imageAlt": "Acceso Wi-Fi"
     },
     "card": {
-      "label": "Conéctate a nuestra red",
+      "label": "Conéctese a nuestra red",
       "title": "Wi-Fi del hotel",
       "networkLabel": "Red",
       "networkName": "Marina Real Suites",
@@ -1054,7 +1053,7 @@
     },
     "assistance": {
       "title": "¿Necesita ayuda?",
-      "text": "Si tiene algún problema de conexión, póngase en contacto con recepción. Desde tu habitación, presiona <strong>9</strong>."
+      "text": "Si tiene algún problema de conexión, póngase en contacto con recepción. Desde su habitación, pulse <strong>9</strong>."
     },
     "notice": {
       "text": "El acceso Wi-Fi es gratuito para los huéspedes del hotel. La velocidad de conexión puede variar según el dispositivo, la ubicación y la demanda de la red."

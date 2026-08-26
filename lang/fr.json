@@ -110,7 +110,7 @@
         "englishBreakfastDesc": "Œuf au plat, haricots à la tomate, champignons, bacon et hash brown.",
         "croqueMonsieur": "Croque-Monsieur",
         "croqueMonsieurDesc": "Pain blanc ou brun, jambon cuit et fromage.",
-        "royalMarinaSandwich": "Sandwich Royal à la Marina",
+        "royalMarinaSandwich": "Royal Marina Sandwich",
         "royalMarinaSandwichDesc": "Pain blanc ou brun, tomate fraîche, jambon ibérique et fromage frais local.",
         "vegetarianSandwich": "Sandwich végétarien",
         "vegetarianSandwichDesc": "Pain blanc ou brun, œufs brouillés aux épinards.",
@@ -199,7 +199,7 @@
           "boiledEggs": "Oeufs à la coque",
           "softBoiledEggs": "Œufs à la coque",
           "croqueMonsieur": "Croque-Monsieur",
-          "royalMarinaSandwich": "Sandwich Royal à la Marina",
+          "royalMarinaSandwich": "Royal Marina Sandwich",
           "vegetarianSandwich": "Sandwich végétarien",
           "toastOfTheDay": "Toast du jour",
           "frenchToast": "Pain perdu",
@@ -276,7 +276,7 @@
         "cocktailOfTheDay": "Cocktail du jour",
         "caipirinha": "Caïpirinha",
         "pinaColada": "Piña Colada",
-        "royalMarina": "Marina Royale",
+        "royalMarina": "Royal Marina",
         "sexOnTheBeach": "Sex on the Beach",
         "mojito": "Mojitos",
         "daiquiri": "Daïquiri",
@@ -334,8 +334,6 @@
         "irishCoffee": "Café irlandais",
         "baileysCoffee": "Café Baileys",
         "teaSelection": "Sélection de thés",
-        "hotChocolate": "Chocolat chaud",
-        "hotChocolateWithCream": "Chocolat chaud à la crème",
         "orangeJuice": "Jus d'orange",
         "lanzaroteSmoothie": "Smoothie à Lanzarote",
         "mediterraneanSmoothie": "Smoothie méditerranéen",
@@ -348,7 +346,8 @@
         "fantaLemon": "Fanta Citron",
         "sprite": "Lutin",
         "royalBlissTonic": "Tonique Royal Bliss",
-        "nestea": "Nestéa"
+        "nestea": "Nestéa",
+        "colaCao": "Cola Cao"
       },
       "feature": {
         "imageAlt": "Cocktail au bord de la piscine",
@@ -429,7 +428,7 @@
       },
       "signature": {
         "imageAlt": "Détail du déjeuner",
-        "label": "Sélection de la Marina Royale",
+        "label": "Royal Marina Selection",
         "title": "Frais, détendu et conçu pour les après-midi ensoleillés",
         "text": "Notre menu de collations et de déjeuner a été conçu pour des moments sans effort au bord de la piscine, avec des ingrédients frais, des touches locales et de légères saveurs méditerranéennes."
       },
@@ -865,7 +864,7 @@
   "home": {
     "pageTitle": "Royal Marina Suites",
     "hero": {
-      "logo": "Lanzarote",
+      "logo": "Expérience boutique · Lanzarote",
       "title": "Royal Marina Suites",
       "subtitle": "Bienvenue dans votre guide invité privé"
     },
