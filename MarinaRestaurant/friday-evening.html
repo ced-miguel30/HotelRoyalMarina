@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="marinaRestaurant.fridayEvening.pageTitle">Special Promotion - Every Friday | Royal Marina Suites</title>
+
+<style>
+:root{
+  --blue:#062b4f;
+  --gold:#c9a45c;
+  --white:#ffffff;
+  --soft:#f5f8fa;
+  --text:#1f2a36;
+}
+
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:var(--soft);
+  color:var(--text);
+}
+
+.hero-friday{
+  min-height:68vh;
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+}
+
+.hero-friday .photo-slot{
+  position:absolute;
+  inset:0;
+}
+
+.hero-friday::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(
+    rgba(6,43,79,0.25),
+    rgba(6,43,79,0.90)
+  );
+  z-index:1;
+}
+
+.hero-content{
+  position:relative;
+  z-index:2;
+  padding:30px;
+  max-width:900px;
+}
+
+.hero-content p{
+  color:var(--gold);
+  letter-spacing:4px;
+  text-transform:uppercase;
+  font-size:12px;
+}
+
+.hero-content h1{
+  font-family:Georgia, serif;
+  font-size:42px;
+  font-weight:400;
+  margin:0;
+}
+
+.gold-line{
+  width:80px;
+  height:2px;
+  background:var(--gold);
+  margin:25px auto;
+}
+
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:55px 20px;
+}
+
+.hours-box{
+  background:var(--blue);
+  color:white;
+  border-radius:24px;
+  padding:34px;
+  margin-top:-95px;
+  position:relative;
+  z-index:3;
+  box-shadow:0 14px 35px rgba(0,0,0,0.18);
+  text-align:center;
+}
+
+.hours-box span{
+  color:var(--gold);
+  letter-spacing:3px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.hours-box h2{
+  font-family:Georgia, serif;
+  font-size:30px;
+  font-weight:400;
+  margin:14px 0;
+}
+
+.hours-box p{
+  line-height:1.7;
+  margin-bottom:0;
+}
+
+.intro{
+  text-align:center;
+  max-width:760px;
+  margin:55px auto 45px;
+}
+
+.intro h2{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:34px;
+  font-weight:400;
+}
+
+.intro p{
+  line-height:1.7;
+}
+
+.requests-box{
+  background:white;
+  border-left:5px solid var(--gold);
+  padding:32px;
+  border-radius:18px;
+  margin:0 auto 50px;
+  max-width:760px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.05);
+}
+
+.requests-box span{
+  color:var(--gold);
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:12px;
+}
+
+.requests-box h3{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:28px;
+  font-weight:400;
+  margin:12px 0;
+}
+
+.requests-box p{
+  line-height:1.7;
+  margin:0;
+}
+
+.photo-slot{
+  background:linear-gradient(180deg,#1a446e,#062b4f);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+  overflow:hidden;
+}
+
+.photo-slot::after{
+  content:attr(data-file);
+  color:var(--gold);
+  letter-spacing:1px;
+  font-size:12px;
+  text-transform:uppercase;
+}
+
+.photo-slot img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  z-index:1;
+}
+
+.photo-slot img.is-missing{
+  display:none;
+}
+
+.experience{
+  margin:0 0 55px;
+  min-height:390px;
+  border-radius:24px;
+  overflow:hidden;
+  position:relative;
+  display:flex;
+  align-items:flex-end;
+  color:white;
+  box-shadow:0 10px 28px rgba(0,0,0,0.08);
+}
+
+.experience .photo-slot{
+  position:absolute;
+  inset:0;
+}
+
+.experience::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(
+    rgba(6,43,79,0.08),
+    rgba(6,43,79,0.88)
+  );
+  z-index:1;
+}
+
+.experience-text{
+  position:relative;
+  z-index:2;
+  padding:42px;
+  max-width:700px;
+}
+
+.experience-text span{
+  color:var(--gold);
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.experience-text h2{
+  font-family:Georgia, serif;
+  font-size:34px;
+  font-weight:400;
+}
+
+.experience-text p{
+  line-height:1.7;
+}
+
+.choice-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:26px;
+}
+
+.choice-card{
+  background:white;
+  border-radius:24px;
+  overflow:hidden;
+  box-shadow:0 10px 28px rgba(0,0,0,0.07);
+  border:1px solid #e8e8e8;
+}
+
+.choice-card .photo-slot{
+  height:210px;
+}
+
+.choice-content{
+  padding:30px;
+}
+
+.choice-content span{
+  color:var(--gold);
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.choice-content h3{
+  font-family:Georgia, serif;
+  color:var(--blue);
+  font-size:27px;
+  font-weight:400;
+  margin:12px 0 0;
+}
+
+.notice{
+  background:white;
+  border-left:5px solid var(--gold);
+  padding:28px;
+  border-radius:18px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.05);
+  margin-top:55px;
+}
+
+.back{
+  display:inline-block;
+  margin-top:35px;
+  color:var(--gold);
+  text-decoration:none;
+  font-weight:bold;
+}
+
+footer{
+  background:var(--blue);
+  color:white;
+  text-align:center;
+  padding:28px;
+  font-size:14px;
+}
+
+@media(max-width:800px){
+  .hero-content h1{
+    font-size:28px;
+  }
+
+  .hours-box{
+    margin-top:-60px;
+  }
+
+  .experience{
+    min-height:430px;
+  }
+}
+</style>
+<link rel="stylesheet" href="../css/language-switcher.css">
+</head>
+
+<body>
+
+<div class="language-switcher">
+  <a href="?lang=en" data-lang="en">EN</a>
+  <a href="?lang=es" data-lang="es">ES</a>
+  <a href="?lang=de" data-lang="de">DE</a>
+  <a href="?lang=it" data-lang="it">IT</a>
+  <a href="?lang=fr" data-lang="fr">FR</a>
+</div>
+
+
+<section class="hero-friday">
+  <div class="photo-slot" data-file="friday-hero.jpg">
+    <img src="../images/friday-hero.jpg" alt="Special Promotion - Every Friday at Marina Restaurant" data-i18n-alt="marinaRestaurant.fridayEvening.hero.imageAlt" onerror="this.classList.add('is-missing')">
+  </div>
+
+  <div class="hero-content">
+    <p data-i18n="marinaRestaurant.fridayEvening.hero.label">Marina Restaurant</p>
+    <h1 data-i18n="marinaRestaurant.fridayEvening.hero.title">Special Promotion - Every Friday</h1>
+    <div class="gold-line"></div>
+    <p data-i18n="marinaRestaurant.fridayEvening.hero.subtitle">Open until 21:00</p>
+  </div>
+</section>
+
+<div class="container">
+
+  <div class="hours-box">
+    <span data-i18n="marinaRestaurant.fridayEvening.hours.label">No reservation required</span>
+    <h2 data-i18n="marinaRestaurant.fridayEvening.hours.title">Open until 21:00</h2>
+    <p data-i18n="marinaRestaurant.fridayEvening.hours.text">
+      Every Friday, Marina Restaurant stays open until 21:00. No reservation is required.
+    </p>
+  </div>
+
+  <div class="intro">
+    <h2 data-i18n="marinaRestaurant.fridayEvening.intro.title">Snacks menu and daily specials</h2>
+    <p data-i18n="marinaRestaurant.fridayEvening.intro.text">
+      Enjoy the snacks menu together with specialities prepared on the day, in a relaxed evening setting at Marina Restaurant.
+    </p>
+  </div>
+
+  <div class="requests-box">
+    <span data-i18n="marinaRestaurant.fridayEvening.requests.label">Special requests</span>
+    <h3 data-i18n="marinaRestaurant.fridayEvening.requests.title">Speak with our restaurant team</h3>
+    <p data-i18n="marinaRestaurant.fridayEvening.requests.text">
+      If you would like a particular dish, please speak with the restaurant team. We will confirm whether your request can be prepared, depending on the fresh products available that day. For special requests, we kindly ask you to let us know in advance.
+    </p>
+  </div>
+
+  <div class="experience">
+    <div class="photo-slot" data-file="friday-atmosphere.jpg">
+      <img src="../images/friday-atmosphere.jpg" alt="Friday evening atmosphere at Marina Restaurant" data-i18n-alt="marinaRestaurant.fridayEvening.atmosphere.imageAlt" onerror="this.classList.add('is-missing')">
+    </div>
+    <div class="experience-text">
+      <span data-i18n="marinaRestaurant.fridayEvening.atmosphere.label">Daily specials</span>
+      <h2 data-i18n="marinaRestaurant.fridayEvening.atmosphere.title">Prepared according to the day's produce</h2>
+      <p data-i18n="marinaRestaurant.fridayEvening.atmosphere.text">
+        Specialities may include pasta, rice dishes, wok stir-fries, meats, fish and other dishes, subject to availability.
+      </p>
+    </div>
+  </div>
+
+  <div class="choice-grid">
+
+    <div class="choice-card">
+      <div class="photo-slot" data-file="friday-pasta.jpg">
+        <img src="../images/friday-pasta.jpg" alt="Pasta" data-i18n-alt="marinaRestaurant.fridayEvening.options.pasta.imageAlt" onerror="this.classList.add('is-missing')">
+      </div>
+      <div class="choice-content">
+        <span data-i18n="marinaRestaurant.fridayEvening.options.pasta.label">Daily specials</span>
+        <h3 data-i18n="marinaRestaurant.fridayEvening.options.pasta.title">Pasta</h3>
+      </div>
+    </div>
+
+    <div class="choice-card">
+      <div class="photo-slot" data-file="friday-rice.jpg">
+        <img src="../images/friday-rice.jpg" alt="Rice dishes" data-i18n-alt="marinaRestaurant.fridayEvening.options.rice.imageAlt" onerror="this.classList.add('is-missing')">
+      </div>
+      <div class="choice-content">
+        <span data-i18n="marinaRestaurant.fridayEvening.options.rice.label">Daily specials</span>
+        <h3 data-i18n="marinaRestaurant.fridayEvening.options.rice.title">Rice dishes</h3>
+      </div>
+    </div>
+
+    <div class="choice-card">
+      <div class="photo-slot" data-file="friday-wok.jpg">
+        <img src="../images/friday-wok.jpg" alt="Wok stir-fries" data-i18n-alt="marinaRestaurant.fridayEvening.options.wok.imageAlt" onerror="this.classList.add('is-missing')">
+      </div>
+      <div class="choice-content">
+        <span data-i18n="marinaRestaurant.fridayEvening.options.wok.label">Daily specials</span>
+        <h3 data-i18n="marinaRestaurant.fridayEvening.options.wok.title">Wok stir-fries</h3>
+      </div>
+    </div>
+
+    <div class="choice-card">
+      <div class="photo-slot" data-file="friday-meat.jpg">
+        <img src="../images/friday-meat.jpg" alt="Meats" data-i18n-alt="marinaRestaurant.fridayEvening.options.meat.imageAlt" onerror="this.classList.add('is-missing')">
+      </div>
+      <div class="choice-content">
+        <span data-i18n="marinaRestaurant.fridayEvening.options.meat.label">Daily specials</span>
+        <h3 data-i18n="marinaRestaurant.fridayEvening.options.meat.title">Meats</h3>
+      </div>
+    </div>
+
+    <div class="choice-card">
+      <div class="photo-slot" data-file="friday-fish.jpg">
+        <img src="../images/friday-fish.jpg" alt="Fish" data-i18n-alt="marinaRestaurant.fridayEvening.options.fish.imageAlt" onerror="this.classList.add('is-missing')">
+      </div>
+      <div class="choice-content">
+        <span data-i18n="marinaRestaurant.fridayEvening.options.fish.label">Daily specials</span>
+        <h3 data-i18n="marinaRestaurant.fridayEvening.options.fish.title">Fish</h3>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="notice">
+    <strong data-i18n="marinaRestaurant.shared.pleaseNoteTitle">Please Note</strong>
+    <p data-i18n="marinaRestaurant.fridayEvening.notice.text">
+      Daily specials depend on the fresh products available. Please ask our restaurant team for today's suggestions and, if you would like something in particular, kindly request it in advance.
+    </p>
+  </div>
+
+  <a class="back" href="restaurant.html" data-i18n="marinaRestaurant.shared.backToRestaurant">← Back to Marina Restaurant</a>
+
+</div>
+
+<footer data-i18n="marinaRestaurant.shared.footer">
+  Royal Marina Suites
+</footer>
+
+<script src="../js/translations.js"></script>
+</body>
+</html>

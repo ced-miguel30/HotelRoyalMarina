@@ -62,6 +62,13 @@
           "description": "A special evening experience available under reservation.",
           "button": "Discover More →"
         },
+        "fridayEvening": {
+          "time": "Until 21:00",
+          "imageAlt": "Special Promotion - Every Friday at Marina Restaurant",
+          "title": "Special Promotion - Every Friday",
+          "description": "The restaurant stays open until 21:00, with the snacks menu and daily specials. No reservation required.",
+          "button": "Discover More →"
+        },
         "paellas": {
           "time": "Order the day before · Lunch",
           "imageAlt": "Paellas",
@@ -536,6 +543,65 @@
       },
       "notice": {
         "text": "Reservations are recommended in advance. Availability may depend on fresh product supply, especially for fish and meat selections. Please contact reception or Marina Restaurant for confirmation."
+      }
+    },
+    "fridayEvening": {
+      "pageTitle": "Special Promotion - Every Friday | Royal Marina Suites",
+      "hero": {
+        "imageAlt": "Special Promotion - Every Friday at Marina Restaurant",
+        "label": "Marina Restaurant",
+        "title": "Special Promotion - Every Friday",
+        "subtitle": "Open until 21:00"
+      },
+      "hours": {
+        "label": "No reservation required",
+        "title": "Open until 21:00",
+        "text": "Every Friday, Marina Restaurant stays open until 21:00. No reservation is required."
+      },
+      "intro": {
+        "title": "Snacks menu and daily specials",
+        "text": "Enjoy the snacks menu together with specialities prepared on the day, in a relaxed evening setting at Marina Restaurant."
+      },
+      "requests": {
+        "label": "Special requests",
+        "title": "Speak with our restaurant team",
+        "text": "If you would like a particular dish, please speak with the restaurant team. We will confirm whether your request can be prepared, depending on the fresh products available that day. For special requests, we kindly ask you to let us know in advance."
+      },
+      "atmosphere": {
+        "imageAlt": "Friday evening atmosphere at Marina Restaurant",
+        "label": "Daily specials",
+        "title": "Prepared according to the day's produce",
+        "text": "Specialities may include pasta, rice dishes, wok stir-fries, meats, fish and other dishes, subject to availability."
+      },
+      "options": {
+        "pasta": {
+          "imageAlt": "Pasta",
+          "label": "Daily specials",
+          "title": "Pasta"
+        },
+        "rice": {
+          "imageAlt": "Rice dishes",
+          "label": "Daily specials",
+          "title": "Rice dishes"
+        },
+        "wok": {
+          "imageAlt": "Wok stir-fries",
+          "label": "Daily specials",
+          "title": "Wok stir-fries"
+        },
+        "meat": {
+          "imageAlt": "Meats",
+          "label": "Daily specials",
+          "title": "Meats"
+        },
+        "fish": {
+          "imageAlt": "Fish",
+          "label": "Daily specials",
+          "title": "Fish"
+        }
+      },
+      "notice": {
+        "text": "Daily specials depend on the fresh products available. Please ask our restaurant team for today's suggestions and, if you would like something in particular, kindly request it in advance."
       }
     },
     "paellas": {

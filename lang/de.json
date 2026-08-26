@@ -62,6 +62,13 @@
           "description": "Ein besonderes Abenderlebnis auf Reservierung möglich.",
           "button": "Entdecken Sie mehr →"
         },
+        "fridayEvening": {
+          "time": "Bis 21:00",
+          "imageAlt": "Sonderaktion - Jeden Freitag im Marina Restaurant",
+          "title": "Sonderaktion - Jeden Freitag",
+          "description": "Das Restaurant bleibt bis 21:00 Uhr geöffnet, mit dem Snack-Menü und den Spezialitäten des Tages. Eine Reservierung ist nicht erforderlich.",
+          "button": "Entdecken Sie mehr →"
+        },
         "paellas": {
           "time": "Bestellung am Vortag · Mittagessen",
           "imageAlt": "Paellas",
@@ -536,6 +543,65 @@
       },
       "notice": {
         "text": "Reservierungen werden im Voraus empfohlen. Die Verfügbarkeit kann von der Versorgung mit frischen Produkten abhängen, insbesondere bei der Fisch- und Fleischauswahl. Bitte wenden Sie sich zur Bestätigung an die Rezeption oder das Marina Restaurant."
+      }
+    },
+    "fridayEvening": {
+      "pageTitle": "Sonderaktion - Jeden Freitag | Royal Marina Suites",
+      "hero": {
+        "imageAlt": "Sonderaktion - Jeden Freitag im Marina Restaurant",
+        "label": "Marina Restaurant",
+        "title": "Sonderaktion - Jeden Freitag",
+        "subtitle": "Geöffnet bis 21:00"
+      },
+      "hours": {
+        "label": "Keine Reservierung erforderlich",
+        "title": "Geöffnet bis 21:00",
+        "text": "Jeden Freitag bleibt das Marina Restaurant bis 21:00 Uhr geöffnet. Eine Reservierung ist nicht erforderlich."
+      },
+      "intro": {
+        "title": "Snack-Menü und Tagesgerichte",
+        "text": "Genießen Sie das Snack-Menü zusammen mit Spezialitäten, die am selben Tag zubereitet werden, in entspannter Abendatmosphäre im Marina Restaurant."
+      },
+      "requests": {
+        "label": "Besondere Wünsche",
+        "title": "Sprechen Sie mit unserem Restaurantteam",
+        "text": "Wenn Sie ein bestimmtes Gericht wünschen, sprechen Sie bitte mit dem Restaurantteam. Wir bestätigen, ob Ihre Anfrage zubereitet werden kann, abhängig von den frischen Produkten des Tages. Für besondere Wünsche bitten wir Sie, uns im Voraus zu informieren."
+      },
+      "atmosphere": {
+        "imageAlt": "Abendatmosphäre im Marina Restaurant",
+        "label": "Tagesgerichte",
+        "title": "Je nach Tagesangebot",
+        "text": "Zu den Spezialitäten können Pasta, Reisgerichte, Wok-Gerichte, Fleisch, Fisch und weitere Speisen gehören, je nach Verfügbarkeit."
+      },
+      "options": {
+        "pasta": {
+          "imageAlt": "Pasta",
+          "label": "Tagesgerichte",
+          "title": "Pasta"
+        },
+        "rice": {
+          "imageAlt": "Reisgerichte",
+          "label": "Tagesgerichte",
+          "title": "Reisgerichte"
+        },
+        "wok": {
+          "imageAlt": "Wok-Gerichte",
+          "label": "Tagesgerichte",
+          "title": "Wok-Gerichte"
+        },
+        "meat": {
+          "imageAlt": "Fleisch",
+          "label": "Tagesgerichte",
+          "title": "Fleisch"
+        },
+        "fish": {
+          "imageAlt": "Fisch",
+          "label": "Tagesgerichte",
+          "title": "Fisch"
+        }
+      },
+      "notice": {
+        "text": "Die Tagesgerichte hängen von den verfügbaren frischen Produkten ab. Fragen Sie unser Restaurantteam nach den heutigen Empfehlungen und teilen Sie besondere Wünsche bitte im Voraus mit."
       }
     },
     "paellas": {

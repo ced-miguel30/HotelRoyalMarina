@@ -62,6 +62,13 @@
           "description": "Un'esperienza serale speciale disponibile su prenotazione.",
           "button": "Scopri di più →"
         },
+        "fridayEvening": {
+          "time": "Fino alle 21:00",
+          "imageAlt": "Promozione speciale - Ogni venerdì al Ristorante Marina",
+          "title": "Promozione speciale - Ogni venerdì",
+          "description": "Il ristorante resta aperto fino alle 21:00, con il menu snack e le specialità del giorno. Non è necessaria la prenotazione.",
+          "button": "Scopri di più →"
+        },
         "paellas": {
           "time": "Ordine il giorno prima · Pranzo",
           "imageAlt": "Paellas",
@@ -536,6 +543,65 @@
       },
       "notice": {
         "text": "Si consiglia la prenotazione in anticipo. La disponibilità può dipendere dalla fornitura di prodotti freschi, in particolare per le selezioni di pesce e carne. Si prega di contattare la reception o il Ristorante Marina per la conferma."
+      }
+    },
+    "fridayEvening": {
+      "pageTitle": "Promozione speciale - Ogni venerdì | Royal Marina Suites",
+      "hero": {
+        "imageAlt": "Promozione speciale - Ogni venerdì al Ristorante Marina",
+        "label": "Ristorante Marina",
+        "title": "Promozione speciale - Ogni venerdì",
+        "subtitle": "Aperto fino alle 21:00"
+      },
+      "hours": {
+        "label": "Senza prenotazione",
+        "title": "Aperto fino alle 21:00",
+        "text": "Ogni venerdì il Marina Restaurant resta aperto fino alle 21:00. Non è necessaria la prenotazione."
+      },
+      "intro": {
+        "title": "Menu snack e specialità del giorno",
+        "text": "Godetevi il menu snack insieme alle specialità preparate nel giorno, in un'atmosfera serale rilassata al Marina Restaurant."
+      },
+      "requests": {
+        "label": "Richieste speciali",
+        "title": "Parlate con il nostro team del ristorante",
+        "text": "Se desiderate un piatto in particolare, potete parlarne con il personale del ristorante. Confermeremo se è possibile preparare la vostra richiesta, in base alla disponibilità dei prodotti del giorno. È importante comunicare le richieste speciali in anticipo."
+      },
+      "atmosphere": {
+        "imageAlt": "Atmosfera serale al Ristorante Marina",
+        "label": "Specialità del giorno",
+        "title": "Secondo i prodotti del giorno",
+        "text": "Le specialità possono includere pasta, piatti di riso, saltati wok, carni, pesce e altri piatti, soggetti a disponibilità."
+      },
+      "options": {
+        "pasta": {
+          "imageAlt": "Pasta",
+          "label": "Specialità del giorno",
+          "title": "Pasta"
+        },
+        "rice": {
+          "imageAlt": "Piatti di riso",
+          "label": "Specialità del giorno",
+          "title": "Piatti di riso"
+        },
+        "wok": {
+          "imageAlt": "Saltati wok",
+          "label": "Specialità del giorno",
+          "title": "Saltati wok"
+        },
+        "meat": {
+          "imageAlt": "Carni",
+          "label": "Specialità del giorno",
+          "title": "Carni"
+        },
+        "fish": {
+          "imageAlt": "Pesce",
+          "label": "Specialità del giorno",
+          "title": "Pesce"
+        }
+      },
+      "notice": {
+        "text": "Le specialità del giorno dipendono dai prodotti freschi disponibili. Chiedete al team del ristorante i suggerimenti di oggi e, se desiderate qualcosa di particolare, fatelo in anticipo."
       }
     },
     "paellas": {

@@ -124,10 +124,39 @@ body{
   border-color:var(--gold);
 }
 
-.menu-card img{
+.menu-card img,
+.menu-card .photo-slot{
   width:100%;
   height:180px;
   object-fit:cover;
+}
+
+.menu-card .photo-slot{
+  background:linear-gradient(180deg,#1a446e,#062b4f);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+  overflow:hidden;
+}
+
+.menu-card .photo-slot::after{
+  content:attr(data-file);
+  color:var(--gold);
+  font-size:11px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+
+.menu-card .photo-slot img{
+  position:absolute;
+  inset:0;
+  height:180px;
+  z-index:1;
+}
+
+.menu-card .photo-slot img.is-missing{
+  display:none;
 }
 
 .menu-content{
@@ -282,6 +311,18 @@ footer{
       </div>
     </a>
     -->
+
+    <a href="friday-evening.html" class="menu-card">
+      <div class="photo-slot" data-file="friday-hero.jpg">
+        <img src="../images/friday-hero.jpg" alt="Special Promotion - Every Friday at Marina Restaurant" data-i18n-alt="marinaRestaurant.restaurant.cards.fridayEvening.imageAlt" onerror="this.classList.add('is-missing')">
+      </div>
+      <div class="menu-content">
+        <span data-i18n="marinaRestaurant.restaurant.cards.fridayEvening.time">Until 21:00</span>
+        <h3 data-i18n="marinaRestaurant.restaurant.cards.fridayEvening.title">Special Promotion - Every Friday</h3>
+        <p data-i18n="marinaRestaurant.restaurant.cards.fridayEvening.description">The restaurant stays open until 21:00, with the snacks menu and daily specials. No reservation required.</p>
+        <div class="button-text" data-i18n="marinaRestaurant.restaurant.cards.fridayEvening.button">Discover More →</div>
+      </div>
+    </a>
 
     <a href="paellas.html" class="menu-card">
       <img src="../images/paella1.jpg" alt="Paellas" data-i18n-alt="marinaRestaurant.restaurant.cards.paellas.imageAlt">
