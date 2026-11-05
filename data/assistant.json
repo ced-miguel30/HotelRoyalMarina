@@ -1330,6 +1330,16 @@
           }
         },
         {
+          "href": "https://www.google.com/maps/place//data=!4m2!3m1!1s0xc46256bab72c7c7:0x9e0c4a0aeb702c64",
+          "label": {
+            "en": "Parapharmacy (map)",
+            "es": "Parafarmacia (mapa)",
+            "de": "Parapharmazie (Karte)",
+            "it": "Parafarmacia (mappa)",
+            "fr": "Parapharmacie (carte)"
+          }
+        },
+        {
           "href": "useful-info.html",
           "label": {
             "en": "Useful information",
@@ -1762,6 +1772,16 @@
         "agua"
       ],
       "actions": [
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=HiperDino+Express+Puerto+Calero",
+          "label": {
+            "en": "HiperDino (map)",
+            "es": "HiperDino (mapa)",
+            "de": "HiperDino (Karte)",
+            "it": "HiperDino (mappa)",
+            "fr": "HiperDino (carte)"
+          }
+        },
         {
           "href": "useful-info.html",
           "label": {

@@ -4,6 +4,9 @@
   var DEFAULT_LANG = 'en';
   var STORAGE_KEY = 'hrm_lang';
   var SUPPORTED_LANGS = ['en', 'es', 'de', 'it', 'fr'];
+  // Bump on every publish so phones don't keep old texts for 10 minutes.
+  var CONTENT_VERSION = '2026-11-05-2';
+  window.RMS_CONTENT_VERSION = CONTENT_VERSION;
 
   function getScriptElement() {
     return (
@@ -15,9 +18,9 @@
   function getLangUrl(lang) {
     var script = getScriptElement();
     if (!script || !script.src) {
-      return 'lang/' + lang + '.json';
+      return 'lang/' + lang + '.json?v=' + CONTENT_VERSION;
     }
-    return new URL('../lang/' + lang + '.json', script.src).href;
+    return new URL('../lang/' + lang + '.json?v=' + CONTENT_VERSION, script.src).href;
   }
 
   function normalizeLang(lang) {

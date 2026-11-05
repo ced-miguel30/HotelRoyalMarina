@@ -46,3 +46,8 @@ Se abre con el botón **Ayuda** de la barra inferior. Sin IA: solo muestra respu
   `actions` (botones: `{"href": "pagina.html", "label": {...}}` o `{"type": "call"}`),
   `related` (ids de las preguntas sugeridas después de responder) y `copy` opcional (texto a copiar).
 - Si cambia un horario o un precio, actualízalo también aquí.
+
+## Al publicar cambios de textos
+
+Sube el valor de `CONTENT_VERSION` en `js/translations.js` (por ejemplo `2026-11-05-3`).
+Así los móviles descargan enseguida los textos nuevos de `lang/` y `data/` en lugar de usar la copia guardada.

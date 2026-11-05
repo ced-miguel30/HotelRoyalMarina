@@ -393,7 +393,7 @@
       }
     });
 
-    fetch(base + 'data/assistant.json')
+    fetch(base + 'data/assistant.json?v=' + (window.RMS_CONTENT_VERSION || ''))
       .then(function (r) { return r.json(); })
       .then(function (d) { astData = d; astRender(sheet, base); })
       .catch(function () {
@@ -628,7 +628,7 @@
   var curatedEvents = [];
 
   function loadEvents(base) {
-    return fetch(base + 'data/events.json', { cache: 'no-cache' })
+    return fetch(base + 'data/events.json?v=' + (window.RMS_CONTENT_VERSION || ''), { cache: 'no-cache' })
       .then(function (r) { return r.ok ? r.json() : []; })
       .catch(function () { return []; })
       .then(function (list) {
@@ -680,6 +680,35 @@
       '<p class="culture-note">' + t('askConcierge') + '</p>';
   }
 
+  /* ---------------- Low-resolution images ----------------
+     Images much smaller than their box would be stretched and look pixelated.
+     Show them at a sensible size over a blurred copy of themselves instead. */
+
+  function fixLowResImages() {
+    document.querySelectorAll('img').forEach(function (img) {
+      if (img.closest('.rms-lowres, .hero, .hero-small, .leaflet-container, .rms-nav')) {
+        return;
+      }
+      var check = function () {
+        var boxW = img.clientWidth;
+        if (!img.naturalWidth || !boxW) { return; }
+        var needed = boxW * Math.min(window.devicePixelRatio || 1, 2);
+        if (img.naturalWidth >= needed * 0.6) { return; }
+        var wrap = document.createElement('div');
+        wrap.className = 'rms-lowres';
+        var cs = getComputedStyle(img);
+        wrap.style.height = cs.height;
+        wrap.style.width = cs.width;
+        wrap.style.minWidth = cs.minWidth;
+        wrap.style.borderRadius = cs.borderRadius;
+        wrap.style.setProperty('--lowres-bg', 'url("' + img.currentSrc.replace(/"/g, '%22') + '")');
+        img.parentNode.insertBefore(wrap, img);
+        wrap.appendChild(img);
+      };
+      if (img.complete) { check(); } else { img.addEventListener('load', check, { once: true }); }
+    });
+  }
+
   /* ---------------- Labels ---------------- */
 
   function applyLabels() {
@@ -704,6 +733,7 @@
     propagateLang();
     renderToday(base);
     setupWeather();
+    fixLowResImages();
     if (document.getElementById('rms-culture')) {
       renderCulture();
       loadEvents(base).then(renderCulture);

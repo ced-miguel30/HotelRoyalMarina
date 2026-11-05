@@ -58,7 +58,7 @@
         "bbqNight": {
           "time": "Every Friday",
           "imageAlt": "BBQ Grill Night",
-          "title": " Grill Night",
+          "title": "BBQ Grill Night",
           "description": "A special evening experience available under reservation.",
           "button": "Discover More →"
         },
@@ -488,16 +488,16 @@
       }
     },
     "bbqNight": {
-      "pageTitle": " Grill Night | Royal Marina Suites",
+      "pageTitle": "BBQ Grill Night | Royal Marina Suites",
       "hero": {
         "imageAlt": "BBQ Grill Night",
         "label": "Friday Evening Experience",
-        "title": " Grill Night",
+        "title": "BBQ Grill Night",
         "subtitle": "Every Friday · Under Reservation"
       },
       "reservation": {
         "title": "Every Friday Evening",
-        "text": " Grill Night is available under reservation. As our products are fresh, occasional exceptions may be possible depending on product availability."
+        "text": "BBQ Grill Night is available under reservation. As our products are fresh, occasional exceptions may be possible depending on product availability."
       },
       "intro": {
         "title": "A Special Evening by the Marina",
@@ -922,8 +922,8 @@
     },
     "housekeeping": {
       "summary": "Housekeeping Hours",
-      "daily": "<strong>Daily Housekeeping</strong><br>\n        Our housekeeping service is available until <strong>3:00 PM.</strong>",
-      "doNotDisturb": "<strong>Do Not Disturb Sign</strong><br>\n        We kindly ask guests not to leave the \"Do Not Disturb\" sign outside the room after <strong>1:30 PM</strong>.",
+      "daily": "<strong>Daily Housekeeping</strong><br>\n        Our housekeeping service is available until <strong>15:00</strong>.",
+      "doNotDisturb": "<strong>Do Not Disturb Sign</strong><br>\n        We kindly ask guests not to leave the \"Do Not Disturb\" sign outside the room after <strong>13:30</strong>.",
       "teamNote": "This allows our team enough time to prepare your room beautifully each day."
     }
   },
@@ -1141,7 +1141,7 @@
       "title": "Emergencies & health",
       "call112": "<strong>Emergencies: call 112</strong> (free, 24 hours, multilingual).",
       "hospital": "<strong>Hospiten Lanzarote</strong> — private hospital with emergency department. Camino Lomo Gordo s/n, Puerto del Carmen (about 10 minutes by car). Tel. <a href=\"tel:+34928596100\">+34 928 59 61 00</a>.",
-      "pharmacy": "<strong>Pharmacies:</strong> there is a parapharmacy in Puerto Calero. The nearest pharmacies are in Puerto del Carmen and Tías.",
+      "pharmacy": "<strong>Pharmacies:</strong> there is a parapharmacy in Puerto Calero. The nearest pharmacies are in Puerto del Carmen and Tías. <a href=\"https://www.google.com/maps/place//data=!4m2!3m1!1s0xc46256bab72c7c7:0x9e0c4a0aeb702c64\" target=\"_blank\" rel=\"noopener\">See on Google Maps ↗</a>",
       "reception": "Reception can help you 24 hours a day: press <strong>9</strong> from your room."
     },
     "taxi": {
@@ -1183,7 +1183,7 @@
     },
     "shop": {
       "title": "Supermarket",
-      "text": "The nearest supermarket is <strong>HiperDino Express</strong> in the new shopping centre in Puerto Calero."
+      "text": "The nearest supermarket is <strong>HiperDino Express</strong> in the new shopping centre in Puerto Calero. <a href=\"https://www.google.com/maps/search/?api=1&query=HiperDino+Express+Puerto+Calero\" target=\"_blank\" rel=\"noopener\">See on Google Maps ↗</a>"
     },
     "map": {
       "title": "Map",

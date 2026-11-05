@@ -1141,7 +1141,7 @@
       "title": "Emergenze e salute",
       "call112": "<strong>Emergenze: chiamate il 112</strong> (gratuito, 24 ore su 24, multilingue).",
       "hospital": "<strong>Hospiten Lanzarote</strong> — ospedale privato con pronto soccorso. Camino Lomo Gordo s/n, Puerto del Carmen (circa 10 minuti in auto). Tel. <a href=\"tel:+34928596100\">+34 928 59 61 00</a>.",
-      "pharmacy": "<strong>Farmacie:</strong> a Puerto Calero c'è una parafarmacia. Le farmacie più vicine si trovano a Puerto del Carmen e a Tías.",
+      "pharmacy": "<strong>Farmacie:</strong> a Puerto Calero c'è una parafarmacia. Le farmacie più vicine si trovano a Puerto del Carmen e a Tías. <a href=\"https://www.google.com/maps/place//data=!4m2!3m1!1s0xc46256bab72c7c7:0x9e0c4a0aeb702c64\" target=\"_blank\" rel=\"noopener\">Vedi su Google Maps ↗</a>",
       "reception": "La reception vi assiste 24 ore su 24: premete il <strong>9</strong> dalla camera."
     },
     "taxi": {
@@ -1183,7 +1183,7 @@
     },
     "shop": {
       "title": "Supermercato",
-      "text": "Il supermercato più vicino è l'<strong>HiperDino Express</strong> nel nuovo centro commerciale di Puerto Calero."
+      "text": "Il supermercato più vicino è l'<strong>HiperDino Express</strong> nel nuovo centro commerciale di Puerto Calero. <a href=\"https://www.google.com/maps/search/?api=1&query=HiperDino+Express+Puerto+Calero\" target=\"_blank\" rel=\"noopener\">Vedi su Google Maps ↗</a>"
     },
     "map": {
       "title": "Mappa",

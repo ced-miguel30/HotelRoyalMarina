@@ -922,8 +922,8 @@
     },
     "housekeeping": {
       "summary": "Horario de limpieza",
-      "daily": "<strong>Limpieza diaria</strong><br>\n        Nuestro servicio de limpieza está disponible hasta las <strong>3:00 p. m.</strong>",
-      "doNotDisturb": "<strong>Cartel de «No molestar»</strong><br>\n        Rogamos a los huéspedes que no dejen el cartel de «No molestar» fuera de la habitación después de las <strong>1:30 p. m.</strong>",
+      "daily": "<strong>Limpieza diaria</strong><br>\n        Nuestro servicio de limpieza está disponible hasta las <strong>15:00</strong>",
+      "doNotDisturb": "<strong>Cartel de «No molestar»</strong><br>\n        Rogamos a los huéspedes que no dejen el cartel de «No molestar» fuera de la habitación después de las <strong>13:30</strong>",
       "teamNote": "Así nuestro equipo dispone del tiempo necesario para preparar su habitación con esmero cada día."
     }
   },
@@ -1141,7 +1141,7 @@
       "title": "Urgencias y salud",
       "call112": "<strong>Emergencias: llame al 112</strong> (gratuito, 24 horas, en varios idiomas).",
       "hospital": "<strong>Hospiten Lanzarote</strong> — hospital privado con servicio de urgencias. Camino Lomo Gordo s/n, Puerto del Carmen (unos 10 minutos en coche). Tel. <a href=\"tel:+34928596100\">+34 928 59 61 00</a>.",
-      "pharmacy": "<strong>Farmacias:</strong> en Puerto Calero hay una parafarmacia. Las farmacias más cercanas están en Puerto del Carmen y en Tías.",
+      "pharmacy": "<strong>Farmacias:</strong> en Puerto Calero hay una parafarmacia. Las farmacias más cercanas están en Puerto del Carmen y en Tías. <a href=\"https://www.google.com/maps/place//data=!4m2!3m1!1s0xc46256bab72c7c7:0x9e0c4a0aeb702c64\" target=\"_blank\" rel=\"noopener\">Ver en Google Maps ↗</a>",
       "reception": "Recepción le ayuda las 24 horas: pulse el <strong>9</strong> desde su habitación."
     },
     "taxi": {
@@ -1183,7 +1183,7 @@
     },
     "shop": {
       "title": "Supermercado",
-      "text": "El supermercado más cercano es el <strong>HiperDino Express</strong> del nuevo centro comercial de Puerto Calero."
+      "text": "El supermercado más cercano es el <strong>HiperDino Express</strong> del nuevo centro comercial de Puerto Calero. <a href=\"https://www.google.com/maps/search/?api=1&query=HiperDino+Express+Puerto+Calero\" target=\"_blank\" rel=\"noopener\">Ver en Google Maps ↗</a>"
     },
     "map": {
       "title": "Mapa",

@@ -217,3 +217,22 @@ html.rms-sheet-open, html.rms-sheet-open body{ overflow:hidden; }
   font-size:11px; letter-spacing:2px; text-transform:uppercase; color:var(--gold-ink);
 }
 .ast-action.ast-urgent{ background:#c43c35; }
+
+/* Small images shown over a blurred copy instead of being stretched (js/ui.js) */
+.rms-lowres{
+  position:relative; overflow:hidden; flex:none;
+  display:flex; align-items:center; justify-content:center;
+  background:var(--soft);
+}
+.rms-lowres::before{
+  content:""; position:absolute; inset:-20px;
+  background:var(--lowres-bg) center / cover no-repeat;
+  filter:blur(18px) saturate(1.1); opacity:.85;
+}
+.rms-lowres img{
+  position:relative; z-index:1;
+  width:auto !important; min-width:0 !important;
+  max-width:88% !important; max-height:86% !important; height:auto !important;
+  object-fit:contain !important;
+  border-radius:10px; box-shadow:0 8px 24px rgba(10,19,41,.25);
+}
