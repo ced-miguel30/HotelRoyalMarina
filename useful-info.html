@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0a1329">
+<title data-i18n="usefulInfo.pageTitle">Useful Information | Royal Marina Suites</title>
+<link rel="stylesheet" href="css/language-switcher.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+
+<style>
+*{box-sizing:border-box;}
+body{ margin:0; background:var(--soft); color:var(--text); }
+
+.hero-small{
+  position:relative;
+  min-height:46vh;
+  display:flex; align-items:flex-end; justify-content:center;
+  text-align:center; color:#fff;
+  padding:100px 24px 48px;
+  background:
+    linear-gradient(180deg, rgba(10,19,41,.35) 0%, rgba(10,19,41,.55) 45%, rgba(10,19,41,.88) 100%),
+    url("images/front.jpeg") center 65% / cover no-repeat;
+}
+.hero-small .label{ font-size:12px; letter-spacing:4px; text-transform:uppercase; color:var(--gold); margin:0 0 10px; }
+.hero-small h1{ margin:0; font-size:clamp(36px, 8vw, 56px); font-weight:500; }
+.gold-line{ width:64px; height:1px; background:var(--gold); margin:18px auto; }
+.hero-small .sub{ margin:0; font-weight:300; opacity:.9; }
+
+.container{ max-width:860px; margin:auto; padding:24px 18px 40px; }
+
+/* Emergency card stands out */
+.emergency{
+  background:var(--blue); color:#fff;
+  border-radius:20px; padding:22px 20px;
+  margin-top:-40px; position:relative; z-index:2;
+  box-shadow:0 18px 40px rgba(10,19,41,.18);
+}
+.emergency h2{ color:#fff; margin:0 0 12px; font-size:28px; }
+.emergency p{ margin:10px 0; color:rgba(255,255,255,.9); }
+.emergency strong{ color:#fff; font-weight:500; }
+.emergency a{ color:var(--gold); }
+.call-112{
+  display:flex; align-items:center; justify-content:center; gap:10px;
+  margin:14px 0 6px; padding:14px; border-radius:14px;
+  background:#c43c35; color:#fff !important; text-decoration:none;
+  font-size:18px; font-weight:500; letter-spacing:.5px;
+}
+
+/* Info blocks */
+.blocks{ display:grid; gap:12px; margin-top:16px; }
+@media(min-width:720px){ .blocks{ grid-template-columns:1fr 1fr; } }
+.block{
+  background:#fff; border:1px solid var(--line); border-radius:18px; padding:18px;
+}
+.block.wide{ grid-column:1 / -1; }
+.block h2{ display:flex; align-items:center; gap:10px; margin:0 0 8px; color:var(--blue); font-size:23px; }
+.block h2 svg{ width:24px; height:24px; flex:none; stroke:var(--gold-ink); fill:none; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round; }
+.block p, .block li{ margin:6px 0; font-size:15px; }
+.block ul{ margin:0; padding-left:18px; }
+.block strong{ font-weight:500; color:var(--blue); }
+.block a{ color:var(--gold-ink); }
+
+/* Map */
+.map-wrap{ margin-top:16px; }
+#rms-map{
+  height:360px; border-radius:18px; overflow:hidden;
+  border:1px solid var(--line); background:#e8eef0;
+}
+.map-note{ font-size:13px; color:var(--muted); margin:8px 2px 0; }
+.legend{ display:flex; flex-wrap:wrap; gap:8px 14px; margin-top:10px; font-size:13px; color:var(--text); }
+.legend span{ display:inline-flex; align-items:center; gap:6px; }
+.legend i{ width:12px; height:12px; border-radius:50%; display:inline-block; border:2px solid #fff; box-shadow:0 0 0 1px rgba(0,0,0,.2); }
+.leaflet-popup-content{ font-family:var(--font-sans); font-size:14px; }
+.leaflet-popup-content a{ color:var(--gold-ink); }
+
+.back{ display:inline-block; margin-top:28px; text-decoration:none; font-weight:500; }
+
+footer{ background:var(--blue); color:#fff; text-align:center; padding:28px; font-size:14px; }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="css/theme.css">
+</head>
+
+<body>
+
+<div class="language-switcher">
+  <a href="?lang=en" data-lang="en">EN</a>
+  <a href="?lang=es" data-lang="es">ES</a>
+  <a href="?lang=de" data-lang="de">DE</a>
+  <a href="?lang=it" data-lang="it">IT</a>
+  <a href="?lang=fr" data-lang="fr">FR</a>
+</div>
+
+<section class="hero-small">
+  <div>
+    <p class="label" data-i18n="usefulInfo.hero.label">Guest Information</p>
+    <h1 data-i18n="usefulInfo.hero.title">Useful Information</h1>
+    <div class="gold-line"></div>
+    <p class="sub" data-i18n="usefulInfo.hero.subtitle">Health · Transport · House rules</p>
+  </div>
+</section>
+
+<div class="container">
+
+  <section class="emergency">
+    <h2 data-i18n="usefulInfo.emergency.title">Emergencies &amp; health</h2>
+    <a class="call-112" href="tel:112">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+      112
+    </a>
+    <p data-i18n-html="usefulInfo.emergency.call112"><strong>Emergencies: call 112</strong> (free, 24 hours, multilingual).</p>
+    <p data-i18n-html="usefulInfo.emergency.hospital"><strong>Hospiten Lanzarote</strong> — private hospital with emergency department. Camino Lomo Gordo s/n, Puerto del Carmen. Tel. <a href="tel:+34928596100">+34 928 59 61 00</a>.</p>
+    <p data-i18n-html="usefulInfo.emergency.pharmacy"><strong>Pharmacies:</strong> there is a parapharmacy in Puerto Calero. The nearest pharmacies are in Puerto del Carmen and Tías.</p>
+    <p data-i18n-html="usefulInfo.emergency.reception">Reception can help you 24 hours a day: press <strong>9</strong> from your room.</p>
+  </section>
+
+  <div class="blocks">
+
+    <section class="block wide">
+      <h2><svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="15" rx="3"/><path d="M4 11h16M8 21l1-3M16 21l-1-3"/><circle cx="8" cy="14.5" r=".8"/><circle cx="16" cy="14.5" r=".8"/></svg>
+        <span data-i18n="usefulInfo.bus.title">Public bus (guagua)</span></h2>
+      <p data-i18n-html="usefulInfo.bus.stop">The <strong>Puerto Calero</strong> bus stop is at the entrance to Puerto Calero, a short walk from the hotel.</p>
+      <p data-i18n-html="usefulInfo.bus.l161"><strong>Line 161</strong> connects Puerto Calero with the airport and Playa Blanca.</p>
+      <p data-i18n-html="usefulInfo.bus.carmen"><strong>Puerto del Carmen</strong>: line 161 stops along the seafront.</p>
+      <p data-i18n-html="usefulInfo.bus.arrecife"><strong>To Arrecife</strong>: change at Matagorda to line 2 or 3.</p>
+      <p data-i18n-html="usefulInfo.bus.timetable">Timetables and fares change seasonally — please check <a href="https://arrecifebus.com/lineas/linea-161-aeropuerto-puerto-del-carmen-playa-blanca/" target="_blank" rel="noopener">arrecifebus.com</a> before travelling.</p>
+    </section>
+
+    <section class="block wide map-wrap">
+      <h2><svg viewBox="0 0 24 24"><path d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></svg>
+        <span data-i18n="usefulInfo.map.title">Map</span></h2>
+      <div id="rms-map" role="region" aria-label="Map"></div>
+      <div class="legend">
+        <span><i style="background:#0a1329"></i><span data-i18n="usefulInfo.map.hotel">Royal Marina Suites</span></span>
+        <span><i style="background:#b4a76c"></i><span data-i18n="usefulInfo.map.busStop">Bus stop</span></span>
+        <span><i style="background:#c43c35"></i><span data-i18n="usefulInfo.map.hospital">Hospiten Lanzarote</span></span>
+        <span><i style="background:#3f8f5a"></i><span data-i18n="usefulInfo.map.pharmacy">Pharmacy</span></span>
+      </div>
+      <p class="map-note" data-i18n="usefulInfo.map.note">Locations are approximate. Tap a marker for details.</p>
+    </section>
+
+    <section class="block">
+      <h2><svg viewBox="0 0 24 24"><path d="M5 17h14l-1.5-6h-11z"/><path d="M7 11l1.5-4h7L17 11"/><circle cx="8" cy="18" r="1.5"/><circle cx="16" cy="18" r="1.5"/></svg>
+        <span data-i18n="usefulInfo.taxi.title">Taxi</span></h2>
+      <p data-i18n="usefulInfo.taxi.text">Reception will order a taxi for you. Just ask, or press 9 from your room.</p>
+    </section>
+
+    <section class="block">
+      <h2><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M10 16V8h3a2.5 2.5 0 0 1 0 5h-3"/></svg>
+        <span data-i18n="usefulInfo.parking.title">Parking</span></h2>
+      <p data-i18n="usefulInfo.parking.text">Free private parking at the hotel entrance — you can't miss it.</p>
+    </section>
+
+    <section class="block">
+      <h2><svg viewBox="0 0 24 24"><path d="M6 6h15l-2 8H8z"/><path d="M6 6L5 3H2"/><circle cx="9" cy="19" r="1.5"/><circle cx="18" cy="19" r="1.5"/></svg>
+        <span data-i18n="usefulInfo.shop.title">Supermarket</span></h2>
+      <p data-i18n-html="usefulInfo.shop.text">The nearest supermarket is <strong>HiperDino Express</strong> in the new shopping centre in Puerto Calero.</p>
+    </section>
+
+    <section class="block">
+      <h2><svg viewBox="0 0 24 24"><rect x="5" y="7" width="14" height="13" rx="2"/><path d="M9 7V4h6v3"/><path d="M9 11v5M15 11v5"/></svg>
+        <span data-i18n="usefulInfo.luggage.title">Luggage storage</span></h2>
+      <p data-i18n="usefulInfo.luggage.text">You can leave your luggage at reception on your departure day, or if you arrive before check-in.</p>
+    </section>
+
+    <section class="block wide">
+      <h2><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>
+        <span data-i18n="usefulInfo.suite.title">In your suite</span></h2>
+      <ul>
+        <li data-i18n-html="usefulInfo.suite.safe">Every suite has a <strong>safe</strong>.</li>
+        <li data-i18n-html="usefulInfo.suite.ac">Please switch off the <strong>air conditioning</strong> when you leave the suite.</li>
+        <li data-i18n="usefulInfo.suite.tv">If you have any problem with the TV or any other equipment, please contact reception.</li>
+      </ul>
+    </section>
+
+    <section class="block wide">
+      <h2><svg viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="M9 12l2 2 4-4"/></svg>
+        <span data-i18n="usefulInfo.rules.title">House rules</span></h2>
+      <ul>
+        <li data-i18n-html="usefulInfo.rules.adults">Royal Marina Suites is an <strong>adults-only</strong> hotel.</li>
+        <li data-i18n="usefulInfo.rules.pets">Pets are not allowed.</li>
+        <li data-i18n="usefulInfo.rules.smoking">Smoking is permitted on suite terraces only, never inside the hotel.</li>
+        <li data-i18n-html="usefulInfo.rules.quiet">Please keep noise to a minimum after <strong>23:00</strong>.</li>
+      </ul>
+    </section>
+
+    <section class="block wide">
+      <h2><svg viewBox="0 0 24 24"><path d="M4 7h16l-1 13H5z"/><path d="M8 7a4 4 0 0 1 8 0"/></svg>
+        <span data-i18n="usefulInfo.laundry.title">Laundry</span></h2>
+      <p data-i18n="usefulInfo.laundry.text">We do not offer a laundry service. Please ask at reception.</p>
+    </section>
+
+  </div>
+
+  <a class="back" href="index.html" data-i18n="common.backToHome">← Back to Home</a>
+</div>
+
+<footer data-i18n="common.footer.hotelName">Royal Marina Suites</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+// Map of useful places. Coordinates: hotel from its own Google Maps link;
+// Hospiten from hospiten.com's map link; pharmacies and bus stop from OpenStreetMap.
+(function () {
+  if (!window.L || !document.getElementById('rms-map')) { return; }
+  var places = [
+    { key: 'hotel',    lat: 28.9169006, lon: -13.7081727, color: '#0a1329', name: 'Royal Marina Suites', extra: 'Barranco del Agua 22, Puerto Calero' },
+    { key: 'busStop',  lat: 28.9216324, lon: -13.7008858, color: '#b4a76c', name: 'Guagua · Puerto Calero', extra: '161' },
+    { key: 'hospital', lat: 28.930154,  lon: -13.65857,   color: '#c43c35', name: 'Hospiten Lanzarote', extra: '<a href="tel:+34928596100">+34 928 59 61 00</a>' },
+    { key: 'pharmacy', lat: 28.9210787, lon: -13.6710024, color: '#3f8f5a', name: 'Farmacia El Pueblo', extra: 'C/ Roque Nubio 11, Puerto del Carmen' },
+    { key: 'pharmacy', lat: 28.9543116, lon: -13.6522166, color: '#3f8f5a', name: 'Farmacia Central', extra: 'Av. Central, Tías' }
+  ];
+  var map = L.map('rms-map', { scrollWheelZoom: false, tap: true });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>'
+  }).addTo(map);
+  var bounds = [];
+  places.forEach(function (p) {
+    var dir = 'https://www.google.com/maps/dir/?api=1&destination=' + p.lat + ',' + p.lon;
+    L.circleMarker([p.lat, p.lon], {
+      radius: p.key === 'hotel' ? 10 : 8, color: '#fff', weight: 2, fillColor: p.color, fillOpacity: 1
+    }).addTo(map).bindPopup('<strong>' + p.name + '</strong><br>' + p.extra +
+      '<br><a href="' + dir + '" target="_blank" rel="noopener">Google Maps ↗</a>');
+    bounds.push([p.lat, p.lon]);
+  });
+  map.fitBounds(bounds, { padding: [24, 24] });
+})();
+</script>
+<script src="js/translations.js"></script>
+<script src="js/ui.js"></script>
+</body>
+</html>

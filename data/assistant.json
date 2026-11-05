@@ -1,9 +1,20 @@
 {
-  "featured": ["wifi", "gym-hours", "late-checkout", "breakfast-hours"],
+  "featured": [
+    "wifi",
+    "gym-hours",
+    "late-checkout",
+    "breakfast-hours"
+  ],
   "questions": [
     {
       "id": "wifi",
-      "q": { "en": "What is the Wi-Fi password?", "es": "¿Cuál es la contraseña del Wi-Fi?", "de": "Wie lautet das WLAN-Passwort?", "it": "Qual è la password del Wi-Fi?", "fr": "Quel est le mot de passe Wi-Fi ?" },
+      "q": {
+        "en": "What is the Wi-Fi password?",
+        "es": "¿Cuál es la contraseña del Wi-Fi?",
+        "de": "Wie lautet das WLAN-Passwort?",
+        "it": "Qual è la password del Wi-Fi?",
+        "fr": "Quel est le mot de passe Wi-Fi ?"
+      },
       "a": {
         "en": "Network: <strong>Royal Marina Suites</strong><br>Password: <strong>WelcomeRMS2022</strong><br>The connection is complimentary throughout the hotel.",
         "es": "Red: <strong>Royal Marina Suites</strong><br>Contraseña: <strong>WelcomeRMS2022</strong><br>La conexión es gratuita en todo el hotel.",
@@ -12,13 +23,50 @@
         "fr": "Réseau : <strong>Royal Marina Suites</strong><br>Mot de passe : <strong>WelcomeRMS2022</strong><br>La connexion est gratuite dans tout l'hôtel."
       },
       "copy": "WelcomeRMS2022",
-      "keywords": ["wifi", "wi-fi", "wlan", "internet", "password", "contraseña", "clave", "red", "passwort", "netz", "mot de passe", "réseau", "connexion", "conexion", "connessione", "rete"],
-      "actions": [{ "href": "wifi.html", "label": { "en": "Wi-Fi page", "es": "Página del Wi-Fi", "de": "WLAN-Seite", "it": "Pagina Wi-Fi", "fr": "Page Wi-Fi" } }],
-      "related": ["reception", "checkin"]
+      "keywords": [
+        "wifi",
+        "wi-fi",
+        "wlan",
+        "internet",
+        "password",
+        "contraseña",
+        "clave",
+        "red",
+        "passwort",
+        "netz",
+        "mot de passe",
+        "réseau",
+        "connexion",
+        "conexion",
+        "connessione",
+        "rete"
+      ],
+      "actions": [
+        {
+          "href": "wifi.html",
+          "label": {
+            "en": "Wi-Fi page",
+            "es": "Página del Wi-Fi",
+            "de": "WLAN-Seite",
+            "it": "Pagina Wi-Fi",
+            "fr": "Page Wi-Fi"
+          }
+        }
+      ],
+      "related": [
+        "reception",
+        "checkin"
+      ]
     },
     {
       "id": "gym-hours",
-      "q": { "en": "What are the gym opening hours?", "es": "¿Qué horario tiene el gimnasio?", "de": "Wann ist das Fitnesscenter geöffnet?", "it": "Quali sono gli orari della palestra?", "fr": "Quels sont les horaires de la salle de fitness ?" },
+      "q": {
+        "en": "What are the gym opening hours?",
+        "es": "¿Qué horario tiene el gimnasio?",
+        "de": "Wann ist das Fitnesscenter geöffnet?",
+        "it": "Quali sono gli orari della palestra?",
+        "fr": "Quels sont les horaires de la salle de fitness ?"
+      },
       "a": {
         "en": "The fitness centre is open daily from <strong>08:00 to 20:00</strong>.",
         "es": "El gimnasio abre todos los días de <strong>08:00 a 20:00</strong>.",
@@ -26,13 +74,47 @@
         "it": "Il centro fitness è aperto tutti i giorni dalle <strong>08:00 alle 20:00</strong>.",
         "fr": "La salle de fitness est ouverte tous les jours de <strong>08h00 à 20h00</strong>."
       },
-      "keywords": ["gym", "gimnasio", "fitness", "sport", "deporte", "entrenar", "training", "palestra", "salle", "sport", "workout", "ejercicio"],
-      "actions": [{ "href": "facilities-wellness.html", "label": { "en": "Facilities", "es": "Instalaciones", "de": "Einrichtungen", "it": "Strutture", "fr": "Installations" } }],
-      "related": ["pool-hours", "massage", "bike"]
+      "keywords": [
+        "gym",
+        "gimnasio",
+        "fitness",
+        "sport",
+        "deporte",
+        "entrenar",
+        "training",
+        "palestra",
+        "salle",
+        "sport",
+        "workout",
+        "ejercicio"
+      ],
+      "actions": [
+        {
+          "href": "facilities-wellness.html",
+          "label": {
+            "en": "Facilities",
+            "es": "Instalaciones",
+            "de": "Einrichtungen",
+            "it": "Strutture",
+            "fr": "Installations"
+          }
+        }
+      ],
+      "related": [
+        "pool-hours",
+        "massage",
+        "bike"
+      ]
     },
     {
       "id": "late-checkout",
-      "q": { "en": "Can I have a late check-out?", "es": "¿Puedo hacer la salida más tarde?", "de": "Ist ein später Check-out möglich?", "it": "Posso fare il check-out più tardi?", "fr": "Puis-je partir plus tard (départ tardif) ?" },
+      "q": {
+        "en": "Can I have a late check-out?",
+        "es": "¿Puedo hacer la salida más tarde?",
+        "de": "Ist ein später Check-out möglich?",
+        "it": "Posso fare il check-out più tardi?",
+        "fr": "Puis-je partir plus tard (départ tardif) ?"
+      },
       "a": {
         "en": "Yes, subject to availability:<br>• Until 15:00 — <strong>€30</strong><br>• Until 18:00 — <strong>€50</strong><br>A courtesy room may also be offered, depending on availability. Please ask at reception.",
         "es": "Sí, según disponibilidad:<br>• Hasta las 15:00 — <strong>30 €</strong><br>• Hasta las 18:00 — <strong>50 €</strong><br>Según disponibilidad, también podemos ofrecerle una habitación de cortesía. Consulte en recepción.",
@@ -40,13 +122,45 @@
         "it": "Sì, in base alla disponibilità:<br>• Fino alle 15:00 — <strong>30 €</strong><br>• Fino alle 18:00 — <strong>50 €</strong><br>In base alla disponibilità può essere offerta anche una camera di cortesia. Chiedete alla reception.",
         "fr": "Oui, selon disponibilité :<br>• Jusqu'à 15h00 — <strong>30 €</strong><br>• Jusqu'à 18h00 — <strong>50 €</strong><br>Selon disponibilité, une chambre de courtoisie peut aussi être proposée. Renseignez-vous à la réception."
       },
-      "keywords": ["late", "checkout", "check-out", "check out", "salida", "tarde", "tardía", "später", "abreise", "posticipato", "partenza", "tardif", "départ", "depart", "leave", "irse", "marcharse"],
-      "actions": [{ "type": "call" }],
-      "related": ["checkin", "transfer", "breakfast-hours"]
+      "keywords": [
+        "late",
+        "checkout",
+        "check-out",
+        "check out",
+        "salida",
+        "tarde",
+        "tardía",
+        "später",
+        "abreise",
+        "posticipato",
+        "partenza",
+        "tardif",
+        "départ",
+        "depart",
+        "leave",
+        "irse",
+        "marcharse"
+      ],
+      "actions": [
+        {
+          "type": "call"
+        }
+      ],
+      "related": [
+        "checkin",
+        "transfer",
+        "breakfast-hours"
+      ]
     },
     {
       "id": "checkin",
-      "q": { "en": "What time are check-in and check-out?", "es": "¿A qué hora es la entrada y la salida?", "de": "Wann sind Check-in und Check-out?", "it": "A che ora sono il check-in e il check-out?", "fr": "À quelle heure sont l'arrivée et le départ ?" },
+      "q": {
+        "en": "What time are check-in and check-out?",
+        "es": "¿A qué hora es la entrada y la salida?",
+        "de": "Wann sind Check-in und Check-out?",
+        "it": "A che ora sono il check-in e il check-out?",
+        "fr": "À quelle heure sont l'arrivée et le départ ?"
+      },
       "a": {
         "en": "Check-in from <strong>15:00</strong>. Check-out until <strong>12:00</strong>.",
         "es": "Entrada a partir de las <strong>15:00</strong>. Salida hasta las <strong>12:00</strong>.",
@@ -54,13 +168,52 @@
         "it": "Check-in dalle <strong>15:00</strong>. Check-out entro le <strong>12:00</strong>.",
         "fr": "Arrivée à partir de <strong>15h00</strong>. Départ jusqu'à <strong>12h00</strong>."
       },
-      "keywords": ["check-in", "checkin", "check in", "check-out", "checkout", "entrada", "salida", "llegada", "hora", "anreise", "abreise", "arrivo", "partenza", "arrivée", "départ", "time"],
-      "actions": [{ "href": "hotel-info.html", "label": { "en": "Guest information", "es": "Información del huésped", "de": "Gästeinformationen", "it": "Informazioni per gli ospiti", "fr": "Informations séjour" } }],
-      "related": ["late-checkout", "transfer"]
+      "keywords": [
+        "check-in",
+        "checkin",
+        "check in",
+        "check-out",
+        "checkout",
+        "entrada",
+        "salida",
+        "llegada",
+        "hora",
+        "anreise",
+        "abreise",
+        "arrivo",
+        "partenza",
+        "arrivée",
+        "départ",
+        "time"
+      ],
+      "actions": [
+        {
+          "href": "hotel-info.html",
+          "label": {
+            "en": "Guest information",
+            "es": "Información del huésped",
+            "de": "Gästeinformationen",
+            "it": "Informazioni per gli ospiti",
+            "fr": "Informations séjour"
+          }
+        }
+      ],
+      "related": [
+        "late-checkout",
+        "transfer",
+        "luggage",
+        "parking"
+      ]
     },
     {
       "id": "breakfast-hours",
-      "q": { "en": "What time is breakfast?", "es": "¿A qué hora es el desayuno?", "de": "Wann gibt es Frühstück?", "it": "A che ora è la colazione?", "fr": "À quelle heure est le petit-déjeuner ?" },
+      "q": {
+        "en": "What time is breakfast?",
+        "es": "¿A qué hora es el desayuno?",
+        "de": "Wann gibt es Frühstück?",
+        "it": "A che ora è la colazione?",
+        "fr": "À quelle heure est le petit-déjeuner ?"
+      },
       "a": {
         "en": "Our à la carte breakfast is served daily from <strong>07:30 to 10:30</strong> at Marina Restaurant.",
         "es": "Nuestro desayuno a la carta se sirve todos los días de <strong>07:30 a 10:30</strong> en Marina Restaurant.",
@@ -68,13 +221,45 @@
         "it": "La nostra colazione à la carte viene servita tutti i giorni dalle <strong>07:30 alle 10:30</strong> al Marina Restaurant.",
         "fr": "Notre petit-déjeuner à la carte est servi tous les jours de <strong>07h30 à 10h30</strong> au Marina Restaurant."
       },
-      "keywords": ["breakfast", "desayuno", "frühstück", "fruhstuck", "colazione", "petit-déjeuner", "petit dejeuner", "morning", "mañana", "desayunar"],
-      "actions": [{ "href": "MarinaRestaurant/breakfast.html", "label": { "en": "Breakfast menu", "es": "Carta del desayuno", "de": "Frühstückskarte", "it": "Menù colazione", "fr": "Carte du petit-déjeuner" } }],
-      "related": ["breakfast-suite", "restaurant-hours", "pool-bar"]
+      "keywords": [
+        "breakfast",
+        "desayuno",
+        "frühstück",
+        "fruhstuck",
+        "colazione",
+        "petit-déjeuner",
+        "petit dejeuner",
+        "morning",
+        "mañana",
+        "desayunar"
+      ],
+      "actions": [
+        {
+          "href": "MarinaRestaurant/breakfast.html",
+          "label": {
+            "en": "Breakfast menu",
+            "es": "Carta del desayuno",
+            "de": "Frühstückskarte",
+            "it": "Menù colazione",
+            "fr": "Carte du petit-déjeuner"
+          }
+        }
+      ],
+      "related": [
+        "breakfast-suite",
+        "restaurant-hours",
+        "pool-bar"
+      ]
     },
     {
       "id": "breakfast-suite",
-      "q": { "en": "Can I have breakfast in my suite?", "es": "¿Puedo desayunar en mi suite?", "de": "Kann ich in meiner Suite frühstücken?", "it": "Posso fare colazione nella mia suite?", "fr": "Puis-je prendre le petit-déjeuner dans ma suite ?" },
+      "q": {
+        "en": "Can I have breakfast in my suite?",
+        "es": "¿Puedo desayunar en mi suite?",
+        "de": "Kann ich in meiner Suite frühstücken?",
+        "it": "Posso fare colazione nella mia suite?",
+        "fr": "Puis-je prendre le petit-déjeuner dans ma suite ?"
+      },
       "a": {
         "en": "Yes. Breakfast in your suite has a service charge of <strong>€20 per room</strong>, added to your room account. Please request it <strong>the day before</strong> with the form or at reception.",
         "es": "Sí. El desayuno en la suite tiene un cargo de servicio de <strong>20 € por habitación</strong>, que se añade a la cuenta de su habitación. Solicítelo <strong>el día anterior</strong> con el formulario o en recepción.",
@@ -82,13 +267,51 @@
         "it": "Sì. La colazione in suite prevede un costo di servizio di <strong>20 € per camera</strong>, addebitato sul conto della camera. Richiedetela <strong>il giorno prima</strong> con il modulo o alla reception.",
         "fr": "Oui. Le petit-déjeuner en suite entraîne des frais de service de <strong>20 € par chambre</strong>, ajoutés à votre compte. Merci de le demander <strong>la veille</strong> via le formulaire ou à la réception."
       },
-      "keywords": ["suite", "room", "habitación", "habitacion", "cuarto", "zimmer", "camera", "chambre", "room service", "breakfast", "desayuno", "frühstück", "colazione", "petit-déjeuner", "servicio", "service", "privado"],
-      "actions": [{ "href": "MarinaRestaurant/breakfast-in-suite.html", "label": { "en": "Request breakfast", "es": "Pedir desayuno", "de": "Frühstück bestellen", "it": "Richiedi colazione", "fr": "Demander le petit-déjeuner" } }],
-      "related": ["breakfast-hours", "cold-dinner"]
+      "keywords": [
+        "suite",
+        "room",
+        "habitación",
+        "habitacion",
+        "cuarto",
+        "zimmer",
+        "camera",
+        "chambre",
+        "room service",
+        "breakfast",
+        "desayuno",
+        "frühstück",
+        "colazione",
+        "petit-déjeuner",
+        "servicio",
+        "service",
+        "privado"
+      ],
+      "actions": [
+        {
+          "href": "MarinaRestaurant/breakfast-in-suite.html",
+          "label": {
+            "en": "Request breakfast",
+            "es": "Pedir desayuno",
+            "de": "Frühstück bestellen",
+            "it": "Richiedi colazione",
+            "fr": "Demander le petit-déjeuner"
+          }
+        }
+      ],
+      "related": [
+        "breakfast-hours",
+        "cold-dinner"
+      ]
     },
     {
       "id": "restaurant-hours",
-      "q": { "en": "What are the restaurant opening hours?", "es": "¿Qué horario tiene el restaurante?", "de": "Wann hat das Restaurant geöffnet?", "it": "Quali sono gli orari del ristorante?", "fr": "Quels sont les horaires du restaurant ?" },
+      "q": {
+        "en": "What are the restaurant opening hours?",
+        "es": "¿Qué horario tiene el restaurante?",
+        "de": "Wann hat das Restaurant geöffnet?",
+        "it": "Quali sono gli orari del ristorante?",
+        "fr": "Quels sont les horaires du restaurant ?"
+      },
       "a": {
         "en": "Marina Restaurant:<br>• Breakfast — <strong>07:30–10:30</strong><br>• Snacks & lunch — <strong>12:00–15:30</strong><br>• Pool Bar — <strong>11:30–19:00</strong><br>• Fridays — open until <strong>21:00</strong>",
         "es": "Marina Restaurant:<br>• Desayuno — <strong>07:30–10:30</strong><br>• Snacks y almuerzo — <strong>12:00–15:30</strong><br>• Pool Bar — <strong>11:30–19:00</strong><br>• Viernes — abierto hasta las <strong>21:00</strong>",
@@ -96,13 +319,55 @@
         "it": "Marina Restaurant:<br>• Colazione — <strong>07:30–10:30</strong><br>• Snack e pranzo — <strong>12:00–15:30</strong><br>• Pool Bar — <strong>11:30–19:00</strong><br>• Venerdì — aperto fino alle <strong>21:00</strong>",
         "fr": "Marina Restaurant :<br>• Petit-déjeuner — <strong>07h30–10h30</strong><br>• Snacks et déjeuner — <strong>12h00–15h30</strong><br>• Pool Bar — <strong>11h30–19h00</strong><br>• Le vendredi — ouvert jusqu'à <strong>21h00</strong>"
       },
-      "keywords": ["restaurant", "restaurante", "ristorante", "comida", "comer", "food", "eat", "lunch", "almuerzo", "mittag", "pranzo", "déjeuner", "essen", "cibo", "manger", "horario", "hours", "menu", "carta", "speisekarte"],
-      "actions": [{ "href": "MarinaRestaurant/restaurant.html", "label": { "en": "Marina Restaurant", "es": "Marina Restaurant", "de": "Marina Restaurant", "it": "Marina Restaurant", "fr": "Marina Restaurant" } }],
-      "related": ["dinner", "restaurants-island", "paella"]
+      "keywords": [
+        "restaurant",
+        "restaurante",
+        "ristorante",
+        "comida",
+        "comer",
+        "food",
+        "eat",
+        "lunch",
+        "almuerzo",
+        "mittag",
+        "pranzo",
+        "déjeuner",
+        "essen",
+        "cibo",
+        "manger",
+        "horario",
+        "hours",
+        "menu",
+        "carta",
+        "speisekarte"
+      ],
+      "actions": [
+        {
+          "href": "MarinaRestaurant/restaurant.html",
+          "label": {
+            "en": "Marina Restaurant",
+            "es": "Marina Restaurant",
+            "de": "Marina Restaurant",
+            "it": "Marina Restaurant",
+            "fr": "Marina Restaurant"
+          }
+        }
+      ],
+      "related": [
+        "dinner",
+        "restaurants-island",
+        "paella"
+      ]
     },
     {
       "id": "dinner",
-      "q": { "en": "Where can I have dinner?", "es": "¿Dónde puedo cenar?", "de": "Wo kann ich zu Abend essen?", "it": "Dove posso cenare?", "fr": "Où puis-je dîner ?" },
+      "q": {
+        "en": "Where can I have dinner?",
+        "es": "¿Dónde puedo cenar?",
+        "de": "Wo kann ich zu Abend essen?",
+        "it": "Dove posso cenare?",
+        "fr": "Où puis-je dîner ?"
+      },
       "a": {
         "en": "At the hotel you can order a <strong>cold dinner in your suite</strong> (book before 15:00). On <strong>Fridays</strong>, Marina Restaurant stays open until 21:00, no reservation needed. Nearby, Puerto Calero marina has several restaurants within walking distance.",
         "es": "En el hotel puede pedir una <strong>cena fría en su suite</strong> (reservar antes de las 15:00). Los <strong>viernes</strong>, Marina Restaurant abre hasta las 21:00, sin reserva. Muy cerca, en la marina de Puerto Calero, hay varios restaurantes a los que se llega a pie.",
@@ -110,16 +375,62 @@
         "it": "In hotel potete ordinare una <strong>cena fredda in suite</strong> (prenotazione entro le 15:00). Il <strong>venerdì</strong> il Marina Restaurant resta aperto fino alle 21:00, senza prenotazione. Nella marina di Puerto Calero ci sono diversi ristoranti raggiungibili a piedi.",
         "fr": "À l'hôtel, vous pouvez commander un <strong>dîner froid en suite</strong> (réservation avant 15h00). Le <strong>vendredi</strong>, le Marina Restaurant est ouvert jusqu'à 21h00, sans réservation. La marina de Puerto Calero compte plusieurs restaurants accessibles à pied."
       },
-      "keywords": ["dinner", "cena", "cenar", "abendessen", "cenare", "dîner", "diner", "noche", "night", "abend", "sera", "soir", "comida", "food", "essen", "restaurant", "restaurante"],
-      "actions": [
-        { "href": "MarinaRestaurant/cold-dinner.html", "label": { "en": "Cold dinner in suite", "es": "Cena fría en la suite", "de": "Kaltes Abendessen", "it": "Cena fredda in suite", "fr": "Dîner froid en suite" } },
-        { "href": "guide.html", "label": { "en": "Recommended restaurants", "es": "Restaurantes recomendados", "de": "Restaurant-Tipps", "it": "Ristoranti consigliati", "fr": "Restaurants recommandés" } }
+      "keywords": [
+        "dinner",
+        "cena",
+        "cenar",
+        "abendessen",
+        "cenare",
+        "dîner",
+        "diner",
+        "noche",
+        "night",
+        "abend",
+        "sera",
+        "soir",
+        "comida",
+        "food",
+        "essen",
+        "restaurant",
+        "restaurante"
       ],
-      "related": ["restaurants-island", "friday", "cold-dinner"]
+      "actions": [
+        {
+          "href": "MarinaRestaurant/cold-dinner.html",
+          "label": {
+            "en": "Cold dinner in suite",
+            "es": "Cena fría en la suite",
+            "de": "Kaltes Abendessen",
+            "it": "Cena fredda in suite",
+            "fr": "Dîner froid en suite"
+          }
+        },
+        {
+          "href": "guide.html",
+          "label": {
+            "en": "Recommended restaurants",
+            "es": "Restaurantes recomendados",
+            "de": "Restaurant-Tipps",
+            "it": "Ristoranti consigliati",
+            "fr": "Restaurants recommandés"
+          }
+        }
+      ],
+      "related": [
+        "restaurants-island",
+        "friday",
+        "cold-dinner"
+      ]
     },
     {
       "id": "cold-dinner",
-      "q": { "en": "How do I order the cold dinner in my suite?", "es": "¿Cómo pido la cena fría en la suite?", "de": "Wie bestelle ich das kalte Abendessen in der Suite?", "it": "Come ordino la cena fredda in suite?", "fr": "Comment commander le dîner froid en suite ?" },
+      "q": {
+        "en": "How do I order the cold dinner in my suite?",
+        "es": "¿Cómo pido la cena fría en la suite?",
+        "de": "Wie bestelle ich das kalte Abendessen in der Suite?",
+        "it": "Come ordino la cena fredda in suite?",
+        "fr": "Comment commander le dîner froid en suite ?"
+      },
       "a": {
         "en": "The cold dinner is served in your suite and must be booked <strong>before 15:00</strong> at reception or at Marina Restaurant.",
         "es": "La cena fría se sirve en su suite y debe reservarse <strong>antes de las 15:00</strong> en recepción o en Marina Restaurant.",
@@ -127,13 +438,50 @@
         "it": "La cena fredda viene servita nella vostra suite e va prenotata <strong>entro le 15:00</strong> alla reception o al Marina Restaurant.",
         "fr": "Le dîner froid est servi dans votre suite et doit être réservé <strong>avant 15h00</strong> à la réception ou au Marina Restaurant."
       },
-      "keywords": ["cold", "fría", "fria", "kalt", "fredda", "froid", "dinner", "cena", "abendessen", "dîner", "suite", "room", "habitación", "zimmer", "camera", "chambre"],
-      "actions": [{ "href": "MarinaRestaurant/cold-dinner.html", "label": { "en": "See the menu", "es": "Ver la carta", "de": "Zur Karte", "it": "Vedi il menù", "fr": "Voir la carte" } }],
-      "related": ["dinner", "breakfast-suite"]
+      "keywords": [
+        "cold",
+        "fría",
+        "fria",
+        "kalt",
+        "fredda",
+        "froid",
+        "dinner",
+        "cena",
+        "abendessen",
+        "dîner",
+        "suite",
+        "room",
+        "habitación",
+        "zimmer",
+        "camera",
+        "chambre"
+      ],
+      "actions": [
+        {
+          "href": "MarinaRestaurant/cold-dinner.html",
+          "label": {
+            "en": "See the menu",
+            "es": "Ver la carta",
+            "de": "Zur Karte",
+            "it": "Vedi il menù",
+            "fr": "Voir la carte"
+          }
+        }
+      ],
+      "related": [
+        "dinner",
+        "breakfast-suite"
+      ]
     },
     {
       "id": "restaurants-island",
-      "q": { "en": "Which restaurants do you recommend in Lanzarote?", "es": "¿Qué restaurantes recomiendan en Lanzarote?", "de": "Welche Restaurants auf Lanzarote empfehlen Sie?", "it": "Quali ristoranti consigliate a Lanzarote?", "fr": "Quels restaurants recommandez-vous à Lanzarote ?" },
+      "q": {
+        "en": "Which restaurants do you recommend in Lanzarote?",
+        "es": "¿Qué restaurantes recomiendan en Lanzarote?",
+        "de": "Welche Restaurants auf Lanzarote empfehlen Sie?",
+        "it": "Quali ristoranti consigliate a Lanzarote?",
+        "fr": "Quels restaurants recommandez-vous à Lanzarote ?"
+      },
       "a": {
         "en": "Some favourites: in <strong>Puerto Calero</strong>, Siete Gotas, La Margarita and La Porteña; <strong>Brisa Marina</strong> in Playa Blanca; and the wineries <strong>Bodega de Uga</strong> and <strong>La Bodega de Santiago</strong>. Reception can book a table for you.",
         "es": "Algunos favoritos: en <strong>Puerto Calero</strong>, Siete Gotas, La Margarita y La Porteña; <strong>Brisa Marina</strong> en Playa Blanca; y las bodegas <strong>Bodega de Uga</strong> y <strong>La Bodega de Santiago</strong>. En recepción le reservamos mesa.",
@@ -141,13 +489,61 @@
         "it": "Alcuni preferiti: a <strong>Puerto Calero</strong> Siete Gotas, La Margarita e La Porteña; <strong>Brisa Marina</strong> a Playa Blanca; e le cantine <strong>Bodega de Uga</strong> e <strong>La Bodega de Santiago</strong>. La reception può prenotarvi un tavolo.",
         "fr": "Quelques favoris : à <strong>Puerto Calero</strong>, Siete Gotas, La Margarita et La Porteña ; <strong>Brisa Marina</strong> à Playa Blanca ; et les bodegas <strong>Bodega de Uga</strong> et <strong>La Bodega de Santiago</strong>. La réception peut réserver une table."
       },
-      "keywords": ["restaurants", "restaurantes", "ristoranti", "recommend", "recomienda", "recomendación", "empfehlung", "consigli", "recommandez", "lanzarote", "island", "isla", "insel", "isola", "île", "comer", "eat", "essen", "mangiare", "manger", "food", "comida", "tapas", "wine", "vino", "wein"],
-      "actions": [{ "href": "guide.html", "label": { "en": "Lanzarote guide", "es": "Guía de Lanzarote", "de": "Lanzarote-Guide", "it": "Guida di Lanzarote", "fr": "Guide de Lanzarote" } }],
-      "related": ["beaches", "excursions", "car-rental"]
+      "keywords": [
+        "restaurants",
+        "restaurantes",
+        "ristoranti",
+        "recommend",
+        "recomienda",
+        "recomendación",
+        "empfehlung",
+        "consigli",
+        "recommandez",
+        "lanzarote",
+        "island",
+        "isla",
+        "insel",
+        "isola",
+        "île",
+        "comer",
+        "eat",
+        "essen",
+        "mangiare",
+        "manger",
+        "food",
+        "comida",
+        "tapas",
+        "wine",
+        "vino",
+        "wein"
+      ],
+      "actions": [
+        {
+          "href": "guide.html",
+          "label": {
+            "en": "Lanzarote guide",
+            "es": "Guía de Lanzarote",
+            "de": "Lanzarote-Guide",
+            "it": "Guida di Lanzarote",
+            "fr": "Guide de Lanzarote"
+          }
+        }
+      ],
+      "related": [
+        "beaches",
+        "excursions",
+        "car-rental"
+      ]
     },
     {
       "id": "paella",
-      "q": { "en": "Can I order a paella?", "es": "¿Puedo pedir una paella?", "de": "Kann ich eine Paella bestellen?", "it": "Posso ordinare una paella?", "fr": "Puis-je commander une paella ?" },
+      "q": {
+        "en": "Can I order a paella?",
+        "es": "¿Puedo pedir una paella?",
+        "de": "Kann ich eine Paella bestellen?",
+        "it": "Posso ordinare una paella?",
+        "fr": "Puis-je commander une paella ?"
+      },
       "a": {
         "en": "Yes: traditional paella for two — seafood, meat or mixed — served at lunchtime. Please order it <strong>the day before</strong>.",
         "es": "Sí: paella tradicional para dos — de marisco, carne o mixta — servida al mediodía. Pídala <strong>el día anterior</strong>.",
@@ -155,13 +551,45 @@
         "it": "Sì: paella tradizionale per due — di mare, di carne o mista — servita a pranzo. Ordinatela <strong>il giorno prima</strong>.",
         "fr": "Oui : paella traditionnelle pour deux — fruits de mer, viande ou mixte — servie au déjeuner. Commandez-la <strong>la veille</strong>."
       },
-      "keywords": ["paella", "arroz", "rice", "reis", "riso", "riz", "lunch", "almuerzo", "comida", "food", "essen"],
-      "actions": [{ "href": "MarinaRestaurant/paellas.html", "label": { "en": "Paellas", "es": "Paellas", "de": "Paellas", "it": "Paella", "fr": "Paellas" } }],
-      "related": ["restaurant-hours", "dinner"]
+      "keywords": [
+        "paella",
+        "arroz",
+        "rice",
+        "reis",
+        "riso",
+        "riz",
+        "lunch",
+        "almuerzo",
+        "comida",
+        "food",
+        "essen"
+      ],
+      "actions": [
+        {
+          "href": "MarinaRestaurant/paellas.html",
+          "label": {
+            "en": "Paellas",
+            "es": "Paellas",
+            "de": "Paellas",
+            "it": "Paella",
+            "fr": "Paellas"
+          }
+        }
+      ],
+      "related": [
+        "restaurant-hours",
+        "dinner"
+      ]
     },
     {
       "id": "friday",
-      "q": { "en": "What is the Friday special?", "es": "¿Qué hay especial los viernes?", "de": "Was gibt es freitags Besonderes?", "it": "Cosa c'è di speciale il venerdì?", "fr": "Qu'y a-t-il de spécial le vendredi ?" },
+      "q": {
+        "en": "What is the Friday special?",
+        "es": "¿Qué hay especial los viernes?",
+        "de": "Was gibt es freitags Besonderes?",
+        "it": "Cosa c'è di speciale il venerdì?",
+        "fr": "Qu'y a-t-il de spécial le vendredi ?"
+      },
       "a": {
         "en": "Every Friday, Marina Restaurant stays open until <strong>21:00</strong> with the snacks menu and daily specials. No reservation required.",
         "es": "Todos los viernes, Marina Restaurant abre hasta las <strong>21:00</strong> con la carta de snacks y platos del día. No hace falta reservar.",
@@ -169,13 +597,51 @@
         "it": "Ogni venerdì il Marina Restaurant resta aperto fino alle <strong>21:00</strong> con il menù snack e i piatti del giorno. Non serve prenotare.",
         "fr": "Chaque vendredi, le Marina Restaurant reste ouvert jusqu'à <strong>21h00</strong> avec la carte snacks et les plats du jour. Sans réservation."
       },
-      "keywords": ["friday", "viernes", "freitag", "venerdì", "venerdi", "vendredi", "special", "especial", "promo", "promoción", "evening", "noche", "abend", "sera", "soir", "dinner", "cena"],
-      "actions": [{ "href": "MarinaRestaurant/friday-evening.html", "label": { "en": "Friday menu", "es": "Carta del viernes", "de": "Freitagskarte", "it": "Menù del venerdì", "fr": "Carte du vendredi" } }],
-      "related": ["dinner", "restaurant-hours"]
+      "keywords": [
+        "friday",
+        "viernes",
+        "freitag",
+        "venerdì",
+        "venerdi",
+        "vendredi",
+        "special",
+        "especial",
+        "promo",
+        "promoción",
+        "evening",
+        "noche",
+        "abend",
+        "sera",
+        "soir",
+        "dinner",
+        "cena"
+      ],
+      "actions": [
+        {
+          "href": "MarinaRestaurant/friday-evening.html",
+          "label": {
+            "en": "Friday menu",
+            "es": "Carta del viernes",
+            "de": "Freitagskarte",
+            "it": "Menù del venerdì",
+            "fr": "Carte du vendredi"
+          }
+        }
+      ],
+      "related": [
+        "dinner",
+        "restaurant-hours"
+      ]
     },
     {
       "id": "pool-hours",
-      "q": { "en": "What are the pool and jacuzzi hours?", "es": "¿Qué horario tienen la piscina y el jacuzzi?", "de": "Wann sind Pool und Whirlpool geöffnet?", "it": "Quali sono gli orari di piscina e idromassaggio?", "fr": "Quels sont les horaires de la piscine et du jacuzzi ?" },
+      "q": {
+        "en": "What are the pool and jacuzzi hours?",
+        "es": "¿Qué horario tienen la piscina y el jacuzzi?",
+        "de": "Wann sind Pool und Whirlpool geöffnet?",
+        "it": "Quali sono gli orari di piscina e idromassaggio?",
+        "fr": "Quels sont les horaires de la piscine et du jacuzzi ?"
+      },
       "a": {
         "en": "The heated pool and the jacuzzi are open daily from <strong>09:00 to 19:00</strong>.",
         "es": "La piscina climatizada y el jacuzzi abren todos los días de <strong>09:00 a 19:00</strong>.",
@@ -183,13 +649,50 @@
         "it": "La piscina riscaldata e l'idromassaggio sono aperti tutti i giorni dalle <strong>09:00 alle 19:00</strong>.",
         "fr": "La piscine chauffée et le jacuzzi sont ouverts tous les jours de <strong>09h00 à 19h00</strong>."
       },
-      "keywords": ["pool", "piscina", "schwimmbad", "piscine", "jacuzzi", "whirlpool", "idromassaggio", "swim", "nadar", "baden", "nuotare", "nager", "bañar", "hours", "horario"],
-      "actions": [{ "href": "facilities-wellness.html", "label": { "en": "Facilities", "es": "Instalaciones", "de": "Einrichtungen", "it": "Strutture", "fr": "Installations" } }],
-      "related": ["towels", "pool-bar", "gym-hours"]
+      "keywords": [
+        "pool",
+        "piscina",
+        "schwimmbad",
+        "piscine",
+        "jacuzzi",
+        "whirlpool",
+        "idromassaggio",
+        "swim",
+        "nadar",
+        "baden",
+        "nuotare",
+        "nager",
+        "bañar",
+        "hours",
+        "horario"
+      ],
+      "actions": [
+        {
+          "href": "facilities-wellness.html",
+          "label": {
+            "en": "Facilities",
+            "es": "Instalaciones",
+            "de": "Einrichtungen",
+            "it": "Strutture",
+            "fr": "Installations"
+          }
+        }
+      ],
+      "related": [
+        "towels",
+        "pool-bar",
+        "gym-hours"
+      ]
     },
     {
       "id": "pool-bar",
-      "q": { "en": "When is the Pool Bar open?", "es": "¿Cuándo abre el Pool Bar?", "de": "Wann ist die Poolbar geöffnet?", "it": "Quando è aperto il Pool Bar?", "fr": "Quand le Pool Bar est-il ouvert ?" },
+      "q": {
+        "en": "When is the Pool Bar open?",
+        "es": "¿Cuándo abre el Pool Bar?",
+        "de": "Wann ist die Poolbar geöffnet?",
+        "it": "Quando è aperto il Pool Bar?",
+        "fr": "Quand le Pool Bar est-il ouvert ?"
+      },
       "a": {
         "en": "The Pool Bar is open from <strong>11:30 to 19:00</strong>: cocktails, wine, beer, coffee, smoothies and soft drinks.",
         "es": "El Pool Bar abre de <strong>11:30 a 19:00</strong>: cócteles, vinos, cervezas, café, batidos y refrescos.",
@@ -197,13 +700,57 @@
         "it": "Il Pool Bar è aperto dalle <strong>11:30 alle 19:00</strong>: cocktail, vini, birre, caffè, frullati e bibite.",
         "fr": "Le Pool Bar est ouvert de <strong>11h30 à 19h00</strong> : cocktails, vins, bières, café, smoothies et sodas."
       },
-      "keywords": ["bar", "pool bar", "drinks", "bebidas", "getränke", "bevande", "boissons", "cocktail", "cóctel", "coctel", "beer", "cerveza", "bier", "birra", "bière", "coffee", "café", "kaffee", "caffè", "wine", "vino", "wein", "vin"],
-      "actions": [{ "href": "MarinaRestaurant/pool-bar.html", "label": { "en": "Drinks menu", "es": "Carta de bebidas", "de": "Getränkekarte", "it": "Carta delle bevande", "fr": "Carte des boissons" } }],
-      "related": ["pool-hours", "restaurant-hours"]
+      "keywords": [
+        "bar",
+        "pool bar",
+        "drinks",
+        "bebidas",
+        "getränke",
+        "bevande",
+        "boissons",
+        "cocktail",
+        "cóctel",
+        "coctel",
+        "beer",
+        "cerveza",
+        "bier",
+        "birra",
+        "bière",
+        "coffee",
+        "café",
+        "kaffee",
+        "caffè",
+        "wine",
+        "vino",
+        "wein",
+        "vin"
+      ],
+      "actions": [
+        {
+          "href": "MarinaRestaurant/pool-bar.html",
+          "label": {
+            "en": "Drinks menu",
+            "es": "Carta de bebidas",
+            "de": "Getränkekarte",
+            "it": "Carta delle bevande",
+            "fr": "Carte des boissons"
+          }
+        }
+      ],
+      "related": [
+        "pool-hours",
+        "restaurant-hours"
+      ]
     },
     {
       "id": "towels",
-      "q": { "en": "How do I get pool towels?", "es": "¿Cómo consigo toallas de piscina?", "de": "Wie bekomme ich Pooltücher?", "it": "Come ottengo gli asciugamani per la piscina?", "fr": "Comment obtenir des serviettes de piscine ?" },
+      "q": {
+        "en": "How do I get pool towels?",
+        "es": "¿Cómo consigo toallas de piscina?",
+        "de": "Wie bekomme ich Pooltücher?",
+        "it": "Come ottengo gli asciugamani per la piscina?",
+        "fr": "Comment obtenir des serviettes de piscine ?"
+      },
       "a": {
         "en": "Pool towels are exchanged free of charge at reception: bring your used towel and we will give you a clean one. External towels are not permitted in the pool area, and sunbeds may not be reserved with towels.",
         "es": "Las toallas de piscina se cambian gratis en recepción: traiga la usada y le damos una limpia. No se permiten toallas externas en la zona de piscina ni reservar tumbonas con toallas.",
@@ -211,13 +758,39 @@
         "it": "Gli asciugamani per la piscina si cambiano gratuitamente alla reception: portate quello usato e ve ne daremo uno pulito. Non sono ammessi asciugamani esterni nell'area piscina, né riservare i lettini con gli asciugamani.",
         "fr": "Les serviettes de piscine s'échangent gratuitement à la réception : rapportez la serviette utilisée et nous vous en donnerons une propre. Les serviettes extérieures ne sont pas autorisées à la piscine, et il est interdit de réserver les transats avec une serviette."
       },
-      "keywords": ["towel", "towels", "toalla", "toallas", "handtuch", "handtücher", "asciugamano", "asciugamani", "serviette", "serviettes", "sunbed", "tumbona", "hamaca", "liege", "lettino", "transat"],
+      "keywords": [
+        "towel",
+        "towels",
+        "toalla",
+        "toallas",
+        "handtuch",
+        "handtücher",
+        "asciugamano",
+        "asciugamani",
+        "serviette",
+        "serviettes",
+        "sunbed",
+        "tumbona",
+        "hamaca",
+        "liege",
+        "lettino",
+        "transat"
+      ],
       "actions": [],
-      "related": ["pool-hours", "cleaning"]
+      "related": [
+        "pool-hours",
+        "cleaning"
+      ]
     },
     {
       "id": "cleaning",
-      "q": { "en": "When is my room cleaned?", "es": "¿Cuándo limpian mi habitación?", "de": "Wann wird mein Zimmer gereinigt?", "it": "Quando viene pulita la mia camera?", "fr": "Quand ma chambre est-elle nettoyée ?" },
+      "q": {
+        "en": "When is my room cleaned?",
+        "es": "¿Cuándo limpian mi habitación?",
+        "de": "Wann wird mein Zimmer gereinigt?",
+        "it": "Quando viene pulita la mia camera?",
+        "fr": "Quand ma chambre est-elle nettoyée ?"
+      },
       "a": {
         "en": "Housekeeping is available until <strong>15:00</strong>. Please don't leave the \"Do Not Disturb\" sign out after <strong>13:30</strong>. Sheets and towels are changed <strong>every 2 days</strong> (#GREENROYAL); just ask if you need an extra change.",
         "es": "La limpieza está disponible hasta las <strong>15:00</strong>. Le rogamos no dejar el cartel de \"No molestar\" después de las <strong>13:30</strong>. Sábanas y toallas se cambian <strong>cada 2 días</strong> (#GREENROYAL); si necesita un cambio extra, solo tiene que pedirlo.",
@@ -225,13 +798,50 @@
         "it": "Il servizio di pulizia è disponibile fino alle <strong>15:00</strong>. Vi preghiamo di non lasciare il cartello \"Non disturbare\" dopo le <strong>13:30</strong>. Lenzuola e asciugamani vengono cambiati <strong>ogni 2 giorni</strong> (#GREENROYAL); se desiderate un cambio extra, basta chiederlo.",
         "fr": "Le ménage est assuré jusqu'à <strong>15h00</strong>. Merci de ne pas laisser le panneau « Ne pas déranger » après <strong>13h30</strong>. Draps et serviettes sont changés <strong>tous les 2 jours</strong> (#GREENROYAL) ; demandez-nous si vous souhaitez un change supplémentaire."
       },
-      "keywords": ["cleaning", "limpieza", "limpiar", "housekeeping", "reinigung", "zimmermädchen", "pulizia", "ménage", "menage", "sheets", "sábanas", "bettwäsche", "lenzuola", "draps", "towels", "toallas", "room", "habitación", "zimmer", "camera", "chambre", "disturb", "molestar"],
-      "actions": [{ "type": "call" }],
-      "related": ["towels", "minibar"]
+      "keywords": [
+        "cleaning",
+        "limpieza",
+        "limpiar",
+        "housekeeping",
+        "reinigung",
+        "zimmermädchen",
+        "pulizia",
+        "ménage",
+        "menage",
+        "sheets",
+        "sábanas",
+        "bettwäsche",
+        "lenzuola",
+        "draps",
+        "towels",
+        "toallas",
+        "room",
+        "habitación",
+        "zimmer",
+        "camera",
+        "chambre",
+        "disturb",
+        "molestar"
+      ],
+      "actions": [
+        {
+          "type": "call"
+        }
+      ],
+      "related": [
+        "towels",
+        "minibar"
+      ]
     },
     {
       "id": "minibar",
-      "q": { "en": "What's included in the minibar?", "es": "¿Qué incluye el minibar?", "de": "Was ist in der Minibar inklusive?", "it": "Cosa è incluso nel minibar?", "fr": "Qu'est-ce qui est inclus dans le minibar ?" },
+      "q": {
+        "en": "What's included in the minibar?",
+        "es": "¿Qué incluye el minibar?",
+        "de": "Was ist in der Minibar inklusive?",
+        "it": "Cosa è incluso nel minibar?",
+        "fr": "Qu'est-ce qui est inclus dans le minibar ?"
+      },
       "a": {
         "en": "<strong>Ocean Suites & Marina Suites:</strong> a complimentary bottle of water and two illy® coffee capsules.<br><strong>Royal Suites:</strong> one daily refill of all beverages, excluding alcoholic drinks.",
         "es": "<strong>Ocean Suites y Marina Suites:</strong> una botella de agua y dos cápsulas de café illy® de cortesía.<br><strong>Royal Suites:</strong> una reposición diaria de todas las bebidas, excepto las alcohólicas.",
@@ -239,13 +849,40 @@
         "it": "<strong>Ocean Suites e Marina Suites:</strong> una bottiglia d'acqua e due capsule di caffè illy® in omaggio.<br><strong>Royal Suites:</strong> un rifornimento giornaliero di tutte le bevande, escluse quelle alcoliche.",
         "fr": "<strong>Ocean Suites et Marina Suites :</strong> une bouteille d'eau et deux capsules de café illy® offertes.<br><strong>Royal Suites :</strong> un réassort quotidien de toutes les boissons, hors boissons alcoolisées."
       },
-      "keywords": ["minibar", "mini bar", "water", "agua", "wasser", "acqua", "eau", "coffee", "café", "kaffee", "caffè", "capsule", "cápsulas", "drinks", "bebidas", "fridge", "nevera"],
+      "keywords": [
+        "minibar",
+        "mini bar",
+        "water",
+        "agua",
+        "wasser",
+        "acqua",
+        "eau",
+        "coffee",
+        "café",
+        "kaffee",
+        "caffè",
+        "capsule",
+        "cápsulas",
+        "drinks",
+        "bebidas",
+        "fridge",
+        "nevera"
+      ],
       "actions": [],
-      "related": ["cleaning", "pool-bar"]
+      "related": [
+        "cleaning",
+        "pool-bar"
+      ]
     },
     {
       "id": "transfer",
-      "q": { "en": "How do I book an airport transfer?", "es": "¿Cómo reservo un traslado al aeropuerto?", "de": "Wie buche ich einen Flughafentransfer?", "it": "Come prenoto un transfer per l'aeroporto?", "fr": "Comment réserver un transfert aéroport ?" },
+      "q": {
+        "en": "How do I book an airport transfer?",
+        "es": "¿Cómo reservo un traslado al aeropuerto?",
+        "de": "Wie buche ich einen Flughafentransfer?",
+        "it": "Come prenoto un transfer per l'aeroporto?",
+        "fr": "Comment réserver un transfert aéroport ?"
+      },
       "a": {
         "en": "Private transfer with driver:<br>• Mercedes E-Class / Volvo S90 — <strong>€45</strong> per way<br>• Mercedes S350 — <strong>€85</strong> per way<br>Airport pick-ups have a <strong>€15</strong> supplement (flight monitoring included). Confirmation within 24 hours.",
         "es": "Traslado privado con conductor:<br>• Mercedes Clase E / Volvo S90 — <strong>45 €</strong> por trayecto<br>• Mercedes S350 — <strong>85 €</strong> por trayecto<br>Las recogidas en el aeropuerto tienen un suplemento de <strong>15 €</strong> (incluye seguimiento del vuelo). Confirmación en un máximo de 24 horas.",
@@ -253,13 +890,58 @@
         "it": "Transfer privato con autista:<br>• Mercedes Classe E / Volvo S90 — <strong>45 €</strong> a tratta<br>• Mercedes S350 — <strong>85 €</strong> a tratta<br>Per i ritiri in aeroporto è previsto un supplemento di <strong>15 €</strong> (monitoraggio del volo incluso). Conferma entro 24 ore.",
         "fr": "Transfert privé avec chauffeur :<br>• Mercedes Classe E / Volvo S90 — <strong>45 €</strong> par trajet<br>• Mercedes S350 — <strong>85 €</strong> par trajet<br>Les prises en charge à l'aéroport ont un supplément de <strong>15 €</strong> (suivi du vol inclus). Confirmation sous 24 heures."
       },
-      "keywords": ["transfer", "traslado", "aeropuerto", "airport", "flughafen", "aeroporto", "aéroport", "aeroport", "taxi", "car", "coche", "driver", "conductor", "fahrer", "autista", "chauffeur", "flight", "vuelo", "flug", "volo", "vol", "transport"],
-      "actions": [{ "href": "transfer.html", "label": { "en": "Book a transfer", "es": "Reservar traslado", "de": "Transfer buchen", "it": "Prenota il transfer", "fr": "Réserver un transfert" } }],
-      "related": ["checkin", "late-checkout", "car-rental"]
+      "keywords": [
+        "transfer",
+        "traslado",
+        "aeropuerto",
+        "airport",
+        "flughafen",
+        "aeroporto",
+        "aéroport",
+        "aeroport",
+        "taxi",
+        "car",
+        "coche",
+        "driver",
+        "conductor",
+        "fahrer",
+        "autista",
+        "chauffeur",
+        "flight",
+        "vuelo",
+        "flug",
+        "volo",
+        "vol",
+        "transport"
+      ],
+      "actions": [
+        {
+          "href": "transfer.html",
+          "label": {
+            "en": "Book a transfer",
+            "es": "Reservar traslado",
+            "de": "Transfer buchen",
+            "it": "Prenota il transfer",
+            "fr": "Réserver un transfert"
+          }
+        }
+      ],
+      "related": [
+        "checkin",
+        "late-checkout",
+        "car-rental",
+        "bus"
+      ]
     },
     {
       "id": "car-rental",
-      "q": { "en": "Can I rent a car?", "es": "¿Puedo alquilar un coche?", "de": "Kann ich ein Auto mieten?", "it": "Posso noleggiare un'auto?", "fr": "Puis-je louer une voiture ?" },
+      "q": {
+        "en": "Can I rent a car?",
+        "es": "¿Puedo alquilar un coche?",
+        "de": "Kann ich ein Auto mieten?",
+        "it": "Posso noleggiare un'auto?",
+        "fr": "Puis-je louer une voiture ?"
+      },
       "a": {
         "en": "Yes, through our trusted partner Cabrera Medina. You can book online or ask reception for help.",
         "es": "Sí, a través de nuestro colaborador de confianza Cabrera Medina. Puede reservar en línea o pedir ayuda en recepción.",
@@ -267,13 +949,51 @@
         "it": "Sì, tramite il nostro partner di fiducia Cabrera Medina. Potete prenotare online o chiedere aiuto alla reception.",
         "fr": "Oui, via notre partenaire de confiance Cabrera Medina. Vous pouvez réserver en ligne ou demander à la réception."
       },
-      "keywords": ["car", "coche", "auto", "alquiler", "alquilar", "rent", "rental", "mieten", "mietwagen", "noleggio", "noleggiare", "voiture", "location", "louer", "drive", "conducir"],
-      "actions": [{ "href": "https://www.cabreramedina.com/ES/agent/471", "label": { "en": "Book a car", "es": "Reservar coche", "de": "Auto buchen", "it": "Prenota l'auto", "fr": "Réserver une voiture" } }],
-      "related": ["excursions", "beaches", "bike"]
+      "keywords": [
+        "car",
+        "coche",
+        "auto",
+        "alquiler",
+        "alquilar",
+        "rent",
+        "rental",
+        "mieten",
+        "mietwagen",
+        "noleggio",
+        "noleggiare",
+        "voiture",
+        "location",
+        "louer",
+        "drive",
+        "conducir"
+      ],
+      "actions": [
+        {
+          "href": "https://www.cabreramedina.com/ES/agent/471",
+          "label": {
+            "en": "Book a car",
+            "es": "Reservar coche",
+            "de": "Auto buchen",
+            "it": "Prenota l'auto",
+            "fr": "Réserver une voiture"
+          }
+        }
+      ],
+      "related": [
+        "excursions",
+        "beaches",
+        "bike"
+      ]
     },
     {
       "id": "excursions",
-      "q": { "en": "What excursions can I book?", "es": "¿Qué excursiones puedo reservar?", "de": "Welche Ausflüge kann ich buchen?", "it": "Quali escursioni posso prenotare?", "fr": "Quelles excursions puis-je réserver ?" },
+      "q": {
+        "en": "What excursions can I book?",
+        "es": "¿Qué excursiones puedo reservar?",
+        "de": "Welche Ausflüge kann ich buchen?",
+        "it": "Quali escursioni posso prenotare?",
+        "fr": "Quelles excursions puis-je réserver ?"
+      },
       "a": {
         "en": "Reception can arrange Timanfaya National Park, Catlanza catamaran sailing, Submarine Safaris from Puerto Calero, Waterbus, First Minute Tours and Canarytrip, subject to availability.",
         "es": "En recepción le organizamos el Parque Nacional de Timanfaya, el catamarán de Catlanza, Submarine Safaris desde Puerto Calero, Waterbus, First Minute Tours y Canarytrip, según disponibilidad.",
@@ -281,13 +1001,70 @@
         "it": "La reception può organizzare il Parco Nazionale di Timanfaya, il catamarano Catlanza, Submarine Safaris da Puerto Calero, Waterbus, First Minute Tours e Canarytrip, in base alla disponibilità.",
         "fr": "La réception peut organiser le parc national de Timanfaya, le catamaran Catlanza, Submarine Safaris depuis Puerto Calero, Waterbus, First Minute Tours et Canarytrip, selon disponibilité."
       },
-      "keywords": ["excursion", "excursiones", "excursions", "ausflug", "ausflüge", "escursione", "escursioni", "tour", "tours", "trip", "boat", "barco", "boot", "barca", "bateau", "catamaran", "catamarán", "submarine", "submarino", "timanfaya", "volcano", "volcán", "vulkan", "vulcano", "volcan", "activity", "actividad", "aktivität", "attività", "activité", "visit", "visitar"],
-      "actions": [{ "href": "reception.html", "label": { "en": "Guest services", "es": "Servicios", "de": "Gästeservice", "it": "Servizi", "fr": "Conciergerie" } }, { "type": "call" }],
-      "related": ["beaches", "car-rental", "restaurants-island"]
+      "keywords": [
+        "excursion",
+        "excursiones",
+        "excursions",
+        "ausflug",
+        "ausflüge",
+        "escursione",
+        "escursioni",
+        "tour",
+        "tours",
+        "trip",
+        "boat",
+        "barco",
+        "boot",
+        "barca",
+        "bateau",
+        "catamaran",
+        "catamarán",
+        "submarine",
+        "submarino",
+        "timanfaya",
+        "volcano",
+        "volcán",
+        "vulkan",
+        "vulcano",
+        "volcan",
+        "activity",
+        "actividad",
+        "aktivität",
+        "attività",
+        "activité",
+        "visit",
+        "visitar"
+      ],
+      "actions": [
+        {
+          "href": "reception.html",
+          "label": {
+            "en": "Guest services",
+            "es": "Servicios",
+            "de": "Gästeservice",
+            "it": "Servizi",
+            "fr": "Conciergerie"
+          }
+        },
+        {
+          "type": "call"
+        }
+      ],
+      "related": [
+        "beaches",
+        "car-rental",
+        "restaurants-island"
+      ]
     },
     {
       "id": "beaches",
-      "q": { "en": "Which beaches do you recommend?", "es": "¿Qué playas recomiendan?", "de": "Welche Strände empfehlen Sie?", "it": "Quali spiagge consigliate?", "fr": "Quelles plages recommandez-vous ?" },
+      "q": {
+        "en": "Which beaches do you recommend?",
+        "es": "¿Qué playas recomiendan?",
+        "de": "Welche Strände empfehlen Sie?",
+        "it": "Quali spiagge consigliate?",
+        "fr": "Quelles plages recommandez-vous ?"
+      },
       "a": {
         "en": "<strong>Papagayo</strong> — golden sand and turquoise water in a protected area.<br><strong>Puerto del Carmen</strong> — lively, with shops, restaurants and a seaside promenade.<br><strong>Famara</strong> — dramatic cliffs, loved by surfers and for sunsets.",
         "es": "<strong>Papagayo</strong> — arena dorada y agua turquesa en un espacio protegido.<br><strong>Puerto del Carmen</strong> — animada, con tiendas, restaurantes y paseo marítimo.<br><strong>Famara</strong> — acantilados espectaculares, ideal para surfistas y atardeceres.",
@@ -295,13 +1072,58 @@
         "it": "<strong>Papagayo</strong> — sabbia dorata e acqua turchese in un'area protetta.<br><strong>Puerto del Carmen</strong> — vivace, con negozi, ristoranti e lungomare.<br><strong>Famara</strong> — scogliere spettacolari, amata dai surfisti e per i tramonti.",
         "fr": "<strong>Papagayo</strong> — sable doré et eau turquoise dans un espace protégé.<br><strong>Puerto del Carmen</strong> — animée, avec boutiques, restaurants et promenade en bord de mer.<br><strong>Famara</strong> — falaises spectaculaires, prisée des surfeurs et pour les couchers de soleil."
       },
-      "keywords": ["beach", "beaches", "playa", "playas", "strand", "strände", "spiaggia", "spiagge", "plage", "plages", "sea", "mar", "meer", "mare", "mer", "swim", "nadar", "surf", "sun", "sol", "sonne", "sole", "soleil"],
-      "actions": [{ "href": "guide.html", "label": { "en": "Lanzarote guide", "es": "Guía de Lanzarote", "de": "Lanzarote-Guide", "it": "Guida di Lanzarote", "fr": "Guide de Lanzarote" } }],
-      "related": ["car-rental", "excursions", "restaurants-island"]
+      "keywords": [
+        "beach",
+        "beaches",
+        "playa",
+        "playas",
+        "strand",
+        "strände",
+        "spiaggia",
+        "spiagge",
+        "plage",
+        "plages",
+        "sea",
+        "mar",
+        "meer",
+        "mare",
+        "mer",
+        "swim",
+        "nadar",
+        "surf",
+        "sun",
+        "sol",
+        "sonne",
+        "sole",
+        "soleil"
+      ],
+      "actions": [
+        {
+          "href": "guide.html",
+          "label": {
+            "en": "Lanzarote guide",
+            "es": "Guía de Lanzarote",
+            "de": "Lanzarote-Guide",
+            "it": "Guida di Lanzarote",
+            "fr": "Guide de Lanzarote"
+          }
+        }
+      ],
+      "related": [
+        "car-rental",
+        "excursions",
+        "restaurants-island"
+      ]
     },
     {
       "id": "massage",
-      "q": { "en": "Can I book a massage?", "es": "¿Puedo reservar un masaje?", "de": "Kann ich eine Massage buchen?", "it": "Posso prenotare un massaggio?", "fr": "Puis-je réserver un massage ?" },
+      "q": {
+        "en": "Can I book a massage?",
+        "es": "¿Puedo reservar un masaje?",
+        "de": "Kann ich eine Massage buchen?",
+        "it": "Posso prenotare un massaggio?",
+        "fr": "Puis-je réserver un massage ?"
+      },
       "a": {
         "en": "Yes, we arrange personalised therapeutic massages through reception. Please ask our team for availability and prices.",
         "es": "Sí, organizamos masajes terapéuticos personalizados a través de recepción. Consulte disponibilidad y precios con nuestro equipo.",
@@ -309,13 +1131,41 @@
         "it": "Sì, organizziamo massaggi terapeutici personalizzati tramite la reception. Chiedete al nostro team disponibilità e prezzi.",
         "fr": "Oui, nous organisons des massages thérapeutiques personnalisés via la réception. Renseignez-vous auprès de notre équipe pour les disponibilités et les tarifs."
       },
-      "keywords": ["massage", "masaje", "masajes", "massaggio", "massaggi", "spa", "wellness", "bienestar", "benessere", "bien-être", "relax", "relajar", "therapy", "terapia"],
-      "actions": [{ "type": "call" }],
-      "related": ["pool-hours", "gym-hours"]
+      "keywords": [
+        "massage",
+        "masaje",
+        "masajes",
+        "massaggio",
+        "massaggi",
+        "spa",
+        "wellness",
+        "bienestar",
+        "benessere",
+        "bien-être",
+        "relax",
+        "relajar",
+        "therapy",
+        "terapia"
+      ],
+      "actions": [
+        {
+          "type": "call"
+        }
+      ],
+      "related": [
+        "pool-hours",
+        "gym-hours"
+      ]
     },
     {
       "id": "bike",
-      "q": { "en": "Can I rent a bike?", "es": "¿Puedo alquilar una bicicleta?", "de": "Kann ich ein Fahrrad mieten?", "it": "Posso noleggiare una bicicletta?", "fr": "Puis-je louer un vélo ?" },
+      "q": {
+        "en": "Can I rent a bike?",
+        "es": "¿Puedo alquilar una bicicleta?",
+        "de": "Kann ich ein Fahrrad mieten?",
+        "it": "Posso noleggiare una bicicletta?",
+        "fr": "Puis-je louer un vélo ?"
+      },
       "a": {
         "en": "Yes, bicycles are available for rent. Ask at reception for availability.",
         "es": "Sí, tenemos bicicletas de alquiler. Consulte la disponibilidad en recepción.",
@@ -323,13 +1173,43 @@
         "it": "Sì, sono disponibili biciclette a noleggio. Chiedete la disponibilità alla reception.",
         "fr": "Oui, des vélos sont disponibles à la location. Renseignez-vous à la réception."
       },
-      "keywords": ["bike", "bicycle", "bicicleta", "bici", "fahrrad", "rad", "bicicletta", "vélo", "velo", "cycling", "ciclismo", "rent", "alquilar", "mieten", "noleggio", "louer"],
-      "actions": [{ "type": "call" }],
-      "related": ["car-rental", "excursions"]
+      "keywords": [
+        "bike",
+        "bicycle",
+        "bicicleta",
+        "bici",
+        "fahrrad",
+        "rad",
+        "bicicletta",
+        "vélo",
+        "velo",
+        "cycling",
+        "ciclismo",
+        "rent",
+        "alquilar",
+        "mieten",
+        "noleggio",
+        "louer"
+      ],
+      "actions": [
+        {
+          "type": "call"
+        }
+      ],
+      "related": [
+        "car-rental",
+        "excursions"
+      ]
     },
     {
       "id": "reception",
-      "q": { "en": "How do I contact reception?", "es": "¿Cómo contacto con recepción?", "de": "Wie erreiche ich die Rezeption?", "it": "Come contatto la reception?", "fr": "Comment contacter la réception ?" },
+      "q": {
+        "en": "How do I contact reception?",
+        "es": "¿Cómo contacto con recepción?",
+        "de": "Wie erreiche ich die Rezeption?",
+        "it": "Come contatto la reception?",
+        "fr": "Comment contacter la réception ?"
+      },
       "a": {
         "en": "Reception is open <strong>24 hours a day</strong>. From your room, press <strong>9</strong>. From your mobile: +34 928 508 915.",
         "es": "Recepción está abierta las <strong>24 horas</strong>. Desde su habitación, pulse el <strong>9</strong>. Desde el móvil: +34 928 508 915.",
@@ -337,9 +1217,566 @@
         "it": "La reception è aperta <strong>24 ore su 24</strong>. Dalla camera premete il <strong>9</strong>. Dal cellulare: +34 928 508 915.",
         "fr": "La réception est ouverte <strong>24 h/24</strong>. Depuis votre chambre, composez le <strong>9</strong>. Depuis votre portable : +34 928 508 915."
       },
-      "keywords": ["reception", "recepción", "recepcion", "rezeption", "réception", "contact", "contacto", "kontakt", "contatto", "call", "llamar", "anrufen", "chiamare", "appeler", "phone", "teléfono", "telefon", "telefono", "téléphone", "help", "ayuda", "hilfe", "aiuto", "aide", "emergency", "emergencia", "notfall", "emergenza", "urgence"],
-      "actions": [{ "type": "call" }],
-      "related": ["late-checkout", "excursions", "transfer"]
+      "keywords": [
+        "reception",
+        "recepción",
+        "recepcion",
+        "rezeption",
+        "réception",
+        "contact",
+        "contacto",
+        "kontakt",
+        "contatto",
+        "call",
+        "llamar",
+        "anrufen",
+        "chiamare",
+        "appeler",
+        "phone",
+        "teléfono",
+        "telefon",
+        "telefono",
+        "téléphone",
+        "help",
+        "ayuda",
+        "hilfe",
+        "aiuto",
+        "aide",
+        "emergency",
+        "emergencia",
+        "notfall",
+        "emergenza",
+        "urgence"
+      ],
+      "actions": [
+        {
+          "type": "call"
+        }
+      ],
+      "related": [
+        "emergency",
+        "taxi",
+        "late-checkout"
+      ]
+    },
+    {
+      "id": "emergency",
+      "q": {
+        "en": "What do I do in an emergency? Where is the nearest pharmacy or hospital?",
+        "es": "¿Qué hago en una urgencia? ¿Dónde hay una farmacia o un hospital?",
+        "de": "Was tun im Notfall? Wo ist die nächste Apotheke oder Klinik?",
+        "it": "Cosa faccio in caso di emergenza? Dov'è la farmacia o l'ospedale più vicino?",
+        "fr": "Que faire en cas d'urgence ? Où est la pharmacie ou l'hôpital le plus proche ?"
+      },
+      "a": {
+        "en": "<strong>Emergencies: 112</strong> (free, 24 h). Reception is also available 24 hours — press <strong>9</strong>.<br><strong>Hospiten Lanzarote</strong> (private hospital with emergency department) is in Puerto del Carmen, about 10 minutes by car: +34 928 59 61 00.<br>There is a parapharmacy in Puerto Calero; the nearest pharmacies are in Puerto del Carmen and Tías.",
+        "es": "<strong>Emergencias: 112</strong> (gratuito, 24 h). Recepción también le atiende las 24 horas: pulse el <strong>9</strong>.<br><strong>Hospiten Lanzarote</strong> (hospital privado con urgencias) está en Puerto del Carmen, a unos 10 minutos en coche: +34 928 59 61 00.<br>En Puerto Calero hay una parafarmacia; las farmacias más cercanas están en Puerto del Carmen y en Tías.",
+        "de": "<strong>Notruf: 112</strong> (kostenlos, rund um die Uhr). Auch die Rezeption ist rund um die Uhr erreichbar — wählen Sie die <strong>9</strong>.<br><strong>Hospiten Lanzarote</strong> (Privatklinik mit Notaufnahme) liegt in Puerto del Carmen, ca. 10 Minuten mit dem Auto: +34 928 59 61 00.<br>In Puerto Calero gibt es eine Parapharmazie; die nächsten Apotheken sind in Puerto del Carmen und Tías.",
+        "it": "<strong>Emergenze: 112</strong> (gratuito, 24 ore su 24). Anche la reception è disponibile 24 ore su 24: premete il <strong>9</strong>.<br><strong>Hospiten Lanzarote</strong> (ospedale privato con pronto soccorso) si trova a Puerto del Carmen, a circa 10 minuti in auto: +34 928 59 61 00.<br>A Puerto Calero c'è una parafarmacia; le farmacie più vicine sono a Puerto del Carmen e a Tías.",
+        "fr": "<strong>Urgences : 112</strong> (gratuit, 24 h/24). La réception est aussi disponible 24 h/24 : composez le <strong>9</strong>.<br><strong>Hospiten Lanzarote</strong> (hôpital privé avec urgences) se trouve à Puerto del Carmen, à environ 10 minutes en voiture : +34 928 59 61 00.<br>Il y a une parapharmacie à Puerto Calero ; les pharmacies les plus proches sont à Puerto del Carmen et à Tías."
+      },
+      "keywords": [
+        "emergency",
+        "urgencia",
+        "urgencias",
+        "emergencia",
+        "notfall",
+        "notruf",
+        "emergenza",
+        "urgence",
+        "112",
+        "hospital",
+        "hospiten",
+        "klinik",
+        "krankenhaus",
+        "ospedale",
+        "hôpital",
+        "hopital",
+        "doctor",
+        "médico",
+        "medico",
+        "arzt",
+        "médecin",
+        "pharmacy",
+        "farmacia",
+        "parafarmacia",
+        "apotheke",
+        "pharmacie",
+        "medicine",
+        "medicamento",
+        "medikament",
+        "farmaco",
+        "médicament",
+        "sick",
+        "enfermo",
+        "krank",
+        "malato",
+        "malade",
+        "health",
+        "salud",
+        "gesundheit",
+        "salute",
+        "santé"
+      ],
+      "actions": [
+        {
+          "href": "tel:112",
+          "label": {
+            "en": "Call 112",
+            "es": "Llamar al 112",
+            "de": "112 anrufen",
+            "it": "Chiama il 112",
+            "fr": "Appeler le 112"
+          }
+        },
+        {
+          "href": "useful-info.html",
+          "label": {
+            "en": "Useful information",
+            "es": "Información útil",
+            "de": "Nützliche Infos",
+            "it": "Informazioni utili",
+            "fr": "Infos utiles"
+          }
+        }
+      ],
+      "related": [
+        "reception",
+        "taxi"
+      ]
+    },
+    {
+      "id": "taxi",
+      "q": {
+        "en": "How can I get a taxi?",
+        "es": "¿Cómo pido un taxi?",
+        "de": "Wie bekomme ich ein Taxi?",
+        "it": "Come posso chiamare un taxi?",
+        "fr": "Comment obtenir un taxi ?"
+      },
+      "a": {
+        "en": "Reception will order a taxi for you — just ask, or press <strong>9</strong> from your room.",
+        "es": "Recepción le pide un taxi; solo tiene que pedirlo o pulsar el <strong>9</strong> desde su habitación.",
+        "de": "Die Rezeption bestellt Ihnen gerne ein Taxi — fragen Sie einfach oder wählen Sie die <strong>9</strong> vom Zimmer.",
+        "it": "La reception vi chiama un taxi: basta chiedere o premere il <strong>9</strong> dalla camera.",
+        "fr": "La réception vous commande un taxi : il suffit de demander ou de composer le <strong>9</strong> depuis votre chambre."
+      },
+      "keywords": [
+        "taxi",
+        "cab",
+        "uber",
+        "car",
+        "coche",
+        "auto",
+        "voiture",
+        "transport",
+        "transporte"
+      ],
+      "actions": [
+        {
+          "type": "call"
+        }
+      ],
+      "related": [
+        "transfer",
+        "bus",
+        "car-rental"
+      ]
+    },
+    {
+      "id": "parking",
+      "q": {
+        "en": "Is there parking at the hotel?",
+        "es": "¿Hay aparcamiento en el hotel?",
+        "de": "Gibt es Parkplätze am Hotel?",
+        "it": "C'è un parcheggio in hotel?",
+        "fr": "Y a-t-il un parking à l'hôtel ?"
+      },
+      "a": {
+        "en": "Yes: <strong>free private parking</strong> at the hotel entrance — you can't miss it.",
+        "es": "Sí: <strong>aparcamiento privado gratuito</strong> en la entrada del hotel; no tiene pérdida.",
+        "de": "Ja: <strong>kostenloser Privatparkplatz</strong> direkt am Hoteleingang — nicht zu verfehlen.",
+        "it": "Sì: <strong>parcheggio privato gratuito</strong> all'ingresso dell'hotel, impossibile non vederlo.",
+        "fr": "Oui : <strong>parking privé gratuit</strong> à l'entrée de l'hôtel, impossible de le manquer."
+      },
+      "keywords": [
+        "parking",
+        "aparcamiento",
+        "aparcar",
+        "parkplatz",
+        "parken",
+        "parcheggio",
+        "garage",
+        "car",
+        "coche",
+        "auto",
+        "voiture"
+      ],
+      "actions": [
+        {
+          "href": "useful-info.html",
+          "label": {
+            "en": "Useful information",
+            "es": "Información útil",
+            "de": "Nützliche Infos",
+            "it": "Informazioni utili",
+            "fr": "Infos utiles"
+          }
+        }
+      ],
+      "related": [
+        "car-rental",
+        "checkin"
+      ]
+    },
+    {
+      "id": "house-rules",
+      "q": {
+        "en": "Are pets or children allowed? Can I smoke?",
+        "es": "¿Se admiten mascotas o niños? ¿Se puede fumar?",
+        "de": "Sind Haustiere oder Kinder erlaubt? Darf man rauchen?",
+        "it": "Sono ammessi animali o bambini? Si può fumare?",
+        "fr": "Les animaux ou les enfants sont-ils admis ? Peut-on fumer ?"
+      },
+      "a": {
+        "en": "Royal Marina Suites is an <strong>adults-only</strong> hotel and pets are not allowed. Smoking is permitted on suite terraces only, never inside the hotel. Please keep noise to a minimum after <strong>23:00</strong>.",
+        "es": "Royal Marina Suites es un hotel <strong>solo para adultos</strong> y no se admiten mascotas. Solo se puede fumar en las terrazas de las suites, nunca en el interior del hotel. Le rogamos guardar silencio a partir de las <strong>23:00</strong>.",
+        "de": "Das Royal Marina Suites ist ein Hotel <strong>nur für Erwachsene</strong>; Haustiere sind nicht erlaubt. Rauchen ist nur auf den Suite-Terrassen gestattet, nie im Hotel. Bitte nehmen Sie ab <strong>23:00 Uhr</strong> Rücksicht auf die Nachtruhe.",
+        "it": "Royal Marina Suites è un hotel <strong>riservato agli adulti</strong> e non sono ammessi animali. Si può fumare solo sulle terrazze delle suite, mai all'interno dell'hotel. Vi preghiamo di limitare i rumori dopo le <strong>23:00</strong>.",
+        "fr": "Royal Marina Suites est un hôtel <strong>réservé aux adultes</strong> et les animaux ne sont pas admis. Il est permis de fumer uniquement sur les terrasses des suites, jamais à l'intérieur. Merci de limiter le bruit après <strong>23h00</strong>."
+      },
+      "keywords": [
+        "pets",
+        "pet",
+        "dog",
+        "perro",
+        "mascota",
+        "mascotas",
+        "hund",
+        "haustier",
+        "cane",
+        "animali",
+        "chien",
+        "animaux",
+        "children",
+        "kids",
+        "niños",
+        "ninos",
+        "kinder",
+        "bambini",
+        "enfants",
+        "adults",
+        "adultos",
+        "smoke",
+        "smoking",
+        "fumar",
+        "rauchen",
+        "fumare",
+        "fumer",
+        "tabaco",
+        "noise",
+        "ruido",
+        "silencio",
+        "lärm",
+        "rumore",
+        "bruit",
+        "quiet",
+        "rules",
+        "normas",
+        "regeln",
+        "regole",
+        "règlement"
+      ],
+      "actions": [
+        {
+          "href": "useful-info.html",
+          "label": {
+            "en": "Useful information",
+            "es": "Información útil",
+            "de": "Nützliche Infos",
+            "it": "Informazioni utili",
+            "fr": "Infos utiles"
+          }
+        }
+      ],
+      "related": [
+        "suite-equipment",
+        "reception"
+      ]
+    },
+    {
+      "id": "suite-equipment",
+      "q": {
+        "en": "Is there a safe? How does the air conditioning work?",
+        "es": "¿Hay caja fuerte? ¿Cómo funciona el aire acondicionado?",
+        "de": "Gibt es einen Safe? Wie funktioniert die Klimaanlage?",
+        "it": "C'è una cassaforte? Come funziona l'aria condizionata?",
+        "fr": "Y a-t-il un coffre-fort ? Comment fonctionne la climatisation ?"
+      },
+      "a": {
+        "en": "Every suite has a <strong>safe</strong>. Please switch off the <strong>air conditioning</strong> when you leave the suite. If you have any problem with the AC, the TV or other equipment, contact reception (press 9).",
+        "es": "Todas las suites tienen <strong>caja fuerte</strong>. Le rogamos apagar el <strong>aire acondicionado</strong> al salir de la suite. Si tiene algún problema con el aire, la televisión u otro equipo, contacte con recepción (pulse el 9).",
+        "de": "Jede Suite hat einen <strong>Safe</strong>. Bitte schalten Sie die <strong>Klimaanlage</strong> aus, wenn Sie die Suite verlassen. Bei Problemen mit Klimaanlage, TV oder anderen Geräten wenden Sie sich an die Rezeption (Taste 9).",
+        "it": "Tutte le suite hanno la <strong>cassaforte</strong>. Vi preghiamo di spegnere l'<strong>aria condizionata</strong> quando uscite. Per qualsiasi problema con l'aria condizionata, la TV o altre apparecchiature contattate la reception (tasto 9).",
+        "fr": "Chaque suite dispose d'un <strong>coffre-fort</strong>. Merci d'éteindre la <strong>climatisation</strong> en quittant la suite. En cas de problème avec la climatisation, la télévision ou un autre équipement, contactez la réception (touche 9)."
+      },
+      "keywords": [
+        "safe",
+        "caja fuerte",
+        "tresor",
+        "cassaforte",
+        "coffre",
+        "air",
+        "aire",
+        "acondicionado",
+        "ac",
+        "klima",
+        "klimaanlage",
+        "aria condizionata",
+        "climatisation",
+        "clima",
+        "tv",
+        "television",
+        "televisión",
+        "fernseher",
+        "televisione",
+        "télévision",
+        "problem",
+        "problema",
+        "broken",
+        "roto",
+        "kaputt",
+        "panne"
+      ],
+      "actions": [
+        {
+          "type": "call"
+        }
+      ],
+      "related": [
+        "cleaning",
+        "minibar",
+        "reception"
+      ]
+    },
+    {
+      "id": "laundry",
+      "q": {
+        "en": "Is there a laundry service?",
+        "es": "¿Hay servicio de lavandería?",
+        "de": "Gibt es einen Wäscheservice?",
+        "it": "C'è un servizio di lavanderia?",
+        "fr": "Y a-t-il un service de blanchisserie ?"
+      },
+      "a": {
+        "en": "We do not offer a laundry service. Please ask at reception: we may be able to make an exception, although the hotel cannot accept responsibility for any damage.",
+        "es": "No disponemos de servicio de lavandería. Consulte en recepción: podemos hacer alguna excepción, aunque el hotel no se hace responsable de posibles daños.",
+        "de": "Wir bieten keinen Wäscheservice an. Fragen Sie an der Rezeption: Ausnahmen sind eventuell möglich, das Hotel übernimmt jedoch keine Haftung für Schäden.",
+        "it": "Non offriamo un servizio di lavanderia. Chiedete alla reception: possiamo fare qualche eccezione, ma l'hotel non si assume responsabilità per eventuali danni.",
+        "fr": "Nous ne proposons pas de blanchisserie. Renseignez-vous à la réception : une exception est parfois possible, mais l'hôtel décline toute responsabilité en cas de dommage."
+      },
+      "keywords": [
+        "laundry",
+        "lavandería",
+        "lavanderia",
+        "lavar",
+        "ropa",
+        "wäsche",
+        "waschen",
+        "wäscherei",
+        "bucato",
+        "lavare",
+        "blanchisserie",
+        "linge",
+        "laver",
+        "iron",
+        "plancha",
+        "bügeln",
+        "ferro",
+        "repasser"
+      ],
+      "actions": [
+        {
+          "type": "call"
+        }
+      ],
+      "related": [
+        "cleaning",
+        "towels"
+      ]
+    },
+    {
+      "id": "luggage",
+      "q": {
+        "en": "Can I leave my luggage at the hotel?",
+        "es": "¿Puedo dejar mi equipaje en el hotel?",
+        "de": "Kann ich mein Gepäck im Hotel lassen?",
+        "it": "Posso lasciare i bagagli in hotel?",
+        "fr": "Puis-je laisser mes bagages à l'hôtel ?"
+      },
+      "a": {
+        "en": "Yes. You can leave your luggage at reception on your departure day, or if you arrive before check-in while your suite is being prepared.",
+        "es": "Sí. Puede dejar su equipaje en recepción el día de salida, o si llega antes del check-in mientras terminamos de preparar su suite.",
+        "de": "Ja. Sie können Ihr Gepäck am Abreisetag an der Rezeption lassen, oder wenn Sie vor dem Check-in ankommen und Ihre Suite noch vorbereitet wird.",
+        "it": "Sì. Potete lasciare i bagagli alla reception il giorno della partenza, oppure se arrivate prima del check-in mentre prepariamo la vostra suite.",
+        "fr": "Oui. Vous pouvez laisser vos bagages à la réception le jour du départ, ou si vous arrivez avant le check-in pendant que nous préparons votre suite."
+      },
+      "keywords": [
+        "luggage",
+        "baggage",
+        "bags",
+        "suitcase",
+        "equipaje",
+        "maleta",
+        "maletas",
+        "consigna",
+        "gepäck",
+        "koffer",
+        "bagagli",
+        "valigia",
+        "bagages",
+        "valise",
+        "bagagerie",
+        "storage",
+        "early",
+        "temprano",
+        "früh",
+        "presto",
+        "tôt"
+      ],
+      "actions": [],
+      "related": [
+        "late-checkout",
+        "checkin",
+        "transfer"
+      ]
+    },
+    {
+      "id": "bus",
+      "q": {
+        "en": "How do I get to the airport, Playa Blanca or Arrecife by bus?",
+        "es": "¿Cómo voy en guagua al aeropuerto, a Playa Blanca o a Arrecife?",
+        "de": "Wie komme ich mit dem Bus zum Flughafen, nach Playa Blanca oder Arrecife?",
+        "it": "Come arrivo in autobus all'aeroporto, a Playa Blanca o ad Arrecife?",
+        "fr": "Comment aller en bus à l'aéroport, à Playa Blanca ou à Arrecife ?"
+      },
+      "a": {
+        "en": "The <strong>Puerto Calero</strong> stop is at the entrance to Puerto Calero. <strong>Line 161</strong> goes to the <strong>airport</strong> (via Puerto del Carmen) in one direction and to <strong>Playa Blanca</strong> in the other — about every 30 minutes by day, hourly in the evening. <strong>To Arrecife</strong>: take the 161 towards the airport and change at <strong>Matagorda</strong> to line 2 or 3. Check current times on arrecifebus.com.",
+        "es": "La parada <strong>Puerto Calero</strong> está a la entrada de Puerto Calero. La <strong>línea 161</strong> va al <strong>aeropuerto</strong> (por Puerto del Carmen) en un sentido y a <strong>Playa Blanca</strong> en el otro, aproximadamente cada 30 minutos de día y cada hora por la tarde-noche. <strong>Para Arrecife</strong>: tome la 161 dirección aeropuerto y haga transbordo en <strong>Matagorda</strong> a la línea 2 o 3. Consulte los horarios en arrecifebus.com.",
+        "de": "Die Haltestelle <strong>Puerto Calero</strong> liegt an der Einfahrt nach Puerto Calero. Die <strong>Linie 161</strong> fährt in der einen Richtung zum <strong>Flughafen</strong> (über Puerto del Carmen), in der anderen nach <strong>Playa Blanca</strong> — tagsüber etwa alle 30 Minuten, abends stündlich. <strong>Nach Arrecife</strong>: mit der 161 Richtung Flughafen und an der Haltestelle <strong>Matagorda</strong> in Linie 2 oder 3 umsteigen. Aktuelle Zeiten auf arrecifebus.com.",
+        "it": "La fermata <strong>Puerto Calero</strong> è all'ingresso di Puerto Calero. La <strong>linea 161</strong> va all'<strong>aeroporto</strong> (via Puerto del Carmen) in una direzione e a <strong>Playa Blanca</strong> nell'altra, circa ogni 30 minuti di giorno e ogni ora la sera. <strong>Per Arrecife</strong>: prendete la 161 in direzione aeroporto e cambiate a <strong>Matagorda</strong> con la linea 2 o 3. Orari aggiornati su arrecifebus.com.",
+        "fr": "L'arrêt <strong>Puerto Calero</strong> se trouve à l'entrée de Puerto Calero. La <strong>ligne 161</strong> va à l'<strong>aéroport</strong> (via Puerto del Carmen) dans un sens et à <strong>Playa Blanca</strong> dans l'autre, environ toutes les 30 minutes en journée et toutes les heures en soirée. <strong>Pour Arrecife</strong> : prenez la 161 direction aéroport et changez à <strong>Matagorda</strong> pour la ligne 2 ou 3. Horaires sur arrecifebus.com."
+      },
+      "keywords": [
+        "bus",
+        "guagua",
+        "autobus",
+        "autobús",
+        "bus stop",
+        "parada",
+        "haltestelle",
+        "fermata",
+        "arrêt",
+        "161",
+        "arrecife",
+        "playa blanca",
+        "airport",
+        "aeropuerto",
+        "flughafen",
+        "aeroporto",
+        "aéroport",
+        "puerto del carmen",
+        "shopping",
+        "centro comercial",
+        "einkaufszentrum",
+        "centro commerciale",
+        "centre commercial",
+        "public transport",
+        "transporte público"
+      ],
+      "actions": [
+        {
+          "href": "useful-info.html",
+          "label": {
+            "en": "Useful information",
+            "es": "Información útil",
+            "de": "Nützliche Infos",
+            "it": "Informazioni utili",
+            "fr": "Infos utiles"
+          }
+        },
+        {
+          "href": "https://arrecifebus.com/lineas/linea-161-aeropuerto-puerto-del-carmen-playa-blanca/",
+          "label": {
+            "en": "Line 161 timetable",
+            "es": "Horarios línea 161",
+            "de": "Fahrplan Linie 161",
+            "it": "Orari linea 161",
+            "fr": "Horaires ligne 161"
+          }
+        }
+      ],
+      "related": [
+        "transfer",
+        "taxi",
+        "car-rental"
+      ]
+    },
+    {
+      "id": "supermarket",
+      "q": {
+        "en": "Where is the nearest supermarket?",
+        "es": "¿Dónde está el supermercado más cercano?",
+        "de": "Wo ist der nächste Supermarkt?",
+        "it": "Dov'è il supermercato più vicino?",
+        "fr": "Où est le supermarché le plus proche ?"
+      },
+      "a": {
+        "en": "The nearest supermarket is <strong>HiperDino Express</strong> in the new shopping centre in Puerto Calero.",
+        "es": "El supermercado más cercano es el <strong>HiperDino Express</strong> del nuevo centro comercial de Puerto Calero.",
+        "de": "Der nächste Supermarkt ist der <strong>HiperDino Express</strong> im neuen Einkaufszentrum von Puerto Calero.",
+        "it": "Il supermercato più vicino è l'<strong>HiperDino Express</strong> nel nuovo centro commerciale di Puerto Calero.",
+        "fr": "Le supermarché le plus proche est l'<strong>HiperDino Express</strong> du nouveau centre commercial de Puerto Calero."
+      },
+      "keywords": [
+        "supermarket",
+        "supermercado",
+        "super",
+        "supermarkt",
+        "supermercato",
+        "supermarché",
+        "supermarche",
+        "shop",
+        "tienda",
+        "geschäft",
+        "laden",
+        "negozio",
+        "magasin",
+        "groceries",
+        "compras",
+        "einkaufen",
+        "spesa",
+        "courses",
+        "hiperdino",
+        "water",
+        "agua"
+      ],
+      "actions": [
+        {
+          "href": "useful-info.html",
+          "label": {
+            "en": "Useful information",
+            "es": "Información útil",
+            "de": "Nützliche Infos",
+            "it": "Informazioni utili",
+            "fr": "Infos utiles"
+          }
+        }
+      ],
+      "related": [
+        "bus",
+        "restaurants-island"
+      ]
     }
   ]
 }

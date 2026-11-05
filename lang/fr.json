@@ -973,6 +973,11 @@
         "title": "Accès Wi-Fi",
         "description": "Connectez-vous rapidement à notre service Internet haut débit gratuit.",
         "button": "Se connecter"
+      },
+      "usefulInfo": {
+        "title": "Infos utiles",
+        "description": "Urgences, pharmacies, bus, parking et règlement de l'hôtel.",
+        "button": "Voir"
       }
     },
     "importantInfo": {
@@ -1123,6 +1128,70 @@
     },
     "notice": {
       "text": "L'accès Wi-Fi est gratuit pour les clients de l'hôtel. La vitesse de connexion peut varier en fonction de l'appareil, de l'emplacement et de la demande du réseau."
+    }
+  },
+  "usefulInfo": {
+    "pageTitle": "Informations utiles | Royal Marina Suites",
+    "hero": {
+      "label": "Informations séjour",
+      "title": "Informations utiles",
+      "subtitle": "Santé · Transports · Règlement"
+    },
+    "emergency": {
+      "title": "Urgences et santé",
+      "call112": "<strong>Urgences : composez le 112</strong> (gratuit, 24 h/24, multilingue).",
+      "hospital": "<strong>Hospiten Lanzarote</strong> — hôpital privé avec service d'urgences. Camino Lomo Gordo s/n, Puerto del Carmen (environ 10 minutes en voiture). Tél. <a href=\"tel:+34928596100\">+34 928 59 61 00</a>.",
+      "pharmacy": "<strong>Pharmacies :</strong> il y a une parapharmacie à Puerto Calero. Les pharmacies les plus proches se trouvent à Puerto del Carmen et à Tías.",
+      "reception": "La réception vous aide 24 h/24 : composez le <strong>9</strong> depuis votre chambre."
+    },
+    "taxi": {
+      "title": "Taxi",
+      "text": "La réception vous commande un taxi. Il suffit de demander ou de composer le 9 depuis votre chambre."
+    },
+    "parking": {
+      "title": "Parking",
+      "text": "Parking privé gratuit à l'entrée de l'hôtel, impossible de le manquer."
+    },
+    "rules": {
+      "title": "Règlement de l'hôtel",
+      "adults": "Royal Marina Suites est un hôtel <strong>réservé aux adultes</strong>.",
+      "pets": "Les animaux ne sont pas admis.",
+      "smoking": "Il est permis de fumer uniquement sur les terrasses des suites, jamais à l'intérieur de l'hôtel.",
+      "quiet": "Merci de limiter le bruit après <strong>23h00</strong> pour le repos de tous nos hôtes."
+    },
+    "suite": {
+      "title": "Dans votre suite",
+      "safe": "Chaque suite dispose d'un <strong>coffre-fort</strong>.",
+      "ac": "Merci d'éteindre la <strong>climatisation</strong> lorsque vous quittez la suite. Merci de nous aider à économiser l'énergie.",
+      "tv": "En cas de problème avec la télévision ou tout autre équipement, contactez la réception."
+    },
+    "laundry": {
+      "title": "Blanchisserie",
+      "text": "Nous ne proposons pas de service de blanchisserie. Renseignez-vous à la réception : une exception est parfois possible, mais l'hôtel décline toute responsabilité en cas de dommage."
+    },
+    "luggage": {
+      "title": "Bagagerie",
+      "text": "Vous pouvez laisser vos bagages à la réception le jour du départ, ou si vous arrivez avant le check-in pendant que nous terminons de préparer votre suite."
+    },
+    "bus": {
+      "title": "Bus (guagua)",
+      "stop": "L'arrêt de bus <strong>Puerto Calero</strong> se trouve à l'entrée de Puerto Calero, à quelques minutes à pied de l'hôtel.",
+      "l161": "La <strong>ligne 161</strong> relie Puerto Calero à l'<strong>aéroport</strong> (via Puerto del Carmen) dans un sens et à <strong>Playa Blanca</strong> (via Yaiza) dans l'autre. Elle passe environ toutes les 30 minutes en journée et toutes les heures en soirée.",
+      "carmen": "<strong>Puerto del Carmen</strong> : la 161 s'arrête à plusieurs endroits du front de mer, notamment aux centres commerciaux C.C. Biosfera et C.C. Atlántico.",
+      "arrecife": "<strong>Pour Arrecife</strong> : prenez la 161 direction aéroport et changez à l'arrêt <strong>Matagorda</strong> (Puerto del Carmen) pour la ligne 2 ou 3.",
+      "timetable": "Horaires et tarifs varient selon la saison : vérifiez-les sur <a href=\"https://arrecifebus.com/lineas/linea-161-aeropuerto-puerto-del-carmen-playa-blanca/\" target=\"_blank\" rel=\"noopener\">arrecifebus.com</a> avant de partir."
+    },
+    "shop": {
+      "title": "Supermarché",
+      "text": "Le supermarché le plus proche est l'<strong>HiperDino Express</strong> du nouveau centre commercial de Puerto Calero."
+    },
+    "map": {
+      "title": "Carte",
+      "hotel": "Royal Marina Suites",
+      "busStop": "Arrêt de bus Puerto Calero (approx.)",
+      "hospital": "Hospiten Lanzarote",
+      "pharmacy": "Pharmacie",
+      "note": "Emplacements approximatifs. Touchez un point pour plus de détails."
     }
   }
 }

@@ -191,7 +191,7 @@
       { id: 'dining', href: base + 'MarinaRestaurant/restaurant.html', icon: 'dining',
         match: /MarinaRestaurant\// },
       { id: 'services', href: base + 'reception.html', icon: 'services', match: /reception\.html|transfer\.html|guide\.html/ },
-      { id: 'info', href: base + 'hotel-info.html', icon: 'info', match: /hotel-info\.html|wifi\.html|facilities-wellness\.html/ }
+      { id: 'info', href: base + 'hotel-info.html', icon: 'info', match: /hotel-info\.html|wifi\.html|facilities-wellness\.html|useful-info\.html/ }
     ];
     var path = location.pathname;
     var isHome = /\/$|index\.html$/.test(path) && !/MarinaRestaurant\//.test(path);
@@ -326,6 +326,9 @@
       var actions = (q.actions || []).map(function (a) {
         if (a.type === 'call') {
           return '<a class="ast-action" href="tel:' + RECEPTION_PHONE + '">' + svg('phone') + '<span>' + t('call') + '</span></a>';
+        }
+        if (/^tel:/.test(a.href)) {
+          return '<a class="ast-action ast-urgent" href="' + escapeHtml(a.href) + '">' + svg('phone') + '<span>' + escapeHtml(astText(a.label)) + '</span></a>';
         }
         var external = /^https:\/\//.test(a.href);
         var href = external ? a.href : withLang(base + a.href);
