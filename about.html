@@ -7,8 +7,8 @@
 
 <style>
 :root{
-  --blue:#062b4f;
-  --gold:#c9a45c;
+  --blue:#0a1329;
+  --gold:#b4a76c;
   --white:#ffffff;
   --soft:#f5f8fa;
   --text:#1f2a36;
@@ -18,7 +18,7 @@
 
 body{
   margin:0;
-  font-family:Arial, sans-serif;
+  font-family:var(--font-sans);
   background:var(--soft);
   color:var(--text);
 }
@@ -47,7 +47,7 @@ body{
   content:"";
   position:absolute;
   inset:0;
-  background:linear-gradient(rgba(6,43,79,0.25), rgba(6,43,79,0.88));
+  background:linear-gradient(rgba(10,19,41,0.25), rgba(10,19,41,0.88));
   z-index:1;
 }
 
@@ -65,7 +65,7 @@ body{
 }
 
 .hero-content h1{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   font-size:50px;
   font-weight:400;
   margin:0;
@@ -104,7 +104,7 @@ body{
 }
 
 .story-box h2{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   color:var(--blue);
   font-size:34px;
   font-weight:400;
@@ -130,7 +130,7 @@ body{
 }
 
 .section-title h2{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   color:var(--blue);
   font-size:34px;
   font-weight:400;
@@ -171,7 +171,7 @@ body{
 }
 
 .owners-text h3{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   color:var(--blue);
   font-size:34px;
   font-weight:400;
@@ -221,7 +221,7 @@ body{
 }
 
 .team-content h3{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   color:var(--blue);
   font-size:25px;
   font-weight:400;
@@ -252,7 +252,7 @@ body{
 }
 
 .commitment h2{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   font-size:32px;
   font-weight:400;
 }
@@ -303,6 +303,10 @@ footer{
 }
 </style>
 <link rel="stylesheet" href="css/language-switcher.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="css/theme.css">
 </head>
 
 <body>
@@ -466,6 +470,7 @@ footer{
 </footer>
 
 <script src="js/translations.js"></script>
+<script src="js/ui.js"></script>
 
 </body>
 </html>

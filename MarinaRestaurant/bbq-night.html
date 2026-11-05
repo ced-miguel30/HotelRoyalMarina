@@ -7,8 +7,8 @@
 
 <style>
 :root{
-  --blue:#062b4f;
-  --gold:#c9a45c;
+  --blue:#0a1329;
+  --gold:#b4a76c;
   --white:#ffffff;
   --soft:#f5f8fa;
   --text:#1f2a36;
@@ -18,7 +18,7 @@
 
 body{
   margin:0;
-  font-family:Arial, sans-serif;
+  font-family:var(--font-sans);
   background:var(--soft);
   color:var(--text);
 }
@@ -48,8 +48,8 @@ body{
   position:absolute;
   inset:0;
   background:linear-gradient(
-    rgba(6,43,79,0.25),
-    rgba(6,43,79,0.90)
+    rgba(10,19,41,0.25),
+    rgba(10,19,41,0.90)
   );
   z-index:1;
 }
@@ -69,7 +69,7 @@ body{
 }
 
 .hero-content h1{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   font-size:50px;
   font-weight:400;
   margin:0;
@@ -109,7 +109,7 @@ body{
 }
 
 .reservation-box h2{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   font-size:30px;
   font-weight:400;
   margin:14px 0;
@@ -140,7 +140,7 @@ body{
 }
 
 .price-box h3{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   color:var(--blue);
   font-size:30px;
   font-weight:400;
@@ -165,7 +165,7 @@ body{
 }
 
 .intro h2{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   color:var(--blue);
   font-size:34px;
   font-weight:400;
@@ -208,7 +208,7 @@ body{
 }
 
 .choice-content h3{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   color:var(--blue);
   font-size:27px;
   font-weight:400;
@@ -245,8 +245,8 @@ body{
   position:absolute;
   inset:0;
   background:linear-gradient(
-    rgba(6,43,79,0.08),
-    rgba(6,43,79,0.88)
+    rgba(10,19,41,0.08),
+    rgba(10,19,41,0.88)
   );
   z-index:1;
 }
@@ -267,7 +267,7 @@ body{
 }
 
 .experience-text h2{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   font-size:34px;
   font-weight:400;
 }
@@ -315,6 +315,10 @@ footer{
 }
 </style>
 <link rel="stylesheet" href="../css/language-switcher.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="../css/theme.css">
 </head>
 
 <body>
@@ -380,7 +384,7 @@ footer{
     </div>
 
     <div class="choice-card">
-      <img src="../images/bbq-fish.png" alt="Fish grill option" data-i18n-alt="marinaRestaurant.bbqNight.options.fish.imageAlt">
+      <img src="../images/bbq-fish.jpg" alt="Fish grill option" data-i18n-alt="marinaRestaurant.bbqNight.options.fish.imageAlt">
       <div class="choice-content">
         <span data-i18n="marinaRestaurant.bbqNight.options.fish.label">Option Two</span>
         <h3 data-i18n="marinaRestaurant.bbqNight.options.fish.title">Fish Grill</h3>
@@ -392,7 +396,7 @@ footer{
     </div>
 
     <div class="choice-card">
-      <img src="../images/bbq-meat.png" alt="Meat grill option" data-i18n-alt="marinaRestaurant.bbqNight.options.meat.imageAlt">
+      <img src="../images/bbq-meat.jpg" alt="Meat grill option" data-i18n-alt="marinaRestaurant.bbqNight.options.meat.imageAlt">
       <div class="choice-content">
         <span data-i18n="marinaRestaurant.bbqNight.options.meat.label">Option Three</span>
         <h3 data-i18n="marinaRestaurant.bbqNight.options.meat.title">Meat Grill</h3>
@@ -447,5 +451,6 @@ footer{
 </footer>
 
 <script src="../js/translations.js"></script>
+<script src="../js/ui.js"></script>
 </body>
 </html>

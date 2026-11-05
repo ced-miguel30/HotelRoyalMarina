@@ -232,7 +232,7 @@
         },
         "notice": {
           "title": "Please Note",
-          "text": "• Breakfast in your suite has a service charge of <strong>€10</strong>, which will be charged directly to your room account.<br><br>• Requests must be submitted <strong>the day before</strong> the requested service.<br><br>• Fresh fruit, pastries, bread and some freshly prepared items are subject to daily availability. While we will always do our best to accommodate your preferences, certain products may occasionally be unavailable."
+          "text": "• Breakfast in your suite has a service charge of <strong>€20 per room</strong>, which will be charged directly to your room account.<br><br>• Requests must be submitted <strong>the day before</strong> the requested service.<br><br>• Fresh fruit, pastries, bread and some freshly prepared items are subject to daily availability. While we will always do our best to accommodate your preferences, certain products may occasionally be unavailable."
         },
         "submit": "Request Breakfast in Your Suite"
       }
@@ -744,10 +744,10 @@
     },
     "pool": {
       "label": "Outdoor Relaxation",
-      "title": "Climatized Swimming Pool",
+      "title": "Heated Swimming Pool",
       "description": "Enjoy our heated outdoor pool throughout the year, surrounded by the peaceful atmosphere of Puerto Calero and the Lanzarote sunshine.",
       "hours": "Opening Hours: 09:00 – 19:00",
-      "imageAlt": "Climatized Swimming Pool"
+      "imageAlt": "Heated Swimming Pool"
     },
     "jacuzzi": {
       "label": "Wellness",
@@ -1068,7 +1068,7 @@
       "title": "Transfer Request",
       "passengerName": "Passenger Name",
       "email": "Email for Confirmation",
-      "mobileName": "Mobile Name",
+      "mobileName": "Contact Name (if different)",
       "phoneNumber": "Phone Number",
       "passengers": "Number of Passengers",
       "suitcases": "Number and Size of Suitcases",
@@ -1092,7 +1092,7 @@
       "pickupTime": "Pick-up Time from the Hotel",
       "additionalNotes": "Additional Notes",
       "submit": "Send Transfer Request",
-      "mobileNamePlaceholder": "Name linked to the phone number",
+      "mobileNamePlaceholder": "Name we should ask for when calling",
       "suitcasesPlaceholder": "Example: 2 large, 1 cabin",
       "additionalNotesPlaceholder": "Baby seat, special assistance, extra luggage, preferred details, etc."
     }

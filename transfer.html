@@ -7,8 +7,8 @@
 
 <style>
 :root{
-  --blue:#062b4f;
-  --gold:#c9a45c;
+  --blue:#0a1329;
+  --gold:#b4a76c;
   --white:#ffffff;
   --soft:#f5f8fa;
   --text:#1f2a36;
@@ -18,7 +18,7 @@
 
 body{
   margin:0;
-  font-family:Arial, sans-serif;
+  font-family:var(--font-sans);
   background:var(--soft);
   color:var(--text);
 }
@@ -47,7 +47,7 @@ body{
   content:"";
   position:absolute;
   inset:0;
-  background:linear-gradient(rgba(6,43,79,0.30), rgba(6,43,79,0.88));
+  background:linear-gradient(rgba(10,19,41,0.30), rgba(10,19,41,0.88));
   z-index:1;
 }
 
@@ -65,7 +65,7 @@ body{
 }
 
 .hero-content h1{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   font-size:46px;
   font-weight:400;
   margin:0;
@@ -120,7 +120,7 @@ body{
 
 .transfer-options h2,
 .form-box h2{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   color:var(--blue);
   font-size:32px;
   font-weight:400;
@@ -193,7 +193,7 @@ input, select, textarea{
   border:1px solid #ddd;
   border-radius:12px;
   font-size:15px;
-  font-family:Arial, sans-serif;
+  font-family:var(--font-sans);
 }
 
 textarea{
@@ -271,6 +271,10 @@ footer{
 }
 </style>
 <link rel="stylesheet" href="css/language-switcher.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="css/theme.css">
 </head>
 
 <body>
@@ -335,7 +339,9 @@ footer{
   <div class="form-box">
     <h2 data-i18n="transfer.form.title">Transfer Request</h2>
 
-    <form action="https://formspree.io/f/meewgnrn" method="POST">
+    <form action="https://formspree.io/f/meewgnrn" method="POST" class="rms-request-form" data-subject="Airport Transfer">
+      <input type="hidden" name="_subject" value="Airport Transfer">
+      <input type="hidden" name="guest_language" value="en">
 
       <div class="form-grid">
 
@@ -373,8 +379,8 @@ footer{
           <label data-i18n="transfer.form.transferOption">Transfer Option</label>
           <select name="Transfer Option" required>
             <option value="" data-i18n="transfer.form.selectOption">Select an option</option>
-            <option data-i18n="transfer.form.option1Value">Option 1 - Mercedes E-Class / Volvo S90</option>
-            <option data-i18n="transfer.form.option2Value">Option 2 - Mercedes S350</option>
+            <option value="Option 1 - Mercedes E-Class / Volvo S90" data-i18n="transfer.form.option1Value">Option 1 - Mercedes E-Class / Volvo S90</option>
+            <option value="Option 2 - Mercedes S350" data-i18n="transfer.form.option2Value">Option 2 - Mercedes S350</option>
           </select>
         </div>
 
@@ -392,8 +398,8 @@ footer{
           <label data-i18n="transfer.form.paymentMethod">Payment Method</label>
           <select name="Payment Method" required>
             <option value="" data-i18n="transfer.form.selectOption">Select an option</option>
-            <option data-i18n="transfer.form.paymentCreditCard">Credit Card</option>
-            <option data-i18n="transfer.form.paymentCash">Cash</option>
+            <option value="Credit Card" data-i18n="transfer.form.paymentCreditCard">Credit Card</option>
+            <option value="Cash" data-i18n="transfer.form.paymentCash">Cash</option>
           </select>
         </div>
 
@@ -476,6 +482,7 @@ updateTransferFields();
 </script>
 
 <script src="js/translations.js"></script>
+<script src="js/ui.js"></script>
 
 </body>
 </html>

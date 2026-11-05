@@ -7,8 +7,8 @@
 
 <style>
 :root{
-  --blue:#062b4f;
-  --gold:#c9a45c;
+  --blue:#0a1329;
+  --gold:#b4a76c;
   --white:#ffffff;
   --soft:#f5f8fa;
   --text:#1f2a36;
@@ -18,7 +18,7 @@
 
 body{
   margin:0;
-  font-family:Arial, sans-serif;
+  font-family:var(--font-sans);
   background:var(--soft);
   color:var(--text);
 }
@@ -47,7 +47,7 @@ body{
   content:"";
   position:absolute;
   inset:0;
-  background:rgba(6,43,79,0.60);
+  background:rgba(10,19,41,0.60);
   z-index:1;
 }
 
@@ -65,7 +65,7 @@ body{
 }
 
 .hero-content h1{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   font-size:48px;
   font-weight:400;
   margin:0;
@@ -91,7 +91,7 @@ body{
 }
 
 .intro h2{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   color:var(--blue);
   font-size:32px;
   font-weight:400;
@@ -130,7 +130,7 @@ body{
 }
 
 .service-card h3{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   font-size:28px;
   font-weight:400;
   margin:12px 0;
@@ -163,7 +163,7 @@ body{
 }
 
 .side-nav h3{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   color:var(--blue);
   font-weight:400;
   margin-top:0;
@@ -192,7 +192,7 @@ body{
 }
 
 .menu-section h2{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   color:var(--blue);
   font-size:30px;
   font-weight:400;
@@ -256,8 +256,8 @@ body{
   position:absolute;
   inset:0;
   background:linear-gradient(
-    rgba(6,43,79,0.1),
-    rgba(6,43,79,0.85)
+    rgba(10,19,41,0.1),
+    rgba(10,19,41,0.85)
   );
   z-index:1;
 }
@@ -278,7 +278,7 @@ body{
 }
 
 .feature-text h2{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   font-size:34px;
   font-weight:400;
 }
@@ -337,6 +337,10 @@ footer{
 }
 </style>
 <link rel="stylesheet" href="../css/language-switcher.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="../css/theme.css">
 </head>
 
 <body>
@@ -405,7 +409,7 @@ footer{
         <div class="section-line"></div>
 
         <div class="menu-list">
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.cocktailOfTheDay">Cocktail of the Day</span><span class="price">8.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.cocktailOfTheDay">Cocktail of the Day</span><span class="price">7€</span></div>
           <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.caipirinha">Caipirinha</span><span class="price">8.50€</span></div>
           <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.pinaColada">Piña Colada</span><span class="price">8.50€</span></div>
           <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.royalMarina">Royal Marina</span><span class="price">8.50€</span></div>
@@ -565,5 +569,6 @@ footer{
 </footer>
 
 <script src="../js/translations.js"></script>
+<script src="../js/ui.js"></script>
 </body>
 </html>

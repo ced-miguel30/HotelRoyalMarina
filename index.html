@@ -2,199 +2,289 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0a1329">
 <title data-i18n="home.pageTitle">Royal Marina Suites</title>
 <link rel="stylesheet" href="css/language-switcher.css">
+<link rel="preload" as="image" href="images/hero-sunset.jpg">
 
 <style>
-:root{
-  --blue:#062b4f;
-  --light-blue:#eaf3f8;
-  --gold:#c9a45c;
-  --white:#ffffff;
-  --text:#1f2a36;
-}
-
 *{box-sizing:border-box;}
 
 body{
   margin:0;
-  font-family: "Georgia", serif;
-  background:var(--white);
+  background:var(--soft);
   color:var(--text);
 }
 
-  
+/* ---------- Hero ---------- */
 .hero{
-  min-height:90vh;
-  background:
-    linear-gradient(rgba(6,43,79,0.55), rgba(6,43,79,0.55)),
-    url("images/Frontpic1.JPG");
-  background-size:cover;
-  background-position:center;
-  background-repeat:no-repeat;
-  color:white;
+  position:relative;
+  min-height:78vh;
+  min-height:78svh;
   display:flex;
-  align-items:center;
+  align-items:flex-end;
   justify-content:center;
   text-align:center;
-  padding:30px;
+  padding:110px 24px 64px;
+  color:#fff;
+  overflow:hidden;
+  background:var(--blue);
 }
-@media(max-width:600px){
-  .hero{
-    background-position:left top;
-  }
+.hero-media{
+  position:absolute; inset:0;
+  width:100%; height:100%;
+  object-fit:cover; object-position:30% center;
+  transform:scale(1.04);
+  animation:heroZoom 18s ease-out forwards;
 }
+.hero::after{
+  content:""; position:absolute; inset:0;
+  background:linear-gradient(180deg, rgba(10,19,41,.15) 0%, rgba(10,19,41,0) 30%, rgba(10,19,41,.35) 60%, rgba(10,19,41,.85) 100%);
+}
+@keyframes heroZoom{ to{ transform:scale(1); } }
 
-  
-.hero-content{
-  max-width:850px;
-}
+.hero-content{ position:relative; z-index:1; max-width:760px; text-shadow:0 1px 18px rgba(10,19,41,.55); }
 
 .logo{
-  letter-spacing:4px;
+  font-family:var(--font-sans);
+  letter-spacing:5px;
   color:var(--gold);
-  font-size:14px;
+  font-size:12px;
   text-transform:uppercase;
-  margin-bottom:20px;
+  margin-bottom:14px;
 }
-
-h1{
-  font-size:42px;
+.hero h1{
+  font-size:clamp(40px, 9vw, 68px);
   margin:0;
-  font-weight:400;
-  line-height:1.2;
+  font-weight:500;
 }
+.gold-line{ width:64px; height:1px; background:var(--gold); margin:22px auto; }
+.subtitle{ margin:0; font-size:17px; font-weight:300; letter-spacing:.3px; opacity:.92; }
 
-.subtitle{
-  margin-top:20px;
-  font-size:18px;
-  opacity:0.9;
+/* ---------- Layout ---------- */
+.container{ max-width:1100px; margin:auto; padding:0 18px; }
+
+/* Quick access chips */
+.quick{
+  position:relative; z-index:2;
+  margin-top:-30px;
+  background:#fff;
+  border-radius:20px;
+  padding:16px 14px 14px;
+  box-shadow:0 18px 40px rgba(10,19,41,.10);
 }
-
-.gold-line{
-  width:80px;
-  height:2px;
-  background:var(--gold);
-  margin:30px auto;
+.quick-title{
+  font-size:11px; letter-spacing:2.5px; text-transform:uppercase;
+  color:var(--gold-ink); margin:0 4px 10px;
 }
-
-.container{
-  max-width:1100px;
-  margin:auto;
-  padding:50px 20px;
+.chips{
+  display:flex; gap:8px; overflow-x:auto; scrollbar-width:none;
+  -webkit-overflow-scrolling:touch; padding-bottom:2px;
 }
-
-.welcome{
-  text-align:center;
-  margin-bottom:40px;
-}
-
-.welcome h2{
+.chips::-webkit-scrollbar{ display:none; }
+.chip{
+  flex:none;
+  display:inline-flex; align-items:center; gap:8px;
+  padding:10px 14px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background:var(--soft);
   color:var(--blue);
-  font-weight:400;
-  font-size:32px;
+  text-decoration:none;
+  font-size:14px;
+  white-space:nowrap;
 }
+.chip svg{ width:18px; height:18px; stroke:var(--gold-ink); fill:none; stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; }
 
-.welcome p{
-  max-width:700px;
-  margin:auto;
-  line-height:1.7;
-}
+/* Welcome */
+.welcome{ text-align:center; padding:44px 6px 26px; }
+.welcome h2{ color:var(--blue); font-weight:500; font-size:36px; margin:0 0 10px; }
+.welcome p{ max-width:620px; margin:auto; color:var(--muted); font-weight:300; }
 
+/* Category grid: 2 columns on phones, 3 on larger screens */
 .grid{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
-  gap:22px;
+  grid-template-columns:repeat(2, minmax(0,1fr));
+  gap:12px;
 }
+@media(min-width:760px){ .grid{ grid-template-columns:repeat(3, minmax(0,1fr)); gap:20px; } }
 
 .card{
-  background:white;
-  border:1px solid #e5e5e5;
+  position:relative;
+  display:flex; flex-direction:column;
+  background:#fff;
+  border:1px solid var(--line);
   border-radius:18px;
-  padding:28px;
-  box-shadow:0 10px 25px rgba(0,0,0,0.06);
-  transition:0.3s;
-}
-
-.card:hover{
-  transform:translateY(-5px);
-  border-color:var(--gold);
-}
-
-.icon{
-    color:#c9a45c;
-    margin-bottom:20px;
-}
-
-.icon svg{
-    display:block;
-}
-  
-.card h3{
-  color:var(--blue);
-  margin:0 0 10px;
-  font-size:21px;
-  font-weight:400;
-}
-
-.card p{
-  font-family:Arial, sans-serif;
-  font-size:14px;
-  line-height:1.6;
-}
-
-.button{
-  display:inline-block;
-  margin-top:12px;
-  color:var(--gold);
-  font-family:Arial, sans-serif;
+  padding:18px 16px;
   text-decoration:none;
-  font-weight:bold;
+  color:inherit;
+  transition:transform .25s ease, border-color .25s ease, box-shadow .25s ease;
+}
+.card:hover{ transform:translateY(-3px); border-color:var(--gold); box-shadow:0 14px 30px rgba(10,19,41,.08); }
+.card:active{ transform:scale(.98); }
+.icon{ color:var(--gold-ink); margin-bottom:12px; }
+.icon svg{ display:block; width:32px; height:32px; }
+.card h3{ color:var(--blue); margin:0 0 6px; font-size:21px; font-weight:500; line-height:1.15; }
+.card p{ font-size:13.5px; line-height:1.5; margin:0 0 10px; color:var(--muted); }
+.button{ margin-top:auto; font-size:12px; text-transform:uppercase; letter-spacing:1px; font-weight:500; }
+
+@media(max-width:420px){
+  .card p{ display:none; }          /* keep the grid compact on phones */
+  .card h3{ font-size:19px; }
+  .button{ font-size:11px; }
 }
 
-.info-section{
-  background:var(--light-blue);
-  padding:50px 20px;
-  margin-top:40px;
+/* Today */
+.today{
+  margin-top:28px;
+  background:var(--blue);
+  color:#fff;
+  border-radius:22px;
+  padding:24px 18px 14px;
 }
+.today h2{ margin:0 0 14px; font-size:28px; font-weight:500; color:#fff; }
+.today-promo{
+  display:flex; flex-direction:column; gap:6px;
+  padding:14px 16px; margin-bottom:12px;
+  border-radius:14px;
+  background:linear-gradient(135deg, rgba(180,167,108,.30), rgba(180,167,108,.12));
+  border:1px solid rgba(180,167,108,.5);
+  color:#fff; text-decoration:none; font-size:14px;
+}
+.today-promo strong{ color:var(--gold); font-weight:500; }
+.today-list{ display:flex; flex-direction:column; }
+.today-row{
+  display:grid;
+  grid-template-columns:1fr auto;
+  grid-template-areas:"name status" "time status";
+  align-items:center;
+  padding:12px 2px;
+  border-top:1px solid rgba(255,255,255,.10);
+  color:#fff; text-decoration:none;
+}
+.today-row:first-child{ border-top:0; }
+.today-name{ grid-area:name; font-size:16px; }
+.today-time{ grid-area:time; font-size:13px; color:rgba(255,255,255,.6); }
+.today-status{
+  grid-area:status;
+  font-size:11px; letter-spacing:1px; text-transform:uppercase;
+  padding:5px 10px; border-radius:999px;
+  background:rgba(255,255,255,.08); color:rgba(255,255,255,.75);
+}
+.today-status.is-open{ background:rgba(180,167,108,.25); color:var(--gold); }
+.today-status.is-open::before{
+  content:""; display:inline-block; width:6px; height:6px; border-radius:50%;
+  background:var(--gold); margin-right:6px; vertical-align:middle;
+}
+.today-status.is-closed{ opacity:.55; }
 
-.info-box{
-  max-width:900px;
-  margin:auto;
-  background:white;
-  padding:35px;
+/* Weather & UV */
+.weather{
+  margin-top:14px;
+  background:#fff;
+  border:1px solid var(--line);
   border-radius:20px;
-  border-left:5px solid var(--gold);
+  padding:18px;
 }
+.wx-head{ display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.wx-now{ display:flex; align-items:center; gap:12px; }
+.wx-now svg{ width:40px; height:40px; stroke:var(--gold-ink); fill:none; stroke-width:1.5; stroke-linecap:round; stroke-linejoin:round; }
+.wx-temp{ display:block; font-family:var(--font-serif); font-size:40px; line-height:1; color:var(--blue); }
+.wx-desc{ display:block; font-size:13px; color:var(--muted); margin-top:2px; }
+.wx-title{ margin:0; font-size:11px; letter-spacing:2px; text-transform:uppercase; color:var(--gold-ink); text-align:right; }
+.wx-uv{
+  display:flex; align-items:center; gap:12px;
+  margin:14px 0 12px; padding:12px;
+  border-radius:14px; background:var(--soft);
+}
+.wx-uv-badge{
+  flex:none; width:48px; height:48px; border-radius:50%;
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  color:#fff; line-height:1;
+}
+.wx-uv-badge strong{ font-size:18px; font-weight:600; }
+.wx-uv-badge span{ font-size:9px; letter-spacing:1px; margin-top:2px; }
+.uv-low .wx-uv-badge{ background:#3f8f5a; }
+.uv-moderate .wx-uv-badge{ background:#c9a227; }
+.uv-high .wx-uv-badge{ background:#d9782b; }
+.uv-veryhigh .wx-uv-badge{ background:#c43c35; }
+.uv-extreme .wx-uv-badge{ background:#7b3fa0; }
+.wx-uv-label{ display:block; font-weight:500; color:var(--blue); font-size:14px; }
+.wx-uv-tip{ display:block; font-size:13px; color:var(--muted); line-height:1.4; margin-top:2px; }
+.wx-grid{ display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:6px; text-align:center; }
+.wx-grid small{ display:block; font-size:10px; letter-spacing:.8px; text-transform:uppercase; color:var(--muted); }
+.wx-grid span{ display:block; font-size:15px; color:var(--blue); margin-top:3px; }
 
-.info-box h2{
-  color:var(--blue);
-  font-weight:400;
+/* Culture & events */
+.culture{ margin-top:28px; }
+.culture h2{ color:var(--blue); font-size:30px; font-weight:500; margin:0 0 4px; }
+.culture-intro{ margin:0 0 14px; color:var(--muted); font-weight:300; }
+.ev-list{ display:flex; flex-direction:column; gap:8px; margin-bottom:12px; }
+.ev{
+  display:flex; align-items:center; gap:14px;
+  padding:12px 14px; border-radius:14px;
+  background:#fff; border:1px solid var(--line);
+  color:inherit; text-decoration:none;
+}
+.ev-date{
+  flex:none; width:58px; text-align:center;
+  font-family:var(--font-serif); font-size:18px; color:var(--gold-ink); line-height:1.1;
+}
+.ev-body strong{ display:block; font-weight:500; color:var(--blue); }
+.ev-body small{ color:var(--muted); font-size:13px; }
+.culture-links{ display:grid; gap:10px; }
+@media(min-width:760px){ .culture-links{ grid-template-columns:1fr 1fr; } }
+.culture-links a{
+  position:relative; display:block;
+  padding:16px 40px 16px 16px; border-radius:16px;
+  background:#fff; border:1px solid var(--line);
+  color:inherit; text-decoration:none;
+}
+.culture-links a:hover{ border-color:var(--gold); }
+.culture-links strong{ display:block; font-family:var(--font-serif); font-size:20px; font-weight:500; color:var(--blue); }
+.culture-links small{ display:block; color:var(--muted); font-size:13px; margin-top:2px; }
+.culture-links a > span{ position:absolute; right:16px; top:16px; color:var(--gold-ink); }
+.culture-note{ font-size:13px; color:var(--muted); margin:10px 2px 0; }
+
+/* Important information */
+.info-box{
+  margin:28px 0 40px;
+  background:#fff;
+  padding:24px 22px;
+  border-radius:20px;
+  border:1px solid var(--line);
+  border-left:4px solid var(--gold);
+}
+.info-box h2{ color:var(--blue); font-weight:500; margin:0 0 8px; font-size:26px; }
+.info-box p{ margin:6px 0; }
+.info-box strong{ font-weight:500; color:var(--blue); }
+.contact-cta{
+  display:inline-flex; align-items:center; gap:8px;
+  margin-top:14px; padding:12px 18px;
+  border-radius:999px; border:0; cursor:pointer;
+  background:var(--blue); color:#fff; text-decoration:none;
+  font-size:14px; letter-spacing:.4px;
 }
 
 footer{
   background:var(--blue);
-  color:white;
+  color:#fff;
   text-align:center;
-  padding:30px 20px;
-  font-family:Arial, sans-serif;
+  padding:28px 20px;
   font-size:14px;
 }
-
-footer span{
-  color:var(--gold);
-}
-
-@media(max-width:600px){
-  h1{font-size:32px;}
-  .hero{min-height:80vh;}
-}
+footer p{ margin:4px 0; }
+footer span{ color:var(--gold); font-family:var(--font-serif); font-size:20px; }
 </style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="css/theme.css">
 </head>
 
 <body>
-  
+
 <div class="language-switcher">
   <a href="?lang=en" data-lang="en">EN</a>
   <a href="?lang=es" data-lang="es">ES</a>
@@ -202,8 +292,9 @@ footer span{
   <a href="?lang=it" data-lang="it">IT</a>
   <a href="?lang=fr" data-lang="fr">FR</a>
 </div>
-  
+
 <section class="hero">
+  <img class="hero-media" src="images/hero-sunset.jpg" alt="Royal Marina Suites at sunset, Puerto Calero marina" fetchpriority="high">
   <div class="hero-content">
     <div class="logo" data-i18n="home.hero.logo">Boutique Experience · Lanzarote</div>
     <h1 data-i18n="home.hero.title">Royal Marina Suites</h1>
@@ -214,6 +305,28 @@ footer span{
 
 <div class="container">
 
+  <!-- Quick access to the most requested items -->
+  <nav class="quick" aria-labelledby="quick-title">
+    <p class="quick-title" id="quick-title" data-ui="quick">Quick access</p>
+    <div class="chips">
+      <a class="chip" href="wifi.html">
+        <svg viewBox="0 0 24 24"><path d="M5 12a10 10 0 0 1 14 0"/><path d="M8 15a6 6 0 0 1 8 0"/><circle cx="12" cy="19" r="1"/></svg>
+        <span data-ui="wifi">Wi-Fi</span></a>
+      <a class="chip" href="transfer.html">
+        <svg viewBox="0 0 24 24"><path d="M2 16l20-6-3-2-6 2-5-5-2 1 3 5-4 1-2-1-1 1z"/><path d="M3 21h18"/></svg>
+        <span data-ui="transfer">Airport transfer</span></a>
+      <a class="chip" href="MarinaRestaurant/breakfast-in-suite.html">
+        <svg viewBox="0 0 24 24"><path d="M4 11h13v3a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"/><path d="M17 12h1.5a2.5 2.5 0 0 1 0 5H16"/><path d="M8 3v4M12 3v4"/></svg>
+        <span data-ui="suiteBreakfast">Breakfast in suite</span></a>
+      <a class="chip" href="hotel-info.html">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        <span data-ui="lateCheckout">Late check-out</span></a>
+    </div>
+  </nav>
+
+  <!-- Filled by js/ui.js: live weather + UV for Puerto Calero (hidden if unavailable) -->
+  <section class="weather" id="rms-weather" hidden aria-live="polite"></section>
+
   <div class="welcome">
     <h2 data-i18n="home.welcome.title">Welcome</h2>
     <p data-i18n="home.welcome.description">
@@ -222,119 +335,95 @@ footer span{
     </p>
   </div>
 
- <!-- CATEGORY SECTION STARTS -->
+  <!-- CATEGORY SECTION STARTS -->
+  <div class="grid">
 
-<div class="grid">
+    <!-- **HIDE ABOUT US**
+    <a class="card" href="about.html">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/></svg>
+      </div>
+      <h3 data-i18n="home.cards.ourStory.title">Our Story</h3>
+      <p data-i18n="home.cards.ourStory.description">Discover the story, philosophy and unique experience of Royal Marina Suites.</p>
+      <span class="button" data-i18n="home.cards.ourStory.button">Discover More</span>
+    </a>
+    -->
 
-  
+    <a class="card" href="hotel-info.html">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="15" r="4"/><path d="M12 15h9"/><path d="M18 15v3"/><path d="M15 15v2"/></svg>
+      </div>
+      <h3 data-i18n="home.cards.guestInformation.title">Guest Information</h3>
+      <p data-i18n="home.cards.guestInformation.description">Check-in & check-out times, policies, services and useful guest information.</p>
+      <span class="button" data-i18n="home.cards.guestInformation.button">View Details</span>
+    </a>
 
-  <!-- **HIDE ABOUT US** 
-    <div class="card">
-        <div class="icon">
-            <svg viewBox="0 0 24 24" width="42" height="42" fill="none" stroke="currentColor" stroke-width="1.7">
-                <path d="M3 21h18"/>
-                <path d="M5 21V7l7-4 7 4v14"/>
-            </svg>
-        </div>
-        <h3 data-i18n="home.cards.ourStory.title">Our Story</h3>
-        <p data-i18n="home.cards.ourStory.description">Discover the story, philosophy and unique experience of Royal Marina Suites.</p>
-        <a class="button" href="about.html" data-i18n="home.cards.ourStory.button">Discover More</a>
-    </div>
--->
+    <a class="card" href="MarinaRestaurant/restaurant.html">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 3v7"/><path d="M7 3v7"/><path d="M4 7h3"/><path d="M5.5 10v11"/><path d="M15 3v18"/><path d="M15 3c2 2 3 4 3 7"/></svg>
+      </div>
+      <h3 data-i18n="home.cards.marinaRestaurant.title">Marina Restaurant</h3>
+      <p data-i18n="home.cards.marinaRestaurant.description">Discover our restaurant, menus, opening hours and culinary experiences.</p>
+      <span class="button" data-i18n="home.cards.marinaRestaurant.button">View Restaurant</span>
+    </a>
 
-  
-    <div class="card">
-        <div class="icon">
-            <svg viewBox="0 0 24 24" width="42" height="42" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="8" cy="15" r="4"></circle>
-                <path d="M12 15h9"></path>
-                <path d="M18 15v3"></path>
-                <path d="M15 15v2"></path>
-            </svg>
-        </div>
-        <h3 data-i18n="home.cards.guestInformation.title">Guest Information</h3>
-        <p data-i18n="home.cards.guestInformation.description">Check-in & check-out times, policies, services and useful guest information.</p>
-        <a class="button" href="hotel-info.html" data-i18n="home.cards.guestInformation.button">View Details</a>
-    </div>
+    <a class="card" href="facilities-wellness.html">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2 17c2 0 2-1.5 4-1.5s2 1.5 4 1.5 2-1.5 4-1.5 2 1.5 4 1.5 2-1.5 4-1.5"/><path d="M2 21c2 0 2-1.5 4-1.5s2 1.5 4 1.5 2-1.5 4-1.5 2 1.5 4 1.5 2-1.5 4-1.5"/><path d="M8 14V5a2 2 0 0 1 4 0"/><path d="M16 14V5a2 2 0 0 0-4 0"/><path d="M8 9h8"/></svg>
+      </div>
+      <h3 data-i18n="home.cards.facilitiesWellness.title">Facilities & Wellness</h3>
+      <p data-i18n="home.cards.facilitiesWellness.description">Explore our pool, wellness areas, sun terraces and exclusive guest amenities.</p>
+      <span class="button" data-i18n="home.cards.facilitiesWellness.button">Explore Facilities</span>
+    </a>
 
-    <div class="card">
-        <div class="icon">
-            <svg viewBox="0 0 24 24" width="42" height="42" fill="none" stroke="currentColor" stroke-width="1.7">
-                <path d="M12 22s8-4.5 8-12a8 8 0 1 0-16 0c0 7.5 8 12 8 12z"/>
-            </svg>
-        </div>
-        <h3 data-i18n="home.cards.facilitiesWellness.title">Facilities & Wellness</h3>
-        <p data-i18n="home.cards.facilitiesWellness.description">Explore our pool, wellness areas, sun terraces and exclusive guest amenities.</p>
-        <a class="button" href="facilities-wellness.html" data-i18n="home.cards.facilitiesWellness.button">Explore Facilities</a>
-    </div>
+    <a class="card" href="reception.html">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 18h16"/><path d="M6 18a6 6 0 0 1 12 0"/><path d="M12 9V7"/><path d="M10 7h4"/></svg>
+      </div>
+      <h3 data-i18n="home.cards.guestServices.title">Guest Services</h3>
+      <p data-i18n="home.cards.guestServices.description">Discover our guest services, curated experiences and essential information.</p>
+      <span class="button" data-i18n="home.cards.guestServices.button">Contact Reception</span>
+    </a>
 
-    <div class="card">
-        <div class="icon">
-            <svg viewBox="0 0 24 24" width="42" height="42" fill="none" stroke="currentColor" stroke-width="1.7">
-                <path d="M4 3v7"/>
-                <path d="M7 3v7"/>
-                <path d="M4 7h3"/>
-                <path d="M5.5 10v11"/>
-                <path d="M15 3v18"/>
-                <path d="M15 3c2 2 3 4 3 7"/>
-            </svg>
-        </div>
-        <h3 data-i18n="home.cards.marinaRestaurant.title">Marina Restaurant</h3>
-        <p data-i18n="home.cards.marinaRestaurant.description">Discover our restaurant, menus, opening hours and culinary experiences.</p>
-        <a class="button" href="MarinaRestaurant/restaurant.html" data-i18n="home.cards.marinaRestaurant.button">View Restaurant</a>
-    </div>
+    <a class="card" href="guide.html">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7l3 5-3 5-3-5z"/></svg>
+      </div>
+      <h3 data-i18n="home.cards.discoverLanzarote.title">Discover Lanzarote</h3>
+      <p data-i18n="home.cards.discoverLanzarote.description">Beaches, attractions, restaurants and unforgettable experiences around the island.</p>
+      <span class="button" data-i18n="home.cards.discoverLanzarote.button">Explore Lanzarote</span>
+    </a>
 
-    <div class="card">
-        <div class="icon">
-            <svg viewBox="0 0 24 24" width="42" height="42" fill="none" stroke="currentColor" stroke-width="1.7">
-                <path d="M4 18h16"/>
-                <path d="M6 18a6 6 0 0 1 12 0"/>
-                <path d="M12 6v2"/>
-            </svg>
-        </div>
-        <h3 data-i18n="home.cards.guestServices.title">Guest Services</h3>
-        <p data-i18n="home.cards.guestServices.description">Discover our guest services, curated experiences and essential information.</p>
-        <a class="button" href="reception.html" data-i18n="home.cards.guestServices.button">Contact Reception</a>
-    </div>
+    <a class="card" href="wifi.html">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M5 12a10 10 0 0 1 14 0"/><path d="M8 15a6 6 0 0 1 8 0"/><path d="M11 18a2 2 0 0 1 2 0"/><circle cx="12" cy="20" r="1"/></svg>
+      </div>
+      <h3 data-i18n="home.cards.wifiAccess.title">Wi-Fi Access</h3>
+      <p data-i18n="home.cards.wifiAccess.description">Connect quickly to our complimentary high-speed internet service.</p>
+      <span class="button" data-i18n="home.cards.wifiAccess.button">Connect</span>
+    </a>
 
-    <div class="card">
-        <div class="icon">
-            <svg viewBox="0 0 24 24" width="42" height="42" fill="none" stroke="currentColor" stroke-width="1.7">
-                <circle cx="12" cy="12" r="9"/>
-                <path d="M12 7l3 5-3 5-3-5z"/>
-            </svg>
-        </div>
-        <h3 data-i18n="home.cards.discoverLanzarote.title">Discover Lanzarote</h3>
-        <p data-i18n="home.cards.discoverLanzarote.description">Beaches, attractions, restaurants and unforgettable experiences around the island.</p>
-        <a class="button" href="guide.html" data-i18n="home.cards.discoverLanzarote.button">Explore Lanzarote</a>
-    </div>
+  </div>
+  <!-- CATEGORY SECTION ENDS -->
 
-    <div class="card">
-        <div class="icon">
-            <svg viewBox="0 0 24 24" width="42" height="42" fill="none" stroke="currentColor" stroke-width="1.7">
-                <path d="M5 12a10 10 0 0 1 14 0"/>
-                <path d="M8 15a6 6 0 0 1 8 0"/>
-                <path d="M11 18a2 2 0 0 1 2 0"/>
-                <circle cx="12" cy="20" r="1"/>
-            </svg>
-        </div>
-        <h3 data-i18n="home.cards.wifiAccess.title">Wi-Fi Access</h3>
-        <p data-i18n="home.cards.wifiAccess.description">Connect quickly to our complimentary high-speed internet service.</p>
-        <a class="button" href="wifi.html" data-i18n="home.cards.wifiAccess.button">Connect</a>
-    </div>
+  <!-- Filled by js/ui.js with today's opening hours (Canary time) -->
+  <section class="today" id="rms-today" aria-live="polite"></section>
 
-</div>
+  <!-- Filled by js/ui.js: curated events from data/events.json + official agendas -->
+  <section class="culture" id="rms-culture"></section>
 
-<!-- CATEGORY SECTION ENDS -->
-  
-<section class="info-section">
-  <div class="info-box">
+  <section class="info-box">
     <h2 data-i18n="home.importantInfo.title">Important Information</h2>
     <p data-i18n-html="home.importantInfo.checkIn"><strong>Check-in:</strong> 15:00</p>
     <p data-i18n-html="home.importantInfo.checkOut"><strong>Check-out:</strong> 12:00</p>
     <p data-i18n-html="home.importantInfo.emergency"><strong>Emergency:</strong> Please contact reception immediately.</p>
-  </div>
-</section>
+    <button type="button" class="contact-cta" data-open-contact>
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+      <span data-ui="call">Call reception</span>
+    </button>
+  </section>
+
+</div>
 
 <footer>
   <p><span data-i18n="common.footer.hotelName">Royal Marina Suites</span></p>
@@ -342,5 +431,6 @@ footer span{
 </footer>
 
 <script src="js/translations.js"></script>
+<script src="js/ui.js"></script>
 </body>
 </html>

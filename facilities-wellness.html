@@ -7,8 +7,8 @@
 
 <style>
 :root{
-  --blue:#062b4f;
-  --gold:#c9a45c;
+  --blue:#0a1329;
+  --gold:#b4a76c;
   --white:#ffffff;
   --soft:#f5f8fa;
   --text:#1f2a36;
@@ -18,7 +18,7 @@
 
 body{
   margin:0;
-  font-family:Arial, sans-serif;
+  font-family:var(--font-sans);
   background:var(--soft);
   color:var(--text);
 }
@@ -47,7 +47,7 @@ body{
   content:"";
   position:absolute;
   inset:0;
-  background:linear-gradient(rgba(6,43,79,0.25), rgba(6,43,79,0.88));
+  background:linear-gradient(rgba(10,19,41,0.25), rgba(10,19,41,0.88));
   z-index:1;
 }
 
@@ -65,7 +65,7 @@ body{
 }
 
 .hero-content h1{
-  font-family:Georgia, serif;
+  font-family:var(--font-serif);
   font-size:48px;
   font-weight:400;
   margin:0;
@@ -105,7 +105,7 @@ body{
 }
 
 .section-title h2 {
-  font-family: Georgia, serif;
+  font-family:var(--font-serif);
   font-size: clamp(2rem, 4vw, 3.4rem);
   color: var(--blue);
   margin-bottom: 18px;
@@ -182,7 +182,7 @@ body{
 }
 
 .facility-content h3 {
-  font-family: Georgia, serif;
+  font-family:var(--font-serif);
   font-size: 1.55rem;
   color: var(--blue);
   margin-bottom: 12px;
@@ -309,6 +309,10 @@ footer{
 }
 </style>
 <link rel="stylesheet" href="css/language-switcher.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="css/theme.css">
 </head>
 
 <body>
@@ -350,7 +354,7 @@ footer{
 
     <div class="facility-card large">
       <div class="facility-image">
-        <img src="images/heated-pool.jpeg" alt="Climatized Swimming Pool" data-i18n-alt="facilities.pool.imageAlt">
+        <img src="images/pool-guest.jpg" alt="Guest relaxing by the heated pool" data-i18n-alt="facilities.pool.imageAlt">
       </div>
       <div class="facility-content">
         <span data-i18n="facilities.pool.label">Outdoor Relaxation</span>
@@ -365,7 +369,7 @@ footer{
 
     <div class="facility-card">
       <div class="facility-image">
-        <img src="images/jacuzzi.jpeg" alt="Jacuzzi" data-i18n-alt="facilities.jacuzzi.imageAlt">
+        <img src="images/jacuzzi-guest.jpg" style="object-position:center 75%" alt="Jacuzzi" data-i18n-alt="facilities.jacuzzi.imageAlt">
       </div>
       <div class="facility-content">
         <span data-i18n="facilities.jacuzzi.label">Wellness</span>
@@ -423,6 +427,7 @@ footer{
 </footer>
 
 <script src="js/translations.js"></script>
+<script src="js/ui.js"></script>
 
 </body>
 </html>

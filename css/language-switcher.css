@@ -7,7 +7,7 @@
   gap: 8px;
   padding: 8px 10px;
   border-radius: 999px;
-  background: rgba(6, 43, 79, 0.88);
+  background: rgba(10, 19, 41, 0.88);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
 }
 
@@ -25,7 +25,7 @@
 
 .language-switcher a:hover,
 .language-switcher a.active {
-  background: #c9a45c;
+  background: #b4a76c;
   color: #062b4f;
 }
 

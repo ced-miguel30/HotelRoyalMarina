@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<script src="https://unpkg.com/lucide@latest"></script>
+<script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +10,8 @@
 <style>
 
 :root{
-  --blue:#062b4f;
-  --gold:#c9a45c;
+  --blue:#0a1329;
+  --gold:#b4a76c;
   --white:#ffffff;
   --soft:#f5f8fa;
   --text:#24313d;
@@ -24,7 +24,7 @@
 }
 
 body{
-  font-family:Arial,sans-serif;
+  font-family:var(--font-sans);
   background:var(--soft);
   color:var(--text);
 }
@@ -57,8 +57,8 @@ body{
   inset:0;
   background:
     linear-gradient(
-      rgba(6,43,79,.72),
-      rgba(6,43,79,.52)
+      rgba(10,19,41,.72),
+      rgba(10,19,41,.52)
     );
   z-index:1;
 }
@@ -68,7 +68,7 @@ body{
   z-index:2;
   padding:20px;
   max-width:750px;
-  text-shadow:0 4px 18px rgba(6,43,79,.85);
+  text-shadow:0 4px 18px rgba(10,19,41,.85);
 }
 
 .hero-content span{
@@ -84,7 +84,7 @@ body{
 .hero-content h1{
 
   margin:18px 0;
-  font-family:Georgia,serif;
+  font-family:var(--font-serif);
   font-size:52px;
   font-weight:400;
 
@@ -116,7 +116,7 @@ body{
 .intro h2{
 
   color:var(--blue);
-  font-family:Georgia,serif;
+  font-family:var(--font-serif);
   font-size:36px;
   font-weight:400;
   margin-bottom:18px;
@@ -176,7 +176,7 @@ body{
 .card h3{
 
   color:var(--blue);
-  font-family:Georgia,serif;
+  font-family:var(--font-serif);
   font-size:26px;
   font-weight:400;
   margin-bottom:15px;
@@ -202,7 +202,7 @@ body{
 
   text-align:center;
   color:var(--blue);
-  font-family:Georgia,serif;
+  font-family:var(--font-serif);
   font-size:38px;
   font-weight:400;
   margin-bottom:12px;
@@ -268,7 +268,7 @@ textarea{
 .notice h3{
 
   color:var(--blue);
-  font-family:Georgia,serif;
+  font-family:var(--font-serif);
   font-weight:400;
   margin-bottom:10px;
 
@@ -352,6 +352,10 @@ padding:30px 25px;
 </style>
 
 <link rel="stylesheet" href="../css/language-switcher.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="../css/theme.css">
 </head>
 
 <body>
@@ -470,7 +474,9 @@ Complete the following form and our Reception team will prepare your breakfast r
 
 </p>
 
-<form action="https://formspree.io/f/xgojoqkj" method="POST">
+<form action="https://formspree.io/f/xgojoqkj" method="POST" class="rms-request-form" data-subject="Breakfast in Suite">
+<input type="hidden" name="_subject" value="Breakfast in Suite">
+<input type="hidden" name="guest_language" value="en">
 
 <div class="form-grid">
 
@@ -499,54 +505,55 @@ Complete the following form and our Reception team will prepare your breakfast r
 <label data-i18n="marinaRestaurant.breakfastInSuite.form.labels.eggs">Eggs</label>
 <select name="eggs">
   <option value="" data-i18n="marinaRestaurant.breakfastInSuite.form.options.none">None</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.omelette">Omelette</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.friedEggs">Fried Eggs</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.poachedEggs">Poached Eggs</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.boiledEggs">Boiled Eggs</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.softBoiledEggs">Soft-Boiled Eggs</option>
+  <option value="Omelette" data-i18n="marinaRestaurant.breakfastInSuite.form.options.omelette">Omelette</option>
+  <option value="Fried Eggs" data-i18n="marinaRestaurant.breakfastInSuite.form.options.friedEggs">Fried Eggs</option>
+  <option value="Poached Eggs" data-i18n="marinaRestaurant.breakfastInSuite.form.options.poachedEggs">Poached Eggs</option>
+  <option value="Boiled Eggs" data-i18n="marinaRestaurant.breakfastInSuite.form.options.boiledEggs">Boiled Eggs</option>
+  <option value="Soft-Boiled Eggs" data-i18n="marinaRestaurant.breakfastInSuite.form.options.softBoiledEggs">Soft-Boiled Eggs</option>
 </select>
 
 <label data-i18n="marinaRestaurant.breakfastInSuite.form.labels.sandwichOrToast">Sandwich or Toast</label>
 <select name="sandwich">
   <option value="" data-i18n="marinaRestaurant.breakfastInSuite.form.options.none">None</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.croqueMonsieur">Croque Monsieur</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.royalMarinaSandwich">Royal Marina Sandwich</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.vegetarianSandwich">Vegetarian Sandwich</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.toastOfTheDay">Toast of the Day</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.frenchToast">French Toast</option>
+  <option value="Croque Monsieur" data-i18n="marinaRestaurant.breakfastInSuite.form.options.croqueMonsieur">Croque Monsieur</option>
+  <option value="Royal Marina Sandwich" data-i18n="marinaRestaurant.breakfastInSuite.form.options.royalMarinaSandwich">Royal Marina Sandwich</option>
+  <option value="Vegetarian Sandwich" data-i18n="marinaRestaurant.breakfastInSuite.form.options.vegetarianSandwich">Vegetarian Sandwich</option>
+  <option value="Toast of the Day" data-i18n="marinaRestaurant.breakfastInSuite.form.options.toastOfTheDay">Toast of the Day</option>
+  <option value="French Toast" data-i18n="marinaRestaurant.breakfastInSuite.form.options.frenchToast">French Toast</option>
 </select>
 
 <label data-i18n="marinaRestaurant.breakfastInSuite.form.labels.coffee">Coffee</label>
 <select name="coffee">
   <option value="" data-i18n="marinaRestaurant.breakfastInSuite.form.options.none">None</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.espresso">Espresso</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.doubleEspresso">Double Espresso</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.americano">Americano</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.cappuccino">Cappuccino</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.latte">Latte</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.mochaccino">Mochaccino</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.flatWhite">Flat White</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.macchiato">Macchiato</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.decaffeinatedCoffee">Decaffeinated Coffee</option>
+  <option value="Espresso" data-i18n="marinaRestaurant.breakfastInSuite.form.options.espresso">Espresso</option>
+  <option value="Double Espresso" data-i18n="marinaRestaurant.breakfastInSuite.form.options.doubleEspresso">Double Espresso</option>
+  <option value="Americano" data-i18n="marinaRestaurant.breakfastInSuite.form.options.americano">Americano</option>
+  <option value="Cappuccino" data-i18n="marinaRestaurant.breakfastInSuite.form.options.cappuccino">Cappuccino</option>
+  <option value="Latte" data-i18n="marinaRestaurant.breakfastInSuite.form.options.latte">Latte</option>
+  <option value="Mochaccino" data-i18n="marinaRestaurant.breakfastInSuite.form.options.mochaccino">Mochaccino</option>
+  <option value="Flat White" data-i18n="marinaRestaurant.breakfastInSuite.form.options.flatWhite">Flat White</option>
+  <option value="Macchiato" data-i18n="marinaRestaurant.breakfastInSuite.form.options.macchiato">Macchiato</option>
+  <option value="Decaffeinated Coffee" data-i18n="marinaRestaurant.breakfastInSuite.form.options.decaffeinatedCoffee">Decaffeinated Coffee</option>
 </select>
 
 <label data-i18n="marinaRestaurant.breakfastInSuite.form.labels.teaOrDrinks">Tea or Other Drinks</label>
 <select name="drinks">
   <option value="" data-i18n="marinaRestaurant.breakfastInSuite.form.options.none">None</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.tea">Tea</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.herbalInfusion">Herbal Infusion</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.hotChocolate">Hot Chocolate</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.freshOrangeJuice">Fresh Orange Juice</option>
+  <option value="Tea" data-i18n="marinaRestaurant.breakfastInSuite.form.options.tea">Tea</option>
+  <option value="Herbal Infusion" data-i18n="marinaRestaurant.breakfastInSuite.form.options.herbalInfusion">Herbal Infusion</option>
+  <option value="Hot Chocolate" data-i18n="marinaRestaurant.breakfastInSuite.form.options.hotChocolate">Hot Chocolate</option>
+  <option value="Fresh Orange Juice" data-i18n="marinaRestaurant.breakfastInSuite.form.options.freshOrangeJuice">Fresh Orange Juice</option>
 </select>
 
 <label data-i18n="marinaRestaurant.breakfastInSuite.form.labels.milkPreference">Milk Preference</label>
 <select name="milk">
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.wholeMilk">Whole Milk</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.skimmedMilk">Skimmed Milk</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.oatMilk">Oat Milk</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.soyMilk">Soy Milk</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.almondMilk">Almond Milk</option>
-  <option data-i18n="marinaRestaurant.breakfastInSuite.form.options.noMilk">No Milk</option>
+  <option value="" data-i18n="marinaRestaurant.breakfastInSuite.form.options.none">None</option>
+  <option value="Whole Milk" data-i18n="marinaRestaurant.breakfastInSuite.form.options.wholeMilk">Whole Milk</option>
+  <option value="Skimmed Milk" data-i18n="marinaRestaurant.breakfastInSuite.form.options.skimmedMilk">Skimmed Milk</option>
+  <option value="Oat Milk" data-i18n="marinaRestaurant.breakfastInSuite.form.options.oatMilk">Oat Milk</option>
+  <option value="Soy Milk" data-i18n="marinaRestaurant.breakfastInSuite.form.options.soyMilk">Soy Milk</option>
+  <option value="Almond Milk" data-i18n="marinaRestaurant.breakfastInSuite.form.options.almondMilk">Almond Milk</option>
+  <option value="No Milk" data-i18n="marinaRestaurant.breakfastInSuite.form.options.noMilk">No Milk</option>
 </select>
 
 <label data-i18n="marinaRestaurant.breakfastInSuite.form.labels.fruitPreference">Fruit Preference</label>
@@ -583,7 +590,7 @@ Complete the following form and our Reception team will prepare your breakfast r
 
 <p data-i18n-html="marinaRestaurant.breakfastInSuite.form.notice.text">
 
-• Breakfast in your suite has a service charge of <strong>€10</strong>, which will be charged directly to your room account.
+• Breakfast in your suite has a service charge of <strong>€20 per room</strong>, which will be charged directly to your room account.
 
 <br><br>
 
@@ -597,11 +604,7 @@ Complete the following form and our Reception team will prepare your breakfast r
 
 </div>
 
-<form action="https://formspree.io/f/xgojoqkj" method="POST">
-
-  <!-- Aquí van todos los campos -->
-
-  <button type="submit" class="submit" data-i18n="marinaRestaurant.breakfastInSuite.form.submit">
+<button type="submit" class="submit" data-i18n="marinaRestaurant.breakfastInSuite.form.submit">
     Request Breakfast in Your Suite
   </button>
 
@@ -620,6 +623,7 @@ Royal Marina Suites
 lucide.createIcons();
 </script>
 <script src="../js/translations.js"></script>
+<script src="../js/ui.js"></script>
 </body>
 </html>
   

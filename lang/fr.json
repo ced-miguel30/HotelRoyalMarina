@@ -3,14 +3,14 @@
     "shared": {
       "footer": "Royal Marina Suites",
       "brandLabel": "Royal Marina Suites",
-      "marinaRestaurantLabel": "Restaurant de la Marina",
+      "marinaRestaurantLabel": "Restaurant Marina",
       "backToHome": "← Retour à l'accueil",
-      "backToRestaurant": "← Retour sur Restaurant Marina",
-      "backToBreakfast": "← Retour à Petit-déjeuner",
+      "backToRestaurant": "← Retour au Restaurant Marina",
+      "backToBreakfast": "← Retour au petit-déjeuner",
       "allergenTitle": "Informations sur les allergènes",
       "pleaseNoteTitle": "Veuillez noter",
       "houseWine": "Vin de la maison",
-      "localKm0Wine": "Local Km 0 Vin",
+      "localKm0Wine": "Vin local Km 0",
       "cava": "Cava",
       "piperHeidsieck": "Piper-Heidsieck Brut/Rosé",
       "reservationRequired": "Réservation obligatoire"
@@ -18,12 +18,12 @@
     "restaurant": {
       "pageTitle": "Restaurant Marina | Royal Marina Suites",
       "hero": {
-        "imageAlt": "Restaurant de la Marina",
-        "title": "Restaurant de la Marina",
-        "subtitle": "Restauration, boissons et expériences organisées"
+        "imageAlt": "Restaurant Marina",
+        "title": "Restaurant Marina",
+        "subtitle": "Restauration, boissons et expériences sur mesure"
       },
       "intro": {
-        "title": "Restaurant-Bar",
+        "title": "Restaurant & Bar",
         "text": "Découvrez notre service de petit-déjeuner, notre bar au bord de la piscine, nos collations, nos options de dîner froid dans la suite, nos paellas et nos expériences culinaires spéciales au Royal Marina Suites."
       },
       "cards": {
@@ -45,7 +45,7 @@
           "time": "11h30 - 19h00",
           "imageAlt": "Bar de la piscine",
           "title": "Bar de la piscine",
-          "description": "Rafraîchissements, cocktails, vin, bière, café et boissons gazeuses.",
+          "description": "Rafraîchissements, cocktails, vin, bière, café et boissons sans alcool.",
           "button": "Voir les boissons →"
         },
         "coldDinner": {
@@ -53,7 +53,7 @@
           "imageAlt": "Dîner froid",
           "title": "Dîner froid en suite",
           "description": "Dîners froids sélectionnés servis dans votre suite sur réservation.",
-          "button": "Voir Dîner froid →"
+          "button": "Voir le dîner froid →"
         },
         "bbqNight": {
           "time": "Tous les vendredis",
@@ -82,7 +82,7 @@
       }
     },
     "breakfast": {
-      "pageTitle": "Petit déjeuner | Royal Marina Suites",
+      "pageTitle": "Petit-déjeuner | Royal Marina Suites",
       "hero": {
         "imageAlt": "Petit-déjeuner au Royal Marina Suites",
         "title": "Petit-déjeuner"
@@ -97,7 +97,7 @@
       },
       "suiteBox": {
         "title": "Profitez du petit-déjeuner dans votre suite",
-        "text": "Vous préférez une matinée plus privée ? Profitez de votre petit-déjeuner dans le confort de votre suite. Ce service exclusif peut être demandé à l'avance et constitue le moyen idéal pour commencer la journée à votre rythme.",
+        "text": "Vous préférez une matinée plus privée ? Profitez de votre petit-déjeuner dans le confort de votre suite. Ce service exclusif peut être demandé à l'avance et constitue le moyen idéal pour commencer la journée à votre rythme.",
         "button": "Découvrez le service →"
       },
       "categories": {
@@ -109,18 +109,18 @@
       },
       "items": {
         "omeletteOfYourChoice": "Omelette au choix",
-        "friedEggs": "Oeufs au plat",
+        "friedEggs": "Œufs au plat",
         "poachedEggs": "Œufs pochés",
-        "boiledEggs": "Oeufs à la coque",
+        "boiledEggs": "Œufs durs",
         "softBoiledEggs": "Œufs à la coque",
         "englishBreakfast": "English Breakfast",
         "englishBreakfastDesc": "Œuf au plat, haricots à la tomate, champignons, bacon et hash brown.",
         "croqueMonsieur": "Croque-Monsieur",
-        "croqueMonsieurDesc": "Pain blanc ou brun, jambon cuit et fromage.",
+        "croqueMonsieurDesc": "Pain blanc ou complet, jambon cuit et fromage.",
         "royalMarinaSandwich": "Royal Marina Sandwich",
-        "royalMarinaSandwichDesc": "Pain blanc ou brun, tomate fraîche, jambon ibérique et fromage frais local.",
+        "royalMarinaSandwichDesc": "Pain blanc ou complet, tomate fraîche, jambon ibérique et fromage frais local.",
         "vegetarianSandwich": "Sandwich végétarien",
-        "vegetarianSandwichDesc": "Pain blanc ou brun, œufs brouillés aux épinards.",
+        "vegetarianSandwichDesc": "Pain blanc ou complet, œufs brouillés aux épinards.",
         "toastOfTheDay": "Toast du jour",
         "toastOfTheDayDesc": "Veuillez demander à notre équipe la sélection du jour.",
         "frenchToast": "Pain perdu",
@@ -140,7 +140,7 @@
         "decaffeinatedCoffee": "Café décaféiné"
       },
       "feature": {
-        "imageAlt": "Détail du petit déjeuner",
+        "imageAlt": "Détail du petit-déjeuner",
         "title": "Préparé à votre goût",
         "text": "Si vous le souhaitez, vous pouvez modifier ou combiner nos options de petit-déjeuner chaud. Veuillez en informer notre équipe et nous serons ravis de vous aider."
       },
@@ -167,7 +167,7 @@
         },
         "howToRequest": {
           "title": "Comment demander",
-          "text": "Merci d'adresser votre demande au plus tard la veille de votre petit-déjeuner préféré, soit en remplissant le formulaire ci-dessous, soit en vous présentant à la Réception."
+          "text": "Merci d'adresser votre demande au plus tard la veille du jour souhaité, soit en remplissant le formulaire ci-dessous, soit en vous présentant à la Réception."
         },
         "freshProducts": {
           "title": "Produits frais",
@@ -179,31 +179,31 @@
         "intro": "Remplissez le formulaire suivant et notre équipe de Réception préparera votre demande de petit-déjeuner.",
         "labels": {
           "roomNumber": "Numéro de chambre",
-          "guestName": "Nom de l'invité",
+          "guestName": "Nom du client",
           "date": "Date",
-          "deliveryTime": "Délai de livraison préféré",
+          "deliveryTime": "Heure de service souhaitée",
           "eggs": "Œufs",
           "sandwichOrToast": "Sandwich ou Toast",
           "coffee": "Café",
           "teaOrDrinks": "Thé ou autres boissons",
-          "milkPreference": "Préférence pour le lait",
-          "fruitPreference": "Préférence aux fruits",
-          "breadPreference": "Préférence pain ou pâtisserie",
+          "milkPreference": "Préférence de lait",
+          "fruitPreference": "Préférence de fruits",
+          "breadPreference": "Préférence de pain ou viennoiserie",
           "additionalRequests": "Demandes supplémentaires",
-          "allergies": "Allergies ou exigences alimentaires"
+          "allergies": "Allergies ou régimes alimentaires particuliers"
         },
         "placeholders": {
           "fruit": "Veuillez préciser votre fruit préféré (sous réserve de disponibilité)",
-          "bread": "Merci de préciser votre pain ou pâtisserie préféré (sous réserve de disponibilité)",
-          "extras": "Souhaitez-vous ajouter, supprimer ou modifier quelque chose dans votre petit-déjeuner ?",
+          "bread": "Merci de préciser le pain ou la viennoiserie de votre choix (sous réserve de disponibilité)",
+          "extras": "Souhaitez-vous ajouter, supprimer ou modifier quelque chose dans votre petit-déjeuner ?",
           "allergies": "N'hésitez pas à nous informer de toute allergie ou régime alimentaire."
         },
         "options": {
           "none": "Aucun",
           "omelette": "Omelette",
-          "friedEggs": "Oeufs au plat",
+          "friedEggs": "Œufs au plat",
           "poachedEggs": "Œufs pochés",
-          "boiledEggs": "Oeufs à la coque",
+          "boiledEggs": "Œufs durs",
           "softBoiledEggs": "Œufs à la coque",
           "croqueMonsieur": "Croque-Monsieur",
           "royalMarinaSandwich": "Royal Marina Sandwich",
@@ -212,10 +212,10 @@
           "frenchToast": "Pain perdu",
           "espresso": "Espresso",
           "doubleEspresso": "Double expresso",
-          "americano": "Américain",
+          "americano": "Americano",
           "cappuccino": "Cappuccino",
-          "latte": "Latté",
-          "flatWhite": "Blanc mat",
+          "latte": "Café latte",
+          "flatWhite": "Flat White",
           "macchiato": "Macchiato",
           "decaffeinatedCoffee": "Café décaféiné",
           "tea": "Thé",
@@ -224,7 +224,7 @@
           "freshOrangeJuice": "Jus d'orange frais",
           "wholeMilk": "Lait entier",
           "skimmedMilk": "Lait écrémé",
-          "oatMilk": "Lait d'Avoine",
+          "oatMilk": "Lait d'avoine",
           "soyMilk": "Lait de soja",
           "almondMilk": "Lait d'amande",
           "noMilk": "Pas de lait",
@@ -232,9 +232,9 @@
         },
         "notice": {
           "title": "Veuillez noter",
-          "text": "• Le petit-déjeuner dans votre suite entraîne des frais de service de <strong>10 €</strong>, qui seront facturés directement sur le compte de votre chambre.<br><br>• Les demandes doivent être soumises <strong>la veille</strong> du service demandé.<br><br>• Les fruits frais, les pâtisseries, le pain et certains produits fraîchement préparés sont soumis à disponibilité quotidienne. Même si nous ferons toujours de notre mieux pour répondre à vos préférences, certains produits peuvent parfois être indisponibles."
+          "text": "• Le petit-déjeuner dans votre suite entraîne des frais de service de <strong>20 € par chambre</strong>, qui seront facturés directement sur le compte de votre chambre.<br><br>• Les demandes doivent être soumises <strong>la veille</strong> du service demandé.<br><br>• Les fruits frais, les pâtisseries, le pain et certains produits fraîchement préparés sont soumis à disponibilité quotidienne. Même si nous ferons toujours de notre mieux pour répondre à vos préférences, certains produits peuvent parfois être indisponibles."
         },
-        "submit": "Demandez le petit-déjeuner dans votre suite"
+        "submit": "Demander le petit-déjeuner en suite"
       }
     },
     "poolBar": {
@@ -250,7 +250,7 @@
       },
       "serviceStrip": {
         "poolBar": {
-          "label": "Service de bar de la piscine",
+          "label": "Service du bar de la piscine",
           "title": "Tous les jours de 11h30 à 19h00",
           "text": "Boissons rafraîchissantes et service au bord de la piscine tout au long de l'après-midi."
         },
@@ -268,7 +268,7 @@
         "spirits": "Spiritueux",
         "hotDrinks": "Boissons chaudes",
         "smoothies": "Smoothies",
-        "softDrinks": "Boissons gazeuses"
+        "softDrinks": "Boissons sans alcool"
       },
       "sections": {
         "cocktails": "Cocktails",
@@ -277,7 +277,7 @@
         "spirits": "Spiritueux & Apéritifs",
         "hotDrinks": "Boissons chaudes",
         "smoothies": "Smoothies et jus",
-        "softDrinks": "Boissons gazeuses"
+        "softDrinks": "Boissons sans alcool"
       },
       "items": {
         "cocktailOfTheDay": "Cocktail du jour",
@@ -285,75 +285,75 @@
         "pinaColada": "Piña Colada",
         "royalMarina": "Royal Marina",
         "sexOnTheBeach": "Sex on the Beach",
-        "mojito": "Mojitos",
+        "mojito": "Mojito",
         "daiquiri": "Daïquiri",
-        "margarita": "Marguerite",
+        "margarita": "Margarita",
         "aperolSpritz": "Aperol Spritz",
         "glassOfSangria": "Verre de Sangria",
         "sangriaHalfL": "Sangria 1/2L",
         "cavaSangriaHalfL": "Sangria au cava 1/2L",
         "glassOfWine": "Verre de vin",
-        "montecilloCrianza": "Montecillo Crianza D.O. La Rioja",
+        "montecilloCrianza": "Montecillo Crianza D.O. Rioja",
         "ederraRueda": "Ederra D.O. Rueda",
         "elGrifo": "El Grifo D.O. Lanzarote",
-        "montecilloReserva": "Montecillo Reserva D.O. La Rioja",
+        "montecilloReserva": "Montecillo Reserva D.O. Rioja",
         "annaCodorniuMini": "Anna Codorniu Mini",
         "codorniuPrimaVides": "Codorniu Prima Vides",
         "piperHeidsieckBrut": "Piper Heidsieck Cuvée Brut",
         "piperHeidsieckRose": "Piper Heidsieck Cuvée Rosé",
-        "estrellaGaliciaMini": "Estrella Galice Mini",
-        "estrellaGaliciaZero": "Estrella Galice 0%",
+        "estrellaGaliciaMini": "Estrella Galicia Mini",
+        "estrellaGaliciaZero": "Estrella Galicia 0%",
         "heineken": "Heineken",
         "estrellaDamm": "Estrella Damm",
-        "doradaEspecial": "Dorada Spécial",
-        "coronita": "Coronite",
+        "doradaEspecial": "Dorada Especial",
+        "coronita": "Coronita",
         "cervezaNao": "Cerveza Nao",
         "smallNaoDraft": "Petite bière pression Nao",
         "largeNaoDraft": "Grande bière pression Nao",
         "beefeater": "Beefeater",
-        "gordons": "Gordon",
+        "gordons": "Gordon's",
         "tanqueray": "Tanqueray",
-        "nordes": "Nordiques",
-        "martinMillers": "Celui de Martin Miller",
+        "nordes": "Nordés",
+        "martinMillers": "Martin Miller's",
         "jackDaniels": "Jack Daniel's",
-        "johnnieWalkerRed": "Johnnie Walker Rouge",
-        "tequilaGold": "Téquila Or",
-        "aperol": "Apérol",
+        "johnnieWalkerRed": "Johnnie Walker Red",
+        "tequilaGold": "Tequila Gold",
+        "aperol": "Aperol",
         "campari": "Campari",
         "martiniRosso": "Martini Rosso",
-        "martiniBianco": "Martini Blanco",
-        "martiniDry": "Martini Sec",
+        "martiniBianco": "Martini Bianco",
+        "martiniDry": "Martini Dry",
         "baileys": "Baileys",
         "ronMiel": "Ron Miel",
         "amaretto": "Amaretto",
-        "tiaMaria": "Tía Maria",
+        "tiaMaria": "Tía María",
         "magno": "Magno",
-        "carlosI": "Charles Ier",
-        "absolut": "Absolu",
-        "greyGoose": "Oie grise",
+        "carlosI": "Carlos I",
+        "absolut": "Absolut",
+        "greyGoose": "Grey Goose",
         "smirnoff": "Smirnoff",
         "sambuca": "Sambuca",
         "jagermeister": "Jägermeister",
         "espresso": "Expresso",
-        "americano": "Américain",
-        "latte": "Latté",
+        "americano": "Americano",
+        "latte": "Café latte",
         "cappuccino": "Cappuccino",
         "irishCoffee": "Café irlandais",
         "baileysCoffee": "Café Baileys",
         "teaSelection": "Sélection de thés",
         "orangeJuice": "Jus d'orange",
-        "lanzaroteSmoothie": "Smoothie à Lanzarote",
+        "lanzaroteSmoothie": "Smoothie Lanzarote",
         "mediterraneanSmoothie": "Smoothie méditerranéen",
         "forestFruitsSmoothie": "Smoothie aux fruits des bois",
         "stillWater": "Eau plate",
         "sparklingWater": "Eau gazeuse",
-        "cocaCola": "Coca Cola",
-        "cocaColaZero": "Coca-Cola Zéro",
+        "cocaCola": "Coca-Cola",
+        "cocaColaZero": "Coca-Cola Zero",
         "fantaOrange": "Fanta Orange",
         "fantaLemon": "Fanta Citron",
-        "sprite": "Lutin",
-        "royalBlissTonic": "Tonique Royal Bliss",
-        "nestea": "Nestéa",
+        "sprite": "Sprite",
+        "royalBlissTonic": "Royal Bliss Tonic",
+        "nestea": "Nestea",
         "colaCao": "Cola Cao"
       },
       "feature": {
@@ -375,7 +375,7 @@
       },
       "intro": {
         "title": "Bouchées légères près de la marina",
-        "text": "Savourez à midi une sélection décontractée de salades fraîches, de saveurs des îles, de fruits de mer, de spécialités maison et de finitions sucrées, servies dans l'atmosphère élégante du restaurant Marina."
+        "text": "Savourez à midi une sélection décontractée de salades fraîches, de saveurs de l'île, de fruits de mer, de spécialités maison et de douceurs sucrées, servies dans l'atmosphère élégante du Restaurant Marina."
       },
       "timePanel": {
         "label": "Service du déjeuner",
@@ -394,7 +394,7 @@
         "desserts": "Desserts"
       },
       "items": {
-        "goatCheeseSalad": "Salade De Chèvre Et Fraises",
+        "goatCheeseSalad": "Salade de chèvre et fraises",
         "goatCheeseSaladDesc": "Feuilles de laitue mélangées, fromage de chèvre, noix, vinaigrette aux fraises, miel, vinaigre de Modène et huile d'olive extra vierge.",
         "caesarSalad": "Salade César",
         "caesarSaladDesc": "Poulet pané, bacon croustillant, tomates cerises, copeaux de parmesan et croûtons de pain croquants.",
@@ -404,26 +404,26 @@
         "iberianHamCroquettes": "Croquettes de jambon ibérique maison",
         "iberianHamCroquettesDesc": "Six morceaux préparés avec jambon ibérique, œuf, oignon, poivre noir, farine de blé et lait.",
         "canarianPotatoes": "Pommes de terre canariennes",
-        "canarianPotatoesDesc": "Servi avec mojo maison.",
-        "pokeBowl": "Poké Bol",
+        "canarianPotatoesDesc": "Servies avec un mojo maison.",
+        "pokeBowl": "Poke Bowl",
         "pokeBowlDesc": "Saumon fumé, edamame, carottes, concombre, mangue, riz basmati, radis, citron vert et huile d'olive extra vierge.",
         "clubSandwich": "Club-sandwich",
         "clubSandwichDesc": "Poulet, bacon, œuf, tomate, fromage, oignon croustillant, thym, mayonnaise, pain de mie et beurre.",
         "baoBunTeriyaki": "Bao Bun au Teriyaki",
         "baoBunTeriyakiDesc": "Pain bao aux graines de sésame, poitrine de poulet, oignon, sauce teriyaki, sauce soja et huile d'olive extra vierge.",
-        "breezeBurger": "Burger Brise",
+        "breezeBurger": "Breeze Burger",
         "breezeBurgerDesc": "Pain brioché, bœuf, avocat, fromage de chèvre, bacon, oignon, laitue, sauce brava et huile d'olive. Servi avec des frites.",
-        "grilledVegetables": "Légumes Grillés",
+        "grilledVegetables": "Légumes grillés",
         "brokenEggsHam": "Huevos rotos",
-        "codTempura": "Morue en Tempura",
+        "codTempura": "Cabillaud en tempura",
         "garlicPrawns": "Crevettes à l'ail",
         "friedCalamari": "Calamars frits",
         "prawnCocktail": "Cocktail de crevettes",
         "prawnCocktailDesc": "Laitue, ananas frais, avocat, gambas et sauce cocktail.",
-        "salmonTartare": "Tartare de Saumon à l'Avocat",
+        "salmonTartare": "Tartare de saumon à l'avocat",
         "crispyKingPrawn": "Crevettes frites",
-        "crispyKingPrawnDesc": "Servi avec curry et sauce à la mangue.",
-        "brownieIceCream": "Brownie à la glace",
+        "crispyKingPrawnDesc": "Servies avec une sauce curry-mangue.",
+        "brownieIceCream": "Brownie et sa glace",
         "cheesecakeBlueberries": "Cheesecake aux myrtilles avec glace",
         "frenchFries": "Frites",
         "brokenEggsHamDesc": "Plat traditionnel espagnol aux œufs, frites et jambon.",
@@ -437,7 +437,7 @@
         "imageAlt": "Détail du déjeuner",
         "label": "Royal Marina Selection",
         "title": "Frais, détendu et conçu pour les après-midi ensoleillés",
-        "text": "Notre menu de collations et de déjeuner a été conçu pour des moments sans effort au bord de la piscine, avec des ingrédients frais, des touches locales et de légères saveurs méditerranéennes."
+        "text": "Notre carte de snacks et de déjeuner a été pensée pour des moments de détente au bord de la piscine, avec des ingrédients frais, des touches locales et de légères saveurs méditerranéennes."
       },
       "allergen": {
         "text": "Les plats préparés dans cet établissement peuvent contenir des allergènes ou des traces d'allergènes. Si vous êtes allergique à un aliment, veuillez en informer notre équipe. Les informations sur les allergènes pour chaque plat sont disponibles sur demande."
@@ -447,7 +447,7 @@
       "pageTitle": "Dîner froid en suite | Royal Marina Suites",
       "hero": {
         "imageAlt": "Dîner froid en suite",
-        "label": "Salle à manger en suite privée",
+        "label": "Dîner privé en suite",
         "title": "Dîner froid en suite",
         "subtitle": "Sur réservation avant 15h00"
       },
@@ -488,20 +488,20 @@
       }
     },
     "bbqNight": {
-      "pageTitle": "Soirée Grillades | Royal Marina Suites",
+      "pageTitle": "Soirée grillades | Royal Marina Suites",
       "hero": {
         "imageAlt": "Soirée barbecue",
         "label": "Expérience du vendredi soir",
         "title": "Soirée grillades",
-        "subtitle": "Tous les vendredis · Sous réservation"
+        "subtitle": "Tous les vendredis · Sur réservation"
       },
       "reservation": {
         "title": "Tous les vendredis soir",
-        "text": "Grill Night est disponible sur réservation. Nos produits étant frais, des exceptions occasionnelles peuvent être possibles selon la disponibilité des produits."
+        "text": "La Soirée grillades est disponible sur réservation. Nos produits étant frais, des exceptions ponctuelles sont possibles selon leur disponibilité."
       },
       "intro": {
         "title": "Une soirée spéciale au bord de la marina",
-        "text": "Profitez d'une expérience grill pour une soirée du vendredi détendue. Les clients peuvent choisir entre une option légumes, poisson, viande ou paella pour 2, sous réserve de disponibilité."
+        "text": "Profitez d'une soirée grillades détendue le vendredi. Les clients peuvent choisir entre une option légumes, poisson, viande ou paella pour 2, sous réserve de disponibilité."
       },
       "pricing": {
         "label": "Tarif",
@@ -532,17 +532,17 @@
           "imageAlt": "Paella pour deux personnes",
           "label": "Quatrième option",
           "title": "Paella pour 2",
-          "description": "Paella traditionnelle pour deux personnes. Au choix : viande, mixte ou fruits de mer, selon disponibilité."
+          "description": "Paella traditionnelle pour deux personnes. Au choix : viande, mixte ou fruits de mer, selon disponibilité."
         }
       },
       "experience": {
         "imageAlt": "Expérience de soirée grillades",
-        "label": "Restaurant de la Marina",
+        "label": "Restaurant Marina",
         "title": "Une expérience exclusive de grillades le vendredi",
-        "text": "Conçu comme une expérience culinaire détendue en soirée, Grill Night rassemble des ingrédients frais, un service chaleureux et l'atmosphère de Royal Marina Suites."
+        "text": "Pensée comme une expérience culinaire détendue en soirée, la Soirée grillades réunit des ingrédients frais, un service chaleureux et l'atmosphère du Royal Marina Suites."
       },
       "notice": {
-        "text": "Les réservations sont recommandées à l'avance. La disponibilité peut dépendre de l'approvisionnement en produits frais, notamment pour les sélections de poisson et de viande. Veuillez contacter la réception ou le restaurant Marina pour confirmation."
+        "text": "Il est recommandé de réserver à l'avance. La disponibilité peut dépendre de l'approvisionnement en produits frais, notamment pour les poissons et les viandes. Veuillez contacter la réception ou le Restaurant Marina pour confirmation."
       }
     },
     "fridayEvening": {
@@ -663,9 +663,9 @@
       "imageAlt": "Royal Marina Suites"
     },
     "story": {
-      "label": "Accueillir",
+      "label": "Bienvenue",
       "title": "Royal Marina Suites",
-      "paragraph1": "Royal Marina Suites a été créé avec une vision simple : réunir l'exclusivité, la tranquillité et la beauté naturelle de Lanzarote avec la chaleur d'une véritable hospitalité.",
+      "paragraph1": "Royal Marina Suites a été créé avec une vision simple : réunir l'exclusivité, la tranquillité et la beauté naturelle de Lanzarote avec la chaleur d'une véritable hospitalité.",
       "paragraph2": "En tant qu'hôtel familial, nous pensons que le luxe ne se trouve pas seulement dans un cadre magnifique, mais aussi dans un service de qualité, l'attention portée aux détails, la propreté et le soin personnel. Notre objectif est de créer un séjour paisible et mémorable pour chaque client qui nous choisit.",
       "paragraph3": "Situé dans l'élégante marina de Puerto Calero, notre hôtel offre un refuge calme où les clients peuvent se détendre, explorer l'île et profiter de l'atmosphère unique qui rend Lanzarote si spéciale."
     },
@@ -674,24 +674,24 @@
       "sectionTitle": "Les personnes derrière votre séjour",
       "owners": {
         "label": "Fondateurs et propriétaires",
-        "name": "Suzanne et Miguel",
+        "name": "Susana et Miguel",
         "role": "La vision derrière Royal Marina Suites",
         "paragraph1": "Royal Marina Suites est le résultat de la vision et du dévouement de Susana et Miguel. Originaires respectivement de Grande Canarie et du sud de l’Espagne, ils habitent Lanzarote depuis plus de trois décennies.",
         "paragraph2": "Leur rêve était de créer un hôtel qui reflète l'élégance, la tranquillité et le caractère de l'île tout en préservant la chaleur d'une entreprise familiale.",
-        "paragraph3": "Bien que l'anglais ne soit pas leur langue maternelle, ils sont toujours ravis d'accueillir les invités, de partager un sourire et, lorsque cela est possible, d'avoir une conversation sur l'île qu'ils aiment.",
-        "imageAlt": "Suzanne et Miguel"
+        "paragraph3": "Bien que l'anglais ne soit pas leur langue maternelle, ils sont toujours ravis d'accueillir les clients, de partager un sourire et, lorsque cela est possible, d'échanger quelques mots sur l'île qu'ils aiment.",
+        "imageAlt": "Susana et Miguel"
       },
       "carmen": {
-        "label": "Chef de département",
-        "name": "Carmen Rodriguez",
+        "label": "Responsable des départements",
+        "name": "Carmen Rodríguez",
         "description": "Carmen supervise le flux de travail quotidien de l'hôtel, veillant à ce que tous les départements fonctionnent ensemble sans problème et à ce que les clients reçoivent la qualité et le service qu'ils méritent.",
-        "imageAlt": "Carmen Rodriguez"
+        "imageAlt": "Carmen Rodríguez"
       },
       "esmeralda": {
         "label": "Responsable des Ressources Humaines",
-        "name": "Esméralda Acosta",
-        "description": "Même si les invités ne rencontrent pas souvent Esmeralda, son rôle est essentiel. Elle soutient l'équipe dans les coulisses et contribue à créer l'environnement de travail qui permet d'offrir un excellent service chaque jour.",
-        "imageAlt": "Esméralda Acosta"
+        "name": "Esmeralda Acosta",
+        "description": "Même si les clients ne rencontrent pas souvent Esmeralda, son rôle est essentiel. Elle soutient l'équipe en coulisses et contribue à créer l'environnement de travail qui permet d'offrir un excellent service chaque jour.",
+        "imageAlt": "Esmeralda Acosta"
       },
       "jose": {
         "label": "Responsable de la réception",
@@ -700,34 +700,34 @@
         "imageAlt": "José Pimienta"
       },
       "monica": {
-        "label": "Gérant de restaurant",
-        "name": "Monica Rodríguez",
+        "label": "Responsable du restaurant",
+        "name": "Mónica Rodríguez",
         "description": "Mónica supervise le restaurant Marina, contribuant à créer une expérience culinaire détendue avec un service attentif, une organisation et une attention aux détails.",
-        "imageAlt": "Monica Rodríguez"
+        "imageAlt": "Mónica Rodríguez"
       },
       "antimo": {
         "label": "Responsable de l'entretien",
-        "name": "Antimo Valiente",
+        "name": "Antímo Valiente",
         "description": "Antímo contribue à maintenir le confort, la sécurité et l'apparence de l'hôtel, en garantissant que les installations restent en excellent état pour chaque client.",
-        "imageAlt": "Antimo Valiente"
+        "imageAlt": "Antímo Valiente"
       }
     },
     "commitment": {
       "label": "Un engagement partagé",
-      "title": "Pour que chaque séjour se sente sans effort",
-      "text": "Chaque membre de notre équipe partage le même objectif : rendre votre séjour au Royal Marina Suites aussi confortable, mémorable et agréable que possible."
+      "title": "Pour que chaque séjour soit simple et serein",
+      "text": "Chaque membre de notre équipe partage le même objectif : rendre votre séjour au Royal Marina Suites aussi confortable, mémorable et agréable que possible."
     }
   },
   "common": {
     "backToHome": "← Retour à l'accueil",
     "footer": {
       "hotelName": "Royal Marina Suites",
-      "thankYou": "Merci de nous avoir choisi"
+      "thankYou": "Merci de nous avoir choisis"
     },
     "openInGoogleMaps": "Ouvrir dans Google Maps →",
     "website": "Site Web →",
     "pleaseNote": "Veuillez noter",
-    "backToGuestServices": "← Retour aux Services Clients"
+    "backToGuestServices": "← Retour à la Conciergerie"
   },
   "facilities": {
     "pageTitle": "Installations et bien-être | Royal Marina Suites",
@@ -744,43 +744,43 @@
     },
     "pool": {
       "label": "Détente en plein air",
-      "title": "Piscine Climatisée",
+      "title": "Piscine chauffée",
       "description": "Profitez de notre piscine extérieure chauffée toute l'année, entourée de l'atmosphère paisible de Puerto Calero et du soleil de Lanzarote.",
-      "hours": "Heures d'ouverture: 09h00 – 19h00",
-      "imageAlt": "Piscine Climatisée"
+      "hours": "Heures d'ouverture : 09h00 – 19h00",
+      "imageAlt": "Piscine chauffée"
     },
     "jacuzzi": {
       "label": "Bien-être",
       "title": "Jacuzzi",
       "description": "Détendez-vous dans notre jacuzzi, un coin calme conçu pour la détente, le confort et une expérience bien-être apaisante.",
-      "hours": "Heures d'ouverture: 09h00 – 19h00",
+      "hours": "Heures d'ouverture : 09h00 – 19h00",
       "imageAlt": "Jacuzzi"
     },
     "poolBar": {
       "label": "Service au bord de la piscine",
       "title": "Bar de la piscine",
       "description": "Dégustez des cocktails, du café, des boissons rafraîchissantes et des collations légères au bord de la piscine dans un cadre élégant et détendu.",
-      "hours": "Heures d'ouverture: 11h30 – 19h00",
+      "hours": "Heures d'ouverture : 11h30 – 19h00",
       "imageAlt": "Bar de la piscine"
     },
     "gym": {
-      "label": "Aptitude",
+      "label": "Remise en forme",
       "title": "Centre de remise en forme",
       "description": "Maintenez votre routine d'entraînement dans notre centre de remise en forme entièrement équipé, créé pour le confort et la commodité pendant votre séjour.",
-      "hours": "Heures d'ouverture: 08h00 – 20h00",
+      "hours": "Heures d'ouverture : 08h00 – 20h00",
       "imageAlt": "Centre de remise en forme"
     }
   },
   "guide": {
     "pageTitle": "Découvrez Lanzarote | Royal Marina Suites",
     "hero": {
-      "subtitle": "Guide du concierge de la Royal Marina",
+      "subtitle": "Le guide du concierge Royal Marina",
       "title": "Découvrez Lanzarote",
       "tagline": "Plages · Expériences · Restauration",
       "imageAlt": "Découvrez Lanzarote"
     },
     "intro": {
-      "title": "Recommandations d'îles organisées",
+      "title": "Nos recommandations sur l'île",
       "text": "Découvrez certaines des expériences, plages et destinations gastronomiques les plus mémorables de Lanzarote, soigneusement sélectionnées pour vous aider à profiter de l'île en toute simplicité."
     },
     "experiences": {
@@ -793,10 +793,10 @@
         "imageAlt": "Parc National de Timanfaya"
       },
       "catlanza": {
-        "label": "Expérience océanique",
-        "title": "Catlanza Voile",
+        "label": "Expérience en mer",
+        "title": "Navigation avec Catlanza",
         "description": "Une expérience en catamaran premium le long de la côte, idéale pour nager, naviguer et profiter de l'Atlantique.",
-        "imageAlt": "Expérience de navigation à Catlanza"
+        "imageAlt": "Expérience de navigation avec Catlanza"
       },
       "submarine": {
         "label": "Puerto Calero",
@@ -807,7 +807,7 @@
     },
     "beaches": {
       "sectionLabel": "Plages",
-      "sectionTitle": "Points forts de la côte de Lanzarote",
+      "sectionTitle": "Les incontournables du littoral de Lanzarote",
       "famara": {
         "label": "Côte Sauvage",
         "title": "Famara",
@@ -829,7 +829,7 @@
     },
     "diningNearHotel": {
       "sectionLabel": "Dîner à proximité de l'hôtel",
-      "sectionTitle": "Restaurants Puerto Calero",
+      "sectionTitle": "Restaurants à Puerto Calero",
       "laPortena": {
         "title": "La Porteña",
         "description": "Un restaurant argentin et uruguayen à Puerto Calero, réputé pour ses viandes grillées de qualité supérieure, ses excellents vins et son magnifique cadre de marina.",
@@ -837,10 +837,10 @@
         "imageAlt": "La Porteña"
       },
       "sieteGotas": {
-        "title": "Site Gotas",
+        "title": "Siete Gotas",
         "description": "Un authentique restaurant mexicain surplombant la marina de Puerto Calero, proposant des saveurs traditionnelles, des plats vibrants et une ambiance accueillante.",
         "location": "Marina de Puerto Calero, Lanzarote →",
-        "imageAlt": "Site Gotas"
+        "imageAlt": "Siete Gotas"
       },
       "laMargarita": {
         "title": "La Margarita",
@@ -853,10 +853,10 @@
       "sectionLabel": "Ça vaut le détour",
       "sectionTitle": "Restaurants à l'extérieur de Puerto Calero",
       "brisaMarina": {
-        "title": "Marina de Brisa",
+        "title": "Brisa Marina",
         "description": "Situé à Playa Blanca, à environ 25 minutes de l'hôtel, Brisa Marina est l'un des restaurants de fruits de mer les plus renommés de Lanzarote, célèbre pour son poisson frais, ses crustacés et ses vues spectaculaires sur le front de mer.",
         "location": "Paseo Marítimo, Playa Blanca →",
-        "imageAlt": "Marina de Brisa"
+        "imageAlt": "Brisa Marina"
       },
       "bodegaDeUga": {
         "title": "Bodega de Uga",
@@ -878,9 +878,9 @@
       }
     },
     "concierge": {
-      "label": "Besoin d'aide ?",
+      "label": "Besoin d'aide ?",
       "title": "Notre équipe de réception se fera un plaisir de vous aider",
-      "text": "Pour les réservations de restaurant, les excursions sur l'île, les excursions en bateau ou les modalités de transport,\n      veuillez contacter la réception ou appuyer sur <strong>9</strong> depuis votre chambre."
+      "text": "Pour les réservations de restaurant, les excursions sur l'île, les sorties en bateau ou l'organisation de transferts,\n      veuillez contacter la réception ou appuyer sur <strong>9</strong> depuis votre chambre."
     }
   },
   "hotelInfo": {
@@ -904,39 +904,39 @@
     },
     "minibar": {
       "summary": "Politique du minibar",
-      "oceanMarina": "<strong>Suites Océan et Suites Marina :</strong> Bouteille d'eau et deux capsules de café illy® premium offertes.",
-      "royalSuites": "<strong>Suites Royales :</strong> Une recharge quotidienne de toutes les boissons, <strong>à l'exclusion des boissons alcoolisées.</strong>"
+      "oceanMarina": "<strong>Ocean Suites et Marina Suites :</strong> Bouteille d'eau et deux capsules de café illy® premium offertes.",
+      "royalSuites": "<strong>Royal Suites :</strong> Une recharge quotidienne de toutes les boissons, <strong>à l'exclusion des boissons alcoolisées.</strong>"
     },
     "poolTowels": {
       "summary": "Serviettes de piscine",
       "freeExchange": "<strong>Échange gratuit de serviettes</strong><br>\n        Disponible à la Réception tout au long de votre séjour.",
       "howToExchange": "<strong>Comment échanger</strong><br>\n        Veuillez apporter votre serviette usagée à la réception pour en recevoir une propre.",
-      "poolPolicy": "<strong>Politique du pool</strong><br>\n        Les serviettes extérieures ne sont pas autorisées dans la zone de la piscine.",
+      "poolPolicy": "<strong>Règlement de la piscine</strong><br>\n        Les serviettes n'appartenant pas à l'hôtel ne sont pas autorisées dans l'espace piscine.",
       "sunbeds": "<strong>Transats</strong><br>\n        La réservation de transats avec des serviettes n'est pas autorisée."
     },
     "cleaning": {
       "summary": "Services de nettoyage",
       "policy": "Dans le cadre de notre politique de développement durable et de notre engagement environnemental, les draps et les serviettes sont changés tous les 2 jours.",
       "additionalChange": "Si vous avez besoin d'un changement supplémentaire, veuillez nous en informer.",
-      "hashtag": "#VERTROYAL"
+      "hashtag": "#GREENROYAL"
     },
     "housekeeping": {
       "summary": "Heures de ménage",
-      "daily": "<strong>Ménage quotidien</strong><br>\n        Notre service de ménage est disponible jusqu'au <strong>15h00.</strong>",
-      "doNotDisturb": "<strong>Panneau Ne pas déranger</strong><br>\n        Nous demandons aux clients de ne pas laisser le panneau « Ne pas déranger » à l'extérieur de la chambre après le <strong>13h30</strong>.",
-      "teamNote": "Cela laisse à notre équipe suffisamment de temps pour préparer magnifiquement votre chambre chaque jour."
+      "daily": "<strong>Ménage quotidien</strong><br>\n        Notre service de ménage est disponible jusqu'à <strong>15h00.</strong>",
+      "doNotDisturb": "<strong>Panneau « Ne pas déranger »</strong><br>\n        Nous demandons aux clients de ne pas laisser le panneau « Ne pas déranger » à l'extérieur de la chambre après <strong>13h30</strong>.",
+      "teamNote": "Cela laisse à notre équipe suffisamment de temps pour préparer votre chambre avec soin chaque jour."
     }
   },
   "home": {
     "pageTitle": "Royal Marina Suites",
     "hero": {
-      "logo": "Expérience boutique · Lanzarote",
+      "logo": "Hôtel boutique · Lanzarote",
       "title": "Royal Marina Suites",
-      "subtitle": "Bienvenue dans votre guide invité privé"
+      "subtitle": "Bienvenue dans votre guide digital"
     },
     "welcome": {
-      "title": "Accueillir",
-      "description": "Découvrez toutes les informations essentielles pour votre séjour, des horaires du petit-déjeuner et des installations de l'hôtel aux recommandations locales et aux services clients."
+      "title": "Bienvenue",
+      "description": "Découvrez toutes les informations essentielles pour votre séjour, des horaires du petit-déjeuner et des installations de l'hôtel aux recommandations locales et aux services de conciergerie."
     },
     "cards": {
       "ourStory": {
@@ -946,7 +946,7 @@
       },
       "guestInformation": {
         "title": "Informations clients",
-        "description": "Horaires d'arrivée et de départ, politiques, services et informations utiles sur les clients.",
+        "description": "Horaires d'arrivée et de départ, règlements, services et informations pratiques pour votre séjour.",
         "button": "Afficher les détails"
       },
       "facilitiesWellness": {
@@ -955,13 +955,13 @@
         "button": "Explorer les installations"
       },
       "marinaRestaurant": {
-        "title": "Restaurant de la Marina",
+        "title": "Restaurant Marina",
         "description": "Découvrez notre restaurant, nos menus, nos horaires d'ouverture et nos expériences culinaires.",
         "button": "Voir le restaurant"
       },
       "guestServices": {
-        "title": "Services aux clients",
-        "description": "Découvrez nos services clients, nos expériences organisées et nos informations essentielles.",
+        "title": "Conciergerie",
+        "description": "Découvrez nos services de conciergerie, nos expériences sur mesure et nos informations essentielles.",
         "button": "Contacter la réception"
       },
       "discoverLanzarote": {
@@ -972,7 +972,7 @@
       "wifiAccess": {
         "title": "Accès Wi-Fi",
         "description": "Connectez-vous rapidement à notre service Internet haut débit gratuit.",
-        "button": "Connecter"
+        "button": "Se connecter"
       }
     },
     "importantInfo": {
@@ -983,12 +983,12 @@
     }
   },
   "reception": {
-    "pageTitle": "Services aux clients | Royal Marina Suites",
+    "pageTitle": "Conciergerie | Royal Marina Suites",
     "hero": {
       "subtitle": "Royal Marina Suites",
-      "title": "Services aux clients",
-      "tagline": "Accueil · Transferts · Expériences",
-      "imageAlt": "Services aux clients"
+      "title": "Conciergerie",
+      "tagline": "Réception · Transferts · Expériences",
+      "imageAlt": "Conciergerie"
     },
     "receptionBox": {
       "label": "Réception 24 heures sur 24",
@@ -1009,7 +1009,7 @@
       "label": "Transport",
       "title": "Transfert aéroport privé",
       "description": "Nous pouvons vous aider à organiser un service de transfert privé depuis ou vers l'aéroport. Veuillez contacter la réception pour obtenir de l'aide.",
-      "bookLink": "Transfert de livre →",
+      "bookLink": "Réserver un transfert →",
       "imageAlt": "Transfert aéroport privé"
     },
     "bike": {
@@ -1019,7 +1019,7 @@
       "imageAlt": "Location de vélo"
     },
     "car": {
-      "label": "Liberté insulaire",
+      "label": "Liberté sur l'île",
       "title": "Location de voitures",
       "description": "Explorez Lanzarote avec une plus grande flexibilité grâce à notre partenaire de location de voitures de confiance.",
       "bookLink": "Réserver une location de voiture →",
@@ -1041,7 +1041,7 @@
   "transfer": {
     "pageTitle": "Demande de transfert privé | Royal Marina Suites",
     "hero": {
-      "subtitle": "Services aux clients",
+      "subtitle": "Conciergerie",
       "title": "Transfert aéroport privé",
       "tagline": "Formulaire de demande",
       "imageAlt": "Transfert aéroport privé"
@@ -1062,13 +1062,13 @@
         "price": "85 € l'aller / 170 € l'aller-retour",
         "description": "Mercedes S350."
       },
-      "warning": "Un chauffeur vous attendra à votre arrivée avec une pancarte personnalisée.\n      Pour les arrivées à l'aéroport, il y a un supplément supplémentaire de <strong>15€</strong>, incluant le suivi des vols,\n      jusqu'à 1 heure d'attente après l'atterrissage, et reprogrammation en cas de retard ou d'arrivée anticipée.\n      <br><br>\n      <strong>Politique d'annulation :</strong> les annulations effectuées moins de 24 heures avant la prestation entraîneront 100 %\n      du tarif total, supplément compris."
+      "warning": "Un chauffeur vous attendra à votre arrivée avec une pancarte personnalisée.\n      Pour les arrivées à l'aéroport, il y a un supplément de <strong>15€</strong>, incluant le suivi des vols,\n      jusqu'à 1 heure d'attente après l'atterrissage, et reprogrammation en cas de retard ou d'arrivée anticipée.\n      <br><br>\n      <strong>Politique d'annulation :</strong> les annulations effectuées moins de 24 heures avant la prestation seront facturées à hauteur de 100 %\n      du tarif total, supplément compris."
     },
     "form": {
       "title": "Demande de transfert",
       "passengerName": "Nom du passager",
       "email": "E-mail de confirmation",
-      "mobileName": "Nom du portable",
+      "mobileName": "Nom du contact (si différent)",
       "phoneNumber": "Numéro de téléphone",
       "passengers": "Nombre de passagers",
       "suitcases": "Nombre et taille des valises",
@@ -1079,7 +1079,7 @@
       "transferType": "Type de transfert",
       "typeArrival": "De l'aéroport à l'hôtel uniquement",
       "typeDeparture": "De l'hôtel à l'aéroport uniquement",
-      "typeRoundtrip": "Aller-retour - Aéroport à hôtel et hôtel à aéroport",
+      "typeRoundtrip": "Aller-retour - De l'aéroport à l'hôtel et de l'hôtel à l'aéroport",
       "paymentMethod": "Mode de paiement",
       "paymentCreditCard": "Carte de crédit",
       "paymentCash": "Espèces",
@@ -1091,9 +1091,9 @@
       "departureFlightNumber": "Numéro de vol de départ",
       "pickupTime": "Heure de prise en charge à l'hôtel",
       "additionalNotes": "Notes complémentaires",
-      "submit": "Envoyer une demande de transfert",
-      "mobileNamePlaceholder": "Nom lié au numéro de téléphone",
-      "suitcasesPlaceholder": "Exemple : 2 grands, 1 cabine",
+      "submit": "Envoyer la demande de transfert",
+      "mobileNamePlaceholder": "Nom de la personne à demander lors de notre appel",
+      "suitcasesPlaceholder": "Exemple : 2 grandes, 1 bagage cabine",
       "additionalNotesPlaceholder": "Siège bébé, assistance particulière, bagages supplémentaires, détails souhaités, etc."
     }
   },
@@ -1111,14 +1111,14 @@
       "networkLabel": "Réseau",
       "networkName": "Royal Marina Suites",
       "passwordLabel": "Mot de passe",
-      "passwordValue": "BienvenueRMS2022"
+      "passwordValue": "WelcomeRMS2022"
     },
     "howToConnect": {
       "title": "Comment se connecter",
       "text": "Ouvrez les paramètres Wi-Fi de votre appareil, sélectionnez le réseau de l'hôtel et saisissez le mot de passe indiqué ci-dessus."
     },
     "assistance": {
-      "title": "Besoin d'aide ?",
+      "title": "Besoin d'aide ?",
       "text": "Si vous rencontrez des problèmes de connexion, veuillez contacter la réception. Depuis votre chambre, appuyez sur <strong>9</strong>."
     },
     "notice": {

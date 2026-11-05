@@ -50,6 +50,17 @@
       // Ignore storage errors and fall back to default language.
     }
 
+    // First visit: use the guest's device language when we support it.
+    var browserLangs = (navigator.languages && navigator.languages.length)
+      ? navigator.languages
+      : [navigator.language || ''];
+    for (var i = 0; i < browserLangs.length; i++) {
+      var detected = normalizeLang(String(browserLangs[i]).slice(0, 2));
+      if (detected) {
+        return detected;
+      }
+    }
+
     return DEFAULT_LANG;
   }
 
@@ -130,6 +141,7 @@
 
     document.documentElement.lang = lang;
     updateLanguageSwitcher(lang);
+    document.dispatchEvent(new CustomEvent('rms:translated', { detail: { lang: lang } }));
   }
 
   function updateLanguageSwitcher(activeLang) {
@@ -157,11 +169,9 @@
         }
 
         var url = new URL(window.location.href);
-        if (lang === DEFAULT_LANG) {
-          url.searchParams.delete('lang');
-        } else {
-          url.searchParams.set('lang', lang);
-        }
+        // Always keep the language in the URL so it survives browsers that
+        // block storage (e.g. Safari inside the guia.royalmarinasuites.com iframe).
+        url.searchParams.set('lang', lang);
         window.location.href = url.toString();
       });
     });
@@ -169,6 +179,7 @@
 
   function init() {
     var lang = getCurrentLang();
+    window.RMS_LANG = lang;
     setupLanguageSwitcher();
     updateLanguageSwitcher(lang);
 
