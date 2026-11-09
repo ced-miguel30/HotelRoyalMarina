@@ -685,19 +685,29 @@
      Show them at a sensible size over a blurred copy of themselves instead. */
 
   function fixLowResImages() {
+    // On the restaurant menus every dish photo is shown whole (never cropped).
+    var showWhole = /\/MarinaRestaurant\//.test(location.pathname);
     document.querySelectorAll('img').forEach(function (img) {
-      if (img.closest('.rms-lowres, .hero, .hero-small, .leaflet-container, .rms-nav')) {
+      if (img.closest('.rms-lowres, .hero, .hero-small, [class*="hero"], .leaflet-container, .rms-nav')) {
         return;
       }
       var check = function () {
-        var boxW = img.clientWidth;
-        if (!img.naturalWidth || !boxW) { return; }
+        var boxW = img.clientWidth, boxH = img.clientHeight;
+        if (!img.naturalWidth || !boxW || !boxH) { return; }
         var needed = boxW * Math.min(window.devicePixelRatio || 1, 2);
-        if (img.naturalWidth >= needed * 0.6) { return; }
+        var lowRes = img.naturalWidth < needed * 0.6;
+        var cropped = Math.abs((img.naturalWidth / img.naturalHeight) / (boxW / boxH) - 1) > 0.04;
+        if (!lowRes && !(showWhole && cropped)) { return; }
         var wrap = document.createElement('div');
         wrap.className = 'rms-lowres';
         var cs = getComputedStyle(img);
         wrap.style.height = cs.height;
+        if (showWhole && img.naturalWidth >= boxW * 0.75) {
+          // Let the frame take the photo's own shape (full width, no crop),
+          // capped so very tall photos don't take over the screen.
+          var natural = boxW * img.naturalHeight / img.naturalWidth;
+          wrap.style.height = Math.round(Math.min(natural, boxW * 1.25)) + 'px';
+        }
         wrap.style.width = cs.width;
         wrap.style.minWidth = cs.minWidth;
         wrap.style.borderRadius = cs.borderRadius;
