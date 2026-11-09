@@ -227,12 +227,12 @@ html.rms-sheet-open, html.rms-sheet-open body{ overflow:hidden; }
 .rms-lowres::before{
   content:""; position:absolute; inset:-20px;
   background:var(--lowres-bg) center / cover no-repeat;
-  filter:blur(18px) saturate(1.1); opacity:.85;
+  filter:blur(22px) saturate(1.05) brightness(.95); opacity:.9;
 }
 .rms-lowres img{
   position:relative; z-index:1;
   width:auto !important; min-width:0 !important;
-  max-width:88% !important; max-height:86% !important; height:auto !important;
-  object-fit:contain !important;
-  border-radius:10px; box-shadow:0 8px 24px rgba(10,19,41,.25);
+  height:100% !important; max-width:100% !important;
+  object-fit:contain !important; object-position:center !important;
+  border-radius:0 !important; box-shadow:none !important;
 }

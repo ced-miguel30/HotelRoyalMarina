@@ -881,7 +881,9 @@
       "label": "¿Necesita ayuda?",
       "title": "Nuestro equipo de recepción estará encantado de ayudarle",
       "text": "Para reservas en restaurantes, excursiones por la isla, paseos en barco o traslados,\n      póngase en contacto con recepción o pulse <strong>9</strong> desde su habitación."
-    }
+    },
+    "photoCredits": "Créditos de las fotos",
+    "photoCreditsNote": "Imagen de Wikimedia Commons."
   },
   "hotelInfo": {
     "pageTitle": "Información para huéspedes | Royal Marina Suites",

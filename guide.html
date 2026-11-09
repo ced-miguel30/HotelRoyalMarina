@@ -308,6 +308,11 @@ footer{
     min-height:58vh;
   }
 }
+
+.photo-credits{ margin-top:28px; font-size:12px; color:var(--muted); }
+.photo-credits summary{ cursor:pointer; }
+.photo-credits ul{ padding-left:18px; margin:8px 0; }
+.photo-credits a{ color:var(--muted); }
 </style>
 <link rel="stylesheet" href="css/language-switcher.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -401,7 +406,7 @@ footer{
   <div class="card-grid">
 
     <div class="card">
-      <img src="images/famara.jpg" alt="Famara Beach" data-i18n-alt="guide.beaches.famara.imageAlt">
+      <img src="images/famara-wiki.jpg" alt="Famara Beach" data-i18n-alt="guide.beaches.famara.imageAlt">
       <div class="card-content">
         <span data-i18n="guide.beaches.famara.label">Wild Coast</span>
         <h3 data-i18n="guide.beaches.famara.title">Famara</h3>
@@ -600,6 +605,14 @@ footer{
 
   <a class="back" href="index.html" data-i18n="common.backToHome">← Back to Home</a>
 
+
+  <details class="photo-credits">
+    <summary data-i18n="guide.photoCredits">Photo credits</summary>
+    <ul>
+      <li>Famara: <a href="https://commons.wikimedia.org/wiki/File:Blick_vom_Mirador_de_El_Risco_de_Famara_auf_den_Playa_de_Famara_und_die_Urbanizaci%C3%B3n_Famara,_Lanzarote.jpg" target="_blank" rel="noopener">GerritR</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a></li>
+    </ul>
+    <p data-i18n="guide.photoCreditsNote">Illustrative images from Wikimedia Commons.</p>
+  </details>
 </div>
 
 <footer data-i18n="common.footer.hotelName">

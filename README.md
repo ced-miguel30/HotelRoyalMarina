@@ -34,7 +34,6 @@ Los eventos pasados se ocultan solos.
 ## Tiempo e índice UV
 
 Datos en directo de Open-Meteo (sin clave). Si la API no responde, el bloque no se muestra.
-```
 
 ## Asistente de preguntas (`data/assistant.json`)
 

@@ -881,7 +881,9 @@
       "label": "Need Assistance?",
       "title": "Our reception team will be delighted to help",
       "text": "For restaurant reservations, island excursions, boat trips or transport arrangements,\n      please contact reception or press <strong>9</strong> from your room."
-    }
+    },
+    "photoCredits": "Photo credits",
+    "photoCreditsNote": "Image from Wikimedia Commons."
   },
   "hotelInfo": {
     "pageTitle": "Guest Information | Royal Marina Suites",
