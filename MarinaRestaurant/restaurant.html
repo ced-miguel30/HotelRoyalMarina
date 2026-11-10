@@ -224,6 +224,11 @@ footer{
     min-height:55vh;
   }
 }
+
+.group-head{ margin:44px 0 18px; text-align:center; }
+.group-head span{ display:block; font-size:12px; letter-spacing:3px; text-transform:uppercase; color:var(--gold-ink); margin-bottom:6px; }
+.group-head h2{ margin:0; font-size:36px; color:var(--blue); font-weight:500; }
+.group-head p{ max-width:560px; margin:8px auto 0; color:var(--muted); }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -262,8 +267,12 @@ footer{
     </p>
   </div>
 
+  <div class="group-head" id="camarote">
+    <span data-i18n="marinaRestaurant.restaurant.groups.camarote.label">Restaurant</span>
+    <h2 data-i18n="marinaRestaurant.restaurant.groups.camarote.title">El Camarote</h2>
+    <p data-i18n="marinaRestaurant.restaurant.groups.camarote.text">Breakfast, lunch and dinner, with paellas, fresh fish, seafood and grilled meats.</p>
+  </div>
   <div class="menu-grid">
-
     <a href="breakfast.html" class="menu-card">
       <img src="../images/breakfast.jpeg" alt="Breakfast" data-i18n-alt="marinaRestaurant.restaurant.cards.breakfast.imageAlt">
       <div class="menu-content">
@@ -273,49 +282,24 @@ footer{
         <div class="button-text" data-i18n="marinaRestaurant.restaurant.cards.breakfast.button">View Breakfast →</div>
       </div>
     </a>
-
-    <a href="snacks.html" class="menu-card">
-      <img src="../images/snacks.jpg" alt="Snacks and lunch" data-i18n-alt="marinaRestaurant.restaurant.cards.snacks.imageAlt">
+    <a href="camarote.html" class="menu-card">
+      <img src="../images/restaurant.jpeg" alt="El Camarote" data-i18n-alt="marinaRestaurant.restaurant.cards.camaroteMenu.imageAlt">
       <div class="menu-content">
-        <span data-i18n="marinaRestaurant.restaurant.cards.snacks.time">12:00 - 15:30</span>
-        <h3 data-i18n="marinaRestaurant.restaurant.cards.snacks.title">Snacks & Lunch</h3>
-        <p data-i18n="marinaRestaurant.restaurant.cards.snacks.description">Light dishes, salads, specialties, seafood and desserts.</p>
-        <div class="button-text" data-i18n="marinaRestaurant.restaurant.cards.snacks.button">View Snacks →</div>
+        <span data-i18n="marinaRestaurant.restaurant.cards.camaroteMenu.time">Lunch 13:00 - 15:30</span>
+        <h3 data-i18n="marinaRestaurant.restaurant.cards.camaroteMenu.title">Restaurant Menu</h3>
+        <p data-i18n="marinaRestaurant.restaurant.cards.camaroteMenu.description">Starters, paellas, fish, seafood and grilled meats.</p>
+        <div class="button-text" data-i18n="marinaRestaurant.restaurant.cards.camaroteMenu.button">View Menu →</div>
       </div>
     </a>
-
-    <a href="pool-bar.html" class="menu-card">
-      <img src="../images/poolbar.jpeg" alt="Pool Bar" data-i18n-alt="marinaRestaurant.restaurant.cards.poolBar.imageAlt">
+    <a href="paellas.html" class="menu-card">
+      <img src="../images/paella1.jpg" alt="Paellas" data-i18n-alt="marinaRestaurant.restaurant.cards.paellas.imageAlt">
       <div class="menu-content">
-        <span data-i18n="marinaRestaurant.restaurant.cards.poolBar.time">11:30 - 18:30</span>
-        <h3 data-i18n="marinaRestaurant.restaurant.cards.poolBar.title">Pool Bar</h3>
-        <p data-i18n="marinaRestaurant.restaurant.cards.poolBar.description">Refreshments, cocktails, wine, beer, coffee and soft drinks.</p>
-        <div class="button-text" data-i18n="marinaRestaurant.restaurant.cards.poolBar.button">View Drinks →</div>
+        <span data-i18n="marinaRestaurant.restaurant.cards.paellas.time">Order the day before · Lunch</span>
+        <h3 data-i18n="marinaRestaurant.restaurant.cards.paellas.title">Paellas</h3>
+        <p data-i18n="marinaRestaurant.restaurant.cards.paellas.description">Traditional paella for two, available as seafood, meat or mixed.</p>
+        <div class="button-text" data-i18n="marinaRestaurant.restaurant.cards.paellas.button">Discover More →</div>
       </div>
     </a>
-
-    <a href="cold-dinner.html" class="menu-card">
-      <img src="../images/cold-dinner-hero.jpg" alt="Cold Dinner" data-i18n-alt="marinaRestaurant.restaurant.cards.coldDinner.imageAlt">
-      <div class="menu-content">
-        <span data-i18n="marinaRestaurant.restaurant.cards.coldDinner.time">Order before 15:00</span>
-        <h3 data-i18n="marinaRestaurant.restaurant.cards.coldDinner.title">Cold Dinner in Suite</h3>
-        <p data-i18n="marinaRestaurant.restaurant.cards.coldDinner.description">Selected cold dinner options served in your suite under reservation.</p>
-        <div class="button-text" data-i18n="marinaRestaurant.restaurant.cards.coldDinner.button">View Cold Dinner →</div>
-      </div>
-    </a>
-
-    <!-- **HIDE GRILL NIGHT**
-    <a href="bbq-night.html" class="menu-card">
-      <img src="../images/bbq-hero.jpg" alt="BBQ Grill Night" data-i18n-alt="marinaRestaurant.restaurant.cards.bbqNight.imageAlt">
-      <div class="menu-content">
-        <span data-i18n="marinaRestaurant.restaurant.cards.bbqNight.time">Every Friday</span>
-        <h3 data-i18n="marinaRestaurant.restaurant.cards.bbqNight.title">BBQ Grill Night</h3>
-        <p data-i18n="marinaRestaurant.restaurant.cards.bbqNight.description">A special evening experience available under reservation.</p>
-        <div class="button-text" data-i18n="marinaRestaurant.restaurant.cards.bbqNight.button">Discover More →</div>
-      </div>
-    </a>
-    -->
-
     <a href="friday-evening.html" class="menu-card">
       <div class="photo-slot" data-file="friday-hero.jpg">
         <img src="../images/friday-hero.jpg" alt="Special Promotion - Every Friday at Marina Restaurant" data-i18n-alt="marinaRestaurant.restaurant.cards.fridayEvening.imageAlt" onerror="this.classList.add('is-missing')">
@@ -327,17 +311,52 @@ footer{
         <div class="button-text" data-i18n="marinaRestaurant.restaurant.cards.fridayEvening.button">Discover More →</div>
       </div>
     </a>
-
-    <a href="paellas.html" class="menu-card">
-      <img src="../images/paella1.jpg" alt="Paellas" data-i18n-alt="marinaRestaurant.restaurant.cards.paellas.imageAlt">
+    <a href="cold-dinner.html" class="menu-card">
+      <img src="../images/cold-dinner-hero.jpg" alt="Cold Dinner" data-i18n-alt="marinaRestaurant.restaurant.cards.coldDinner.imageAlt">
       <div class="menu-content">
-        <span data-i18n="marinaRestaurant.restaurant.cards.paellas.time">Order the day before · Lunch</span>
-        <h3 data-i18n="marinaRestaurant.restaurant.cards.paellas.title">Paellas</h3>
-        <p data-i18n="marinaRestaurant.restaurant.cards.paellas.description">Traditional paella for two, available as seafood, meat or mixed.</p>
-        <div class="button-text" data-i18n="marinaRestaurant.restaurant.cards.paellas.button">Discover More →</div>
+        <span data-i18n="marinaRestaurant.restaurant.cards.coldDinner.time">Order before 15:00</span>
+        <h3 data-i18n="marinaRestaurant.restaurant.cards.coldDinner.title">Cold Dinner in Suite</h3>
+        <p data-i18n="marinaRestaurant.restaurant.cards.coldDinner.description">Selected cold dinner options served in your suite under reservation.</p>
+        <div class="button-text" data-i18n="marinaRestaurant.restaurant.cards.coldDinner.button">View Cold Dinner →</div>
       </div>
     </a>
+    <!-- **HIDE GRILL NIGHT**
+    <a href="bbq-night.html" class="menu-card">
+      <img src="../images/bbq-hero.jpg" alt="BBQ Grill Night" data-i18n-alt="marinaRestaurant.restaurant.cards.bbqNight.imageAlt">
+      <div class="menu-content">
+        <span data-i18n="marinaRestaurant.restaurant.cards.bbqNight.time">Every Friday</span>
+        <h3 data-i18n="marinaRestaurant.restaurant.cards.bbqNight.title">BBQ Grill Night</h3>
+        <p data-i18n="marinaRestaurant.restaurant.cards.bbqNight.description">A special evening experience available under reservation.</p>
+        <div class="button-text" data-i18n="marinaRestaurant.restaurant.cards.bbqNight.button">Discover More →</div>
+      </div>
+    </a>
+    -->
+  </div>
 
+  <div class="group-head" id="lounge">
+    <span data-i18n="marinaRestaurant.restaurant.groups.lounge.label">Snack Bar & Drinks</span>
+    <h2 data-i18n="marinaRestaurant.restaurant.groups.lounge.title">Marina Lounge</h2>
+    <p data-i18n="marinaRestaurant.restaurant.groups.lounge.text">Light bites, salads and sandwiches at midday, and cocktails, beers, smoothies and coffee all afternoon.</p>
+  </div>
+  <div class="menu-grid">
+    <a href="snacks.html" class="menu-card">
+      <img src="../images/snacks.jpg" alt="Snacks and lunch" data-i18n-alt="marinaRestaurant.restaurant.cards.snacks.imageAlt">
+      <div class="menu-content">
+        <span data-i18n="marinaRestaurant.restaurant.cards.snacks.time">12:00 - 15:30</span>
+        <h3 data-i18n="marinaRestaurant.restaurant.cards.snacks.title">Snacks & Lunch</h3>
+        <p data-i18n="marinaRestaurant.restaurant.cards.snacks.description">Light dishes, salads, specialties, seafood and desserts.</p>
+        <div class="button-text" data-i18n="marinaRestaurant.restaurant.cards.snacks.button">View Snacks →</div>
+      </div>
+    </a>
+    <a href="pool-bar.html" class="menu-card">
+      <img src="../images/poolbar.jpeg" alt="Pool Bar" data-i18n-alt="marinaRestaurant.restaurant.cards.poolBar.imageAlt">
+      <div class="menu-content">
+        <span data-i18n="marinaRestaurant.restaurant.cards.poolBar.time">11:30 - 18:30</span>
+        <h3 data-i18n="marinaRestaurant.restaurant.cards.poolBar.title">Pool Bar</h3>
+        <p data-i18n="marinaRestaurant.restaurant.cards.poolBar.description">Refreshments, cocktails, wine, beer, coffee and soft drinks.</p>
+        <div class="button-text" data-i18n="marinaRestaurant.restaurant.cards.poolBar.button">View Drinks →</div>
+      </div>
+    </a>
   </div>
 
   <div class="notice">

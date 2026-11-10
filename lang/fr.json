@@ -3,9 +3,9 @@
     "shared": {
       "footer": "Royal Marina Suites",
       "brandLabel": "Royal Marina Suites",
-      "marinaRestaurantLabel": "Restaurant Marina",
+      "marinaRestaurantLabel": "El Camarote",
       "backToHome": "← Retour à l'accueil",
-      "backToRestaurant": "← Retour au Restaurant Marina",
+      "backToRestaurant": "← Retour aux restaurants",
       "backToBreakfast": "← Retour au petit-déjeuner",
       "allergenTitle": "Informations sur les allergènes",
       "pleaseNoteTitle": "Veuillez noter",
@@ -16,15 +16,15 @@
       "reservationRequired": "Réservation obligatoire"
     },
     "restaurant": {
-      "pageTitle": "Restaurant Marina | Royal Marina Suites",
+      "pageTitle": "Restaurants | Royal Marina Suites",
       "hero": {
-        "imageAlt": "Restaurant Marina",
-        "title": "Restaurant Marina",
-        "subtitle": "Restauration, boissons et expériences sur mesure"
+        "imageAlt": "El Camarote",
+        "title": "Restaurants",
+        "subtitle": "El Camarote · Marina Lounge"
       },
       "intro": {
-        "title": "Restaurant & Bar",
-        "text": "Découvrez notre service de petit-déjeuner, notre bar au bord de la piscine, nos collations, nos options de dîner froid dans la suite, nos paellas et nos expériences culinaires spéciales au Royal Marina Suites."
+        "title": "Deux espaces, un seul hôtel",
+        "text": "El Camarote est notre restaurant pour le petit-déjeuner, le déjeuner et le dîner. Le Marina Lounge est notre snack-bar, pour grignoter et boire un verre tout au long de la journée."
       },
       "cards": {
         "breakfast": {
@@ -37,15 +37,15 @@
         "snacks": {
           "time": "12h00 - 15h30",
           "imageAlt": "Collations et déjeuner",
-          "title": "Collations et déjeuner",
-          "description": "Plats légers, salades, spécialités, fruits de mer et desserts.",
-          "button": "Voir les collations →"
+          "title": "Carte du snack-bar",
+          "description": "Nachos, salades, sandwichs, fruits de mer et desserts.",
+          "button": "Voir la carte →"
         },
         "poolBar": {
           "time": "11h30 - 18h30",
-          "imageAlt": "Bar de la piscine",
-          "title": "Bar de la piscine",
-          "description": "Rafraîchissements, cocktails, vin, bière, café et boissons sans alcool.",
+          "imageAlt": "Marina Lounge",
+          "title": "Bar et boissons",
+          "description": "Cocktails, bières, smoothies, café et sodas.",
           "button": "Voir les boissons →"
         },
         "coldDinner": {
@@ -64,7 +64,7 @@
         },
         "fridayEvening": {
           "time": "Jusqu'à 21h00",
-          "imageAlt": "Promotion spéciale - Tous les vendredis au Restaurant Marina",
+          "imageAlt": "Promotion spéciale - Tous les vendredis à El Camarote",
           "title": "Promotion spéciale - Tous les vendredis",
           "description": "Le restaurant reste ouvert jusqu'à 21h00, avec le menu snacks et les spécialités du jour. Aucune réservation n'est nécessaire.",
           "button": "En savoir plus →"
@@ -75,10 +75,29 @@
           "title": "Paellas",
           "description": "Paella traditionnelle pour 2 personnes, disponible aux fruits de mer, à la viande ou mixte.",
           "button": "En savoir plus →"
+        },
+        "camaroteMenu": {
+          "time": "Déjeuner 13h00 - 15h30",
+          "title": "Carte du restaurant",
+          "description": "Entrées, paellas, poissons, fruits de mer et viandes à la plancha.",
+          "button": "Voir la carte →",
+          "imageAlt": "El Camarote"
         }
       },
       "allergen": {
         "text": "Certains plats peuvent contenir des allergènes ou des traces d'allergènes. Merci d’informer notre équipe de toute allergie ou besoin diététique."
+      },
+      "groups": {
+        "camarote": {
+          "label": "Restaurant",
+          "title": "El Camarote",
+          "text": "Petit-déjeuner, déjeuner et dîner, avec paellas, poisson frais, fruits de mer et viandes à la plancha."
+        },
+        "lounge": {
+          "label": "Snack-bar et boissons",
+          "title": "Marina Lounge",
+          "text": "Petits plats, salades et sandwichs à midi, cocktails, bières, smoothies et café tout l'après-midi."
+        }
       }
     },
     "breakfast": {
@@ -238,19 +257,19 @@
       }
     },
     "poolBar": {
-      "pageTitle": "Bar de la piscine | Royal Marina Suites",
+      "pageTitle": "Bar et boissons · Marina Lounge | Royal Marina Suites",
       "hero": {
-        "imageAlt": "Bar de la piscine au Royal Marina Suites",
-        "title": "Bar de la piscine",
+        "imageAlt": "Marina Lounge",
+        "title": "Bar et boissons",
         "hours": "11h30 - 18h30"
       },
       "intro": {
-        "title": "Boissons au bord de la piscine",
-        "text": "Dégustez des cocktails, des vins, des bières, des spiritueux, des smoothies, du café et des boissons sans alcool dans un cadre détendu au bord de la piscine du Royal Marina Suites."
+        "title": "Boissons au Marina Lounge",
+        "text": "Cocktails, bières, apéritifs, smoothies, café et sodas, servis au Marina Lounge. La même carte des boissons est aussi proposée à El Camarote."
       },
       "serviceStrip": {
         "poolBar": {
-          "label": "Service du bar de la piscine",
+          "label": "Bar du Marina Lounge",
           "title": "Tous les jours de 11h30 à 18h30",
           "text": "Boissons rafraîchissantes et service au bord de la piscine tout au long de l'après-midi."
         },
@@ -360,25 +379,25 @@
         "imageAlt": "Cocktail au bord de la piscine",
         "label": "Sélection au bord de la piscine",
         "title": "Conçu pour les après-midi tranquilles sous le soleil de Lanzarote",
-        "text": "Des cocktails classiques aux vins locaux en passant par les smoothies rafraîchissants, notre Pool Bar est conçu pour des moments de détente entre la piscine, la terrasse et la brise de l'Atlantique."
+        "text": "Des cocktails classiques aux bières artisanales et aux smoothies rafraîchissants, le Marina Lounge est pensé pour des moments de détente sous le soleil de Lanzarote."
       },
       "notice": {
-        "text": "La disponibilité peut varier en fonction des heures de service et du stock. Veuillez demander à notre équipe du Pool Bar les recommandations du jour."
+        "text": "La disponibilité peut varier selon l’horaire et les stocks. Demandez à l’équipe du Marina Lounge les suggestions du jour."
       }
     },
     "snacks": {
-      "pageTitle": "Collations et déjeuner | Royal Marina Suites",
+      "pageTitle": "Snack-bar · Marina Lounge | Royal Marina Suites",
       "hero": {
         "imageAlt": "Collations et déjeuner au Royal Marina Suites",
-        "title": "Collations et déjeuner",
+        "title": "Snack-bar",
         "hours": "12h00 - 15h30"
       },
       "intro": {
-        "title": "Bouchées légères près de la marina",
-        "text": "Savourez à midi une sélection décontractée de salades fraîches, de saveurs de l'île, de fruits de mer, de spécialités maison et de douceurs sucrées, servies dans l'atmosphère élégante du Restaurant Marina."
+        "title": "Petites assiettes au Marina Lounge",
+        "text": "Nachos, salades fraîches, sandwichs, fruits de mer et desserts, servis à midi au Marina Lounge."
       },
       "timePanel": {
-        "label": "Service du déjeuner",
+        "label": "Snack-bar",
         "hours": "Tous les jours de 12h00 à 15h30"
       },
       "nav": {
@@ -537,30 +556,30 @@
       },
       "experience": {
         "imageAlt": "Expérience de soirée grillades",
-        "label": "Restaurant Marina",
+        "label": "El Camarote",
         "title": "Une expérience exclusive de grillades le vendredi",
         "text": "Pensée comme une expérience culinaire détendue en soirée, la Soirée grillades réunit des ingrédients frais, un service chaleureux et l'atmosphère du Royal Marina Suites."
       },
       "notice": {
-        "text": "Il est recommandé de réserver à l'avance. La disponibilité peut dépendre de l'approvisionnement en produits frais, notamment pour les poissons et les viandes. Veuillez contacter la réception ou le Restaurant Marina pour confirmation."
+        "text": "Il est recommandé de réserver à l'avance. La disponibilité peut dépendre de l'approvisionnement en produits frais, notamment pour les poissons et les viandes. Veuillez contacter la réception ou El Camarote pour confirmation."
       }
     },
     "fridayEvening": {
       "pageTitle": "Promotion spéciale - Tous les vendredis | Royal Marina Suites",
       "hero": {
-        "imageAlt": "Promotion spéciale - Tous les vendredis au Restaurant Marina",
-        "label": "Restaurant Marina",
+        "imageAlt": "Promotion spéciale - Tous les vendredis à El Camarote",
+        "label": "El Camarote",
         "title": "Promotion spéciale - Tous les vendredis",
         "subtitle": "Ouvert jusqu'à 21h00"
       },
       "hours": {
         "label": "Sans réservation",
         "title": "Ouvert jusqu'à 21h00",
-        "text": "Tous les vendredis, le Marina Restaurant reste ouvert jusqu'à 21h00. Aucune réservation n'est nécessaire."
+        "text": "Tous les vendredis, El Camarote reste ouvert jusqu'à 21h00. Aucune réservation n'est nécessaire."
       },
       "intro": {
         "title": "Menu snacks et spécialités du jour",
-        "text": "Profitez du menu snacks ainsi que des spécialités préparées le jour même, dans une ambiance détendue en soirée au Marina Restaurant."
+        "text": "Profitez du menu snacks ainsi que des spécialités préparées le jour même, dans une ambiance détendue en soirée à El Camarote."
       },
       "requests": {
         "label": "Demandes spéciales",
@@ -568,7 +587,7 @@
         "text": "Si vous souhaitez un plat en particulier, vous pouvez en parler au personnel du restaurant. Nous confirmerons si votre demande peut être réalisée, selon la disponibilité des produits du jour. Il est important de formuler les demandes spéciales à l'avance."
       },
       "atmosphere": {
-        "imageAlt": "Ambiance du soir au Restaurant Marina",
+        "imageAlt": "Ambiance du soir à El Camarote",
         "label": "Spécialités du jour",
         "title": "Selon les produits du jour",
         "text": "Les spécialités peuvent inclure pâtes, riz, sautés wok, viandes, poissons et d'autres plats, selon disponibilité."
@@ -607,8 +626,8 @@
     "paellas": {
       "pageTitle": "Paellas | Royal Marina Suites",
       "hero": {
-        "imageAlt": "Paellas au Restaurant Marina",
-        "label": "Restaurant Marina",
+        "imageAlt": "Paellas à El Camarote",
+        "label": "El Camarote",
         "title": "Paellas",
         "subtitle": "Sur commande · Déjeuner · Pour 2 personnes"
       },
@@ -650,7 +669,154 @@
         "text": "Certains plats peuvent contenir des allergènes ou des traces d'allergènes. Merci d'informer notre équipe de toute allergie ou besoin diététique."
       },
       "notice": {
-        "text": "Service soumis à disponibilité. Pour passer votre commande, veuillez vous adresser au personnel du Restaurant Marina ou à la réception."
+        "text": "Service soumis à disponibilité. Pour passer votre commande, veuillez vous adresser au personnel d’El Camarote ou à la réception."
+      }
+    },
+    "lounge": {
+      "label": "Marina Lounge",
+      "sections": {
+        "starters": "Entrées et salades",
+        "specialities": "Spécialités",
+        "fish": "Poissons et fruits de mer",
+        "desserts": "Desserts"
+      },
+      "items": {
+        "nachos": "Nachos au guacamole",
+        "nachosDesc": "Avocat, tomate, oignon rouge, citron vert, coriandre, sauce Tabasco et sel.",
+        "goatCheeseSalad": "Salade de chèvre et fraises",
+        "caesarSalad": "Salade César",
+        "caesarSaladDesc": "Poulet pané, bacon croustillant, tomates cerises, copeaux de parmesan et croûtons.",
+        "clubSandwich": "Club sandwich",
+        "clubSandwichDesc": "Pain de mie, blanc de poulet, bacon, œuf, tomate, fromage, oignon frit, mayonnaise et beurre, servi avec des frites.",
+        "baoTeriyaki": "Pain bao au teriyaki",
+        "baoTeriyakiDesc": "Pain bao, graines de sésame, blanc de poulet, oignon, sauce teriyaki et sauce soja.",
+        "codTempura": "Cabillaud en tempura",
+        "garlicPrawns": "Crevettes à l'ail",
+        "friedSquid": "Calamars frits",
+        "crunchyPrawns": "Crevettes croustillantes",
+        "crunchyPrawnsDesc": "Avec sauce curry et mangue.",
+        "cheesecake": "Cheesecake aux fruits rouges et glace vanille",
+        "artisanIceCream": "Glace artisanale et chantilly",
+        "brownie": "Brownie et sa glace"
+      }
+    },
+    "camarote": {
+      "pageTitle": "El Camarote | Royal Marina Suites",
+      "hero": {
+        "label": "Restaurant",
+        "title": "El Camarote",
+        "imageAlt": "El Camarote",
+        "hours": "Déjeuner 13h00 - 15h30"
+      },
+      "intro": {
+        "title": "Notre carte",
+        "text": "Entrées, paellas, poisson frais, fruits de mer et viandes à la plancha, servis au déjeuner à El Camarote."
+      },
+      "timePanel": {
+        "label": "Horaires",
+        "hours": "Petit-déjeuner 07h30 – 10h30<br>Déjeuner 13h00 – 15h30<br>Vendredi jusqu’à 21h00"
+      },
+      "drinks": {
+        "title": "Carte des boissons",
+        "text": "Cocktails, bières, apéritifs, smoothies et café sont aussi servis à El Camarote.",
+        "button": "Voir la carte des boissons →"
+      },
+      "sections": {
+        "starters": "Entrées",
+        "rice": "Riz et paellas",
+        "fish": "Poissons et fruits de mer",
+        "meat": "Viandes"
+      },
+      "items": {
+        "prawnCocktail": "Cocktail de crevettes",
+        "prawnCocktailDesc": "Laitue, ananas frais, avocat, crevettes et sauce cocktail.",
+        "salmonTartare": "Tartare de saumon à l'avocat",
+        "hamCroquettes": "Croquettes maison au jambon ibérique (6 pièces)",
+        "hamCroquettesDesc": "Jambon ibérique, œufs, oignon, sel, poivre noir, farine de blé et lait.",
+        "paellaVegetables": "Paella aux légumes",
+        "paellaMeat": "Paella à la viande",
+        "paellaSeafood": "Paella aux fruits de mer",
+        "paellaMixed": "Paella mixte",
+        "fishOfTheDay": "Poisson du jour grillé",
+        "grilledSquid": "Calamar à la plancha",
+        "grilledSalmon": "Saumon à la plancha",
+        "sirloin": "Filet de bœuf, sauce au choix",
+        "sirloinDesc": "Poivre, roquefort ou champignons.",
+        "entrecote": "Entrecôte à la plancha",
+        "chickenBreast": "Blanc de poulet à la plancha"
+      },
+      "notes": {
+        "fish": "Servis avec sauces mojo et pommes de terre canariennes (papas arrugadas)."
+      }
+    },
+    "drinks": {
+      "sections": {
+        "cocktails": "Cocktails",
+        "beers": "Bières",
+        "aperitifs": "Apéritifs",
+        "digestifs": "Digestifs",
+        "hotdrinks": "Boissons chaudes",
+        "smoothies": "Smoothies et jus",
+        "softdrinks": "Sans alcool"
+      },
+      "items": {
+        "cocktailOfTheDay": "Cocktail du jour",
+        "daiquiri": "Daiquiri",
+        "pinaColada": "Piña Colada",
+        "margarita": "Margarita",
+        "aperolSpritz": "Aperol Spritz",
+        "mojito": "Mojito",
+        "caipirinha": "Caipirinha",
+        "royalMarina": "Royal Marina",
+        "sexOnTheBeach": "Sex on the Beach",
+        "sangriaGlass": "Verre de sangria",
+        "sangriaHalf": "Sangria 1/2 L",
+        "cavaSangriaHalf": "Sangria au cava 1/2 L",
+        "estrellaGaliciaMini": "Estrella Galicia Mini",
+        "estrella00": "Estrella Galicia 0,0",
+        "heineken": "Heineken",
+        "estrellaDamm": "Estrella Damm",
+        "doradaEspecial": "Dorada Especial",
+        "coronita": "Coronita",
+        "naoBlonde": "Nao Craft Blonde Beer",
+        "naoBlack": "Nao Black Beer",
+        "draftSmall": "Demi pression",
+        "draftLarge": "Grande pression",
+        "aperol": "Aperol",
+        "campari": "Campari",
+        "martiniRosso": "Martini Rosso",
+        "martiniBianco": "Martini Bianco",
+        "martiniDry": "Martini Dry",
+        "sambuca": "Sambuca",
+        "marieBrizard": "Marie Brizard",
+        "pacharan": "Pacharán",
+        "jagermeister": "Jägermeister",
+        "espresso": "Espresso",
+        "americano": "Americano",
+        "latte": "Latte",
+        "cappuccino": "Cappuccino",
+        "irishCoffee": "Irish coffee",
+        "baileysCoffee": "Café Baileys",
+        "colaCao": "Cola Cao",
+        "tea": "Sélection de thés",
+        "hotChocolate": "Chocolat chaud",
+        "orangeJuice": "Jus d'orange pressé",
+        "lanzaroteSmoothie": "Lanzarote Smoothie",
+        "lanzaroteSmoothieDesc": "Banane, mangue et orange",
+        "mediterraneanSmoothie": "Mediterranean Smoothie",
+        "mediterraneanSmoothieDesc": "Ananas, mangue et kiwi",
+        "berriesSmoothie": "Mix Berries Smoothie",
+        "berriesSmoothieDesc": "Fraise, framboise et myrtille",
+        "water": "Eau plate 0,5 L",
+        "sparklingWater": "Eau gazeuse 0,5 L",
+        "cocaCola": "Coca-Cola",
+        "cocaColaZero": "Coca-Cola Zero",
+        "cocaColaLight": "Coca-Cola Light",
+        "nestea": "Nestea",
+        "fantaLemon": "Fanta citron",
+        "fantaOrange": "Fanta orange",
+        "sprite": "Sprite",
+        "royalBlissTonic": "Tonic Royal Bliss"
       }
     }
   },
@@ -758,10 +924,10 @@
     },
     "poolBar": {
       "label": "Service au bord de la piscine",
-      "title": "Bar de la piscine",
+      "title": "Marina Lounge",
       "description": "Dégustez des cocktails, du café, des boissons rafraîchissantes et des collations légères au bord de la piscine dans un cadre élégant et détendu.",
       "hours": "Heures d'ouverture : 11h30 – 18h30",
-      "imageAlt": "Bar de la piscine"
+      "imageAlt": "Marina Lounge"
     },
     "gym": {
       "label": "Remise en forme",
@@ -957,9 +1123,9 @@
         "button": "Explorer les installations"
       },
       "marinaRestaurant": {
-        "title": "Restaurant Marina",
-        "description": "Découvrez notre restaurant, nos menus, nos horaires d'ouverture et nos expériences culinaires.",
-        "button": "Voir le restaurant"
+        "title": "Restaurants",
+        "description": "El Camarote et Marina Lounge : cartes, horaires et expériences.",
+        "button": "Voir les restaurants"
       },
       "guestServices": {
         "title": "Conciergerie",

@@ -215,11 +215,11 @@
         "fr": "À quelle heure est le petit-déjeuner ?"
       },
       "a": {
-        "en": "Our à la carte breakfast is served daily from <strong>07:30 to 10:30</strong> at Marina Restaurant.",
-        "es": "Nuestro desayuno a la carta se sirve todos los días de <strong>07:30 a 10:30</strong> en Marina Restaurant.",
-        "de": "Unser Frühstück à la carte wird täglich von <strong>07:30 bis 10:30 Uhr</strong> im Marina Restaurant serviert.",
-        "it": "La nostra colazione à la carte viene servita tutti i giorni dalle <strong>07:30 alle 10:30</strong> al Marina Restaurant.",
-        "fr": "Notre petit-déjeuner à la carte est servi tous les jours de <strong>07h30 à 10h30</strong> au Marina Restaurant."
+        "en": "Our à la carte breakfast is served daily from <strong>07:30 to 10:30</strong> at El Camarote.",
+        "es": "Nuestro desayuno a la carta se sirve todos los días de <strong>07:30 a 10:30</strong> en El Camarote.",
+        "de": "Unser Frühstück à la carte wird täglich von <strong>07:30 bis 10:30 Uhr</strong> im El Camarote serviert.",
+        "it": "La nostra colazione à la carte viene servita tutti i giorni dalle <strong>07:30 alle 10:30</strong> al El Camarote.",
+        "fr": "Notre petit-déjeuner à la carte est servi tous les jours de <strong>07h30 à 10h30</strong> au El Camarote."
       },
       "keywords": [
         "breakfast",
@@ -231,7 +231,9 @@
         "petit dejeuner",
         "morning",
         "mañana",
-        "desayunar"
+        "desayunar",
+        "camarote",
+        "el camarote"
       ],
       "actions": [
         {
@@ -284,7 +286,9 @@
         "petit-déjeuner",
         "servicio",
         "service",
-        "privado"
+        "privado",
+        "camarote",
+        "el camarote"
       ],
       "actions": [
         {
@@ -306,18 +310,18 @@
     {
       "id": "restaurant-hours",
       "q": {
-        "en": "What are the restaurant opening hours?",
-        "es": "¿Qué horario tiene el restaurante?",
-        "de": "Wann hat das Restaurant geöffnet?",
-        "it": "Quali sono gli orari del ristorante?",
-        "fr": "Quels sont les horaires du restaurant ?"
+        "en": "What are the restaurant and snack bar hours?",
+        "es": "¿Qué horario tienen el restaurante y el snack bar?",
+        "de": "Wann haben Restaurant und Snackbar geöffnet?",
+        "it": "Quali sono gli orari del ristorante e dello snack bar?",
+        "fr": "Quels sont les horaires du restaurant et du snack-bar ?"
       },
       "a": {
-        "en": "Marina Restaurant:<br>• Breakfast — <strong>07:30–10:30</strong><br>• Snacks & lunch — <strong>12:00–15:30</strong><br>• Pool Bar — <strong>11:30–18:30</strong><br>• Fridays — open until <strong>21:00</strong>",
-        "es": "Marina Restaurant:<br>• Desayuno — <strong>07:30–10:30</strong><br>• Snacks y almuerzo — <strong>12:00–15:30</strong><br>• Pool Bar — <strong>11:30–18:30</strong><br>• Viernes — abierto hasta las <strong>21:00</strong>",
-        "de": "Marina Restaurant:<br>• Frühstück — <strong>07:30–10:30</strong><br>• Snacks & Mittagessen — <strong>12:00–15:30</strong><br>• Poolbar — <strong>11:30–18:30</strong><br>• Freitags — geöffnet bis <strong>21:00</strong>",
-        "it": "Marina Restaurant:<br>• Colazione — <strong>07:30–10:30</strong><br>• Snack e pranzo — <strong>12:00–15:30</strong><br>• Pool Bar — <strong>11:30–18:30</strong><br>• Venerdì — aperto fino alle <strong>21:00</strong>",
-        "fr": "Marina Restaurant :<br>• Petit-déjeuner — <strong>07h30–10h30</strong><br>• Snacks et déjeuner — <strong>12h00–15h30</strong><br>• Pool Bar — <strong>11h30–18h30</strong><br>• Le vendredi — ouvert jusqu'à <strong>21h00</strong>"
+        "en": "<strong>El Camarote</strong> (restaurant):<br>• Breakfast — <strong>07:30–10:30</strong><br>• Lunch — <strong>13:00–15:30</strong><br>• Fridays — open until <strong>21:00</strong><br><strong>Marina Lounge</strong> (snack bar & drinks):<br>• Snacks — <strong>12:00–15:30</strong><br>• Bar — <strong>11:30–18:30</strong>",
+        "es": "<strong>El Camarote</strong> (restaurante):<br>• Desayuno — <strong>07:30–10:30</strong><br>• Comida — <strong>13:00–15:30</strong><br>• Viernes — abierto hasta las <strong>21:00</strong><br><strong>Marina Lounge</strong> (snack bar y bebidas):<br>• Snacks — <strong>12:00–15:30</strong><br>• Bar — <strong>11:30–18:30</strong>",
+        "de": "<strong>El Camarote</strong> (Restaurant):<br>• Frühstück — <strong>07:30–10:30</strong><br>• Mittagessen — <strong>13:00–15:30</strong><br>• Freitags — geöffnet bis <strong>21:00</strong><br><strong>Marina Lounge</strong> (Snackbar & Getränke):<br>• Snacks — <strong>12:00–15:30</strong><br>• Bar — <strong>11:30–18:30</strong>",
+        "it": "<strong>El Camarote</strong> (ristorante):<br>• Colazione — <strong>07:30–10:30</strong><br>• Pranzo — <strong>13:00–15:30</strong><br>• Venerdì — aperto fino alle <strong>21:00</strong><br><strong>Marina Lounge</strong> (snack bar e bevande):<br>• Snack — <strong>12:00–15:30</strong><br>• Bar — <strong>11:30–18:30</strong>",
+        "fr": "<strong>El Camarote</strong> (restaurant) :<br>• Petit-déjeuner — <strong>07h30–10h30</strong><br>• Déjeuner — <strong>13h00–15h30</strong><br>• Le vendredi — ouvert jusqu’à <strong>21h00</strong><br><strong>Marina Lounge</strong> (snack-bar et boissons) :<br>• Snacks — <strong>12h00–15h30</strong><br>• Bar — <strong>11h30–18h30</strong>"
       },
       "keywords": [
         "restaurant",
@@ -339,17 +343,39 @@
         "hours",
         "menu",
         "carta",
-        "speisekarte"
+        "speisekarte",
+        "camarote",
+        "el camarote",
+        "marina lounge",
+        "lounge",
+        "snack bar",
+        "snack",
+        "lunch",
+        "comida",
+        "almuerzo",
+        "mittagessen",
+        "pranzo",
+        "déjeuner"
       ],
       "actions": [
         {
-          "href": "MarinaRestaurant/restaurant.html",
+          "href": "MarinaRestaurant/camarote.html",
           "label": {
-            "en": "Marina Restaurant",
-            "es": "Marina Restaurant",
-            "de": "Marina Restaurant",
-            "it": "Marina Restaurant",
-            "fr": "Marina Restaurant"
+            "en": "El Camarote menu",
+            "es": "Carta de El Camarote",
+            "de": "Karte El Camarote",
+            "it": "Menù di El Camarote",
+            "fr": "Carte d’El Camarote"
+          }
+        },
+        {
+          "href": "MarinaRestaurant/snacks.html",
+          "label": {
+            "en": "Marina Lounge menu",
+            "es": "Carta de Marina Lounge",
+            "de": "Karte Marina Lounge",
+            "it": "Menù del Marina Lounge",
+            "fr": "Carte du Marina Lounge"
           }
         }
       ],
@@ -369,11 +395,11 @@
         "fr": "Où puis-je dîner ?"
       },
       "a": {
-        "en": "At the hotel you can order a <strong>cold dinner in your suite</strong> (book before 15:00). On <strong>Fridays</strong>, Marina Restaurant stays open until 21:00, no reservation needed. Nearby, Puerto Calero marina has several restaurants within walking distance.",
-        "es": "En el hotel puede pedir una <strong>cena fría en su suite</strong> (reservar antes de las 15:00). Los <strong>viernes</strong>, Marina Restaurant abre hasta las 21:00, sin reserva. Muy cerca, en la marina de Puerto Calero, hay varios restaurantes a los que se llega a pie.",
-        "de": "Im Hotel können Sie ein <strong>kaltes Abendessen in der Suite</strong> bestellen (Reservierung bis 15:00 Uhr). <strong>Freitags</strong> ist das Marina Restaurant bis 21:00 Uhr geöffnet, ohne Reservierung. In der Marina von Puerto Calero finden Sie mehrere Restaurants zu Fuß.",
-        "it": "In hotel potete ordinare una <strong>cena fredda in suite</strong> (prenotazione entro le 15:00). Il <strong>venerdì</strong> il Marina Restaurant resta aperto fino alle 21:00, senza prenotazione. Nella marina di Puerto Calero ci sono diversi ristoranti raggiungibili a piedi.",
-        "fr": "À l'hôtel, vous pouvez commander un <strong>dîner froid en suite</strong> (réservation avant 15h00). Le <strong>vendredi</strong>, le Marina Restaurant est ouvert jusqu'à 21h00, sans réservation. La marina de Puerto Calero compte plusieurs restaurants accessibles à pied."
+        "en": "At the hotel you can order a <strong>cold dinner in your suite</strong> (book before 15:00). On <strong>Fridays</strong>, El Camarote stays open until 21:00, no reservation needed. Nearby, Puerto Calero marina has several restaurants within walking distance.",
+        "es": "En el hotel puede pedir una <strong>cena fría en su suite</strong> (reservar antes de las 15:00). Los <strong>viernes</strong>, El Camarote abre hasta las 21:00, sin reserva. Muy cerca, en la marina de Puerto Calero, hay varios restaurantes a los que se llega a pie.",
+        "de": "Im Hotel können Sie ein <strong>kaltes Abendessen in der Suite</strong> bestellen (Reservierung bis 15:00 Uhr). <strong>Freitags</strong> ist das El Camarote bis 21:00 Uhr geöffnet, ohne Reservierung. In der Marina von Puerto Calero finden Sie mehrere Restaurants zu Fuß.",
+        "it": "In hotel potete ordinare una <strong>cena fredda in suite</strong> (prenotazione entro le 15:00). Il <strong>venerdì</strong> il El Camarote resta aperto fino alle 21:00, senza prenotazione. Nella marina di Puerto Calero ci sono diversi ristoranti raggiungibili a piedi.",
+        "fr": "À l'hôtel, vous pouvez commander un <strong>dîner froid en suite</strong> (réservation avant 15h00). Le <strong>vendredi</strong>, le El Camarote est ouvert jusqu'à 21h00, sans réservation. La marina de Puerto Calero compte plusieurs restaurants accessibles à pied."
       },
       "keywords": [
         "dinner",
@@ -392,7 +418,9 @@
         "food",
         "essen",
         "restaurant",
-        "restaurante"
+        "restaurante",
+        "camarote",
+        "el camarote"
       ],
       "actions": [
         {
@@ -432,11 +460,11 @@
         "fr": "Comment commander le dîner froid en suite ?"
       },
       "a": {
-        "en": "The cold dinner is served in your suite and must be booked <strong>before 15:00</strong> at reception or at Marina Restaurant.",
-        "es": "La cena fría se sirve en su suite y debe reservarse <strong>antes de las 15:00</strong> en recepción o en Marina Restaurant.",
-        "de": "Das kalte Abendessen wird in Ihrer Suite serviert und muss <strong>bis 15:00 Uhr</strong> an der Rezeption oder im Marina Restaurant reserviert werden.",
-        "it": "La cena fredda viene servita nella vostra suite e va prenotata <strong>entro le 15:00</strong> alla reception o al Marina Restaurant.",
-        "fr": "Le dîner froid est servi dans votre suite et doit être réservé <strong>avant 15h00</strong> à la réception ou au Marina Restaurant."
+        "en": "The cold dinner is served in your suite and must be booked <strong>before 15:00</strong> at reception or at El Camarote.",
+        "es": "La cena fría se sirve en su suite y debe reservarse <strong>antes de las 15:00</strong> en recepción o en El Camarote.",
+        "de": "Das kalte Abendessen wird in Ihrer Suite serviert und muss <strong>bis 15:00 Uhr</strong> an der Rezeption oder im El Camarote reserviert werden.",
+        "it": "La cena fredda viene servita nella vostra suite e va prenotata <strong>entro le 15:00</strong> alla reception o al El Camarote.",
+        "fr": "Le dîner froid est servi dans votre suite et doit être réservé <strong>avant 15h00</strong> à la réception ou au El Camarote."
       },
       "keywords": [
         "cold",
@@ -454,7 +482,9 @@
         "habitación",
         "zimmer",
         "camera",
-        "chambre"
+        "chambre",
+        "camarote",
+        "el camarote"
       ],
       "actions": [
         {
@@ -562,7 +592,9 @@
         "almuerzo",
         "comida",
         "food",
-        "essen"
+        "essen",
+        "camarote",
+        "el camarote"
       ],
       "actions": [
         {
@@ -591,11 +623,11 @@
         "fr": "Qu'y a-t-il de spécial le vendredi ?"
       },
       "a": {
-        "en": "Every Friday, Marina Restaurant stays open until <strong>21:00</strong> with the snacks menu and daily specials. No reservation required.",
-        "es": "Todos los viernes, Marina Restaurant abre hasta las <strong>21:00</strong> con la carta de snacks y platos del día. No hace falta reservar.",
-        "de": "Jeden Freitag ist das Marina Restaurant bis <strong>21:00 Uhr</strong> geöffnet, mit Snackkarte und Tagesgerichten. Keine Reservierung nötig.",
-        "it": "Ogni venerdì il Marina Restaurant resta aperto fino alle <strong>21:00</strong> con il menù snack e i piatti del giorno. Non serve prenotare.",
-        "fr": "Chaque vendredi, le Marina Restaurant reste ouvert jusqu'à <strong>21h00</strong> avec la carte snacks et les plats du jour. Sans réservation."
+        "en": "Every Friday, El Camarote stays open until <strong>21:00</strong> with the snacks menu and daily specials. No reservation required.",
+        "es": "Todos los viernes, El Camarote abre hasta las <strong>21:00</strong> con la carta de snacks y platos del día. No hace falta reservar.",
+        "de": "Jeden Freitag ist das El Camarote bis <strong>21:00 Uhr</strong> geöffnet, mit Snackkarte und Tagesgerichten. Keine Reservierung nötig.",
+        "it": "Ogni venerdì il El Camarote resta aperto fino alle <strong>21:00</strong> con il menù snack e i piatti del giorno. Non serve prenotare.",
+        "fr": "Chaque vendredi, le El Camarote reste ouvert jusqu'à <strong>21h00</strong> avec la carte snacks et les plats du jour. Sans réservation."
       },
       "keywords": [
         "friday",
@@ -614,7 +646,9 @@
         "sera",
         "soir",
         "dinner",
-        "cena"
+        "cena",
+        "camarote",
+        "el camarote"
       ],
       "actions": [
         {
@@ -687,18 +721,18 @@
     {
       "id": "pool-bar",
       "q": {
-        "en": "When is the Pool Bar open?",
-        "es": "¿Cuándo abre el Pool Bar?",
-        "de": "Wann ist die Poolbar geöffnet?",
-        "it": "Quando è aperto il Pool Bar?",
-        "fr": "Quand le Pool Bar est-il ouvert ?"
+        "en": "When is the Marina Lounge bar open?",
+        "es": "¿Cuándo abre el bar del Marina Lounge?",
+        "de": "Wann ist die Bar der Marina Lounge geöffnet?",
+        "it": "Quando è aperto il bar del Marina Lounge?",
+        "fr": "Quand le bar du Marina Lounge est-il ouvert ?"
       },
       "a": {
-        "en": "The Pool Bar is open from <strong>11:30 to 18:30</strong>: cocktails, wine, beer, coffee, smoothies and soft drinks.",
-        "es": "El Pool Bar abre de <strong>11:30 a 18:30</strong>: cócteles, vinos, cervezas, café, batidos y refrescos.",
-        "de": "Die Poolbar ist von <strong>11:30 bis 18:30 Uhr</strong> geöffnet: Cocktails, Wein, Bier, Kaffee, Smoothies und Softdrinks.",
-        "it": "Il Pool Bar è aperto dalle <strong>11:30 alle 18:30</strong>: cocktail, vini, birre, caffè, frullati e bibite.",
-        "fr": "Le Pool Bar est ouvert de <strong>11h30 à 18h30</strong> : cocktails, vins, bières, café, smoothies et sodas."
+        "en": "The <strong>Marina Lounge</strong> bar is open from <strong>11:30 to 18:30</strong>: cocktails, beers, aperitifs, smoothies, coffee and soft drinks. Snacks are served from <strong>12:00 to 15:30</strong>.",
+        "es": "El bar del <strong>Marina Lounge</strong> abre de <strong>11:30 a 18:30</strong>: cócteles, cervezas, aperitivos, smoothies, café y refrescos. Los snacks se sirven de <strong>12:00 a 15:30</strong>.",
+        "de": "Die Bar der <strong>Marina Lounge</strong> ist von <strong>11:30 bis 18:30 Uhr</strong> geöffnet: Cocktails, Bier, Aperitifs, Smoothies, Kaffee und Softdrinks. Snacks gibt es von <strong>12:00 bis 15:30 Uhr</strong>.",
+        "it": "Il bar del <strong>Marina Lounge</strong> è aperto dalle <strong>11:30 alle 18:30</strong>: cocktail, birre, aperitivi, smoothie, caffè e bibite. Gli snack si servono dalle <strong>12:00 alle 15:30</strong>.",
+        "fr": "Le bar du <strong>Marina Lounge</strong> est ouvert de <strong>11h30 à 18h30</strong> : cocktails, bières, apéritifs, smoothies, café et sodas. Les snacks sont servis de <strong>12h00 à 15h30</strong>."
       },
       "keywords": [
         "bar",
@@ -723,7 +757,15 @@
         "wine",
         "vino",
         "wein",
-        "vin"
+        "vin",
+        "marina lounge",
+        "lounge",
+        "snack bar",
+        "snack",
+        "snacks",
+        "nachos",
+        "sandwich",
+        "sándwich"
       ],
       "actions": [
         {
@@ -734,6 +776,16 @@
             "de": "Getränkekarte",
             "it": "Carta delle bevande",
             "fr": "Carte des boissons"
+          }
+        },
+        {
+          "href": "MarinaRestaurant/snacks.html",
+          "label": {
+            "en": "Snack bar menu",
+            "es": "Carta del snack bar",
+            "de": "Snackbar-Karte",
+            "it": "Menù dello snack bar",
+            "fr": "Carte du snack-bar"
           }
         }
       ],

@@ -16,8 +16,8 @@
       room: 'From your room', roomSub: 'Press 9 on the room phone',
       call: 'Call reception', email: 'Email', close: 'Close',
       today: 'Today at the hotel', openNow: 'Open now', closed: 'Closed', opensAt: 'Opens at', until: 'until',
-      breakfast: 'Breakfast', poolBar: 'Pool Bar', snacks: 'Snacks & Lunch', pool: 'Pool & Jacuzzi', gym: 'Fitness Centre',
-      friday: 'Friday special — Marina Restaurant open until 21:00', fridayCta: 'See the menu',
+      breakfast: 'Breakfast · El Camarote', poolBar: 'Bar · Marina Lounge', snacks: 'Snacks · Marina Lounge', camaroteLunch: 'Lunch · El Camarote', pool: 'Pool & Jacuzzi', gym: 'Fitness Centre',
+      friday: 'Friday special — El Camarote open until 21:00', fridayCta: 'See the menu',
       quick: 'Quick access', wifi: 'Wi-Fi', transfer: 'Airport transfer', suiteBreakfast: 'Breakfast in suite', lateCheckout: 'Late check-out' },
     es: { home: 'Inicio', dining: 'Restaurante', services: 'Servicios', info: 'Estancia', contact: 'Recepción',
       sheetTitle: 'Recepción', sheetText: 'Nuestro equipo está disponible las 24 horas.',
@@ -25,8 +25,8 @@
       call: 'Llamar a recepción',
       email: 'Correo electrónico', close: 'Cerrar',
       today: 'Hoy en el hotel', openNow: 'Abierto ahora', closed: 'Cerrado', opensAt: 'Abre a las', until: 'hasta las',
-      breakfast: 'Desayuno', poolBar: 'Pool Bar', snacks: 'Snacks y almuerzo', pool: 'Piscina y jacuzzi', gym: 'Gimnasio',
-      friday: 'Especial de los viernes — Marina Restaurant abierto hasta las 21:00', fridayCta: 'Ver la carta',
+      breakfast: 'Desayuno · El Camarote', poolBar: 'Bar · Marina Lounge', snacks: 'Snacks · Marina Lounge', camaroteLunch: 'Comida · El Camarote', pool: 'Piscina y jacuzzi', gym: 'Gimnasio',
+      friday: 'Especial de los viernes — El Camarote abierto hasta las 21:00', fridayCta: 'Ver la carta',
       quick: 'Accesos rápidos', wifi: 'Wi-Fi', transfer: 'Traslado al aeropuerto', suiteBreakfast: 'Desayuno en la suite', lateCheckout: 'Salida tardía' },
     de: { home: 'Start', dining: 'Restaurant', services: 'Services', info: 'Aufenthalt', contact: 'Rezeption',
       sheetTitle: 'Rezeption', sheetText: 'Unser Team ist rund um die Uhr für Sie da.',
@@ -34,8 +34,8 @@
       call: 'Rezeption anrufen',
       email: 'E-Mail', close: 'Schließen',
       today: 'Heute im Hotel', openNow: 'Jetzt geöffnet', closed: 'Geschlossen', opensAt: 'Öffnet um', until: 'bis',
-      breakfast: 'Frühstück', poolBar: 'Poolbar', snacks: 'Snacks & Mittagessen', pool: 'Pool & Whirlpool', gym: 'Fitnesscenter',
-      friday: 'Freitags-Special — Marina Restaurant bis 21:00 Uhr geöffnet', fridayCta: 'Zur Speisekarte',
+      breakfast: 'Frühstück · El Camarote', poolBar: 'Bar · Marina Lounge', snacks: 'Snacks · Marina Lounge', camaroteLunch: 'Mittagessen · El Camarote', pool: 'Pool & Whirlpool', gym: 'Fitnesscenter',
+      friday: 'Freitags-Special — El Camarote bis 21:00 Uhr geöffnet', fridayCta: 'Zur Speisekarte',
       quick: 'Schnellzugriff', wifi: 'WLAN', transfer: 'Flughafentransfer', suiteBreakfast: 'Frühstück in der Suite', lateCheckout: 'Später Check-out' },
     it: { home: 'Home', dining: 'Ristorante', services: 'Servizi', info: 'Soggiorno', contact: 'Reception',
       sheetTitle: 'Reception', sheetText: 'Il nostro team è a vostra disposizione 24 ore su 24.',
@@ -43,8 +43,8 @@
       call: 'Chiamate la reception',
       email: 'E-mail', close: 'Chiudi',
       today: 'Oggi in hotel', openNow: 'Aperto ora', closed: 'Chiuso', opensAt: 'Apre alle', until: 'fino alle',
-      breakfast: 'Colazione', poolBar: 'Pool Bar', snacks: 'Snack e pranzo', pool: 'Piscina e idromassaggio', gym: 'Centro fitness',
-      friday: 'Speciale del venerdì — Marina Restaurant aperto fino alle 21:00', fridayCta: 'Vedi il menù',
+      breakfast: 'Colazione · El Camarote', poolBar: 'Bar · Marina Lounge', snacks: 'Snack · Marina Lounge', camaroteLunch: 'Pranzo · El Camarote', pool: 'Piscina e idromassaggio', gym: 'Centro fitness',
+      friday: 'Speciale del venerdì — El Camarote aperto fino alle 21:00', fridayCta: 'Vedi il menù',
       quick: 'Accesso rapido', wifi: 'Wi-Fi', transfer: 'Transfer aeroporto', suiteBreakfast: 'Colazione in suite', lateCheckout: 'Check-out posticipato' },
     fr: { home: 'Accueil', dining: 'Restaurant', services: 'Services', info: 'Séjour', contact: 'Réception',
       sheetTitle: 'Réception', sheetText: 'Notre équipe est à votre disposition 24 h/24.',
@@ -52,8 +52,8 @@
       call: 'Appeler la réception',
       email: 'E-mail', close: 'Fermer',
       today: 'Aujourd’hui à l’hôtel', openNow: 'Ouvert', closed: 'Fermé', opensAt: 'Ouvre à', until: 'jusqu’à',
-      breakfast: 'Petit-déjeuner', poolBar: 'Pool Bar', snacks: 'Snacks et déjeuner', pool: 'Piscine et jacuzzi', gym: 'Salle de fitness',
-      friday: 'Spécial vendredi — Marina Restaurant ouvert jusqu’à 21h00', fridayCta: 'Voir la carte',
+      breakfast: 'Petit-déjeuner · El Camarote', poolBar: 'Bar · Marina Lounge', snacks: 'Snacks · Marina Lounge', camaroteLunch: 'Déjeuner · El Camarote', pool: 'Piscine et jacuzzi', gym: 'Salle de fitness',
+      friday: 'Spécial vendredi — El Camarote ouvert jusqu’à 21h00', fridayCta: 'Voir la carte',
       quick: 'Accès rapide', wifi: 'Wi-Fi', transfer: 'Transfert aéroport', suiteBreakfast: 'Petit-déjeuner en suite', lateCheckout: 'Départ tardif' }
   };
 
@@ -134,7 +134,8 @@
     { key: 'gym', from: '08:00', to: '20:00', href: 'facilities-wellness.html' },
     { key: 'pool', from: '09:00', to: '18:30', href: 'facilities-wellness.html' },
     { key: 'poolBar', from: '11:30', to: '18:30', href: 'MarinaRestaurant/pool-bar.html' },
-    { key: 'snacks', from: '12:00', to: '15:30', href: 'MarinaRestaurant/snacks.html' }
+    { key: 'snacks', from: '12:00', to: '15:30', href: 'MarinaRestaurant/snacks.html' },
+    { key: 'camaroteLunch', from: '13:00', to: '15:30', href: 'MarinaRestaurant/camarote.html' }
   ];
 
   var ICONS = {

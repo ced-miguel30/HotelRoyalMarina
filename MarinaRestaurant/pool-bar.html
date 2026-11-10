@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title data-i18n="marinaRestaurant.poolBar.pageTitle">Pool Bar | Royal Marina Suites</title>
+<title data-i18n="marinaRestaurant.poolBar.pageTitle">Bar &amp; Drinks · Marina Lounge | Royal Marina Suites</title>
 
 <style>
 :root{
@@ -335,6 +335,7 @@ footer{
     min-height:55vh;
   }
 }
+.item-desc{ display:block; font-size:13px; color:var(--muted); margin-top:2px; }
 </style>
 <link rel="stylesheet" href="../css/language-switcher.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -358,7 +359,7 @@ footer{
   <img src="../images/poolbar-hero.jpeg" alt="Pool Bar at Royal Marina Suites" data-i18n-alt="marinaRestaurant.poolBar.hero.imageAlt">
 
   <div class="hero-content">
-    <p data-i18n="marinaRestaurant.shared.marinaRestaurantLabel">Marina Restaurant</p>
+    <p data-i18n="marinaRestaurant.lounge.label">Marina Lounge</p>
     <h1 data-i18n="marinaRestaurant.poolBar.hero.title">Pool Bar</h1>
     <div class="gold-line"></div>
     <p data-i18n="marinaRestaurant.poolBar.hero.hours">11:30 - 18:30</p>
@@ -393,51 +394,34 @@ footer{
 
     <nav class="side-nav">
       <h3 data-i18n="marinaRestaurant.poolBar.nav.title">Menu</h3>
-      <a href="#cocktails" data-i18n="marinaRestaurant.poolBar.nav.cocktails">Cocktails</a>
-      <a href="#wine" data-i18n="marinaRestaurant.poolBar.nav.wine">Wine & Champagne</a>
-      <a href="#beer" data-i18n="marinaRestaurant.poolBar.nav.beer">Beer</a>
-      <a href="#spirits" data-i18n="marinaRestaurant.poolBar.nav.spirits">Spirits</a>
-      <a href="#hotdrinks" data-i18n="marinaRestaurant.poolBar.nav.hotDrinks">Hot Drinks</a>
-      <a href="#smoothies" data-i18n="marinaRestaurant.poolBar.nav.smoothies">Smoothies</a>
-      <a href="#softdrinks" data-i18n="marinaRestaurant.poolBar.nav.softDrinks">Soft Drinks</a>
+      <a href="#cocktails" data-i18n="marinaRestaurant.drinks.sections.cocktails">Cocktails</a>
+      <a href="#beers" data-i18n="marinaRestaurant.drinks.sections.beers">Beers</a>
+      <a href="#aperitifs" data-i18n="marinaRestaurant.drinks.sections.aperitifs">Aperitifs</a>
+      <a href="#digestifs" data-i18n="marinaRestaurant.drinks.sections.digestifs">Digestifs</a>
+      <a href="#hotdrinks" data-i18n="marinaRestaurant.drinks.sections.hotdrinks">Hot Drinks</a>
+      <a href="#smoothies" data-i18n="marinaRestaurant.drinks.sections.smoothies">Smoothies &amp; Juices</a>
+      <a href="#softdrinks" data-i18n="marinaRestaurant.drinks.sections.softdrinks">Soft Drinks</a>
     </nav>
 
     <div>
 
       <section class="menu-section" id="cocktails">
-        <h2 data-i18n="marinaRestaurant.poolBar.sections.cocktails">Cocktails</h2>
+        <h2 data-i18n="marinaRestaurant.drinks.sections.cocktails">Cocktails</h2>
         <div class="section-line"></div>
 
         <div class="menu-list">
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.cocktailOfTheDay">Cocktail of the Day</span><span class="price">7€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.caipirinha">Caipirinha</span><span class="price">8.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.pinaColada">Piña Colada</span><span class="price">8.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.royalMarina">Royal Marina</span><span class="price">8.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.sexOnTheBeach">Sex on the Beach</span><span class="price">8.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.mojito">Mojito</span><span class="price">8.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.daiquiri">Daiquiri</span><span class="price">8.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.margarita">Margarita</span><span class="price">9€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.aperolSpritz">Aperol Spritz</span><span class="price">9€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.glassOfSangria">Glass of Sangria</span><span class="price">9€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.sangriaHalfL">Sangria 1/2L</span><span class="price">6€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.cavaSangriaHalfL">Cava Sangria 1/2L</span><span class="price">8.50€</span></div>
-        </div>
-      </section>
-
-      <section class="menu-section" id="wine">
-        <h2 data-i18n="marinaRestaurant.poolBar.sections.wine">Wine & Champagne</h2>
-        <div class="section-line"></div>
-
-        <div class="menu-list">
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.glassOfWine">Glass of Wine</span><span class="price">8€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.montecilloCrianza">Montecillo Crianza D.O. Rioja</span><span class="price">20€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.ederraRueda">Ederra D.O. Rueda</span><span class="price">23€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.elGrifo">El Grifo D.O. Lanzarote</span><span class="price">30€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.montecilloReserva">Montecillo Reserva D.O. Rioja</span><span class="price">28€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.annaCodorniuMini">Anna Codorniu Mini</span><span class="price">11€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.codorniuPrimaVides">Codorniu Prima Vides</span><span class="price">20€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.piperHeidsieckBrut">Piper Heidsieck Cuvée Brut</span><span class="price">55€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.piperHeidsieckRose">Piper Heidsieck Cuvée Rosé</span><span class="price">60€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.cocktailOfTheDay">Cocktail of the Day</span><span class="price">6€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.daiquiri">Daiquiri</span><span class="price">9€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.pinaColada">Piña Colada</span><span class="price">8€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.margarita">Margarita</span><span class="price">9€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.aperolSpritz">Aperol Spritz</span><span class="price">8.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.mojito">Mojito</span><span class="price">8.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.caipirinha">Caipirinha</span><span class="price">8.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.royalMarina">Royal Marina</span><span class="price">8.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.sexOnTheBeach">Sex on the Beach</span><span class="price">8.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.sangriaGlass">Glass of Sangria</span><span class="price">5€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.sangriaHalf">Sangria 1/2 L</span><span class="price">8.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.cavaSangriaHalf">Cava Sangria 1/2 L</span><span class="price">10.50€</span></div>
         </div>
       </section>
 
@@ -454,98 +438,94 @@ footer{
         </div>
       </div>
 
-      <section class="menu-section" id="beer">
-        <h2 data-i18n="marinaRestaurant.poolBar.sections.beer">Beer</h2>
+
+      <section class="menu-section" id="beers">
+        <h2 data-i18n="marinaRestaurant.drinks.sections.beers">Beers</h2>
         <div class="section-line"></div>
 
         <div class="menu-list">
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.estrellaGaliciaMini">Estrella Galicia Mini</span><span class="price">3€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.estrellaGaliciaZero">Estrella Galicia 0%</span><span class="price">3.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.heineken">Heineken</span><span class="price">3.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.estrellaDamm">Estrella Damm</span><span class="price">4€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.doradaEspecial">Dorada Especial</span><span class="price">4€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.coronita">Coronita</span><span class="price">5€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.cervezaNao">Cerveza Nao</span><span class="price">5€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.smallNaoDraft">Small Nao Draft Beer</span><span class="price">5€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.largeNaoDraft">Large Nao Draft Beer</span><span class="price">7€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.estrellaGaliciaMini">Estrella Galicia Mini</span><span class="price">2.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.estrella00">Estrella Galicia 0,0</span><span class="price">3€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.heineken">Heineken</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.estrellaDamm">Estrella Damm</span><span class="price">4€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.doradaEspecial">Dorada Especial</span><span class="price">4€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.coronita">Coronita</span><span class="price">4.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.naoBlonde">Nao Craft Blonde Beer</span><span class="price">4.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.naoBlack">Nao Black Beer</span><span class="price">4.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.draftSmall">Small Draught Beer</span><span class="price">4.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.draftLarge">Large Draught Beer</span><span class="price">6€</span></div>
         </div>
       </section>
 
-      <section class="menu-section" id="spirits">
-        <h2 data-i18n="marinaRestaurant.poolBar.sections.spirits">Spirits & Aperitifs</h2>
+      <section class="menu-section" id="aperitifs">
+        <h2 data-i18n="marinaRestaurant.drinks.sections.aperitifs">Aperitifs</h2>
         <div class="section-line"></div>
 
         <div class="menu-list">
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.beefeater">Beefeater</span><span class="price">7€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.gordons">Gordon's</span><span class="price">8€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.tanqueray">Tanqueray</span><span class="price">9€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.nordes">Nordés</span><span class="price">10€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.martinMillers">Martin Miller's</span><span class="price">11€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.jackDaniels">Jack Daniel's</span><span class="price">10€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.johnnieWalkerRed">Johnnie Walker Red</span><span class="price">11.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.tequilaGold">Tequila Gold</span><span class="price">8.25€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.aperol">Aperol</span><span class="price">7€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.campari">Campari</span><span class="price">8€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.martiniRosso">Martini Rosso</span><span class="price">8€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.martiniBianco">Martini Bianco</span><span class="price">8€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.martiniDry">Martini Dry</span><span class="price">8€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.baileys">Baileys</span><span class="price">8€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.ronMiel">Ron Miel</span><span class="price">8€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.amaretto">Amaretto</span><span class="price">8€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.tiaMaria">Tía María</span><span class="price">8€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.magno">Magno</span><span class="price">8€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.carlosI">Carlos I</span><span class="price">12€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.absolut">Absolut</span><span class="price">9€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.greyGoose">Grey Goose</span><span class="price">13€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.smirnoff">Smirnoff</span><span class="price">8€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.sambuca">Sambuca</span><span class="price">8€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.jagermeister">Jägermeister</span><span class="price">8€</span></div>
-          
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.aperol">Aperol</span><span class="price">6.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.campari">Campari</span><span class="price">6.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.martiniRosso">Martini Rosso</span><span class="price">6.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.martiniBianco">Martini Bianco</span><span class="price">6.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.martiniDry">Martini Dry</span><span class="price">6.50€</span></div>
+        </div>
+      </section>
+
+      <section class="menu-section" id="digestifs">
+        <h2 data-i18n="marinaRestaurant.drinks.sections.digestifs">Digestifs</h2>
+        <div class="section-line"></div>
+
+        <div class="menu-list">
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.sambuca">Sambuca</span><span class="price">7.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.marieBrizard">Marie Brizard</span><span class="price">7.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.pacharan">Pacharán</span><span class="price">7.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.jagermeister">Jägermeister</span><span class="price">7.50€</span></div>
         </div>
       </section>
 
       <section class="menu-section" id="hotdrinks">
-        <h2 data-i18n="marinaRestaurant.poolBar.sections.hotDrinks">Hot Drinks</h2>
+        <h2 data-i18n="marinaRestaurant.drinks.sections.hotdrinks">Hot Drinks</h2>
         <div class="section-line"></div>
 
         <div class="menu-list">
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.espresso">Espresso</span><span class="price">2.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.americano">Americano</span><span class="price">2.80€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.latte">Latte</span><span class="price">3.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.cappuccino">Cappuccino</span><span class="price">3.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.irishCoffee">Irish Coffee</span><span class="price">7.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.baileysCoffee">Baileys Coffee</span><span class="price">7.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.teaSelection">Tea Selection</span><span class="price">2.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.colaCao">Cola Cao</span><span class="price">2.80€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.espresso">Espresso</span><span class="price">2.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.americano">Americano</span><span class="price">2.80€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.latte">Latte</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.cappuccino">Cappuccino</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.irishCoffee">Irish Coffee</span><span class="price">7.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.baileysCoffee">Baileys Coffee</span><span class="price">7.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.colaCao">Cola Cao</span><span class="price">2.80€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.tea">Selection of Teas</span><span class="price">2.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.hotChocolate">Hot Chocolate</span><span class="price">3.50€</span></div>
         </div>
       </section>
 
       <section class="menu-section" id="smoothies">
-        <h2 data-i18n="marinaRestaurant.poolBar.sections.smoothies">Smoothies & Juices</h2>
+        <h2 data-i18n="marinaRestaurant.drinks.sections.smoothies">Smoothies &amp; Juices</h2>
         <div class="section-line"></div>
 
         <div class="menu-list">
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.orangeJuice">Orange Juice</span><span class="price">6€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.lanzaroteSmoothie">Lanzarote Smoothie</span><span class="price">7€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.mediterraneanSmoothie">Mediterranean Smoothie</span><span class="price">7€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.forestFruitsSmoothie">Forest Fruits Smoothie</span><span class="price">7€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.orangeJuice">Fresh Orange Juice</span><span class="price">5€</span></div>
+          <div class="item"><span class="item-name"><span data-i18n="marinaRestaurant.drinks.items.lanzaroteSmoothie">Lanzarote Smoothie</span><small class="item-desc" data-i18n="marinaRestaurant.drinks.items.lanzaroteSmoothieDesc">Banana, mango &amp; orange</small></span><span class="price">6€</span></div>
+          <div class="item"><span class="item-name"><span data-i18n="marinaRestaurant.drinks.items.mediterraneanSmoothie">Mediterranean Smoothie</span><small class="item-desc" data-i18n="marinaRestaurant.drinks.items.mediterraneanSmoothieDesc">Pineapple, mango &amp; kiwi</small></span><span class="price">6€</span></div>
+          <div class="item"><span class="item-name"><span data-i18n="marinaRestaurant.drinks.items.berriesSmoothie">Mix Berries Smoothie</span><small class="item-desc" data-i18n="marinaRestaurant.drinks.items.berriesSmoothieDesc">Strawberry, raspberry &amp; blueberry</small></span><span class="price">6€</span></div>
         </div>
       </section>
 
       <section class="menu-section" id="softdrinks">
-        <h2 data-i18n="marinaRestaurant.poolBar.sections.softDrinks">Soft Drinks</h2>
+        <h2 data-i18n="marinaRestaurant.drinks.sections.softdrinks">Soft Drinks</h2>
         <div class="section-line"></div>
 
         <div class="menu-list">
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.stillWater">Still Water</span><span class="price">2.70€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.sparklingWater">Sparkling Water</span><span class="price">2.70€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.cocaCola">Coca-Cola</span><span class="price">3.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.cocaColaZero">Coca-Cola Zero</span><span class="price">3.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.fantaOrange">Fanta Orange</span><span class="price">3.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.fantaLemon">Fanta Lemon</span><span class="price">3.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.sprite">Sprite</span><span class="price">3.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.royalBlissTonic">Royal Bliss Tonic</span><span class="price">3.50€</span></div>
-          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.poolBar.items.nestea">Nestea</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.water">Still Water 0.5 L</span><span class="price">2.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.sparklingWater">Sparkling Water 0.5 L</span><span class="price">2.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.cocaCola">Coca-Cola</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.cocaColaZero">Coca-Cola Zero</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.cocaColaLight">Coca-Cola Light</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.nestea">Nestea</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.fantaLemon">Fanta Lemon</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.fantaOrange">Fanta Orange</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.sprite">Sprite</span><span class="price">3.50€</span></div>
+          <div class="item"><span class="item-name" data-i18n="marinaRestaurant.drinks.items.royalBlissTonic">Royal Bliss Tonic</span><span class="price">3.50€</span></div>
         </div>
       </section>
 
@@ -560,7 +540,7 @@ footer{
     </p>
   </div>
 
-  <a class="back" href="restaurant.html" data-i18n="marinaRestaurant.shared.backToRestaurant">← Back to Marina Restaurant</a>
+  <a class="back" href="restaurant.html" data-i18n="marinaRestaurant.shared.backToRestaurant">← Back to Restaurants</a>
 
 </div>
 

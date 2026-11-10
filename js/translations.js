@@ -5,7 +5,7 @@
   var STORAGE_KEY = 'hrm_lang';
   var SUPPORTED_LANGS = ['en', 'es', 'de', 'it', 'fr'];
   // Bump on every publish so phones don't keep old texts for 10 minutes.
-  var CONTENT_VERSION = '2026-11-10-1';
+  var CONTENT_VERSION = '2026-11-10-2';
   window.RMS_CONTENT_VERSION = CONTENT_VERSION;
 
   function getScriptElement() {

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="marinaRestaurant.camarote.pageTitle">El Camarote | Royal Marina Suites</title>
+
+<style>
+:root{
+  --blue:#0a1329;
+  --gold:#b4a76c;
+  --white:#ffffff;
+  --soft:#f5f8fa;
+  --text:#1f2a36;
+}
+
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family:var(--font-sans);
+  background:var(--soft);
+  color:var(--text);
+}
+
+.hero-snacks{
+  min-height:62vh;
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+  text-align:center;
+  color:white;
+}
+
+.hero-snacks img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+}
+
+.hero-snacks::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(
+    rgba(10,19,41,0.25),
+    rgba(10,19,41,0.85)
+  );
+  z-index:1;
+}
+
+.hero-content{
+  position:relative;
+  z-index:2;
+  padding:0 30px 70px;
+}
+
+.hero-content p{
+  color:var(--gold);
+  letter-spacing:4px;
+  text-transform:uppercase;
+  font-size:12px;
+}
+
+.hero-content h1{
+  font-family:var(--font-serif);
+  font-size:48px;
+  font-weight:400;
+  margin:0;
+}
+
+.gold-line{
+  width:80px;
+  height:2px;
+  background:var(--gold);
+  margin:25px auto;
+}
+
+.container{
+  max-width:1150px;
+  margin:auto;
+  padding:50px 20px;
+}
+
+.intro{
+  display:grid;
+  grid-template-columns:1.2fr 0.8fr;
+  gap:30px;
+  align-items:center;
+  margin-bottom:45px;
+}
+
+.intro-text{
+  background:white;
+  padding:35px;
+  border-radius:22px;
+  box-shadow:0 10px 28px rgba(0,0,0,0.06);
+}
+
+.intro-text h2{
+  font-family:var(--font-serif);
+  color:var(--blue);
+  font-size:32px;
+  font-weight:400;
+  margin-top:0;
+}
+
+.intro-text p{
+  line-height:1.7;
+}
+
+.time-panel{
+  background:var(--blue);
+  color:white;
+  padding:35px;
+  border-radius:22px;
+  box-shadow:0 10px 28px rgba(0,0,0,0.08);
+  text-align:center;
+}
+
+.time-panel span{
+  color:var(--gold);
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.time-panel h3{
+  font-family:var(--font-serif);
+  font-size:30px;
+  font-weight:400;
+  margin:15px 0 0;
+}
+
+.menu-tabs{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  justify-content:center;
+  margin-bottom:35px;
+}
+
+.menu-tabs a{
+  text-decoration:none;
+  color:var(--blue);
+  background:white;
+  border:1px solid rgba(201,164,92,0.45);
+  border-radius:30px;
+  padding:11px 18px;
+  font-size:13px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+
+.menu-tabs a:hover{
+  background:var(--gold);
+  color:white;
+}
+
+.menu-section{
+  background:white;
+  border-radius:24px;
+  padding:35px;
+  margin-bottom:28px;
+  box-shadow:0 10px 28px rgba(0,0,0,0.06);
+  border:1px solid #e8e8e8;
+}
+
+.menu-section h2{
+  font-family:var(--font-serif);
+  color:var(--blue);
+  font-size:30px;
+  font-weight:400;
+  margin-top:0;
+}
+
+.section-line{
+  width:55px;
+  height:1px;
+  background:var(--gold);
+  margin:18px 0 25px;
+}
+
+.menu-list{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:22px 35px;
+}
+
+.item{
+  border-bottom:1px solid #eee;
+  padding-bottom:18px;
+}
+
+.item-top{
+  display:flex;
+  justify-content:space-between;
+  gap:18px;
+}
+
+.item h3{
+  color:var(--blue);
+  font-size:17px;
+  margin:0;
+}
+
+.price{
+  color:var(--gold);
+  font-weight:bold;
+  white-space:nowrap;
+}
+
+.item p{
+  margin:8px 0 0;
+  line-height:1.55;
+  font-size:14px;
+}
+
+.signature{
+  margin:50px 0;
+  display:grid;
+  grid-template-columns:0.9fr 1.1fr;
+  background:white;
+  border-radius:24px;
+  overflow:hidden;
+  box-shadow:0 10px 28px rgba(0,0,0,0.07);
+}
+
+.signature img{
+  width:100%;
+  height:100%;
+  min-height:360px;
+  object-fit:cover;
+}
+
+.signature-text{
+  padding:40px;
+}
+
+.signature-text span{
+  color:var(--gold);
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.signature-text h2{
+  font-family:var(--font-serif);
+  color:var(--blue);
+  font-size:32px;
+  font-weight:400;
+}
+
+.signature-text p{
+  line-height:1.7;
+}
+
+.notice{
+  margin-top:40px;
+  background:white;
+  border-left:5px solid var(--gold);
+  padding:28px;
+  border-radius:18px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.05);
+}
+
+.back{
+  display:inline-block;
+  margin-top:35px;
+  color:var(--gold);
+  text-decoration:none;
+  font-weight:bold;
+}
+
+footer{
+  background:var(--blue);
+  color:white;
+  text-align:center;
+  padding:28px;
+  font-size:14px;
+}
+
+@media(max-width:800px){
+  .intro,
+  .signature{
+    grid-template-columns:1fr;
+  }
+
+  .menu-list{
+    grid-template-columns:1fr;
+  }
+
+  .hero-content h1{
+    font-size:36px;
+  }
+
+  .hero-snacks{
+    min-height:58vh;
+  }
+}
+
+.section-note{ margin:-6px 0 14px; color:var(--muted); font-style:italic; font-size:15px; }
+.drinks-cta{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px;
+  margin:34px 0 0; padding:22px; border-radius:18px; background:var(--blue); color:#fff; }
+.drinks-cta h3{ margin:0 0 4px; color:#fff; font-size:24px; }
+.drinks-cta p{ margin:0; color:rgba(255,255,255,.8); }
+.drinks-cta a{ color:var(--blue); background:var(--gold); padding:11px 16px; border-radius:999px; text-decoration:none; font-weight:500; white-space:nowrap; }
+</style>
+<link rel="stylesheet" href="../css/language-switcher.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="../css/theme.css">
+</head>
+
+<body>
+
+<div class="language-switcher">
+  <a href="?lang=en" data-lang="en">EN</a>
+  <a href="?lang=es" data-lang="es">ES</a>
+  <a href="?lang=de" data-lang="de">DE</a>
+  <a href="?lang=it" data-lang="it">IT</a>
+  <a href="?lang=fr" data-lang="fr">FR</a>
+</div>
+
+
+<section class="hero-snacks">
+  <img src="../images/restaurant.jpeg" alt="El Camarote" data-i18n-alt="marinaRestaurant.camarote.hero.imageAlt">
+  <div class="hero-content">
+    <p data-i18n="marinaRestaurant.camarote.hero.label">Restaurant</p>
+    <h1 data-i18n="marinaRestaurant.camarote.hero.title">El Camarote</h1>
+    <div class="gold-line"></div>
+    <p data-i18n="marinaRestaurant.camarote.hero.hours">Lunch 13:00 - 15:30</p>
+  </div>
+</section>
+
+<div class="container">
+
+  <div class="intro">
+    <div class="intro-text">
+      <h2 data-i18n="marinaRestaurant.camarote.intro.title">Our Menu</h2>
+      <p data-i18n="marinaRestaurant.camarote.intro.text">Starters, paellas, fresh fish, seafood and grilled meats, served at lunchtime at El Camarote.</p>
+    </div>
+    <div class="time-panel">
+      <span data-i18n="marinaRestaurant.camarote.timePanel.label">Opening Hours</span>
+      <h3 data-i18n-html="marinaRestaurant.camarote.timePanel.hours">Breakfast 07:30 – 10:30<br>Lunch 13:00 – 15:30<br>Fridays until 21:00</h3>
+    </div>
+  </div>
+
+  <div class="menu-tabs">
+    <a href="#starters" data-i18n="marinaRestaurant.camarote.sections.starters">Starters</a>
+    <a href="#rice" data-i18n="marinaRestaurant.camarote.sections.rice">Rice Dishes</a>
+    <a href="#fish" data-i18n="marinaRestaurant.camarote.sections.fish">Fish &amp; Seafood</a>
+    <a href="#meat" data-i18n="marinaRestaurant.camarote.sections.meat">Meat</a>
+  </div>
+
+  <section class="menu-section" id="starters">
+    <h2 data-i18n="marinaRestaurant.camarote.sections.starters">Starters</h2>
+    <div class="section-line"></div>
+    <div class="menu-list">
+      <div class="item">
+        <div class="item-top">
+          <h3 data-i18n="marinaRestaurant.camarote.items.prawnCocktail">Prawn Cocktail</h3>
+          <span class="price">20€</span>
+        </div>
+        <p data-i18n="marinaRestaurant.camarote.items.prawnCocktailDesc">Lettuce, fresh pineapple, avocado, prawns and cocktail sauce.</p>
+      </div>
+      <div class="item">
+        <div class="item-top">
+          <h3 data-i18n="marinaRestaurant.camarote.items.salmonTartare">Salmon &amp; Avocado Tartare</h3>
+          <span class="price">15€</span>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-top">
+          <h3 data-i18n="marinaRestaurant.camarote.items.hamCroquettes">Homemade Iberian Ham Croquettes (6 pcs)</h3>
+          <span class="price">12€</span>
+        </div>
+        <p data-i18n="marinaRestaurant.camarote.items.hamCroquettesDesc">Iberian ham, egg, onion, salt, black pepper, wheat flour and milk.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="rice">
+    <h2 data-i18n="marinaRestaurant.camarote.sections.rice">Rice Dishes</h2>
+    <div class="section-line"></div>
+    <div class="menu-list">
+      <div class="item">
+        <div class="item-top">
+          <h3 data-i18n="marinaRestaurant.camarote.items.paellaVegetables">Vegetable Paella</h3>
+          <span class="price">20€</span>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-top">
+          <h3 data-i18n="marinaRestaurant.camarote.items.paellaMeat">Meat Paella</h3>
+          <span class="price">20€</span>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-top">
+          <h3 data-i18n="marinaRestaurant.camarote.items.paellaSeafood">Seafood Paella</h3>
+          <span class="price">25€</span>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-top">
+          <h3 data-i18n="marinaRestaurant.camarote.items.paellaMixed">Mixed Paella</h3>
+          <span class="price">25€</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="fish">
+    <h2 data-i18n="marinaRestaurant.camarote.sections.fish">Fish &amp; Seafood</h2>
+    <div class="section-line"></div>
+    <p class="section-note" data-i18n="marinaRestaurant.camarote.notes.fish">Served with mojo sauces and Canarian wrinkled potatoes.</p>
+    <div class="menu-list">
+      <div class="item">
+        <div class="item-top">
+          <h3 data-i18n="marinaRestaurant.camarote.items.fishOfTheDay">Fish of the Day, Grilled</h3>
+          <span class="price">17€</span>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-top">
+          <h3 data-i18n="marinaRestaurant.camarote.items.grilledSquid">Grilled Squid</h3>
+          <span class="price">15€</span>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-top">
+          <h3 data-i18n="marinaRestaurant.camarote.items.grilledSalmon">Grilled Salmon</h3>
+          <span class="price">17€</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="meat">
+    <h2 data-i18n="marinaRestaurant.camarote.sections.meat">Meat</h2>
+    <div class="section-line"></div>
+    <div class="menu-list">
+      <div class="item">
+        <div class="item-top">
+          <h3 data-i18n="marinaRestaurant.camarote.items.sirloin">Sirloin Steak with Sauce of Your Choice</h3>
+          <span class="price">20€</span>
+        </div>
+        <p data-i18n="marinaRestaurant.camarote.items.sirloinDesc">Pepper, Roquefort or mushroom.</p>
+      </div>
+      <div class="item">
+        <div class="item-top">
+          <h3 data-i18n="marinaRestaurant.camarote.items.entrecote">Grilled Entrecôte</h3>
+          <span class="price">17€</span>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-top">
+          <h3 data-i18n="marinaRestaurant.camarote.items.chickenBreast">Grilled Chicken Breast</h3>
+          <span class="price">15€</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="drinks-cta">
+    <div><h3 data-i18n="marinaRestaurant.camarote.drinks.title">Drinks Menu</h3>
+    <p data-i18n="marinaRestaurant.camarote.drinks.text">Cocktails, beers, aperitifs, smoothies and coffee are also served at El Camarote.</p></div>
+    <a href="pool-bar.html" data-i18n="marinaRestaurant.camarote.drinks.button">View the drinks menu →</a>
+  </div>
+
+  <div class="notice">
+    <strong data-i18n="marinaRestaurant.shared.allergenTitle">Allergen Information</strong>
+    <p data-i18n="marinaRestaurant.snacks.allergen.text">
+      Dishes prepared in this establishment may contain allergens or traces of allergens.
+      If you are allergic to any food, please inform our team. Allergen information for each dish is available upon request.
+    </p>
+  </div>
+
+  <a class="back" href="restaurant.html" data-i18n="marinaRestaurant.shared.backToRestaurant">← Back to Restaurants</a>
+
+</div>
+
+<footer data-i18n="marinaRestaurant.shared.footer">
+Royal Marina Suites
+</footer>
+
+<script src="../js/translations.js"></script>
+<script src="../js/ui.js"></script>
+</body>
+</html>

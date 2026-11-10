@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title data-i18n="marinaRestaurant.snacks.pageTitle">Snacks & Lunch | Royal Marina Suites</title>
+<title data-i18n="marinaRestaurant.snacks.pageTitle">Snack Bar · Marina Lounge | Royal Marina Suites</title>
 
 <style>
 :root{
@@ -305,6 +305,13 @@ footer{
     min-height:58vh;
   }
 }
+
+.section-note{ margin:-6px 0 14px; color:var(--muted); font-style:italic; font-size:15px; }
+.drinks-cta{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px;
+  margin:34px 0 0; padding:22px; border-radius:18px; background:var(--blue); color:#fff; }
+.drinks-cta h3{ margin:0 0 4px; color:#fff; font-size:24px; }
+.drinks-cta p{ margin:0; color:rgba(255,255,255,.8); }
+.drinks-cta a{ color:var(--blue); background:var(--gold); padding:11px 16px; border-radius:999px; text-decoration:none; font-weight:500; white-space:nowrap; }
 </style>
 <link rel="stylesheet" href="../css/language-switcher.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -325,11 +332,10 @@ footer{
 
 
 <section class="hero-snacks">
-  <img src="../images/snacks-hero.jpeg" alt="Snacks and lunch at Royal Marina Suites" data-i18n-alt="marinaRestaurant.snacks.hero.imageAlt">
-
+  <img src="../images/snacks-hero.jpeg" alt="Marina Lounge snack bar" data-i18n-alt="marinaRestaurant.snacks.hero.imageAlt">
   <div class="hero-content">
-    <p data-i18n="marinaRestaurant.shared.marinaRestaurantLabel">Marina Restaurant</p>
-    <h1 data-i18n="marinaRestaurant.snacks.hero.title">Snacks & Lunch</h1>
+    <p data-i18n="marinaRestaurant.lounge.label">Marina Lounge</p>
+    <h1 data-i18n="marinaRestaurant.snacks.hero.title">Snack Bar</h1>
     <div class="gold-line"></div>
     <p data-i18n="marinaRestaurant.snacks.hero.hours">12:00 - 15:30</p>
   </div>
@@ -339,158 +345,67 @@ footer{
 
   <div class="intro">
     <div class="intro-text">
-      <h2 data-i18n="marinaRestaurant.snacks.intro.title">Light Bites by the Marina</h2>
-      <p data-i18n="marinaRestaurant.snacks.intro.text">
-        Enjoy a relaxed midday selection of fresh salads, island flavours,
-        seafood, house specialities and sweet finishes, served in the elegant
-        atmosphere of Marina Restaurant.
-      </p>
+      <h2 data-i18n="marinaRestaurant.snacks.intro.title">Light Bites at Marina Lounge</h2>
+      <p data-i18n="marinaRestaurant.snacks.intro.text">Nachos, fresh salads, sandwiches, seafood and desserts, served at midday at Marina Lounge.</p>
     </div>
-
     <div class="time-panel">
-      <span data-i18n="marinaRestaurant.snacks.timePanel.label">Lunch Service</span>
+      <span data-i18n="marinaRestaurant.snacks.timePanel.label">Snack Bar</span>
       <h3 data-i18n="marinaRestaurant.snacks.timePanel.hours">Daily from 12:00 to 15:30</h3>
     </div>
   </div>
 
   <div class="menu-tabs">
-    <a href="#starters" data-i18n="marinaRestaurant.snacks.nav.starters">Starters</a>
-    <a href="#specialities" data-i18n="marinaRestaurant.snacks.nav.specialities">Specialities</a>
-    <a href="#fish" data-i18n="marinaRestaurant.snacks.nav.fish">Fish & Seafood</a>
-    <a href="#desserts" data-i18n="marinaRestaurant.snacks.nav.desserts">Desserts</a>
+    <a href="#starters" data-i18n="marinaRestaurant.lounge.sections.starters">Starters &amp; Salads</a>
+    <a href="#specialities" data-i18n="marinaRestaurant.lounge.sections.specialities">Specialities</a>
+    <a href="#fish" data-i18n="marinaRestaurant.lounge.sections.fish">Fish &amp; Seafood</a>
+    <a href="#desserts" data-i18n="marinaRestaurant.lounge.sections.desserts">Desserts</a>
   </div>
 
   <section class="menu-section" id="starters">
-    <h2 data-i18n="marinaRestaurant.snacks.sections.starters">Starters & Salads</h2>
+    <h2 data-i18n="marinaRestaurant.lounge.sections.starters">Starters &amp; Salads</h2>
     <div class="section-line"></div>
-
     <div class="menu-list">
-
       <div class="item">
         <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.goatCheeseSalad">Goat Cheese & Strawberry Salad</h3>
-          <span class="price">15€</span>
+          <h3 data-i18n="marinaRestaurant.lounge.items.nachos">Nachos with Guacamole</h3>
+          <span class="price">11€</span>
         </div>
-        <p data-i18n="marinaRestaurant.snacks.items.goatCheeseSaladDesc">Mixed lettuce leaves, goat cheese, walnuts, strawberry vinaigrette, honey, Modena vinegar and extra virgin olive oil.</p>
+        <p data-i18n="marinaRestaurant.lounge.items.nachosDesc">Avocado, tomato, red onion, lime, coriander, Tabasco sauce and salt.</p>
       </div>
-
       <div class="item">
         <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.caesarSalad">Caesar Salad</h3>
-          <span class="price">17€</span>
-        </div>
-        <p data-i18n="marinaRestaurant.snacks.items.caesarSaladDesc">Breaded chicken, crispy bacon, cherry tomatoes, parmesan shavings and crunchy bread croutons.</p>
-      </div>
-
-      <div class="item">
-        <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.nachosGuacamole">Nachos with Guacamole</h3>
+          <h3 data-i18n="marinaRestaurant.lounge.items.goatCheeseSalad">Goat Cheese &amp; Strawberry Salad</h3>
           <span class="price">14€</span>
         </div>
-        <p data-i18n="marinaRestaurant.snacks.items.nachosGuacamoleDesc">Avocado, tomato, red onion, lime, coriander, tabasco sauce and salt.</p>
       </div>
-
       <div class="item">
         <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.avocadoTomatoHamSalad">Avocado, Tomato & Iberian Ham Salad</h3>
-          <span class="price">20€</span>
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.iberianHamCroquettes">Homemade Iberian Ham Croquettes</h3>
+          <h3 data-i18n="marinaRestaurant.lounge.items.caesarSalad">Caesar Salad</h3>
           <span class="price">12€</span>
         </div>
-        <p data-i18n="marinaRestaurant.snacks.items.iberianHamCroquettesDesc">Six pieces prepared with Iberian ham, egg, onion, black pepper, wheat flour and milk.</p>
+        <p data-i18n="marinaRestaurant.lounge.items.caesarSaladDesc">Breaded chicken, crispy bacon, cherry tomatoes, parmesan shavings and croutons.</p>
       </div>
-
-      <div class="item">
-        <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.canarianPotatoes">Canarian Potatoes</h3>
-          <span class="price">10€</span>
-        </div>
-        <p data-i18n="marinaRestaurant.snacks.items.canarianPotatoesDesc">Served with homemade mojo.</p>
-      </div>
-
-      <div class="item">
-        <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.prawnCocktail">Prawn Cocktail</h3>
-          <span class="price">16€</span>
-        </div>
-        <p data-i18n="marinaRestaurant.snacks.items.prawnCocktailDesc">Lettuce, fresh pineapple, avocado, king prawns and cocktail sauce.</p>
-      </div>
-
-      <div class="item">
-        <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.salmonTartare">Salmon Tartare with Avocado</h3>
-          <span class="price">19€</span>
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.frenchFries">French Fries</h3>
-          <span class="price">3.50€</span>
-        </div>
-      </div>
-
     </div>
   </section>
 
   <section class="menu-section" id="specialities">
-    <h2 data-i18n="marinaRestaurant.snacks.sections.specialities">House Specialities</h2>
+    <h2 data-i18n="marinaRestaurant.lounge.sections.specialities">Specialities</h2>
     <div class="section-line"></div>
-
     <div class="menu-list">
-
       <div class="item">
         <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.pokeBowl">Poke Bowl</h3>
-          <span class="price">19€</span>
+          <h3 data-i18n="marinaRestaurant.lounge.items.clubSandwich">Club Sandwich</h3>
+          <span class="price">13€</span>
         </div>
-        <p data-i18n="marinaRestaurant.snacks.items.pokeBowlDesc">Smoked salmon, edamame, carrots, cucumber, mango, basmati rice, radish, lime and extra virgin olive oil.</p>
+        <p data-i18n="marinaRestaurant.lounge.items.clubSandwichDesc">White bread, chicken breast, bacon, egg, tomato, cheese, fried onion, mayonnaise and butter, with fries on the side.</p>
       </div>
-
       <div class="item">
         <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.clubSandwich">Club Sandwich</h3>
-          <span class="price">14€</span>
+          <h3 data-i18n="marinaRestaurant.lounge.items.baoTeriyaki">Bao Bun with Teriyaki</h3>
+          <span class="price">15€</span>
         </div>
-        <p data-i18n="marinaRestaurant.snacks.items.clubSandwichDesc">Chicken, bacon, egg, tomato, cheese, crispy onion, thyme, mayonnaise, sliced bread and butter.</p>
+        <p data-i18n="marinaRestaurant.lounge.items.baoTeriyakiDesc">Bao bun, sesame seeds, chicken breast, onion, teriyaki and soy sauce.</p>
       </div>
-
-      <div class="item">
-        <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.baoBunTeriyaki">Bao Bun with Teriyaki</h3>
-          <span class="price">16€</span>
-        </div>
-        <p data-i18n="marinaRestaurant.snacks.items.baoBunTeriyakiDesc">Bao bun with sesame seeds, chicken breast, onion, teriyaki sauce, soy sauce and extra virgin olive oil.</p>
-      </div>
-
-      <div class="item">
-        <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.breezeBurger">Breeze Burger</h3>
-          <span class="price">20€</span>
-        </div>
-        <p data-i18n="marinaRestaurant.snacks.items.breezeBurgerDesc">Brioche bun, beef, avocado, goat cheese, bacon, onion, lettuce, brava sauce and olive oil. Served with fries.</p>
-      </div>
-
-      <div class="item">
-        <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.grilledVegetables">Grilled Vegetables</h3>
-          <span class="price">21€</span>
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.brokenEggsHam">Huevos rotos</h3>
-          <span class="price">18€</span>
-        </div>
-        <p data-i18n="marinaRestaurant.snacks.items.brokenEggsHamDesc">Traditional Spanish dish with eggs, chips and ham.</p>
-      </div>
-
     </div>
   </section>
 
@@ -508,93 +423,67 @@ footer{
   </div>
 
   <section class="menu-section" id="fish">
-    <h2 data-i18n="marinaRestaurant.snacks.sections.fish">Fish & Seafood</h2>
+    <h2 data-i18n="marinaRestaurant.lounge.sections.fish">Fish &amp; Seafood</h2>
     <div class="section-line"></div>
-
     <div class="menu-list">
-
       <div class="item">
         <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.codTempura">Cod in Tempura</h3>
-          <span class="price">18€</span>
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.garlicPrawns">Garlic Prawns</h3>
-          <span class="price">16€</span>
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.friedCalamari">Fried Calamari</h3>
+          <h3 data-i18n="marinaRestaurant.lounge.items.codTempura">Cod in Tempura</h3>
           <span class="price">17€</span>
         </div>
       </div>
-
       <div class="item">
         <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.crispyKingPrawn">Fried Shrimp</h3>
+          <h3 data-i18n="marinaRestaurant.lounge.items.garlicPrawns">Garlic Prawns</h3>
+          <span class="price">12€</span>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-top">
+          <h3 data-i18n="marinaRestaurant.lounge.items.friedSquid">Fried Squid</h3>
+          <span class="price">15€</span>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-top">
+          <h3 data-i18n="marinaRestaurant.lounge.items.crunchyPrawns">Crunchy Prawns</h3>
           <span class="price">17€</span>
         </div>
-        <p data-i18n="marinaRestaurant.snacks.items.crispyKingPrawnDesc">Served with curry and mango sauce.</p>
+        <p data-i18n="marinaRestaurant.lounge.items.crunchyPrawnsDesc">With curry and mango sauce.</p>
       </div>
-
     </div>
   </section>
 
   <section class="menu-section" id="desserts">
-    <h2 data-i18n="marinaRestaurant.snacks.sections.desserts">Desserts</h2>
+    <h2 data-i18n="marinaRestaurant.lounge.sections.desserts">Desserts</h2>
     <div class="section-line"></div>
-
     <div class="menu-list">
-
       <div class="item">
         <div class="item-top">
-          <h3 data-i18n-html="marinaRestaurant.snacks.items.artisanIceCreamLaLechera">Artisan Ice Cream <em>La lechera</em>®</h3>
+          <h3 data-i18n="marinaRestaurant.lounge.items.cheesecake">Cheesecake with Berries &amp; Vanilla Ice Cream</h3>
+          <span class="price">9€</span>
         </div>
+      </div>
+      <div class="item">
         <div class="item-top">
-          <span data-i18n="marinaRestaurant.snacks.items.iceCreamOneScoop">1 scoop</span>
+          <h3 data-i18n="marinaRestaurant.lounge.items.artisanIceCream">Artisan Ice Cream with Whipped Cream</h3>
           <span class="price">4€</span>
         </div>
-        <div class="item-top">
-          <span data-i18n="marinaRestaurant.snacks.items.iceCreamThreeScoops">3 scoops</span>
-          <span class="price">7€</span>
-        </div>
       </div>
-
       <div class="item">
         <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.tiramisu">Tiramisu</h3>
-          <span class="price">7€</span>
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.brownieIceCream">Brownie with Ice Cream</h3>
+          <h3 data-i18n="marinaRestaurant.lounge.items.brownie">Brownie with Ice Cream</h3>
           <span class="price">9€</span>
         </div>
       </div>
-
-      <div class="item">
-        <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.cheesecakeBlueberries">Blueberry Cheesecake with Ice Cream</h3>
-          <span class="price">9€</span>
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="item-top">
-          <h3 data-i18n="marinaRestaurant.snacks.items.bananaSplit">Banana Split</h3>
-          <span class="price">9€</span>
-        </div>
-      </div>
-
     </div>
   </section>
+
+  <div class="drinks-cta">
+    <div><h3 data-i18n="marinaRestaurant.restaurant.cards.poolBar.title">Bar &amp; Drinks</h3>
+    <p data-i18n="marinaRestaurant.restaurant.cards.poolBar.description">Cocktails, beers, smoothies, coffee and soft drinks.</p></div>
+    <a href="pool-bar.html" data-i18n="marinaRestaurant.restaurant.cards.poolBar.button">View Drinks →</a>
+  </div>
 
   <div class="notice">
     <strong data-i18n="marinaRestaurant.shared.allergenTitle">Allergen Information</strong>
@@ -604,12 +493,12 @@ footer{
     </p>
   </div>
 
-  <a class="back" href="restaurant.html" data-i18n="marinaRestaurant.shared.backToRestaurant">← Back to Marina Restaurant</a>
+  <a class="back" href="restaurant.html" data-i18n="marinaRestaurant.shared.backToRestaurant">← Back to Restaurants</a>
 
 </div>
 
 <footer data-i18n="marinaRestaurant.shared.footer">
-  Royal Marina Suites
+Royal Marina Suites
 </footer>
 
 <script src="../js/translations.js"></script>
