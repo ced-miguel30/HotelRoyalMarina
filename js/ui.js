@@ -14,7 +14,7 @@
     en: { home: 'Home', dining: 'Dining', services: 'Services', info: 'Stay', contact: 'Reception',
       sheetTitle: 'Reception', sheetText: 'Our team is available 24 hours a day.',
       room: 'From your room', roomSub: 'Press 9 on the room phone',
-      call: 'Call reception', email: 'Email', close: 'Close',
+      call: 'Call reception', email: 'Email', close: 'Close', review: 'Leave a review', reviewSub: 'Tell us about your stay',
       today: 'Today at the hotel', openNow: 'Open now', closed: 'Closed', opensAt: 'Opens at', until: 'until',
       breakfast: 'Breakfast · El Camarote', poolBar: 'Bar · Marina Lounge', snacks: 'Snacks · Marina Lounge', camaroteLunch: 'Lunch · El Camarote', pool: 'Pool & Jacuzzi', gym: 'Fitness Centre',
       friday: 'Friday special — El Camarote open until 21:00', fridayCta: 'See the menu',
@@ -23,7 +23,7 @@
       sheetTitle: 'Recepción', sheetText: 'Nuestro equipo está disponible las 24 horas.',
       room: 'Desde su habitación', roomSub: 'Pulse el 9 en el teléfono de la habitación',
       call: 'Llamar a recepción',
-      email: 'Correo electrónico', close: 'Cerrar',
+      email: 'Correo electrónico', close: 'Cerrar', review: 'Dejar una reseña', reviewSub: 'Cuéntenos su experiencia',
       today: 'Hoy en el hotel', openNow: 'Abierto ahora', closed: 'Cerrado', opensAt: 'Abre a las', until: 'hasta las',
       breakfast: 'Desayuno · El Camarote', poolBar: 'Bar · Marina Lounge', snacks: 'Snacks · Marina Lounge', camaroteLunch: 'Comida · El Camarote', pool: 'Piscina y jacuzzi', gym: 'Gimnasio',
       friday: 'Especial de los viernes — El Camarote abierto hasta las 21:00', fridayCta: 'Ver la carta',
@@ -32,7 +32,7 @@
       sheetTitle: 'Rezeption', sheetText: 'Unser Team ist rund um die Uhr für Sie da.',
       room: 'Von Ihrem Zimmer', roomSub: 'Wählen Sie die 9 am Zimmertelefon',
       call: 'Rezeption anrufen',
-      email: 'E-Mail', close: 'Schließen',
+      email: 'E-Mail', close: 'Schließen', review: 'Bewertung abgeben', reviewSub: 'Erzählen Sie uns von Ihrem Aufenthalt',
       today: 'Heute im Hotel', openNow: 'Jetzt geöffnet', closed: 'Geschlossen', opensAt: 'Öffnet um', until: 'bis',
       breakfast: 'Frühstück · El Camarote', poolBar: 'Bar · Marina Lounge', snacks: 'Snacks · Marina Lounge', camaroteLunch: 'Mittagessen · El Camarote', pool: 'Pool & Whirlpool', gym: 'Fitnesscenter',
       friday: 'Freitags-Special — El Camarote bis 21:00 Uhr geöffnet', fridayCta: 'Zur Speisekarte',
@@ -41,7 +41,7 @@
       sheetTitle: 'Reception', sheetText: 'Il nostro team è a vostra disposizione 24 ore su 24.',
       room: 'Dalla vostra camera', roomSub: 'Premete il 9 sul telefono della camera',
       call: 'Chiamate la reception',
-      email: 'E-mail', close: 'Chiudi',
+      email: 'E-mail', close: 'Chiudi', review: 'Lascia una recensione', reviewSub: 'Raccontateci il vostro soggiorno',
       today: 'Oggi in hotel', openNow: 'Aperto ora', closed: 'Chiuso', opensAt: 'Apre alle', until: 'fino alle',
       breakfast: 'Colazione · El Camarote', poolBar: 'Bar · Marina Lounge', snacks: 'Snack · Marina Lounge', camaroteLunch: 'Pranzo · El Camarote', pool: 'Piscina e idromassaggio', gym: 'Centro fitness',
       friday: 'Speciale del venerdì — El Camarote aperto fino alle 21:00', fridayCta: 'Vedi il menù',
@@ -50,7 +50,7 @@
       sheetTitle: 'Réception', sheetText: 'Notre équipe est à votre disposition 24 h/24.',
       room: 'Depuis votre chambre', roomSub: 'Composez le 9 sur le téléphone de la chambre',
       call: 'Appeler la réception',
-      email: 'E-mail', close: 'Fermer',
+      email: 'E-mail', close: 'Fermer', review: 'Laisser un avis', reviewSub: 'Racontez-nous votre séjour',
       today: 'Aujourd’hui à l’hôtel', openNow: 'Ouvert', closed: 'Fermé', opensAt: 'Ouvre à', until: 'jusqu’à',
       breakfast: 'Petit-déjeuner · El Camarote', poolBar: 'Bar · Marina Lounge', snacks: 'Snacks · Marina Lounge', camaroteLunch: 'Déjeuner · El Camarote', pool: 'Piscine et jacuzzi', gym: 'Salle de fitness',
       friday: 'Spécial vendredi — El Camarote ouvert jusqu’à 21h00', fridayCta: 'Voir la carte',
@@ -138,6 +138,9 @@
     { key: 'camaroteLunch', from: '13:00', to: '15:30', href: 'MarinaRestaurant/camarote.html' }
   ];
 
+  // Guest review survey (opens outside the guia.royalmarinasuites.com iframe).
+  var REVIEW_URL = 'https://rese-a-rms.rofero.workers.dev/r?src=checkout';
+
   var ICONS = {
     home: '<path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/>',
     dining: '<path d="M7 3v8M5 3v5a2 2 0 0 0 4 0V3M7 11v10"/><path d="M17 3c-2 1-3 4-3 7h3v11"/>',
@@ -147,6 +150,7 @@
     room: '<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h3"/>',
     mail: '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/>',
     bell: '<path d="M4 18h16"/><path d="M6 18a6 6 0 0 1 12 0"/><path d="M12 9V7"/>',
+    star: '<path d="M12 3.5l2.6 5.3 5.9.9-4.25 4.1 1 5.8L12 16.9l-5.25 2.7 1-5.8L3.5 9.7l5.9-.9z"/>',
     search: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>'
   };
 
@@ -234,6 +238,8 @@
           '<span><strong data-ui="call"></strong><small>' + RECEPTION_PHONE_LABEL + '</small></span></a>' +
         '<a href="mailto:' + EMAIL + '">' + svg('mail') +
           '<span><strong data-ui="email"></strong><small>' + EMAIL + '</small></span></a>' +
+        '<a href="' + REVIEW_URL + '" target="_blank" rel="noopener">' + svg('star') +
+          '<span><strong data-ui="review"></strong><small data-ui="reviewSub"></small></span></a>' +
       '</div>' +
       '<button type="button" class="rms-close" data-ui="close"></button>';
     document.body.appendChild(backdrop);

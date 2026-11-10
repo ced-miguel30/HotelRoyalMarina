@@ -1856,6 +1856,71 @@
         "bus",
         "restaurants-island"
       ]
+    },
+    {
+      "id": "review",
+      "q": {
+        "en": "How can I leave a review?",
+        "es": "¿Cómo puedo dejar una reseña?",
+        "de": "Wie kann ich eine Bewertung abgeben?",
+        "it": "Come posso lasciare una recensione?",
+        "fr": "Comment laisser un avis ?"
+      },
+      "a": {
+        "en": "Thank you for thinking of us! You can share your opinion about your stay in just a minute using the link below.",
+        "es": "¡Gracias por acordarse de nosotros! Puede compartir su opinión sobre la estancia en un minuto desde el enlace de abajo.",
+        "de": "Vielen Dank, dass Sie an uns denken! Über den Link unten können Sie Ihre Meinung zu Ihrem Aufenthalt in einer Minute teilen.",
+        "it": "Grazie per aver pensato a noi! Potete condividere la vostra opinione sul soggiorno in un minuto dal link qui sotto.",
+        "fr": "Merci de penser à nous ! Vous pouvez partager votre avis sur votre séjour en une minute grâce au lien ci-dessous."
+      },
+      "keywords": [
+        "review",
+        "reseña",
+        "resena",
+        "opinion",
+        "opinión",
+        "valoracion",
+        "valoración",
+        "valorar",
+        "comentario",
+        "feedback",
+        "bewertung",
+        "bewerten",
+        "meinung",
+        "recensione",
+        "opinione",
+        "avis",
+        "commentaire",
+        "tripadvisor",
+        "google",
+        "stars",
+        "estrellas",
+        "sterne",
+        "stelle",
+        "étoiles",
+        "etoiles",
+        "encuesta",
+        "survey",
+        "umfrage",
+        "sondaggio",
+        "sondage"
+      ],
+      "actions": [
+        {
+          "href": "https://rese-a-rms.rofero.workers.dev/r?src=checkout",
+          "label": {
+            "en": "Leave a review",
+            "es": "Dejar una reseña",
+            "de": "Bewertung abgeben",
+            "it": "Lascia una recensione",
+            "fr": "Laisser un avis"
+          }
+        }
+      ],
+      "related": [
+        "late-checkout",
+        "transfer"
+      ]
     }
   ]
 }

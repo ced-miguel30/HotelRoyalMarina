@@ -259,6 +259,20 @@ body{
 .info-box h2{ color:var(--blue); font-weight:500; margin:0 0 8px; font-size:26px; }
 .info-box p{ margin:6px 0; }
 .info-box strong{ font-weight:500; color:var(--blue); }
+/* Guest review */
+.review-box{
+  margin:28px 0 0; padding:26px 22px; border-radius:20px; text-align:center;
+  background:linear-gradient(160deg, var(--blue) 0%, #16244a 100%); color:#fff;
+}
+.review-box .stars{ color:var(--gold); font-size:20px; letter-spacing:6px; margin-bottom:6px; }
+.review-box h2{ color:#fff; font-weight:500; margin:0 0 8px; font-size:26px; }
+.review-box p{ margin:0 auto; max-width:460px; color:rgba(255,255,255,.82); font-size:15px; }
+.review-cta{
+  display:inline-flex; align-items:center; gap:8px; margin-top:16px; padding:12px 22px;
+  border-radius:999px; background:var(--gold); color:var(--blue); text-decoration:none;
+  font-size:14px; font-weight:500; letter-spacing:.4px;
+}
+.review-cta:hover{ filter:brightness(1.06); }
 .contact-cta{
   display:inline-flex; align-items:center; gap:8px;
   margin-top:14px; padding:12px 18px;
@@ -420,6 +434,15 @@ footer span{ color:var(--gold); font-family:var(--font-serif); font-size:20px; }
 
   <!-- Filled by js/ui.js: curated events from data/events.json + official agendas -->
   <section class="culture" id="rms-culture"></section>
+
+  <section class="review-box">
+    <div class="stars" aria-hidden="true">★★★★★</div>
+    <h2 data-i18n="home.review.title">How was your stay?</h2>
+    <p data-i18n="home.review.text">Your opinion helps us improve and helps other travellers discover Royal Marina Suites. It only takes a minute.</p>
+    <a class="review-cta" href="https://rese-a-rms.rofero.workers.dev/r?src=checkout" target="_blank" rel="noopener">
+      <span data-i18n="home.review.button">Leave a review</span><span aria-hidden="true">↗</span>
+    </a>
+  </section>
 
   <section class="info-box">
     <h2 data-i18n="home.importantInfo.title">Important Information</h2>

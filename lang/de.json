@@ -1153,6 +1153,11 @@
       "checkIn": "<strong>Check-in:</strong> 15:00",
       "checkOut": "<strong>Check-out:</strong> 12:00",
       "emergency": "<strong>Notfall:</strong> Bitte kontaktieren Sie umgehend die Rezeption."
+    },
+    "review": {
+      "title": "Wie war Ihr Aufenthalt?",
+      "text": "Ihre Meinung hilft uns, besser zu werden, und anderen Reisenden, Royal Marina Suites zu entdecken. Es dauert nur eine Minute.",
+      "button": "Bewertung abgeben"
     }
   },
   "reception": {
