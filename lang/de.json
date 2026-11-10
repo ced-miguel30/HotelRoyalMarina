@@ -73,7 +73,7 @@
           "time": "Bestellung am Vortag · Mittagessen",
           "imageAlt": "Paellas",
           "title": "Paellas",
-          "description": "Traditionelle Paella für 2 Personen, erhältlich mit Meeresfrüchten, Fleisch oder gemischt.",
+          "description": "Traditionelle Paella für zwei: Gemüse, Fleisch, Meeresfrüchte oder gemischt.",
           "button": "Mehr entdecken →"
         },
         "camaroteMenu": {
@@ -638,12 +638,12 @@
       },
       "pricing": {
         "label": "Preis",
-        "price": "40€ pro Paella",
+        "price": "Gemüse oder Fleisch 20€ · Meeresfrüchte oder gemischt 25€",
         "serving": "Paella für 2 Personen"
       },
       "intro": {
         "title": "Traditionelle Paella zum Teilen",
-        "text": "Genießen Sie eine traditionelle Paella zum Teilen. Erhältlich mit Meeresfrüchten, Fleisch oder gemischt, je nach Verfügbarkeit."
+        "text": "Genießen Sie eine traditionelle Paella zum Teilen. Erhältlich mit Gemüse, Fleisch, Meeresfrüchten oder gemischt, je nach Verfügbarkeit."
       },
       "options": {
         "seafood": {

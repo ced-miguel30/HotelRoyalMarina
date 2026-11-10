@@ -73,7 +73,7 @@
           "time": "Order the day before · Lunch",
           "imageAlt": "Paellas",
           "title": "Paellas",
-          "description": "Traditional paella for two, available as seafood, meat or mixed.",
+          "description": "Traditional paella for two: vegetable, meat, seafood or mixed.",
           "button": "Discover More →"
         },
         "camaroteMenu": {
@@ -638,12 +638,12 @@
       },
       "pricing": {
         "label": "Price",
-        "price": "€40 per paella",
+        "price": "Vegetable or meat 20€ · Seafood or mixed 25€",
         "serving": "Paella for 2 people"
       },
       "intro": {
         "title": "Traditional Paella to Share",
-        "text": "Enjoy a traditional paella prepared to share. Available as seafood, meat or mixed, subject to availability."
+        "text": "Enjoy a traditional paella prepared to share. Available as vegetable, meat, seafood or mixed, subject to availability."
       },
       "options": {
         "seafood": {

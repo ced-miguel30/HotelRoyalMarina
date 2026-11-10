@@ -575,11 +575,11 @@
         "fr": "Puis-je commander une paella ?"
       },
       "a": {
-        "en": "Yes: traditional paella for two — seafood, meat or mixed — served at lunchtime. Please order it <strong>the day before</strong>.",
-        "es": "Sí: paella tradicional para dos — de marisco, carne o mixta — servida al mediodía. Pídala <strong>el día anterior</strong>.",
-        "de": "Ja: traditionelle Paella für zwei — mit Meeresfrüchten, Fleisch oder gemischt — zum Mittagessen. Bitte <strong>am Vortag</strong> bestellen.",
-        "it": "Sì: paella tradizionale per due — di mare, di carne o mista — servita a pranzo. Ordinatela <strong>il giorno prima</strong>.",
-        "fr": "Oui : paella traditionnelle pour deux — fruits de mer, viande ou mixte — servie au déjeuner. Commandez-la <strong>la veille</strong>."
+        "en": "Yes: traditional paella for two at El Camarote — vegetable or meat <strong>20€</strong>, seafood or mixed <strong>25€</strong> — served at lunchtime. Please order it <strong>the day before</strong>.",
+        "es": "Sí: paella tradicional para dos en El Camarote — de verduras o carne <strong>20€</strong>, de marisco o mixta <strong>25€</strong> — servida al mediodía. Pídala <strong>el día anterior</strong>.",
+        "de": "Ja: traditionelle Paella für zwei im El Camarote — Gemüse oder Fleisch <strong>20€</strong>, Meeresfrüchte oder gemischt <strong>25€</strong> — zum Mittagessen. Bitte <strong>am Vortag</strong> bestellen.",
+        "it": "Sì: paella tradizionale per due a El Camarote — verdure o carne <strong>20€</strong>, mare o mista <strong>25€</strong> — servita a pranzo. Ordinatela <strong>il giorno prima</strong>.",
+        "fr": "Oui : paella traditionnelle pour deux à El Camarote — légumes ou viande <strong>20€</strong>, fruits de mer ou mixte <strong>25€</strong> — servie au déjeuner. Commandez-la <strong>la veille</strong>."
       },
       "keywords": [
         "paella",
@@ -594,7 +594,14 @@
         "food",
         "essen",
         "camarote",
-        "el camarote"
+        "el camarote",
+        "verduras",
+        "vegetable",
+        "vegetarian",
+        "vegetariana",
+        "gemüse",
+        "verdure",
+        "légumes"
       ],
       "actions": [
         {

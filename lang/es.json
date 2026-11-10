@@ -73,7 +73,7 @@
           "time": "Pedido el día anterior · Comida",
           "imageAlt": "Paellas",
           "title": "Paellas",
-          "description": "Paella tradicional para 2 personas, disponible de marisco, carne o mixta.",
+          "description": "Paella tradicional para 2 personas: de verduras, carne, marisco o mixta.",
           "button": "Descubra más →"
         },
         "camaroteMenu": {
@@ -638,12 +638,12 @@
       },
       "pricing": {
         "label": "Precio",
-        "price": "40€ por paella",
+        "price": "Verduras o carne 20€ · Marisco o mixta 25€",
         "serving": "Paella para 2 personas"
       },
       "intro": {
         "title": "Paella tradicional para compartir",
-        "text": "Disfrute de una paella tradicional preparada para compartir. Disponible de marisco, carne o mixta, según disponibilidad."
+        "text": "Disfrute de una paella tradicional para compartir. Disponible de verduras, carne, marisco o mixta, según disponibilidad."
       },
       "options": {
         "seafood": {

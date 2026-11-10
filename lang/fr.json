@@ -73,7 +73,7 @@
           "time": "Commande la veille · Déjeuner",
           "imageAlt": "Paellas",
           "title": "Paellas",
-          "description": "Paella traditionnelle pour 2 personnes, disponible aux fruits de mer, à la viande ou mixte.",
+          "description": "Paella traditionnelle pour deux : légumes, viande, fruits de mer ou mixte.",
           "button": "En savoir plus →"
         },
         "camaroteMenu": {
@@ -638,12 +638,12 @@
       },
       "pricing": {
         "label": "Tarif",
-        "price": "40€ par paella",
+        "price": "Légumes ou viande 20€ · Fruits de mer ou mixte 25€",
         "serving": "Paella pour 2 personnes"
       },
       "intro": {
         "title": "Paella traditionnelle à partager",
-        "text": "Savourez une paella traditionnelle préparée à partager. Disponible aux fruits de mer, à la viande ou mixte, selon disponibilité."
+        "text": "Savourez une paella traditionnelle à partager. Disponible aux légumes, à la viande, aux fruits de mer ou mixte, selon disponibilité."
       },
       "options": {
         "seafood": {

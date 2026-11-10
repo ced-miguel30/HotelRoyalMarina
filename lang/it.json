@@ -73,7 +73,7 @@
           "time": "Da ordinare il giorno prima · Pranzo",
           "imageAlt": "Paellas",
           "title": "Paellas",
-          "description": "Paella tradizionale per 2 persone, ai frutti di mare, di carne o mista.",
+          "description": "Paella tradizionale per due: verdure, carne, mare o mista.",
           "button": "Scoprite di più →"
         },
         "camaroteMenu": {
@@ -638,12 +638,12 @@
       },
       "pricing": {
         "label": "Prezzo",
-        "price": "40€ a paella",
+        "price": "Verdure o carne 20€ · Mare o mista 25€",
         "serving": "Paella per 2 persone"
       },
       "intro": {
         "title": "Paella tradizionale da condividere",
-        "text": "Gustate una paella tradizionale preparata da condividere. Disponibile ai frutti di mare, di carne o mista, in base alla disponibilità."
+        "text": "Gustate una paella tradizionale da condividere. Disponibile di verdure, carne, mare o mista, in base alla disponibilità."
       },
       "options": {
         "seafood": {
