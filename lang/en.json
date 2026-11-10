@@ -42,7 +42,7 @@
           "button": "View Snacks →"
         },
         "poolBar": {
-          "time": "11:30 - 19:00",
+          "time": "11:30 - 18:30",
           "imageAlt": "Pool Bar",
           "title": "Pool Bar",
           "description": "Refreshments, cocktails, wine, beer, coffee and soft drinks.",
@@ -242,7 +242,7 @@
       "hero": {
         "imageAlt": "Pool Bar at Royal Marina Suites",
         "title": "Pool Bar",
-        "hours": "11:30 - 19:00"
+        "hours": "11:30 - 18:30"
       },
       "intro": {
         "title": "Drinks by the Pool",
@@ -251,7 +251,7 @@
       "serviceStrip": {
         "poolBar": {
           "label": "Pool Bar Service",
-          "title": "Daily from 11:30 to 19:00",
+          "title": "Daily from 11:30 to 18:30",
           "text": "Refreshing drinks and poolside service throughout the afternoon."
         },
         "signature": {
@@ -746,21 +746,21 @@
       "label": "Outdoor Relaxation",
       "title": "Heated Swimming Pool",
       "description": "Enjoy our heated outdoor pool throughout the year, surrounded by the peaceful atmosphere of Puerto Calero and the Lanzarote sunshine.",
-      "hours": "Opening Hours: 09:00 – 19:00",
+      "hours": "Opening Hours: 09:00 – 18:30",
       "imageAlt": "Heated Swimming Pool"
     },
     "jacuzzi": {
       "label": "Wellness",
       "title": "Jacuzzi",
       "description": "Unwind in our jacuzzi, a quiet corner designed for relaxation, comfort and a soothing wellness experience.",
-      "hours": "Opening Hours: 09:00 – 19:00",
+      "hours": "Opening Hours: 09:00 – 18:30",
       "imageAlt": "Jacuzzi"
     },
     "poolBar": {
       "label": "Poolside Service",
       "title": "Pool Bar",
       "description": "Enjoy cocktails, coffee, refreshing drinks and light snacks beside the pool in an elegant, relaxed setting.",
-      "hours": "Opening Hours: 11:30 – 19:00",
+      "hours": "Opening Hours: 11:30 – 18:30",
       "imageAlt": "Pool Bar"
     },
     "gym": {

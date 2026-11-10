@@ -42,7 +42,7 @@
           "button": "Scoprite gli snack →"
         },
         "poolBar": {
-          "time": "11:30 - 19:00",
+          "time": "11:30 - 18:30",
           "imageAlt": "Bar della piscina",
           "title": "Bar della piscina",
           "description": "Rinfreschi, cocktail, vino, birra, caffè e bevande analcoliche.",
@@ -242,7 +242,7 @@
       "hero": {
         "imageAlt": "Bar a bordo piscina del Royal Marina Suites",
         "title": "Bar della piscina",
-        "hours": "11:30 - 19:00"
+        "hours": "11:30 - 18:30"
       },
       "intro": {
         "title": "Bevande a bordo piscina",
@@ -251,7 +251,7 @@
       "serviceStrip": {
         "poolBar": {
           "label": "Servizio bar in piscina",
-          "title": "Tutti i giorni dalle 11:30 alle 19:00",
+          "title": "Tutti i giorni dalle 11:30 alle 18:30",
           "text": "Bevande rinfrescanti e servizio a bordo piscina per tutto il pomeriggio."
         },
         "signature": {
@@ -746,21 +746,21 @@
       "label": "Relax all'aria aperta",
       "title": "Piscina riscaldata",
       "description": "Godetevi tutto l'anno la nostra piscina esterna riscaldata, immersi nella tranquilla atmosfera di Puerto Calero e nel sole di Lanzarote.",
-      "hours": "Orari di apertura: 09:00 – 19:00",
+      "hours": "Orari di apertura: 09:00 – 18:30",
       "imageAlt": "Piscina riscaldata"
     },
     "jacuzzi": {
       "label": "Benessere",
       "title": "Jacuzzi",
       "description": "Rilassatevi nella nostra vasca idromassaggio, un angolo tranquillo pensato per il relax, il comfort e un'esperienza di benessere rigenerante.",
-      "hours": "Orari di apertura: 09:00 – 19:00",
+      "hours": "Orari di apertura: 09:00 – 18:30",
       "imageAlt": "Jacuzzi"
     },
     "poolBar": {
       "label": "Servizio a bordo piscina",
       "title": "Bar della piscina",
       "description": "Godetevi cocktail, caffè, bevande rinfrescanti e snack leggeri accanto alla piscina in un ambiente elegante e rilassato.",
-      "hours": "Orari di apertura: 11:30 – 19:00",
+      "hours": "Orari di apertura: 11:30 – 18:30",
       "imageAlt": "Bar della piscina"
     },
     "gym": {

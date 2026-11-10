@@ -42,7 +42,7 @@
           "button": "Snacks anzeigen →"
         },
         "poolBar": {
-          "time": "11:30 - 19:00 Uhr",
+          "time": "11:30 - 18:30 Uhr",
           "imageAlt": "Poolbar",
           "title": "Poolbar",
           "description": "Erfrischungen, Cocktails, Wein, Bier, Kaffee und alkoholfreie Getränke.",
@@ -242,7 +242,7 @@
       "hero": {
         "imageAlt": "Poolbar im Royal Marina Suites",
         "title": "Poolbar",
-        "hours": "11:30 - 19:00 Uhr"
+        "hours": "11:30 - 18:30 Uhr"
       },
       "intro": {
         "title": "Getränke am Pool",
@@ -251,7 +251,7 @@
       "serviceStrip": {
         "poolBar": {
           "label": "Poolbar-Service",
-          "title": "Täglich von 11:30 bis 19:00 Uhr",
+          "title": "Täglich von 11:30 bis 18:30 Uhr",
           "text": "Erfrischende Getränke und Poolservice den ganzen Nachmittag über."
         },
         "signature": {
@@ -746,21 +746,21 @@
       "label": "Entspannung im Freien",
       "title": "Beheizter Außenpool",
       "description": "Genießen Sie das ganze Jahr über unseren beheizten Außenpool, umgeben von der friedlichen Atmosphäre von Puerto Calero und der Sonne Lanzarotes.",
-      "hours": "Öffnungszeiten: 09:00 – 19:00 Uhr",
+      "hours": "Öffnungszeiten: 09:00 – 18:30 Uhr",
       "imageAlt": "Beheizter Außenpool"
     },
     "jacuzzi": {
       "label": "Wellness",
       "title": "Whirlpool",
       "description": "Entspannen Sie sich in unserem Whirlpool, einer ruhigen Ecke, die für Entspannung, Komfort und ein wohltuendes Wellness-Erlebnis konzipiert ist.",
-      "hours": "Öffnungszeiten: 09:00 – 19:00 Uhr",
+      "hours": "Öffnungszeiten: 09:00 – 18:30 Uhr",
       "imageAlt": "Whirlpool"
     },
     "poolBar": {
       "label": "Service am Pool",
       "title": "Poolbar",
       "description": "Genießen Sie Cocktails, Kaffee, erfrischende Getränke und leichte Snacks am Pool in einem eleganten, entspannten Ambiente.",
-      "hours": "Öffnungszeiten: 11:30 – 19:00 Uhr",
+      "hours": "Öffnungszeiten: 11:30 – 18:30 Uhr",
       "imageAlt": "Poolbar"
     },
     "gym": {

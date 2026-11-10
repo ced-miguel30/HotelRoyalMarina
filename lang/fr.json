@@ -42,7 +42,7 @@
           "button": "Voir les collations →"
         },
         "poolBar": {
-          "time": "11h30 - 19h00",
+          "time": "11h30 - 18h30",
           "imageAlt": "Bar de la piscine",
           "title": "Bar de la piscine",
           "description": "Rafraîchissements, cocktails, vin, bière, café et boissons sans alcool.",
@@ -242,7 +242,7 @@
       "hero": {
         "imageAlt": "Bar de la piscine au Royal Marina Suites",
         "title": "Bar de la piscine",
-        "hours": "11h30 - 19h00"
+        "hours": "11h30 - 18h30"
       },
       "intro": {
         "title": "Boissons au bord de la piscine",
@@ -251,7 +251,7 @@
       "serviceStrip": {
         "poolBar": {
           "label": "Service du bar de la piscine",
-          "title": "Tous les jours de 11h30 à 19h00",
+          "title": "Tous les jours de 11h30 à 18h30",
           "text": "Boissons rafraîchissantes et service au bord de la piscine tout au long de l'après-midi."
         },
         "signature": {
@@ -746,21 +746,21 @@
       "label": "Détente en plein air",
       "title": "Piscine chauffée",
       "description": "Profitez de notre piscine extérieure chauffée toute l'année, entourée de l'atmosphère paisible de Puerto Calero et du soleil de Lanzarote.",
-      "hours": "Heures d'ouverture : 09h00 – 19h00",
+      "hours": "Heures d'ouverture : 09h00 – 18h30",
       "imageAlt": "Piscine chauffée"
     },
     "jacuzzi": {
       "label": "Bien-être",
       "title": "Jacuzzi",
       "description": "Détendez-vous dans notre jacuzzi, un coin calme conçu pour la détente, le confort et une expérience bien-être apaisante.",
-      "hours": "Heures d'ouverture : 09h00 – 19h00",
+      "hours": "Heures d'ouverture : 09h00 – 18h30",
       "imageAlt": "Jacuzzi"
     },
     "poolBar": {
       "label": "Service au bord de la piscine",
       "title": "Bar de la piscine",
       "description": "Dégustez des cocktails, du café, des boissons rafraîchissantes et des collations légères au bord de la piscine dans un cadre élégant et détendu.",
-      "hours": "Heures d'ouverture : 11h30 – 19h00",
+      "hours": "Heures d'ouverture : 11h30 – 18h30",
       "imageAlt": "Bar de la piscine"
     },
     "gym": {

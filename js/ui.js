@@ -132,8 +132,8 @@
   var SCHEDULE = [
     { key: 'breakfast', from: '07:30', to: '10:30', href: 'MarinaRestaurant/breakfast.html' },
     { key: 'gym', from: '08:00', to: '20:00', href: 'facilities-wellness.html' },
-    { key: 'pool', from: '09:00', to: '19:00', href: 'facilities-wellness.html' },
-    { key: 'poolBar', from: '11:30', to: '19:00', href: 'MarinaRestaurant/pool-bar.html' },
+    { key: 'pool', from: '09:00', to: '18:30', href: 'facilities-wellness.html' },
+    { key: 'poolBar', from: '11:30', to: '18:30', href: 'MarinaRestaurant/pool-bar.html' },
     { key: 'snacks', from: '12:00', to: '15:30', href: 'MarinaRestaurant/snacks.html' }
   ];
 
